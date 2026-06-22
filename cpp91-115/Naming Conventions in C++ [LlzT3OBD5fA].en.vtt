@@ -1,0 +1,4008 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.350 align:start position:0%
+ 
+You<00:00:00.160><c> know,</c><00:00:00.240><c> they</c><00:00:00.400><c> say</c><00:00:00.560><c> the</c><00:00:00.719><c> hardest</c><00:00:00.960><c> thing</c><00:00:01.120><c> in</c>
+
+00:00:01.350 --> 00:00:01.360 align:start position:0%
+You know, they say the hardest thing in
+ 
+
+00:00:01.360 --> 00:00:03.110 align:start position:0%
+You know, they say the hardest thing in
+programming<00:00:01.680><c> is</c><00:00:01.839><c> to</c><00:00:02.000><c> name</c><00:00:02.159><c> your</c><00:00:02.320><c> variables,</c>
+
+00:00:03.110 --> 00:00:03.120 align:start position:0%
+programming is to name your variables,
+ 
+
+00:00:03.120 --> 00:00:05.269 align:start position:0%
+programming is to name your variables,
+and<00:00:03.679><c> they're</c><00:00:03.919><c> not</c><00:00:04.160><c> wrong.</c><00:00:04.640><c> This</c><00:00:04.799><c> video</c><00:00:05.040><c> here</c>
+
+00:00:05.269 --> 00:00:05.279 align:start position:0%
+and they're not wrong. This video here
+ 
+
+00:00:05.279 --> 00:00:07.590 align:start position:0%
+and they're not wrong. This video here
+will<00:00:05.600><c> technically</c><00:00:06.080><c> not</c><00:00:06.400><c> help</c><00:00:06.640><c> you</c><00:00:06.879><c> with</c><00:00:07.120><c> that,</c>
+
+00:00:07.590 --> 00:00:07.600 align:start position:0%
+will technically not help you with that,
+ 
+
+00:00:07.600 --> 00:00:09.190 align:start position:0%
+will technically not help you with that,
+but<00:00:07.919><c> it</c><00:00:08.160><c> might</c><00:00:08.320><c> help</c><00:00:08.559><c> you</c><00:00:08.639><c> to</c><00:00:08.800><c> stay</c><00:00:08.960><c> a</c><00:00:09.120><c> little</c>
+
+00:00:09.190 --> 00:00:09.200 align:start position:0%
+but it might help you to stay a little
+ 
+
+00:00:09.200 --> 00:00:11.190 align:start position:0%
+but it might help you to stay a little
+bit<00:00:09.360><c> more</c><00:00:09.519><c> organized,</c><00:00:10.160><c> write</c><00:00:10.480><c> clearer</c><00:00:10.880><c> code,</c>
+
+00:00:11.190 --> 00:00:11.200 align:start position:0%
+bit more organized, write clearer code,
+ 
+
+00:00:11.200 --> 00:00:12.870 align:start position:0%
+bit more organized, write clearer code,
+and<00:00:11.440><c> understand</c><00:00:11.759><c> what</c><00:00:12.080><c> things</c><00:00:12.240><c> like</c><00:00:12.639><c> M</c>
+
+00:00:12.870 --> 00:00:12.880 align:start position:0%
+and understand what things like M
+ 
+
+00:00:12.880 --> 00:00:14.709 align:start position:0%
+and understand what things like M
+underscore<00:00:13.440><c> mean</c><00:00:13.679><c> and</c><00:00:13.920><c> why</c><00:00:14.160><c> they're</c><00:00:14.400><c> used.</c>
+
+00:00:14.709 --> 00:00:14.719 align:start position:0%
+underscore mean and why they're used.
+ 
+
+00:00:14.719 --> 00:00:16.070 align:start position:0%
+underscore mean and why they're used.
+So,<00:00:14.880><c> this</c><00:00:14.960><c> is</c><00:00:15.120><c> usually</c><00:00:15.280><c> what</c><00:00:15.519><c> people</c><00:00:15.679><c> see</c><00:00:15.839><c> and</c>
+
+00:00:16.070 --> 00:00:16.080 align:start position:0%
+So, this is usually what people see and
+ 
+
+00:00:16.080 --> 00:00:18.189 align:start position:0%
+So, this is usually what people see and
+freak<00:00:16.320><c> out.</c><00:00:16.560><c> This</c><00:00:16.800><c> kind</c><00:00:16.960><c> of</c>
+
+00:00:18.189 --> 00:00:18.199 align:start position:0%
+freak out. This kind of
+ 
+
+00:00:18.199 --> 00:00:20.550 align:start position:0%
+freak out. This kind of
+m_score<00:00:19.199><c> prefix</c><00:00:19.680><c> in</c><00:00:19.920><c> front</c><00:00:20.080><c> of</c><00:00:20.160><c> variable</c>
+
+00:00:20.550 --> 00:00:20.560 align:start position:0%
+m_score prefix in front of variable
+ 
+
+00:00:20.560 --> 00:00:23.029 align:start position:0%
+m_score prefix in front of variable
+names,<00:00:21.039><c> it's</c><00:00:21.199><c> honestly</c><00:00:21.600><c> not</c><00:00:22.080><c> that</c><00:00:22.480><c> scary.</c><00:00:22.880><c> It</c>
+
+00:00:23.029 --> 00:00:23.039 align:start position:0%
+names, it's honestly not that scary. It
+ 
+
+00:00:23.039 --> 00:00:24.790 align:start position:0%
+names, it's honestly not that scary. It
+exists<00:00:23.279><c> to</c><00:00:23.439><c> add</c><00:00:23.680><c> clarity</c><00:00:24.080><c> to</c><00:00:24.240><c> your</c><00:00:24.400><c> code</c><00:00:24.560><c> and</c>
+
+00:00:24.790 --> 00:00:24.800 align:start position:0%
+exists to add clarity to your code and
+ 
+
+00:00:24.800 --> 00:00:26.630 align:start position:0%
+exists to add clarity to your code and
+enables<00:00:25.119><c> you</c><00:00:25.279><c> to</c><00:00:25.359><c> more</c><00:00:25.600><c> deeply</c><00:00:26.000><c> understand</c>
+
+00:00:26.630 --> 00:00:26.640 align:start position:0%
+enables you to more deeply understand
+ 
+
+00:00:26.640 --> 00:00:29.349 align:start position:0%
+enables you to more deeply understand
+what's<00:00:27.039><c> going</c><00:00:27.199><c> on</c><00:00:27.920><c> just</c><00:00:28.240><c> at</c><00:00:28.400><c> a</c><00:00:28.560><c> glance.</c><00:00:28.960><c> And</c><00:00:29.199><c> to</c>
+
+00:00:29.349 --> 00:00:29.359 align:start position:0%
+what's going on just at a glance. And to
+ 
+
+00:00:29.359 --> 00:00:31.189 align:start position:0%
+what's going on just at a glance. And to
+be<00:00:29.439><c> honest,</c><00:00:30.160><c> that's</c><00:00:30.480><c> important.</c><00:00:30.880><c> Now,</c><00:00:31.039><c> we're</c>
+
+00:00:31.189 --> 00:00:31.199 align:start position:0%
+be honest, that's important. Now, we're
+ 
+
+00:00:31.199 --> 00:00:32.549 align:start position:0%
+be honest, that's important. Now, we're
+going<00:00:31.279><c> to</c><00:00:31.359><c> spend</c><00:00:31.519><c> the</c><00:00:31.679><c> rest</c><00:00:31.840><c> of</c><00:00:32.000><c> this</c><00:00:32.160><c> video</c>
+
+00:00:32.549 --> 00:00:32.559 align:start position:0%
+going to spend the rest of this video
+ 
+
+00:00:32.559 --> 00:00:34.310 align:start position:0%
+going to spend the rest of this video
+talking<00:00:32.800><c> about</c><00:00:32.960><c> the</c><00:00:33.200><c> how</c><00:00:33.440><c> and</c><00:00:33.600><c> the</c><00:00:33.760><c> why</c><00:00:34.079><c> in</c>
+
+00:00:34.310 --> 00:00:34.320 align:start position:0%
+talking about the how and the why in
+ 
+
+00:00:34.320 --> 00:00:36.229 align:start position:0%
+talking about the how and the why in
+much<00:00:34.640><c> more</c><00:00:34.880><c> depth,</c><00:00:35.280><c> but</c><00:00:35.520><c> let</c><00:00:35.680><c> me</c><00:00:35.840><c> just</c><00:00:36.000><c> sort</c>
+
+00:00:36.229 --> 00:00:36.239 align:start position:0%
+much more depth, but let me just sort
+ 
+
+00:00:36.239 --> 00:00:38.549 align:start position:0%
+much more depth, but let me just sort
+you<00:00:36.399><c> out</c><00:00:36.640><c> real</c><00:00:36.880><c> quick.</c><00:00:37.360><c> M</c><00:00:37.520><c> underscore</c><00:00:38.320><c> is</c>
+
+00:00:38.549 --> 00:00:38.559 align:start position:0%
+you out real quick. M underscore is
+ 
+
+00:00:38.559 --> 00:00:40.549 align:start position:0%
+you out real quick. M underscore is
+typically<00:00:39.040><c> used</c><00:00:39.280><c> for</c><00:00:39.600><c> private</c><00:00:40.160><c> member</c>
+
+00:00:40.549 --> 00:00:40.559 align:start position:0%
+typically used for private member
+ 
+
+00:00:40.559 --> 00:00:42.869 align:start position:0%
+typically used for private member
+variables.<00:00:41.200><c> So,</c><00:00:41.440><c> like</c><00:00:41.680><c> private</c><00:00:42.079><c> variables</c><00:00:42.640><c> in</c>
+
+00:00:42.869 --> 00:00:42.879 align:start position:0%
+variables. So, like private variables in
+ 
+
+00:00:42.879 --> 00:00:45.430 align:start position:0%
+variables. So, like private variables in
+a<00:00:43.040><c> class,</c><00:00:43.360><c> like</c><00:00:43.600><c> here.</c><00:00:44.079><c> S</c><00:00:44.399><c> underscore</c><00:00:45.120><c> usually</c>
+
+00:00:45.430 --> 00:00:45.440 align:start position:0%
+a class, like here. S underscore usually
+ 
+
+00:00:45.440 --> 00:00:47.750 align:start position:0%
+a class, like here. S underscore usually
+means<00:00:45.680><c> static.</c><00:00:46.239><c> Now,</c><00:00:46.480><c> I</c><00:00:46.719><c> use</c><00:00:46.879><c> this</c><00:00:47.039><c> for</c><00:00:47.280><c> both</c>
+
+00:00:47.750 --> 00:00:47.760 align:start position:0%
+means static. Now, I use this for both
+ 
+
+00:00:47.760 --> 00:00:50.150 align:start position:0%
+means static. Now, I use this for both
+static<00:00:48.160><c> class</c><00:00:48.559><c> variables</c><00:00:49.200><c> as</c><00:00:49.440><c> well</c><00:00:49.600><c> as</c>
+
+00:00:50.150 --> 00:00:50.160 align:start position:0%
+static class variables as well as
+ 
+
+00:00:50.160 --> 00:00:51.990 align:start position:0%
+static class variables as well as
+non-class<00:00:50.800><c> variables</c><00:00:51.280><c> with</c><00:00:51.520><c> internal</c>
+
+00:00:51.990 --> 00:00:52.000 align:start position:0%
+non-class variables with internal
+ 
+
+00:00:52.000 --> 00:00:54.229 align:start position:0%
+non-class variables with internal
+linkage,<00:00:52.480><c> such</c><00:00:52.640><c> as</c><00:00:52.800><c> this</c><00:00:52.960><c> one</c><00:00:53.120><c> here.</c><00:00:53.600><c> G</c><00:00:53.920><c> means</c>
+
+00:00:54.229 --> 00:00:54.239 align:start position:0%
+linkage, such as this one here. G means
+ 
+
+00:00:54.239 --> 00:00:56.229 align:start position:0%
+linkage, such as this one here. G means
+global<00:00:54.559><c> and</c><00:00:54.800><c> is</c><00:00:54.960><c> used</c><00:00:55.120><c> for</c><00:00:55.360><c> global</c><00:00:55.760><c> variables.</c>
+
+00:00:56.229 --> 00:00:56.239 align:start position:0%
+global and is used for global variables.
+ 
+
+00:00:56.239 --> 00:00:57.910 align:start position:0%
+global and is used for global variables.
+Those<00:00:56.640><c> are</c><00:00:56.800><c> the</c><00:00:56.960><c> only</c><00:00:57.199><c> three</c><00:00:57.440><c> that</c><00:00:57.680><c> I</c>
+
+00:00:57.910 --> 00:00:57.920 align:start position:0%
+Those are the only three that I
+ 
+
+00:00:57.920 --> 00:01:00.069 align:start position:0%
+Those are the only three that I
+personally<00:00:58.320><c> use</c><00:00:58.559><c> in</c><00:00:58.800><c> C++,</c><00:00:59.600><c> but</c><00:00:59.760><c> there</c><00:01:00.000><c> are</c>
+
+00:01:00.069 --> 00:01:00.079 align:start position:0%
+personally use in C++, but there are
+ 
+
+00:01:00.079 --> 00:01:02.069 align:start position:0%
+personally use in C++, but there are
+others<00:01:00.399><c> such</c><00:01:00.559><c> as</c><00:01:00.800><c> C</c><00:01:01.039><c> for</c><00:01:01.280><c> constants.</c><00:01:01.920><c> The</c>
+
+00:01:02.069 --> 00:01:02.079 align:start position:0%
+others such as C for constants. The
+ 
+
+00:01:02.079 --> 00:01:03.510 align:start position:0%
+others such as C for constants. The
+thing<00:01:02.160><c> is,</c><00:01:02.399><c> you</c><00:01:02.559><c> can</c><00:01:02.719><c> really</c><00:01:02.879><c> just</c><00:01:03.120><c> make</c><00:01:03.359><c> up</c>
+
+00:01:03.510 --> 00:01:03.520 align:start position:0%
+thing is, you can really just make up
+ 
+
+00:01:03.520 --> 00:01:06.149 align:start position:0%
+thing is, you can really just make up
+any<00:01:03.920><c> prefix</c><00:01:04.479><c> that</c><00:01:04.799><c> you</c><00:01:04.960><c> want.</c><00:01:05.280><c> It</c><00:01:05.519><c> exists</c><00:01:05.920><c> to</c>
+
+00:01:06.149 --> 00:01:06.159 align:start position:0%
+any prefix that you want. It exists to
+ 
+
+00:01:06.159 --> 00:01:07.750 align:start position:0%
+any prefix that you want. It exists to
+add<00:01:06.320><c> a</c><00:01:06.479><c> little</c><00:01:06.640><c> bit</c><00:01:06.720><c> more</c><00:01:06.960><c> information</c><00:01:07.439><c> and</c>
+
+00:01:07.750 --> 00:01:07.760 align:start position:0%
+add a little bit more information and
+ 
+
+00:01:07.760 --> 00:01:10.230 align:start position:0%
+add a little bit more information and
+context.<00:01:08.479><c> I've</c><00:01:08.720><c> seen</c><00:01:09.200><c> some</c><00:01:09.439><c> other</c><00:01:09.680><c> ones</c><00:01:10.000><c> out</c>
+
+00:01:10.230 --> 00:01:10.240 align:start position:0%
+context. I've seen some other ones out
+ 
+
+00:01:10.240 --> 00:01:12.390 align:start position:0%
+context. I've seen some other ones out
+there<00:01:10.400><c> that</c><00:01:10.799><c> actually</c><00:01:11.280><c> refer</c><00:01:11.600><c> to</c><00:01:11.920><c> like</c><00:01:12.159><c> the</c>
+
+00:01:12.390 --> 00:01:12.400 align:start position:0%
+there that actually refer to like the
+ 
+
+00:01:12.400 --> 00:01:14.789 align:start position:0%
+there that actually refer to like the
+kind<00:01:12.640><c> of</c><00:01:12.799><c> variable</c><00:01:13.200><c> that</c><00:01:13.520><c> it</c><00:01:13.680><c> is.</c><00:01:13.920><c> So</c><00:01:14.080><c> like</c><00:01:14.400><c> P</c>
+
+00:01:14.789 --> 00:01:14.799 align:start position:0%
+kind of variable that it is. So like P
+ 
+
+00:01:14.799 --> 00:01:16.950 align:start position:0%
+kind of variable that it is. So like P
+for<00:01:15.119><c> parameter</c><00:01:15.520><c> or</c><00:01:15.760><c> A</c><00:01:16.000><c> for</c><00:01:16.159><c> argument.</c><00:01:16.640><c> I</c><00:01:16.799><c> kind</c>
+
+00:01:16.950 --> 00:01:16.960 align:start position:0%
+for parameter or A for argument. I kind
+ 
+
+00:01:16.960 --> 00:01:19.190 align:start position:0%
+for parameter or A for argument. I kind
+of<00:01:17.040><c> made</c><00:01:17.200><c> up</c><00:01:17.360><c> this</c><00:01:17.600><c> U</c><00:01:18.000><c> prefix</c><00:01:18.479><c> U</c><00:01:18.720><c> underscore</c>
+
+00:01:19.190 --> 00:01:19.200 align:start position:0%
+of made up this U prefix U underscore
+ 
+
+00:01:19.200 --> 00:01:20.870 align:start position:0%
+of made up this U prefix U underscore
+for<00:01:19.360><c> uniform</c><00:01:19.840><c> variables</c><00:01:20.240><c> in</c><00:01:20.479><c> shading</c>
+
+00:01:20.870 --> 00:01:20.880 align:start position:0%
+for uniform variables in shading
+ 
+
+00:01:20.880 --> 00:01:22.390 align:start position:0%
+for uniform variables in shading
+languages.<00:01:21.520><c> And</c><00:01:21.680><c> I'm</c><00:01:21.759><c> pretty</c><00:01:21.920><c> sure</c><00:01:22.000><c> I</c><00:01:22.240><c> also</c>
+
+00:01:22.390 --> 00:01:22.400 align:start position:0%
+languages. And I'm pretty sure I also
+ 
+
+00:01:22.400 --> 00:01:24.230 align:start position:0%
+languages. And I'm pretty sure I also
+used<00:01:22.560><c> to</c><00:01:22.640><c> use</c><00:01:22.880><c> v</c><00:01:23.119><c> underscore</c><00:01:23.600><c> for</c><00:01:23.840><c> varying</c>
+
+00:01:24.230 --> 00:01:24.240 align:start position:0%
+used to use v underscore for varying
+ 
+
+00:01:24.240 --> 00:01:26.070 align:start position:0%
+used to use v underscore for varying
+back<00:01:24.479><c> when</c><00:01:24.640><c> that</c><00:01:24.960><c> word</c><00:01:25.200><c> was</c><00:01:25.439><c> used</c><00:01:25.600><c> more</c><00:01:25.759><c> often.</c>
+
+00:01:26.070 --> 00:01:26.080 align:start position:0%
+back when that word was used more often.
+ 
+
+00:01:26.080 --> 00:01:27.350 align:start position:0%
+back when that word was used more often.
+And<00:01:26.240><c> that's</c><00:01:26.400><c> the</c><00:01:26.560><c> thing,</c><00:01:26.720><c> you</c><00:01:26.880><c> can</c><00:01:26.960><c> make</c><00:01:27.200><c> up</c>
+
+00:01:27.350 --> 00:01:27.360 align:start position:0%
+And that's the thing, you can make up
+ 
+
+00:01:27.360 --> 00:01:29.350 align:start position:0%
+And that's the thing, you can make up
+any<00:01:27.680><c> prefix</c><00:01:28.159><c> that</c><00:01:28.320><c> you</c><00:01:28.560><c> like</c><00:01:28.799><c> because</c><00:01:29.119><c> the</c>
+
+00:01:29.350 --> 00:01:29.360 align:start position:0%
+any prefix that you like because the
+ 
+
+00:01:29.360 --> 00:01:30.870 align:start position:0%
+any prefix that you like because the
+whole<00:01:29.520><c> purpose</c><00:01:29.759><c> of</c><00:01:29.920><c> this</c><00:01:30.080><c> is</c><00:01:30.320><c> just</c><00:01:30.479><c> to</c><00:01:30.640><c> add</c><00:01:30.720><c> a</c>
+
+00:01:30.870 --> 00:01:30.880 align:start position:0%
+whole purpose of this is just to add a
+ 
+
+00:01:30.880 --> 00:01:32.230 align:start position:0%
+whole purpose of this is just to add a
+little<00:01:30.960><c> bit</c><00:01:31.119><c> more</c><00:01:31.280><c> information,</c><00:01:31.920><c> a</c><00:01:32.159><c> little</c>
+
+00:01:32.230 --> 00:01:32.240 align:start position:0%
+little bit more information, a little
+ 
+
+00:01:32.240 --> 00:01:34.630 align:start position:0%
+little bit more information, a little
+bit<00:01:32.400><c> more</c><00:01:32.640><c> context</c><00:01:33.360><c> to</c><00:01:33.680><c> a</c><00:01:33.920><c> variable.</c><00:01:34.400><c> Now,</c>
+
+00:01:34.630 --> 00:01:34.640 align:start position:0%
+bit more context to a variable. Now,
+ 
+
+00:01:34.640 --> 00:01:36.550 align:start position:0%
+bit more context to a variable. Now,
+people<00:01:34.880><c> also</c><00:01:35.119><c> like</c><00:01:35.360><c> to</c><00:01:35.520><c> write</c><00:01:35.759><c> these</c><00:01:36.159><c> like</c><00:01:36.320><c> in</c>
+
+00:01:36.550 --> 00:01:36.560 align:start position:0%
+people also like to write these like in
+ 
+
+00:01:36.560 --> 00:01:38.630 align:start position:0%
+people also like to write these like in
+a<00:01:36.799><c> different</c><00:01:37.119><c> code</c><00:01:37.439><c> style</c><00:01:37.759><c> as</c><00:01:37.920><c> well.</c><00:01:38.240><c> In</c><00:01:38.400><c> my</c>
+
+00:01:38.630 --> 00:01:38.640 align:start position:0%
+a different code style as well. In my
+ 
+
+00:01:38.640 --> 00:01:40.149 align:start position:0%
+a different code style as well. In my
+code<00:01:38.880><c> style,</c><00:01:39.119><c> I</c><00:01:39.280><c> write</c><00:01:39.439><c> the</c><00:01:39.600><c> letter</c><00:01:39.840><c> first,</c>
+
+00:01:40.149 --> 00:01:40.159 align:start position:0%
+code style, I write the letter first,
+ 
+
+00:01:40.159 --> 00:01:41.429 align:start position:0%
+code style, I write the letter first,
+then<00:01:40.400><c> an</c><00:01:40.560><c> underscore,</c><00:01:40.960><c> and</c><00:01:41.200><c> then</c><00:01:41.280><c> the</c>
+
+00:01:41.429 --> 00:01:41.439 align:start position:0%
+then an underscore, and then the
+ 
+
+00:01:41.439 --> 00:01:43.030 align:start position:0%
+then an underscore, and then the
+variable<00:01:41.759><c> name</c><00:01:42.000><c> beginning</c><00:01:42.240><c> with</c><00:01:42.400><c> a</c><00:01:42.560><c> capital.</c>
+
+00:01:43.030 --> 00:01:43.040 align:start position:0%
+variable name beginning with a capital.
+ 
+
+00:01:43.040 --> 00:01:44.390 align:start position:0%
+variable name beginning with a capital.
+So,<00:01:43.119><c> the</c><00:01:43.360><c> rest</c><00:01:43.439><c> of</c><00:01:43.520><c> the</c><00:01:43.680><c> variable</c><00:01:44.000><c> is</c><00:01:44.159><c> in</c>
+
+00:01:44.390 --> 00:01:44.400 align:start position:0%
+So, the rest of the variable is in
+ 
+
+00:01:44.400 --> 00:01:46.230 align:start position:0%
+So, the rest of the variable is in
+Pascal<00:01:44.960><c> case.</c><00:01:45.280><c> However,</c><00:01:45.600><c> others</c><00:01:45.920><c> like</c><00:01:46.079><c> to</c>
+
+00:01:46.230 --> 00:01:46.240 align:start position:0%
+Pascal case. However, others like to
+ 
+
+00:01:46.240 --> 00:01:48.310 align:start position:0%
+Pascal case. However, others like to
+have<00:01:46.320><c> the</c><00:01:46.479><c> variable</c><00:01:46.880><c> name</c><00:01:47.040><c> in</c><00:01:47.360><c> camel</c><00:01:47.759><c> case</c><00:01:48.079><c> or</c>
+
+00:01:48.310 --> 00:01:48.320 align:start position:0%
+have the variable name in camel case or
+ 
+
+00:01:48.320 --> 00:01:49.910 align:start position:0%
+have the variable name in camel case or
+snake<00:01:48.720><c> case.</c><00:01:49.040><c> And</c><00:01:49.200><c> others</c><00:01:49.520><c> don't</c><00:01:49.680><c> even</c>
+
+00:01:49.910 --> 00:01:49.920 align:start position:0%
+snake case. And others don't even
+ 
+
+00:01:49.920 --> 00:01:51.670 align:start position:0%
+snake case. And others don't even
+include<00:01:50.320><c> the</c><00:01:50.560><c> underscore.</c><00:01:51.200><c> They</c><00:01:51.360><c> just</c><00:01:51.520><c> have</c>
+
+00:01:51.670 --> 00:01:51.680 align:start position:0%
+include the underscore. They just have
+ 
+
+00:01:51.680 --> 00:01:53.749 align:start position:0%
+include the underscore. They just have
+like<00:01:52.000><c> m</c><00:01:52.399><c> and</c><00:01:52.640><c> then</c><00:01:52.720><c> the</c><00:01:52.960><c> variable</c><00:01:53.280><c> name</c><00:01:53.520><c> in</c>
+
+00:01:53.749 --> 00:01:53.759 align:start position:0%
+like m and then the variable name in
+ 
+
+00:01:53.759 --> 00:01:55.030 align:start position:0%
+like m and then the variable name in
+Pascal<00:01:54.240><c> case.</c><00:01:54.560><c> Lots</c><00:01:54.799><c> of</c><00:01:54.880><c> different</c>
+
+00:01:55.030 --> 00:01:55.040 align:start position:0%
+Pascal case. Lots of different
+ 
+
+00:01:55.040 --> 00:01:56.710 align:start position:0%
+Pascal case. Lots of different
+variations<00:01:55.600><c> all</c><00:01:55.759><c> with</c><00:01:55.920><c> the</c><00:01:56.079><c> same</c><00:01:56.240><c> point</c><00:01:56.479><c> of</c>
+
+00:01:56.710 --> 00:01:56.720 align:start position:0%
+variations all with the same point of
+ 
+
+00:01:56.720 --> 00:01:57.670 align:start position:0%
+variations all with the same point of
+just<00:01:56.880><c> adding</c><00:01:57.119><c> a</c><00:01:57.280><c> little</c><00:01:57.360><c> bit</c><00:01:57.520><c> more</c>
+
+00:01:57.670 --> 00:01:57.680 align:start position:0%
+just adding a little bit more
+ 
+
+00:01:57.680 --> 00:01:59.030 align:start position:0%
+just adding a little bit more
+information.<00:01:58.079><c> So,</c><00:01:58.320><c> the</c><00:01:58.479><c> rest</c><00:01:58.560><c> of</c><00:01:58.640><c> this</c><00:01:58.799><c> video</c>
+
+00:01:59.030 --> 00:01:59.040 align:start position:0%
+information. So, the rest of this video
+ 
+
+00:01:59.040 --> 00:02:00.310 align:start position:0%
+information. So, the rest of this video
+we're<00:01:59.200><c> just</c><00:01:59.280><c> going</c><00:01:59.360><c> to</c><00:01:59.520><c> talk</c><00:01:59.680><c> about</c><00:01:59.840><c> why</c><00:02:00.079><c> this</c>
+
+00:02:00.310 --> 00:02:00.320 align:start position:0%
+we're just going to talk about why this
+ 
+
+00:02:00.320 --> 00:02:02.149 align:start position:0%
+we're just going to talk about why this
+is<00:02:00.479><c> useful</c><00:02:00.719><c> and</c><00:02:00.880><c> why</c><00:02:01.040><c> this</c><00:02:01.200><c> is</c><00:02:01.360><c> used,</c><00:02:01.600><c> why</c><00:02:01.840><c> I</c>
+
+00:02:02.149 --> 00:02:02.159 align:start position:0%
+is useful and why this is used, why I
+ 
+
+00:02:02.159 --> 00:02:04.789 align:start position:0%
+is useful and why this is used, why I
+personally<00:02:02.880><c> like</c><00:02:03.119><c> to</c><00:02:03.280><c> use</c><00:02:03.439><c> this</c><00:02:03.680><c> keyword.</c><00:02:04.479><c> I</c>
+
+00:02:04.789 --> 00:02:04.799 align:start position:0%
+personally like to use this keyword. I
+ 
+
+00:02:04.799 --> 00:02:06.630 align:start position:0%
+personally like to use this keyword. I
+personally,<00:02:05.439><c> this</c><00:02:05.680><c> video</c><00:02:06.000><c> is</c><00:02:06.240><c> just</c><00:02:06.399><c> my</c>
+
+00:02:06.630 --> 00:02:06.640 align:start position:0%
+personally, this video is just my
+ 
+
+00:02:06.640 --> 00:02:08.389 align:start position:0%
+personally, this video is just my
+opinion.<00:02:07.200><c> Learning</c><00:02:07.520><c> programming</c><00:02:08.000><c> is</c><00:02:08.239><c> all</c>
+
+00:02:08.389 --> 00:02:08.399 align:start position:0%
+opinion. Learning programming is all
+ 
+
+00:02:08.399 --> 00:02:09.669 align:start position:0%
+opinion. Learning programming is all
+about<00:02:08.560><c> practice.</c><00:02:09.039><c> You</c><00:02:09.200><c> can't</c><00:02:09.280><c> just</c><00:02:09.440><c> keep</c>
+
+00:02:09.669 --> 00:02:09.679 align:start position:0%
+about practice. You can't just keep
+ 
+
+00:02:09.679 --> 00:02:11.830 align:start position:0%
+about practice. You can't just keep
+learning<00:02:10.080><c> theory</c><00:02:10.479><c> without</c><00:02:10.879><c> actually</c><00:02:11.440><c> writing</c>
+
+00:02:11.830 --> 00:02:11.840 align:start position:0%
+learning theory without actually writing
+ 
+
+00:02:11.840 --> 00:02:13.750 align:start position:0%
+learning theory without actually writing
+code.<00:02:12.239><c> And</c><00:02:12.400><c> that's</c><00:02:12.640><c> exactly</c><00:02:12.879><c> why</c><00:02:13.120><c> Bootdev,</c>
+
+00:02:13.750 --> 00:02:13.760 align:start position:0%
+code. And that's exactly why Bootdev,
+ 
+
+00:02:13.760 --> 00:02:15.270 align:start position:0%
+code. And that's exactly why Bootdev,
+the<00:02:13.920><c> sponsor</c><00:02:14.160><c> of</c><00:02:14.239><c> this</c><00:02:14.400><c> video,</c><00:02:14.720><c> is</c><00:02:14.959><c> such</c><00:02:15.120><c> a</c>
+
+00:02:15.270 --> 00:02:15.280 align:start position:0%
+the sponsor of this video, is such a
+ 
+
+00:02:15.280 --> 00:02:16.630 align:start position:0%
+the sponsor of this video, is such a
+great<00:02:15.520><c> place</c><00:02:15.680><c> to</c><00:02:15.920><c> learn</c><00:02:16.160><c> programming.</c>
+
+00:02:16.630 --> 00:02:16.640 align:start position:0%
+great place to learn programming.
+ 
+
+00:02:16.640 --> 00:02:18.309 align:start position:0%
+great place to learn programming.
+Boot.dev<00:02:17.360><c> is</c><00:02:17.520><c> a</c><00:02:17.680><c> website</c><00:02:17.920><c> that</c><00:02:18.080><c> takes</c>
+
+00:02:18.309 --> 00:02:18.319 align:start position:0%
+Boot.dev is a website that takes
+ 
+
+00:02:18.319 --> 00:02:20.229 align:start position:0%
+Boot.dev is a website that takes
+inspiration<00:02:18.800><c> from</c><00:02:19.120><c> modern</c><00:02:19.440><c> game</c><00:02:19.760><c> design</c><00:02:20.080><c> to</c>
+
+00:02:20.229 --> 00:02:20.239 align:start position:0%
+inspiration from modern game design to
+ 
+
+00:02:20.239 --> 00:02:21.910 align:start position:0%
+inspiration from modern game design to
+try<00:02:20.400><c> and</c><00:02:20.560><c> teach</c><00:02:20.800><c> programming</c><00:02:21.200><c> in</c><00:02:21.360><c> a</c><00:02:21.599><c> much</c><00:02:21.760><c> more</c>
+
+00:02:21.910 --> 00:02:21.920 align:start position:0%
+try and teach programming in a much more
+ 
+
+00:02:21.920 --> 00:02:23.670 align:start position:0%
+try and teach programming in a much more
+engaging<00:02:22.400><c> and</c><00:02:22.640><c> practical</c><00:02:23.040><c> way.</c><00:02:23.440><c> They're</c>
+
+00:02:23.670 --> 00:02:23.680 align:start position:0%
+engaging and practical way. They're
+ 
+
+00:02:23.680 --> 00:02:24.630 align:start position:0%
+engaging and practical way. They're
+basically<00:02:23.920><c> trying</c><00:02:24.000><c> to</c><00:02:24.160><c> make</c><00:02:24.239><c> this</c><00:02:24.480><c> whole</c>
+
+00:02:24.630 --> 00:02:24.640 align:start position:0%
+basically trying to make this whole
+ 
+
+00:02:24.640 --> 00:02:26.150 align:start position:0%
+basically trying to make this whole
+difficult<00:02:25.200><c> process</c><00:02:25.599><c> of</c><00:02:25.840><c> learning</c>
+
+00:02:26.150 --> 00:02:26.160 align:start position:0%
+difficult process of learning
+ 
+
+00:02:26.160 --> 00:02:28.150 align:start position:0%
+difficult process of learning
+programming<00:02:26.720><c> super</c><00:02:27.040><c> fun</c><00:02:27.280><c> for</c><00:02:27.440><c> you</c><00:02:27.680><c> and</c><00:02:28.000><c> kind</c>
+
+00:02:28.150 --> 00:02:28.160 align:start position:0%
+programming super fun for you and kind
+ 
+
+00:02:28.160 --> 00:02:30.070 align:start position:0%
+programming super fun for you and kind
+of<00:02:28.239><c> communicate</c><00:02:28.720><c> the</c><00:02:28.879><c> sense</c><00:02:29.120><c> of</c><00:02:29.280><c> progress</c><00:02:29.840><c> in</c>
+
+00:02:30.070 --> 00:02:30.080 align:start position:0%
+of communicate the sense of progress in
+ 
+
+00:02:30.080 --> 00:02:31.750 align:start position:0%
+of communicate the sense of progress in
+a<00:02:30.319><c> really,</c><00:02:30.480><c> really</c><00:02:30.720><c> effective</c><00:02:31.120><c> way.</c><00:02:31.520><c> They've</c>
+
+00:02:31.750 --> 00:02:31.760 align:start position:0%
+a really, really effective way. They've
+ 
+
+00:02:31.760 --> 00:02:33.670 align:start position:0%
+a really, really effective way. They've
+got<00:02:31.920><c> plenty</c><00:02:32.160><c> of</c><00:02:32.319><c> hands-on</c><00:02:32.879><c> practical</c><00:02:33.280><c> lessons</c>
+
+00:02:33.670 --> 00:02:33.680 align:start position:0%
+got plenty of hands-on practical lessons
+ 
+
+00:02:33.680 --> 00:02:35.509 align:start position:0%
+got plenty of hands-on practical lessons
+that<00:02:33.840><c> balance</c><00:02:34.239><c> theory</c><00:02:34.640><c> really</c><00:02:34.959><c> well</c><00:02:35.200><c> with</c>
+
+00:02:35.509 --> 00:02:35.519 align:start position:0%
+that balance theory really well with
+ 
+
+00:02:35.519 --> 00:02:37.750 align:start position:0%
+that balance theory really well with
+actual<00:02:36.000><c> practice.</c><00:02:36.720><c> As</c><00:02:36.879><c> you</c><00:02:37.040><c> can</c><00:02:37.120><c> see</c><00:02:37.280><c> here,</c>
+
+00:02:37.750 --> 00:02:37.760 align:start position:0%
+actual practice. As you can see here,
+ 
+
+00:02:37.760 --> 00:02:39.990 align:start position:0%
+actual practice. As you can see here,
+you'll<00:02:38.080><c> actually</c><00:02:38.480><c> be</c><00:02:38.959><c> writing</c><00:02:39.360><c> code</c><00:02:39.680><c> and</c>
+
+00:02:39.990 --> 00:02:40.000 align:start position:0%
+you'll actually be writing code and
+ 
+
+00:02:40.000 --> 00:02:41.910 align:start position:0%
+you'll actually be writing code and
+changing<00:02:40.480><c> existing</c><00:02:40.959><c> code,</c><00:02:41.360><c> which</c><00:02:41.599><c> as</c><00:02:41.680><c> you</c><00:02:41.760><c> can</c>
+
+00:02:41.910 --> 00:02:41.920 align:start position:0%
+changing existing code, which as you can
+ 
+
+00:02:41.920 --> 00:02:43.350 align:start position:0%
+changing existing code, which as you can
+imagine<00:02:42.160><c> is</c><00:02:42.319><c> such</c><00:02:42.480><c> an</c><00:02:42.720><c> effective</c><00:02:43.040><c> way</c><00:02:43.120><c> to</c>
+
+00:02:43.350 --> 00:02:43.360 align:start position:0%
+imagine is such an effective way to
+ 
+
+00:02:43.360 --> 00:02:44.630 align:start position:0%
+imagine is such an effective way to
+learn<00:02:43.599><c> programming.</c><00:02:44.080><c> As</c><00:02:44.239><c> you</c><00:02:44.400><c> go</c><00:02:44.480><c> through</c>
+
+00:02:44.630 --> 00:02:44.640 align:start position:0%
+learn programming. As you go through
+ 
+
+00:02:44.640 --> 00:02:45.990 align:start position:0%
+learn programming. As you go through
+their<00:02:44.800><c> courses,</c><00:02:45.200><c> every</c><00:02:45.440><c> step</c><00:02:45.599><c> of</c><00:02:45.760><c> the</c><00:02:45.840><c> way,</c>
+
+00:02:45.990 --> 00:02:46.000 align:start position:0%
+their courses, every step of the way,
+ 
+
+00:02:46.000 --> 00:02:47.350 align:start position:0%
+their courses, every step of the way,
+you'll<00:02:46.239><c> have</c><00:02:46.319><c> to</c><00:02:46.400><c> write</c><00:02:46.640><c> actual</c><00:02:46.959><c> code</c><00:02:47.120><c> to</c>
+
+00:02:47.350 --> 00:02:47.360 align:start position:0%
+you'll have to write actual code to
+ 
+
+00:02:47.360 --> 00:02:48.949 align:start position:0%
+you'll have to write actual code to
+implement<00:02:47.680><c> solutions</c><00:02:48.080><c> to</c><00:02:48.319><c> problems.</c><00:02:48.800><c> And</c>
+
+00:02:48.949 --> 00:02:48.959 align:start position:0%
+implement solutions to problems. And
+ 
+
+00:02:48.959 --> 00:02:50.470 align:start position:0%
+implement solutions to problems. And
+they<00:02:49.120><c> tie</c><00:02:49.280><c> this</c><00:02:49.440><c> in</c><00:02:49.519><c> with</c><00:02:49.680><c> gamelike</c><00:02:50.160><c> systems</c>
+
+00:02:50.470 --> 00:02:50.480 align:start position:0%
+they tie this in with gamelike systems
+ 
+
+00:02:50.480 --> 00:02:52.309 align:start position:0%
+they tie this in with gamelike systems
+to<00:02:50.640><c> make</c><00:02:50.800><c> it</c><00:02:51.040><c> so</c><00:02:51.280><c> much</c><00:02:51.440><c> more</c><00:02:51.599><c> fun.</c><00:02:51.920><c> So,</c><00:02:52.080><c> you'll</c>
+
+00:02:52.309 --> 00:02:52.319 align:start position:0%
+to make it so much more fun. So, you'll
+ 
+
+00:02:52.319 --> 00:02:55.190 align:start position:0%
+to make it so much more fun. So, you'll
+earn<00:02:52.480><c> XP,</c><00:02:53.280><c> level</c><00:02:53.519><c> up,</c><00:02:53.840><c> complete</c><00:02:54.239><c> quests,</c><00:02:54.879><c> etc.</c>
+
+00:02:55.190 --> 00:02:55.200 align:start position:0%
+earn XP, level up, complete quests, etc.
+ 
+
+00:02:55.200 --> 00:02:56.949 align:start position:0%
+earn XP, level up, complete quests, etc.
+Their<00:02:55.440><c> courses</c><00:02:55.760><c> mostly</c><00:02:56.080><c> focus</c><00:02:56.319><c> on</c><00:02:56.480><c> back-end</c>
+
+00:02:56.949 --> 00:02:56.959 align:start position:0%
+Their courses mostly focus on back-end
+ 
+
+00:02:56.959 --> 00:02:58.150 align:start position:0%
+Their courses mostly focus on back-end
+web<00:02:57.200><c> development.</c><00:02:57.599><c> So,</c><00:02:57.760><c> they</c><00:02:57.920><c> have</c><00:02:58.000><c> like</c>
+
+00:02:58.150 --> 00:02:58.160 align:start position:0%
+web development. So, they have like
+ 
+
+00:02:58.160 --> 00:03:00.470 align:start position:0%
+web development. So, they have like
+Python,<00:02:58.800><c> Go,</c><00:02:59.200><c> JavaScript.</c><00:03:00.000><c> But</c><00:03:00.080><c> no</c><00:03:00.160><c> matter</c>
+
+00:03:00.470 --> 00:03:00.480 align:start position:0%
+Python, Go, JavaScript. But no matter
+ 
+
+00:03:00.480 --> 00:03:01.990 align:start position:0%
+Python, Go, JavaScript. But no matter
+what<00:03:00.720><c> kind</c><00:03:00.879><c> of</c><00:03:01.040><c> programming</c><00:03:01.519><c> you're</c><00:03:01.760><c> really</c>
+
+00:03:01.990 --> 00:03:02.000 align:start position:0%
+what kind of programming you're really
+ 
+
+00:03:02.000 --> 00:03:03.350 align:start position:0%
+what kind of programming you're really
+interested<00:03:02.239><c> in,</c><00:03:02.480><c> if</c><00:03:02.720><c> you're</c><00:03:02.879><c> just</c><00:03:03.040><c> learning,</c>
+
+00:03:03.350 --> 00:03:03.360 align:start position:0%
+interested in, if you're just learning,
+ 
+
+00:03:03.360 --> 00:03:04.869 align:start position:0%
+interested in, if you're just learning,
+the<00:03:03.519><c> language</c><00:03:03.840><c> doesn't</c><00:03:04.080><c> matter</c><00:03:04.319><c> too</c><00:03:04.560><c> much.</c>
+
+00:03:04.869 --> 00:03:04.879 align:start position:0%
+the language doesn't matter too much.
+ 
+
+00:03:04.879 --> 00:03:06.470 align:start position:0%
+the language doesn't matter too much.
+It's<00:03:05.120><c> more</c><00:03:05.280><c> about</c><00:03:05.440><c> learning</c><00:03:05.680><c> the</c><00:03:05.920><c> concept</c><00:03:06.239><c> of</c>
+
+00:03:06.470 --> 00:03:06.480 align:start position:0%
+It's more about learning the concept of
+ 
+
+00:03:06.480 --> 00:03:08.149 align:start position:0%
+It's more about learning the concept of
+programming<00:03:06.959><c> in</c><00:03:07.200><c> general</c><00:03:07.680><c> and</c><00:03:07.840><c> their</c>
+
+00:03:08.149 --> 00:03:08.159 align:start position:0%
+programming in general and their
+ 
+
+00:03:08.159 --> 00:03:09.910 align:start position:0%
+programming in general and their
+teaching<00:03:08.400><c> style</c><00:03:08.800><c> just</c><00:03:09.040><c> does</c><00:03:09.200><c> that</c><00:03:09.440><c> so</c><00:03:09.680><c> well.</c>
+
+00:03:09.910 --> 00:03:09.920 align:start position:0%
+teaching style just does that so well.
+ 
+
+00:03:09.920 --> 00:03:11.750 align:start position:0%
+teaching style just does that so well.
+They've<00:03:10.159><c> also</c><00:03:10.400><c> got</c><00:03:10.480><c> this</c><00:03:10.720><c> bear</c><00:03:10.959><c> wizard</c><00:03:11.360><c> AI</c>
+
+00:03:11.750 --> 00:03:11.760 align:start position:0%
+They've also got this bear wizard AI
+ 
+
+00:03:11.760 --> 00:03:13.270 align:start position:0%
+They've also got this bear wizard AI
+chatbot<00:03:12.239><c> that</c><00:03:12.400><c> you</c><00:03:12.480><c> can</c><00:03:12.640><c> use</c><00:03:12.800><c> to</c><00:03:12.959><c> help</c><00:03:13.120><c> you</c>
+
+00:03:13.270 --> 00:03:13.280 align:start position:0%
+chatbot that you can use to help you
+ 
+
+00:03:13.280 --> 00:03:14.869 align:start position:0%
+chatbot that you can use to help you
+out.<00:03:13.519><c> You</c><00:03:13.680><c> can</c><00:03:13.760><c> just</c><00:03:13.920><c> ask</c><00:03:14.159><c> it</c><00:03:14.319><c> questions</c><00:03:14.640><c> and</c>
+
+00:03:14.869 --> 00:03:14.879 align:start position:0%
+out. You can just ask it questions and
+ 
+
+00:03:14.879 --> 00:03:16.470 align:start position:0%
+out. You can just ask it questions and
+ask<00:03:15.040><c> for</c><00:03:15.280><c> deeper</c><00:03:15.599><c> explanations</c><00:03:16.159><c> along</c><00:03:16.400><c> the</c>
+
+00:03:16.470 --> 00:03:16.480 align:start position:0%
+ask for deeper explanations along the
+ 
+
+00:03:16.480 --> 00:03:18.229 align:start position:0%
+ask for deeper explanations along the
+way<00:03:16.560><c> and</c><00:03:16.800><c> is</c><00:03:16.959><c> specifically</c><00:03:17.440><c> trained</c><00:03:18.000><c> with</c>
+
+00:03:18.229 --> 00:03:18.239 align:start position:0%
+way and is specifically trained with
+ 
+
+00:03:18.239 --> 00:03:20.149 align:start position:0%
+way and is specifically trained with
+their<00:03:18.560><c> course</c><00:03:18.879><c> materials.</c><00:03:19.519><c> Just</c><00:03:19.760><c> be</c><00:03:19.920><c> prepared</c>
+
+00:03:20.149 --> 00:03:20.159 align:start position:0%
+their course materials. Just be prepared
+ 
+
+00:03:20.159 --> 00:03:22.229 align:start position:0%
+their course materials. Just be prepared
+to<00:03:20.560><c> feed</c><00:03:20.879><c> him</c><00:03:21.120><c> salmon.</c><00:03:21.519><c> And</c><00:03:21.680><c> check</c><00:03:21.840><c> this</c><00:03:22.000><c> out.</c>
+
+00:03:22.229 --> 00:03:22.239 align:start position:0%
+to feed him salmon. And check this out.
+ 
+
+00:03:22.239 --> 00:03:24.550 align:start position:0%
+to feed him salmon. And check this out.
+All<00:03:22.480><c> of</c><00:03:22.640><c> their</c><00:03:22.879><c> content</c><00:03:23.360><c> is</c><00:03:23.599><c> actually</c><00:03:24.000><c> free</c><00:03:24.319><c> to</c>
+
+00:03:24.550 --> 00:03:24.560 align:start position:0%
+All of their content is actually free to
+ 
+
+00:03:24.560 --> 00:03:26.470 align:start position:0%
+All of their content is actually free to
+read<00:03:24.720><c> and</c><00:03:24.959><c> watch</c><00:03:25.200><c> in</c><00:03:25.440><c> guest</c><00:03:25.760><c> mode.</c><00:03:26.239><c> So,</c><00:03:26.319><c> you</c>
+
+00:03:26.470 --> 00:03:26.480 align:start position:0%
+read and watch in guest mode. So, you
+ 
+
+00:03:26.480 --> 00:03:28.309 align:start position:0%
+read and watch in guest mode. So, you
+can<00:03:26.560><c> always</c><00:03:26.879><c> check</c><00:03:27.120><c> it</c><00:03:27.280><c> out</c><00:03:27.599><c> completely</c><00:03:28.080><c> for</c>
+
+00:03:28.309 --> 00:03:28.319 align:start position:0%
+can always check it out completely for
+ 
+
+00:03:28.319 --> 00:03:29.990 align:start position:0%
+can always check it out completely for
+free.<00:03:28.640><c> You'll</c><00:03:28.800><c> need</c><00:03:28.879><c> a</c><00:03:29.120><c> paid</c><00:03:29.360><c> membership</c><00:03:29.760><c> if</c>
+
+00:03:29.990 --> 00:03:30.000 align:start position:0%
+free. You'll need a paid membership if
+ 
+
+00:03:30.000 --> 00:03:31.430 align:start position:0%
+free. You'll need a paid membership if
+you<00:03:30.159><c> actually</c><00:03:30.400><c> want</c><00:03:30.640><c> to</c><00:03:30.879><c> access</c><00:03:31.200><c> the</c>
+
+00:03:31.430 --> 00:03:31.440 align:start position:0%
+you actually want to access the
+ 
+
+00:03:31.440 --> 00:03:32.949 align:start position:0%
+you actually want to access the
+interactive<00:03:32.000><c> features</c><00:03:32.480><c> such</c><00:03:32.640><c> as</c><00:03:32.720><c> the</c>
+
+00:03:32.949 --> 00:03:32.959 align:start position:0%
+interactive features such as the
+ 
+
+00:03:32.959 --> 00:03:34.630 align:start position:0%
+interactive features such as the
+hands-on<00:03:33.440><c> programming.</c><00:03:33.920><c> There's</c><00:03:34.239><c> loads</c><00:03:34.480><c> more</c>
+
+00:03:34.630 --> 00:03:34.640 align:start position:0%
+hands-on programming. There's loads more
+ 
+
+00:03:34.640 --> 00:03:36.470 align:start position:0%
+hands-on programming. There's loads more
+to<00:03:34.799><c> discover.</c><00:03:35.200><c> Just</c><00:03:35.360><c> head</c><00:03:35.440><c> to</c><00:03:35.599><c> boot.dev.</c><00:03:36.319><c> Link</c>
+
+00:03:36.470 --> 00:03:36.480 align:start position:0%
+to discover. Just head to boot.dev. Link
+ 
+
+00:03:36.480 --> 00:03:37.990 align:start position:0%
+to discover. Just head to boot.dev. Link
+will<00:03:36.640><c> be</c><00:03:36.720><c> in</c><00:03:36.879><c> the</c><00:03:37.040><c> description</c><00:03:37.360><c> below.</c><00:03:37.840><c> And</c>
+
+00:03:37.990 --> 00:03:38.000 align:start position:0%
+will be in the description below. And
+ 
+
+00:03:38.000 --> 00:03:40.149 align:start position:0%
+will be in the description below. And
+you<00:03:38.080><c> can</c><00:03:38.239><c> also</c><00:03:38.400><c> use</c><00:03:38.560><c> code</c><00:03:38.799><c> churno</c><00:03:39.200><c> to</c><00:03:39.360><c> get</c><00:03:39.519><c> 25%</c>
+
+00:03:40.149 --> 00:03:40.159 align:start position:0%
+you can also use code churno to get 25%
+ 
+
+00:03:40.159 --> 00:03:42.470 align:start position:0%
+you can also use code churno to get 25%
+off<00:03:40.400><c> your</c><00:03:40.720><c> entire</c><00:03:41.120><c> first</c><00:03:41.440><c> year</c><00:03:42.000><c> if</c><00:03:42.159><c> you</c><00:03:42.239><c> choose</c>
+
+00:03:42.470 --> 00:03:42.480 align:start position:0%
+off your entire first year if you choose
+ 
+
+00:03:42.480 --> 00:03:43.750 align:start position:0%
+off your entire first year if you choose
+the<00:03:42.640><c> annual</c><00:03:42.879><c> plan.</c><00:03:43.200><c> Huge</c><00:03:43.440><c> thank</c><00:03:43.599><c> you</c><00:03:43.680><c> to</c>
+
+00:03:43.750 --> 00:03:43.760 align:start position:0%
+the annual plan. Huge thank you to
+ 
+
+00:03:43.760 --> 00:03:45.750 align:start position:0%
+the annual plan. Huge thank you to
+bootdev<00:03:44.239><c> for</c><00:03:44.400><c> sponsoring</c><00:03:44.879><c> this</c><00:03:45.120><c> video.</c><00:03:45.360><c> So</c><00:03:45.519><c> to</c>
+
+00:03:45.750 --> 00:03:45.760 align:start position:0%
+bootdev for sponsoring this video. So to
+ 
+
+00:03:45.760 --> 00:03:47.830 align:start position:0%
+bootdev for sponsoring this video. So to
+illustrate<00:03:46.080><c> this</c><00:03:46.319><c> point</c><00:03:46.560><c> of</c><00:03:46.959><c> like</c><00:03:47.440><c> you</c><00:03:47.599><c> know</c>
+
+00:03:47.830 --> 00:03:47.840 align:start position:0%
+illustrate this point of like you know
+ 
+
+00:03:47.840 --> 00:03:50.229 align:start position:0%
+illustrate this point of like you know
+naming<00:03:48.319><c> conventions</c><00:03:48.799><c> and</c><00:03:49.280><c> variable</c><00:03:49.680><c> names</c><00:03:50.000><c> in</c>
+
+00:03:50.229 --> 00:03:50.239 align:start position:0%
+naming conventions and variable names in
+ 
+
+00:03:50.239 --> 00:03:51.430 align:start position:0%
+naming conventions and variable names in
+general.<00:03:50.640><c> I</c><00:03:50.799><c> thought</c><00:03:50.959><c> I</c><00:03:51.120><c> would</c><00:03:51.200><c> kind</c><00:03:51.360><c> of</c>
+
+00:03:51.430 --> 00:03:51.440 align:start position:0%
+general. I thought I would kind of
+ 
+
+00:03:51.440 --> 00:03:53.750 align:start position:0%
+general. I thought I would kind of
+present<00:03:51.760><c> this</c><00:03:51.920><c> in</c><00:03:52.159><c> like</c><00:03:52.799><c> three</c><00:03:53.280><c> different</c>
+
+00:03:53.750 --> 00:03:53.760 align:start position:0%
+present this in like three different
+ 
+
+00:03:53.760 --> 00:03:57.190 align:start position:0%
+present this in like three different
+levels<00:03:54.400><c> of</c><00:03:55.080><c> readability</c><00:03:56.080><c> at</c><00:03:56.080><c> least</c><00:03:56.720><c> according</c>
+
+00:03:57.190 --> 00:03:57.200 align:start position:0%
+levels of readability at least according
+ 
+
+00:03:57.200 --> 00:03:59.429 align:start position:0%
+levels of readability at least according
+to<00:03:57.439><c> me.</c><00:03:57.680><c> So</c><00:03:57.920><c> first</c><00:03:58.080><c> of</c><00:03:58.239><c> all,</c><00:03:58.720><c> why</c><00:03:58.959><c> do</c><00:03:59.120><c> we</c><00:03:59.280><c> even</c>
+
+00:03:59.429 --> 00:03:59.439 align:start position:0%
+to me. So first of all, why do we even
+ 
+
+00:03:59.439 --> 00:04:01.270 align:start position:0%
+to me. So first of all, why do we even
+name<00:03:59.760><c> variables</c><00:04:00.239><c> in</c><00:04:00.480><c> the</c><00:04:00.640><c> first</c><00:04:00.720><c> place?</c><00:04:01.040><c> Why</c>
+
+00:04:01.270 --> 00:04:01.280 align:start position:0%
+name variables in the first place? Why
+ 
+
+00:04:01.280 --> 00:04:03.910 align:start position:0%
+name variables in the first place? Why
+not<00:04:01.439><c> just</c><00:04:01.760><c> write</c><00:04:02.000><c> code</c><00:04:02.560><c> like</c><00:04:02.879><c> this?</c><00:04:03.360><c> Ah</c><00:04:03.680><c> yes,</c>
+
+00:04:03.910 --> 00:04:03.920 align:start position:0%
+not just write code like this? Ah yes,
+ 
+
+00:04:03.920 --> 00:04:06.229 align:start position:0%
+not just write code like this? Ah yes,
+we<00:04:04.239><c> have</c><00:04:04.720><c> uh</c><00:04:04.879><c> a</c><00:04:05.200><c> new</c><00:04:05.360><c> instance</c><00:04:05.599><c> of</c><00:04:05.760><c> a</c><00:04:05.920><c> class</c>
+
+00:04:06.229 --> 00:04:06.239 align:start position:0%
+we have uh a new instance of a class
+ 
+
+00:04:06.239 --> 00:04:08.470 align:start position:0%
+we have uh a new instance of a class
+called<00:04:06.560><c> a</c><00:04:06.879><c> and</c><00:04:07.120><c> then</c><00:04:07.280><c> we</c><00:04:07.439><c> call</c><00:04:07.599><c> a</c><00:04:07.840><c> function</c><00:04:08.159><c> on</c>
+
+00:04:08.470 --> 00:04:08.480 align:start position:0%
+called a and then we call a function on
+ 
+
+00:04:08.480 --> 00:04:10.869 align:start position:0%
+called a and then we call a function on
+that<00:04:08.799><c> a.</c><00:04:09.280><c> We</c><00:04:09.439><c> pass</c><00:04:09.599><c> in</c><00:04:09.760><c> a</c><00:04:09.920><c> couple</c><00:04:10.000><c> of</c><00:04:10.159><c> ve</c><00:04:10.480><c> 3es</c>
+
+00:04:10.869 --> 00:04:10.879 align:start position:0%
+that a. We pass in a couple of ve 3es
+ 
+
+00:04:10.879 --> 00:04:13.830 align:start position:0%
+that a. We pass in a couple of ve 3es
+and<00:04:11.200><c> a</c><00:04:11.519><c> float</c><00:04:12.159><c> and</c><00:04:12.319><c> we</c><00:04:12.480><c> name</c><00:04:12.720><c> that</c><00:04:12.879><c> variable</c><00:04:13.360><c> b.</c>
+
+00:04:13.830 --> 00:04:13.840 align:start position:0%
+and a float and we name that variable b.
+ 
+
+00:04:13.840 --> 00:04:15.270 align:start position:0%
+and a float and we name that variable b.
+Okay.<00:04:14.159><c> Well,</c><00:04:14.400><c> you</c><00:04:14.560><c> know,</c><00:04:14.720><c> let's</c><00:04:14.879><c> take</c><00:04:15.040><c> a</c><00:04:15.200><c> look</c>
+
+00:04:15.270 --> 00:04:15.280 align:start position:0%
+Okay. Well, you know, let's take a look
+ 
+
+00:04:15.280 --> 00:04:16.870 align:start position:0%
+Okay. Well, you know, let's take a look
+at<00:04:15.360><c> that</c><00:04:15.599><c> function</c><00:04:15.920><c> because</c><00:04:16.239><c> that</c><00:04:16.560><c> should</c><00:04:16.720><c> be</c>
+
+00:04:16.870 --> 00:04:16.880 align:start position:0%
+at that function because that should be
+ 
+
+00:04:16.880 --> 00:04:18.629 align:start position:0%
+at that function because that should be
+easy<00:04:17.040><c> to</c><00:04:17.280><c> read,</c><00:04:17.519><c> right?</c><00:04:17.759><c> Okay.</c><00:04:18.000><c> In</c><00:04:18.160><c> this</c><00:04:18.320><c> file,</c>
+
+00:04:18.629 --> 00:04:18.639 align:start position:0%
+easy to read, right? Okay. In this file,
+ 
+
+00:04:18.639 --> 00:04:22.069 align:start position:0%
+easy to read, right? Okay. In this file,
+we<00:04:18.880><c> have</c><00:04:19.120><c> a</c><00:04:19.359><c> strct</c><00:04:19.680><c> called</c><00:04:20.079><c> a</c><00:04:20.560><c> with</c><00:04:20.799><c> a</c><00:04:21.120><c> double</c><00:04:21.440><c> a</c>
+
+00:04:22.069 --> 00:04:22.079 align:start position:0%
+we have a strct called a with a double a
+ 
+
+00:04:22.079 --> 00:04:25.110 align:start position:0%
+we have a strct called a with a double a
+ve<00:04:22.560><c> 3.</c><00:04:23.120><c> And</c><00:04:23.199><c> then</c><00:04:23.360><c> we</c><00:04:23.520><c> have</c><00:04:23.759><c> b</c><00:04:24.000><c> which</c><00:04:24.320><c> is</c><00:04:24.720><c> a</c>
+
+00:04:25.110 --> 00:04:25.120 align:start position:0%
+ve 3. And then we have b which is a
+ 
+
+00:04:25.120 --> 00:04:26.790 align:start position:0%
+ve 3. And then we have b which is a
+derives<00:04:25.440><c> from</c><00:04:25.600><c> a.</c><00:04:25.840><c> So,</c><00:04:25.919><c> it's</c><00:04:26.160><c> also</c><00:04:26.320><c> got</c><00:04:26.479><c> that</c>
+
+00:04:26.790 --> 00:04:26.800 align:start position:0%
+derives from a. So, it's also got that
+ 
+
+00:04:26.800 --> 00:04:28.790 align:start position:0%
+derives from a. So, it's also got that
+double<00:04:27.040><c> a</c><00:04:27.680><c> ve</c><00:04:28.000><c> 3,</c><00:04:28.080><c> but</c><00:04:28.240><c> then</c><00:04:28.320><c> it's</c><00:04:28.479><c> also</c><00:04:28.639><c> got</c>
+
+00:04:28.790 --> 00:04:28.800 align:start position:0%
+double a ve 3, but then it's also got
+ 
+
+00:04:28.800 --> 00:04:30.710 align:start position:0%
+double a ve 3, but then it's also got
+another<00:04:29.040><c> ve</c><00:04:29.360><c> 3.</c><00:04:29.600><c> And</c><00:04:29.680><c> then</c><00:04:29.840><c> we</c><00:04:30.000><c> have</c><00:04:30.240><c> a</c><00:04:30.479><c> class</c>
+
+00:04:30.710 --> 00:04:30.720 align:start position:0%
+another ve 3. And then we have a class
+ 
+
+00:04:30.720 --> 00:04:32.629 align:start position:0%
+another ve 3. And then we have a class
+called<00:04:31.040><c> c.</c><00:04:31.360><c> There's</c><00:04:31.600><c> that</c><00:04:31.840><c> function</c><00:04:32.160><c> we</c><00:04:32.400><c> were</c>
+
+00:04:32.629 --> 00:04:32.639 align:start position:0%
+called c. There's that function we were
+ 
+
+00:04:32.639 --> 00:04:35.270 align:start position:0%
+called c. There's that function we were
+talking<00:04:32.800><c> about.</c><00:04:33.120><c> It</c><00:04:33.360><c> returns</c><00:04:33.919><c> a</c><00:04:34.479><c> B</c><00:04:34.720><c> pointer.</c>
+
+00:04:35.270 --> 00:04:35.280 align:start position:0%
+talking about. It returns a B pointer.
+ 
+
+00:04:35.280 --> 00:04:37.110 align:start position:0%
+talking about. It returns a B pointer.
+So<00:04:35.440><c> an</c><00:04:35.600><c> instance</c><00:04:35.840><c> of</c><00:04:36.080><c> one</c><00:04:36.240><c> of</c><00:04:36.400><c> these.</c><00:04:36.880><c> It's</c>
+
+00:04:37.110 --> 00:04:37.120 align:start position:0%
+So an instance of one of these. It's
+ 
+
+00:04:37.120 --> 00:04:40.790 align:start position:0%
+So an instance of one of these. It's
+also<00:04:37.280><c> got</c><00:04:37.440><c> a</c><00:04:37.680><c> vector</c><00:04:38.479><c> of</c><00:04:38.919><c> A's.</c><00:04:39.919><c> So</c><00:04:40.160><c> of</c><00:04:40.400><c> this</c><00:04:40.639><c> I</c>
+
+00:04:40.790 --> 00:04:40.800 align:start position:0%
+also got a vector of A's. So of this I
+ 
+
+00:04:40.800 --> 00:04:43.590 align:start position:0%
+also got a vector of A's. So of this I
+guess<00:04:41.120><c> called</c><00:04:41.440><c> A.</c><00:04:42.080><c> And</c><00:04:42.240><c> then</c><00:04:42.960><c> okay,</c><00:04:43.280><c> what</c><00:04:43.440><c> does</c>
+
+00:04:43.590 --> 00:04:43.600 align:start position:0%
+guess called A. And then okay, what does
+ 
+
+00:04:43.600 --> 00:04:45.909 align:start position:0%
+guess called A. And then okay, what does
+this<00:04:43.759><c> function</c><00:04:44.080><c> do?</c><00:04:44.560><c> So</c><00:04:45.120><c> checks</c><00:04:45.440><c> to</c><00:04:45.680><c> see</c><00:04:45.759><c> if</c>
+
+00:04:45.909 --> 00:04:45.919 align:start position:0%
+this function do? So checks to see if
+ 
+
+00:04:45.919 --> 00:04:48.150 align:start position:0%
+this function do? So checks to see if
+we're<00:04:46.160><c> within</c><00:04:46.479><c> the</c><00:04:46.720><c> size</c><00:04:47.120><c> of</c><00:04:47.520><c> double</c><00:04:47.759><c> A,</c><00:04:48.000><c> which</c>
+
+00:04:48.150 --> 00:04:48.160 align:start position:0%
+we're within the size of double A, which
+ 
+
+00:04:48.160 --> 00:04:49.670 align:start position:0%
+we're within the size of double A, which
+is<00:04:48.320><c> actually</c><00:04:48.479><c> up</c><00:04:48.720><c> here.</c><00:04:49.040><c> Okay,</c><00:04:49.280><c> so</c><00:04:49.440><c> that's</c>
+
+00:04:49.670 --> 00:04:49.680 align:start position:0%
+is actually up here. Okay, so that's
+ 
+
+00:04:49.680 --> 00:04:51.830 align:start position:0%
+is actually up here. Okay, so that's
+static<00:04:50.160><c> vector</c><00:04:50.800><c> B.</c><00:04:51.120><c> So</c><00:04:51.280><c> that's</c><00:04:51.600><c> different</c>
+
+00:04:51.830 --> 00:04:51.840 align:start position:0%
+static vector B. So that's different
+ 
+
+00:04:51.840 --> 00:04:55.590 align:start position:0%
+static vector B. So that's different
+from<00:04:52.160><c> this.</c><00:04:52.880><c> And</c><00:04:53.040><c> then</c><00:04:53.199><c> we</c><00:04:53.639><c> we</c><00:04:54.639><c> do</c><00:04:54.880><c> this</c><00:04:55.280><c> and</c>
+
+00:04:55.590 --> 00:04:55.600 align:start position:0%
+from this. And then we we do this and
+ 
+
+00:04:55.600 --> 00:04:58.710 align:start position:0%
+from this. And then we we do this and
+then<00:04:56.160><c> this</c><00:04:56.880><c> A</c><00:04:57.440><c> in</c><00:04:57.759><c> place</c><00:04:58.000><c> back.</c><00:04:58.320><c> So</c><00:04:58.479><c> I</c><00:04:58.639><c> guess</c>
+
+00:04:58.710 --> 00:04:58.720 align:start position:0%
+then this A in place back. So I guess
+ 
+
+00:04:58.720 --> 00:05:02.150 align:start position:0%
+then this A in place back. So I guess
+that<00:04:58.880><c> goes</c><00:04:59.120><c> to</c><00:04:59.280><c> here</c><00:04:59.440><c> and</c><00:04:59.759><c> pushes</c><00:05:00.400><c> D</c><00:05:00.639><c> back</c><00:05:01.160><c> into</c>
+
+00:05:02.150 --> 00:05:02.160 align:start position:0%
+that goes to here and pushes D back into
+ 
+
+00:05:02.160 --> 00:05:03.590 align:start position:0%
+that goes to here and pushes D back into
+Anyway,<00:05:02.479><c> I</c><00:05:02.720><c> obviously</c><00:05:02.960><c> know</c><00:05:03.040><c> what</c><00:05:03.199><c> this</c><00:05:03.360><c> code</c>
+
+00:05:03.590 --> 00:05:03.600 align:start position:0%
+Anyway, I obviously know what this code
+ 
+
+00:05:03.600 --> 00:05:05.670 align:start position:0%
+Anyway, I obviously know what this code
+does.<00:05:03.840><c> I'm</c><00:05:04.000><c> just</c><00:05:04.240><c> pretending</c><00:05:04.720><c> I</c><00:05:05.280><c> Let's</c><00:05:05.520><c> just</c>
+
+00:05:05.670 --> 00:05:05.680 align:start position:0%
+does. I'm just pretending I Let's just
+ 
+
+00:05:05.680 --> 00:05:07.830 align:start position:0%
+does. I'm just pretending I Let's just
+skip<00:05:05.840><c> past</c><00:05:06.080><c> this.</c><00:05:06.320><c> Now</c><00:05:06.639><c> obviously</c><00:05:07.280><c> this</c><00:05:07.520><c> is</c><00:05:07.600><c> a</c>
+
+00:05:07.830 --> 00:05:07.840 align:start position:0%
+skip past this. Now obviously this is a
+ 
+
+00:05:07.840 --> 00:05:09.830 align:start position:0%
+skip past this. Now obviously this is a
+simple<00:05:08.160><c> example</c><00:05:08.560><c> that</c><00:05:08.800><c> I</c><00:05:09.039><c> just</c><00:05:09.199><c> wrote</c><00:05:09.600><c> just</c>
+
+00:05:09.830 --> 00:05:09.840 align:start position:0%
+simple example that I just wrote just
+ 
+
+00:05:09.840 --> 00:05:11.430 align:start position:0%
+simple example that I just wrote just
+then.<00:05:10.240><c> Even</c><00:05:10.479><c> though</c><00:05:10.639><c> this</c><00:05:10.880><c> code</c><00:05:11.199><c> is</c>
+
+00:05:11.430 --> 00:05:11.440 align:start position:0%
+then. Even though this code is
+ 
+
+00:05:11.440 --> 00:05:12.950 align:start position:0%
+then. Even though this code is
+obfiscated,<00:05:12.160><c> this</c><00:05:12.240><c> is</c><00:05:12.320><c> usually</c><00:05:12.560><c> something</c><00:05:12.720><c> we</c>
+
+00:05:12.950 --> 00:05:12.960 align:start position:0%
+obfiscated, this is usually something we
+ 
+
+00:05:12.960 --> 00:05:15.110 align:start position:0%
+obfiscated, this is usually something we
+call<00:05:13.120><c> obfiscated</c><00:05:13.919><c> code.</c><00:05:14.479><c> It's</c><00:05:14.720><c> still</c><00:05:14.880><c> not</c>
+
+00:05:15.110 --> 00:05:15.120 align:start position:0%
+call obfiscated code. It's still not
+ 
+
+00:05:15.120 --> 00:05:17.029 align:start position:0%
+call obfiscated code. It's still not
+that<00:05:15.440><c> difficult</c><00:05:15.759><c> to</c><00:05:16.080><c> actually</c><00:05:16.400><c> tell</c><00:05:16.720><c> what's</c>
+
+00:05:17.029 --> 00:05:17.039 align:start position:0%
+that difficult to actually tell what's
+ 
+
+00:05:17.039 --> 00:05:18.710 align:start position:0%
+that difficult to actually tell what's
+going<00:05:17.199><c> on.</c><00:05:17.520><c> For</c><00:05:17.680><c> those</c><00:05:17.840><c> of</c><00:05:17.919><c> you</c><00:05:18.080><c> watching,</c><00:05:18.560><c> if</c>
+
+00:05:18.710 --> 00:05:18.720 align:start position:0%
+going on. For those of you watching, if
+ 
+
+00:05:18.720 --> 00:05:20.150 align:start position:0%
+going on. For those of you watching, if
+you<00:05:18.800><c> would</c><00:05:18.960><c> like</c><00:05:19.039><c> to</c><00:05:19.120><c> hazard</c><00:05:19.440><c> a</c><00:05:19.680><c> guess</c><00:05:19.840><c> as</c><00:05:20.000><c> to</c>
+
+00:05:20.150 --> 00:05:20.160 align:start position:0%
+you would like to hazard a guess as to
+ 
+
+00:05:20.160 --> 00:05:21.670 align:start position:0%
+you would like to hazard a guess as to
+what<00:05:20.320><c> this</c><00:05:20.560><c> function</c><00:05:20.880><c> is,</c><00:05:21.120><c> what</c><00:05:21.280><c> it</c><00:05:21.440><c> maybe</c>
+
+00:05:21.670 --> 00:05:21.680 align:start position:0%
+what this function is, what it maybe
+ 
+
+00:05:21.680 --> 00:05:23.270 align:start position:0%
+what this function is, what it maybe
+should<00:05:21.919><c> be</c><00:05:22.080><c> called,</c><00:05:22.400><c> and</c><00:05:22.639><c> what</c><00:05:22.800><c> it's</c><00:05:23.039><c> actually</c>
+
+00:05:23.270 --> 00:05:23.280 align:start position:0%
+should be called, and what it's actually
+ 
+
+00:05:23.280 --> 00:05:24.790 align:start position:0%
+should be called, and what it's actually
+doing,<00:05:23.759><c> drop</c><00:05:23.919><c> a</c><00:05:24.160><c> comment</c><00:05:24.320><c> below.</c><00:05:24.560><c> I</c><00:05:24.720><c> think</c>
+
+00:05:24.790 --> 00:05:24.800 align:start position:0%
+doing, drop a comment below. I think
+ 
+
+00:05:24.800 --> 00:05:27.510 align:start position:0%
+doing, drop a comment below. I think
+this<00:05:24.960><c> will</c><00:05:25.120><c> be</c><00:05:25.199><c> a</c><00:05:25.280><c> fun</c><00:05:25.520><c> exercise.</c><00:05:26.280><c> However,</c><00:05:27.280><c> I</c>
+
+00:05:27.510 --> 00:05:27.520 align:start position:0%
+this will be a fun exercise. However, I
+ 
+
+00:05:27.520 --> 00:05:29.909 align:start position:0%
+this will be a fun exercise. However, I
+I'm<00:05:27.680><c> sure</c><00:05:27.919><c> you</c><00:05:28.160><c> can</c><00:05:28.400><c> see</c><00:05:28.720><c> that</c><00:05:29.120><c> it's</c>
+
+00:05:29.909 --> 00:05:29.919 align:start position:0%
+I'm sure you can see that it's
+ 
+
+00:05:29.919 --> 00:05:32.230 align:start position:0%
+I'm sure you can see that it's
+needlessly<00:05:30.639><c> difficult</c><00:05:31.199><c> to</c><00:05:31.440><c> tell</c><00:05:31.840><c> what's</c>
+
+00:05:32.230 --> 00:05:32.240 align:start position:0%
+needlessly difficult to tell what's
+ 
+
+00:05:32.240 --> 00:05:34.790 align:start position:0%
+needlessly difficult to tell what's
+actually<00:05:32.639><c> going</c><00:05:32.800><c> on</c><00:05:33.360><c> because</c><00:05:33.840><c> none</c><00:05:34.080><c> of</c><00:05:34.240><c> these</c>
+
+00:05:34.790 --> 00:05:34.800 align:start position:0%
+actually going on because none of these
+ 
+
+00:05:34.800 --> 00:05:36.710 align:start position:0%
+actually going on because none of these
+actually<00:05:35.199><c> have</c><00:05:35.440><c> any</c><00:05:35.680><c> kind</c><00:05:35.919><c> of</c><00:05:36.080><c> meaningful</c>
+
+00:05:36.710 --> 00:05:36.720 align:start position:0%
+actually have any kind of meaningful
+ 
+
+00:05:36.720 --> 00:05:38.870 align:start position:0%
+actually have any kind of meaningful
+name.<00:05:37.120><c> It</c><00:05:37.280><c> looks</c><00:05:37.520><c> like</c><00:05:37.600><c> it's</c><00:05:37.840><c> just</c><00:05:38.080><c> using</c><00:05:38.560><c> a</c>
+
+00:05:38.870 --> 00:05:38.880 align:start position:0%
+name. It looks like it's just using a
+ 
+
+00:05:38.880 --> 00:05:40.790 align:start position:0%
+name. It looks like it's just using a
+random<00:05:39.199><c> like</c><00:05:39.680><c> letter</c><00:05:40.000><c> or</c><00:05:40.240><c> two</c><00:05:40.400><c> from</c><00:05:40.639><c> the</c>
+
+00:05:40.790 --> 00:05:40.800 align:start position:0%
+random like letter or two from the
+ 
+
+00:05:40.800 --> 00:05:42.150 align:start position:0%
+random like letter or two from the
+alphabet<00:05:41.280><c> and</c><00:05:41.440><c> it</c><00:05:41.600><c> just</c><00:05:41.759><c> makes</c><00:05:41.919><c> this</c>
+
+00:05:42.150 --> 00:05:42.160 align:start position:0%
+alphabet and it just makes this
+ 
+
+00:05:42.160 --> 00:05:44.070 align:start position:0%
+alphabet and it just makes this
+ridiculously<00:05:42.800><c> hard</c><00:05:43.360><c> to</c><00:05:43.680><c> actually</c>
+
+00:05:44.070 --> 00:05:44.080 align:start position:0%
+ridiculously hard to actually
+ 
+
+00:05:44.080 --> 00:05:45.830 align:start position:0%
+ridiculously hard to actually
+understand.<00:05:44.800><c> Of</c><00:05:45.039><c> course,</c><00:05:45.199><c> you</c><00:05:45.360><c> can</c><00:05:45.520><c> still</c>
+
+00:05:45.830 --> 00:05:45.840 align:start position:0%
+understand. Of course, you can still
+ 
+
+00:05:45.840 --> 00:05:48.310 align:start position:0%
+understand. Of course, you can still
+understand<00:05:46.720><c> what</c><00:05:46.960><c> the</c><00:05:47.199><c> code</c><00:05:47.440><c> is</c><00:05:47.680><c> doing.</c><00:05:48.160><c> You</c>
+
+00:05:48.310 --> 00:05:48.320 align:start position:0%
+understand what the code is doing. You
+ 
+
+00:05:48.320 --> 00:05:50.950 align:start position:0%
+understand what the code is doing. You
+know,<00:05:48.560><c> B</c><00:05:48.960><c> time</c><00:05:49.280><c> C</c><00:05:49.680><c> and</c><00:05:49.919><c> in</c><00:05:50.160><c> place</c><00:05:50.479><c> back.</c><00:05:50.800><c> I</c>
+
+00:05:50.950 --> 00:05:50.960 align:start position:0%
+know, B time C and in place back. I
+ 
+
+00:05:50.960 --> 00:05:52.550 align:start position:0%
+know, B time C and in place back. I
+mean,<00:05:51.039><c> that's</c><00:05:51.280><c> not</c><00:05:51.440><c> obiscated.</c><00:05:52.160><c> So</c><00:05:52.320><c> it's</c>
+
+00:05:52.550 --> 00:05:52.560 align:start position:0%
+mean, that's not obiscated. So it's
+ 
+
+00:05:52.560 --> 00:05:54.390 align:start position:0%
+mean, that's not obiscated. So it's
+still<00:05:52.880><c> easy</c><00:05:53.120><c> in</c><00:05:53.280><c> a</c><00:05:53.440><c> way</c><00:05:53.600><c> to</c><00:05:53.759><c> tell</c><00:05:54.000><c> what</c><00:05:54.160><c> the</c>
+
+00:05:54.390 --> 00:05:54.400 align:start position:0%
+still easy in a way to tell what the
+ 
+
+00:05:54.400 --> 00:05:56.070 align:start position:0%
+still easy in a way to tell what the
+code<00:05:54.560><c> is</c><00:05:54.720><c> doing</c><00:05:54.880><c> but</c><00:05:55.120><c> not</c><00:05:55.280><c> the</c><00:05:55.440><c> meaning</c><00:05:55.759><c> behind</c>
+
+00:05:56.070 --> 00:05:56.080 align:start position:0%
+code is doing but not the meaning behind
+ 
+
+00:05:56.080 --> 00:05:57.990 align:start position:0%
+code is doing but not the meaning behind
+it.<00:05:56.560><c> And</c><00:05:56.720><c> that's</c><00:05:56.960><c> the</c><00:05:57.199><c> important</c><00:05:57.440><c> thing.</c><00:05:57.840><c> What</c>
+
+00:05:57.990 --> 00:05:58.000 align:start position:0%
+it. And that's the important thing. What
+ 
+
+00:05:58.000 --> 00:06:00.150 align:start position:0%
+it. And that's the important thing. What
+is<00:05:58.160><c> the</c><00:05:58.400><c> actual</c><00:05:58.960><c> purpose</c><00:05:59.440><c> of</c><00:05:59.600><c> this</c><00:05:59.840><c> code?</c>
+
+00:06:00.150 --> 00:06:00.160 align:start position:0%
+is the actual purpose of this code?
+ 
+
+00:06:00.160 --> 00:06:01.830 align:start position:0%
+is the actual purpose of this code?
+What's<00:06:00.400><c> the</c><00:06:00.479><c> implication</c><00:06:00.880><c> of</c><00:06:01.039><c> it?</c><00:06:01.360><c> What</c><00:06:01.520><c> is</c><00:06:01.600><c> it</c>
+
+00:06:01.830 --> 00:06:01.840 align:start position:0%
+What's the implication of it? What is it
+ 
+
+00:06:01.840 --> 00:06:03.830 align:start position:0%
+What's the implication of it? What is it
+trying<00:06:02.080><c> to</c><00:06:02.320><c> do?</c><00:06:02.800><c> That's</c><00:06:03.039><c> where</c><00:06:03.199><c> the</c><00:06:03.440><c> English</c>
+
+00:06:03.830 --> 00:06:03.840 align:start position:0%
+trying to do? That's where the English
+ 
+
+00:06:03.840 --> 00:06:05.990 align:start position:0%
+trying to do? That's where the English
+language<00:06:04.240><c> or</c><00:06:04.560><c> whatever</c><00:06:04.960><c> language</c><00:06:05.600><c> I</c><00:06:05.840><c> guess</c>
+
+00:06:05.990 --> 00:06:06.000 align:start position:0%
+language or whatever language I guess
+ 
+
+00:06:06.000 --> 00:06:08.309 align:start position:0%
+language or whatever language I guess
+you're<00:06:06.319><c> using.</c><00:06:06.800><c> That's</c><00:06:07.039><c> where</c><00:06:07.280><c> that</c><00:06:07.680><c> comes</c><00:06:07.919><c> in</c>
+
+00:06:08.309 --> 00:06:08.319 align:start position:0%
+you're using. That's where that comes in
+ 
+
+00:06:08.319 --> 00:06:09.749 align:start position:0%
+you're using. That's where that comes in
+rather<00:06:08.639><c> than</c><00:06:08.800><c> the</c><00:06:08.960><c> actual</c><00:06:09.280><c> programming</c>
+
+00:06:09.749 --> 00:06:09.759 align:start position:0%
+rather than the actual programming
+ 
+
+00:06:09.759 --> 00:06:11.270 align:start position:0%
+rather than the actual programming
+language.<00:06:10.240><c> You</c><00:06:10.319><c> know,</c><00:06:10.479><c> I</c><00:06:10.639><c> made</c><00:06:10.720><c> a</c><00:06:10.880><c> video</c><00:06:11.120><c> a</c>
+
+00:06:11.270 --> 00:06:11.280 align:start position:0%
+language. You know, I made a video a
+ 
+
+00:06:11.280 --> 00:06:13.189 align:start position:0%
+language. You know, I made a video a
+while<00:06:11.440><c> ago</c><00:06:11.919><c> called</c><00:06:12.240><c> like</c><00:06:12.400><c> the</c><00:06:12.639><c> most</c><00:06:12.880><c> important</c>
+
+00:06:13.189 --> 00:06:13.199 align:start position:0%
+while ago called like the most important
+ 
+
+00:06:13.199 --> 00:06:14.469 align:start position:0%
+while ago called like the most important
+things<00:06:13.360><c> of</c><00:06:13.600><c> programming</c><00:06:13.919><c> or</c><00:06:14.080><c> something.</c><00:06:14.319><c> But</c>
+
+00:06:14.469 --> 00:06:14.479 align:start position:0%
+things of programming or something. But
+ 
+
+00:06:14.479 --> 00:06:15.909 align:start position:0%
+things of programming or something. But
+anyway,<00:06:14.639><c> in</c><00:06:14.880><c> the</c><00:06:14.960><c> thumbnail,</c><00:06:15.360><c> I</c><00:06:15.520><c> had</c><00:06:15.759><c> number</c>
+
+00:06:15.909 --> 00:06:15.919 align:start position:0%
+anyway, in the thumbnail, I had number
+ 
+
+00:06:15.919 --> 00:06:18.070 align:start position:0%
+anyway, in the thumbnail, I had number
+one<00:06:16.240><c> listed</c><00:06:16.479><c> as</c><00:06:16.720><c> CPU</c><00:06:17.360><c> or,</c><00:06:17.759><c> you</c><00:06:17.919><c> know,</c>
+
+00:06:18.070 --> 00:06:18.080 align:start position:0%
+one listed as CPU or, you know,
+ 
+
+00:06:18.080 --> 00:06:19.510 align:start position:0%
+one listed as CPU or, you know,
+computer,<00:06:18.560><c> device,</c><00:06:19.039><c> whatever</c><00:06:19.280><c> you're</c>
+
+00:06:19.510 --> 00:06:19.520 align:start position:0%
+computer, device, whatever you're
+ 
+
+00:06:19.520 --> 00:06:21.230 align:start position:0%
+computer, device, whatever you're
+programming.<00:06:20.080><c> And</c><00:06:20.240><c> then</c><00:06:20.479><c> number</c><00:06:20.639><c> two</c><00:06:20.880><c> was</c>
+
+00:06:21.230 --> 00:06:21.240 align:start position:0%
+programming. And then number two was
+ 
+
+00:06:21.240 --> 00:06:24.230 align:start position:0%
+programming. And then number two was
+human.<00:06:22.240><c> This</c><00:06:22.479><c> is</c><00:06:22.720><c> about</c><00:06:22.960><c> the</c><00:06:23.280><c> human</c><00:06:23.840><c> part</c><00:06:24.080><c> of</c>
+
+00:06:24.230 --> 00:06:24.240 align:start position:0%
+human. This is about the human part of
+ 
+
+00:06:24.240 --> 00:06:25.909 align:start position:0%
+human. This is about the human part of
+this<00:06:24.560><c> because</c><00:06:24.800><c> the</c><00:06:25.039><c> computer</c><00:06:25.360><c> does</c><00:06:25.600><c> not</c><00:06:25.759><c> care</c>
+
+00:06:25.909 --> 00:06:25.919 align:start position:0%
+this because the computer does not care
+ 
+
+00:06:25.919 --> 00:06:27.430 align:start position:0%
+this because the computer does not care
+what<00:06:26.080><c> you</c><00:06:26.240><c> call</c><00:06:26.400><c> your</c><00:06:26.560><c> variables</c><00:06:26.960><c> obviously</c>
+
+00:06:27.430 --> 00:06:27.440 align:start position:0%
+what you call your variables obviously
+ 
+
+00:06:27.440 --> 00:06:29.510 align:start position:0%
+what you call your variables obviously
+at<00:06:27.680><c> all.</c><00:06:28.000><c> Does</c><00:06:28.240><c> not</c><00:06:28.319><c> matter</c><00:06:28.560><c> to</c><00:06:28.720><c> it.</c><00:06:29.039><c> However,</c>
+
+00:06:29.510 --> 00:06:29.520 align:start position:0%
+at all. Does not matter to it. However,
+ 
+
+00:06:29.520 --> 00:06:31.430 align:start position:0%
+at all. Does not matter to it. However,
+to<00:06:29.759><c> us,</c><00:06:30.000><c> the</c><00:06:30.319><c> developers,</c><00:06:30.720><c> the</c><00:06:30.960><c> programmers</c>
+
+00:06:31.430 --> 00:06:31.440 align:start position:0%
+to us, the developers, the programmers
+ 
+
+00:06:31.440 --> 00:06:33.350 align:start position:0%
+to us, the developers, the programmers
+actually<00:06:31.680><c> writing</c><00:06:31.919><c> this</c><00:06:32.160><c> code,</c><00:06:32.560><c> that</c><00:06:32.880><c> makes</c><00:06:33.039><c> a</c>
+
+00:06:33.350 --> 00:06:33.360 align:start position:0%
+actually writing this code, that makes a
+ 
+
+00:06:33.360 --> 00:06:36.230 align:start position:0%
+actually writing this code, that makes a
+huge<00:06:33.759><c> difference</c><00:06:34.319><c> obviously.</c><00:06:35.120><c> And</c><00:06:35.360><c> in</c><00:06:35.600><c> turn,</c>
+
+00:06:36.230 --> 00:06:36.240 align:start position:0%
+huge difference obviously. And in turn,
+ 
+
+00:06:36.240 --> 00:06:38.230 align:start position:0%
+huge difference obviously. And in turn,
+since<00:06:36.479><c> we</c><00:06:36.639><c> are</c><00:06:36.800><c> the</c><00:06:36.880><c> ones</c><00:06:37.120><c> writing</c><00:06:37.360><c> the</c><00:06:37.520><c> code,</c>
+
+00:06:38.230 --> 00:06:38.240 align:start position:0%
+since we are the ones writing the code,
+ 
+
+00:06:38.240 --> 00:06:39.990 align:start position:0%
+since we are the ones writing the code,
+at least<00:06:38.560><c> for</c><00:06:38.720><c> now,</c><00:06:38.880><c> while</c><00:06:39.199><c> AI</c><00:06:39.520><c> hasn't</c><00:06:39.759><c> taken</c>
+
+00:06:39.990 --> 00:06:40.000 align:start position:0%
+at least for now, while AI hasn't taken
+ 
+
+00:06:40.000 --> 00:06:42.550 align:start position:0%
+at least for now, while AI hasn't taken
+over,<00:06:40.319><c> since</c><00:06:40.560><c> it</c><00:06:40.880><c> affects</c><00:06:41.440><c> us</c><00:06:41.840><c> and</c><00:06:42.080><c> we're</c><00:06:42.400><c> the</c>
+
+00:06:42.550 --> 00:06:42.560 align:start position:0%
+over, since it affects us and we're the
+ 
+
+00:06:42.560 --> 00:06:44.469 align:start position:0%
+over, since it affects us and we're the
+producers<00:06:43.120><c> of</c><00:06:43.280><c> this,</c><00:06:43.680><c> then</c><00:06:44.000><c> it</c><00:06:44.319><c> can</c>
+
+00:06:44.469 --> 00:06:44.479 align:start position:0%
+producers of this, then it can
+ 
+
+00:06:44.479 --> 00:06:46.390 align:start position:0%
+producers of this, then it can
+negatively<00:06:45.039><c> affect</c><00:06:45.360><c> the</c><00:06:45.600><c> quality</c><00:06:45.919><c> of</c><00:06:46.160><c> our</c>
+
+00:06:46.390 --> 00:06:46.400 align:start position:0%
+negatively affect the quality of our
+ 
+
+00:06:46.400 --> 00:06:48.710 align:start position:0%
+negatively affect the quality of our
+code,<00:06:46.880><c> which</c><00:06:47.199><c> in</c><00:06:47.360><c> turn</c><00:06:47.680><c> negatively</c><00:06:48.240><c> affects</c>
+
+00:06:48.710 --> 00:06:48.720 align:start position:0%
+code, which in turn negatively affects
+ 
+
+00:06:48.720 --> 00:06:51.430 align:start position:0%
+code, which in turn negatively affects
+the<00:06:48.960><c> CPU</c><00:06:49.840><c> executing</c><00:06:50.400><c> that</c><00:06:50.720><c> code.</c><00:06:51.039><c> So</c><00:06:51.199><c> then</c>
+
+00:06:51.430 --> 00:06:51.440 align:start position:0%
+the CPU executing that code. So then
+ 
+
+00:06:51.440 --> 00:06:53.350 align:start position:0%
+the CPU executing that code. So then
+instead<00:06:51.680><c> of</c><00:06:51.919><c> writing</c><00:06:52.319><c> code</c><00:06:52.639><c> like</c><00:06:52.880><c> this</c><00:06:53.120><c> with</c>
+
+00:06:53.350 --> 00:06:53.360 align:start position:0%
+instead of writing code like this with
+ 
+
+00:06:53.360 --> 00:06:54.710 align:start position:0%
+instead of writing code like this with
+these<00:06:53.520><c> rubbish</c><00:06:53.840><c> variable</c><00:06:54.160><c> names,</c><00:06:54.479><c> wouldn't</c>
+
+00:06:54.710 --> 00:06:54.720 align:start position:0%
+these rubbish variable names, wouldn't
+ 
+
+00:06:54.720 --> 00:06:58.629 align:start position:0%
+these rubbish variable names, wouldn't
+it<00:06:54.880><c> be</c><00:06:55.039><c> better</c><00:06:55.680><c> if</c><00:06:56.000><c> it</c><00:06:56.160><c> was</c><00:06:56.720><c> this?</c><00:06:57.520><c> All</c><00:06:57.639><c> right,</c>
+
+00:06:58.629 --> 00:06:58.639 align:start position:0%
+it be better if it was this? All right,
+ 
+
+00:06:58.639 --> 00:07:00.550 align:start position:0%
+it be better if it was this? All right,
+check<00:06:58.880><c> this</c><00:06:59.120><c> out.</c><00:06:59.520><c> Now</c><00:06:59.759><c> we're</c><00:07:00.000><c> talking.</c><00:07:00.400><c> And</c>
+
+00:07:00.550 --> 00:07:00.560 align:start position:0%
+check this out. Now we're talking. And
+ 
+
+00:07:00.560 --> 00:07:02.710 align:start position:0%
+check this out. Now we're talking. And
+if<00:07:00.720><c> we</c><00:07:00.800><c> go</c><00:07:00.960><c> back</c><00:07:01.039><c> to</c><00:07:01.199><c> the</c><00:07:01.360><c> header</c><00:07:01.599><c> file.</c><00:07:02.400><c> Ah</c>
+
+00:07:02.710 --> 00:07:02.720 align:start position:0%
+if we go back to the header file. Ah
+ 
+
+00:07:02.720 --> 00:07:05.270 align:start position:0%
+if we go back to the header file. Ah
+okay.<00:07:03.039><c> So</c><00:07:03.280><c> A</c><00:07:03.520><c> was</c><00:07:03.680><c> entity,</c><00:07:04.160><c> B</c><00:07:04.400><c> was</c><00:07:04.560><c> projectile,</c>
+
+00:07:05.270 --> 00:07:05.280 align:start position:0%
+okay. So A was entity, B was projectile,
+ 
+
+00:07:05.280 --> 00:07:07.270 align:start position:0%
+okay. So A was entity, B was projectile,
+we<00:07:05.440><c> have</c><00:07:05.599><c> game</c><00:07:05.840><c> world</c><00:07:06.160><c> fire</c><00:07:06.479><c> projectile.</c>
+
+00:07:07.270 --> 00:07:07.280 align:start position:0%
+we have game world fire projectile.
+ 
+
+00:07:07.280 --> 00:07:09.749 align:start position:0%
+we have game world fire projectile.
+Suddenly<00:07:07.759><c> instead</c><00:07:08.160><c> of</c><00:07:08.720><c> this</c><00:07:08.960><c> nonsensical</c>
+
+00:07:09.749 --> 00:07:09.759 align:start position:0%
+Suddenly instead of this nonsensical
+ 
+
+00:07:09.759 --> 00:07:12.469 align:start position:0%
+Suddenly instead of this nonsensical
+code,<00:07:10.479><c> we</c><00:07:10.720><c> have</c><00:07:11.039><c> this</c><00:07:11.440><c> and</c><00:07:11.680><c> it</c><00:07:11.919><c> makes</c><00:07:12.160><c> a</c><00:07:12.400><c> lot</c>
+
+00:07:12.469 --> 00:07:12.479 align:start position:0%
+code, we have this and it makes a lot
+ 
+
+00:07:12.479 --> 00:07:14.390 align:start position:0%
+code, we have this and it makes a lot
+more<00:07:12.720><c> sense.</c><00:07:13.199><c> So</c><00:07:13.360><c> this</c><00:07:13.520><c> is</c><00:07:13.599><c> kind</c><00:07:13.759><c> of</c><00:07:13.840><c> level</c><00:07:14.160><c> one</c>
+
+00:07:14.390 --> 00:07:14.400 align:start position:0%
+more sense. So this is kind of level one
+ 
+
+00:07:14.400 --> 00:07:16.629 align:start position:0%
+more sense. So this is kind of level one
+in<00:07:14.720><c> my</c><00:07:14.960><c> little</c><00:07:15.360><c> idea</c><00:07:15.840><c> here.</c><00:07:16.160><c> It's</c><00:07:16.400><c> definitely</c>
+
+00:07:16.629 --> 00:07:16.639 align:start position:0%
+in my little idea here. It's definitely
+ 
+
+00:07:16.639 --> 00:07:18.150 align:start position:0%
+in my little idea here. It's definitely
+an<00:07:16.880><c> absolutely</c><00:07:17.280><c> massive</c><00:07:17.599><c> difference</c><00:07:17.840><c> to</c><00:07:18.000><c> what</c>
+
+00:07:18.150 --> 00:07:18.160 align:start position:0%
+an absolutely massive difference to what
+ 
+
+00:07:18.160 --> 00:07:19.670 align:start position:0%
+an absolutely massive difference to what
+we<00:07:18.319><c> had</c><00:07:18.479><c> before.</c><00:07:18.720><c> And</c><00:07:18.880><c> it</c><00:07:19.039><c> adds</c><00:07:19.280><c> so</c><00:07:19.520><c> much</c>
+
+00:07:19.670 --> 00:07:19.680 align:start position:0%
+we had before. And it adds so much
+ 
+
+00:07:19.680 --> 00:07:21.830 align:start position:0%
+we had before. And it adds so much
+clarity,<00:07:20.160><c> so</c><00:07:20.319><c> much</c><00:07:20.400><c> readability</c><00:07:21.280><c> that</c><00:07:21.599><c> a</c><00:07:21.759><c> lot</c>
+
+00:07:21.830 --> 00:07:21.840 align:start position:0%
+clarity, so much readability that a lot
+ 
+
+00:07:21.840 --> 00:07:23.430 align:start position:0%
+clarity, so much readability that a lot
+of<00:07:22.000><c> people</c><00:07:22.160><c> would</c><00:07:22.400><c> probably</c><00:07:22.720><c> just</c><00:07:22.960><c> stop</c><00:07:23.199><c> there</c>
+
+00:07:23.430 --> 00:07:23.440 align:start position:0%
+of people would probably just stop there
+ 
+
+00:07:23.440 --> 00:07:25.110 align:start position:0%
+of people would probably just stop there
+and<00:07:23.680><c> be</c><00:07:23.919><c> more</c><00:07:24.080><c> than</c><00:07:24.319><c> content.</c><00:07:24.800><c> And</c><00:07:24.960><c> this</c><00:07:25.039><c> is</c>
+
+00:07:25.110 --> 00:07:25.120 align:start position:0%
+and be more than content. And this is
+ 
+
+00:07:25.120 --> 00:07:26.950 align:start position:0%
+and be more than content. And this is
+also<00:07:25.360><c> how</c><00:07:25.520><c> I</c><00:07:25.680><c> used</c><00:07:25.840><c> to</c><00:07:26.000><c> write</c><00:07:26.160><c> code</c><00:07:26.479><c> for</c><00:07:26.720><c> a</c><00:07:26.800><c> long</c>
+
+00:07:26.950 --> 00:07:26.960 align:start position:0%
+also how I used to write code for a long
+ 
+
+00:07:26.960 --> 00:07:28.469 align:start position:0%
+also how I used to write code for a long
+time<00:07:27.120><c> when</c><00:07:27.280><c> I</c><00:07:27.440><c> was</c><00:07:27.599><c> programming</c><00:07:28.000><c> in</c><00:07:28.160><c> Java</c>
+
+00:07:28.469 --> 00:07:28.479 align:start position:0%
+time when I was programming in Java
+ 
+
+00:07:28.479 --> 00:07:30.469 align:start position:0%
+time when I was programming in Java
+before<00:07:28.720><c> I</c><00:07:28.880><c> really</c><00:07:29.120><c> started</c><00:07:29.360><c> using</c><00:07:29.599><c> C++.</c><00:07:30.319><c> I</c>
+
+00:07:30.469 --> 00:07:30.479 align:start position:0%
+before I really started using C++. I
+ 
+
+00:07:30.479 --> 00:07:32.230 align:start position:0%
+before I really started using C++. I
+basically<00:07:30.720><c> didn't</c><00:07:30.960><c> use</c><00:07:31.120><c> any</c><00:07:31.360><c> kind</c><00:07:31.520><c> of</c><00:07:31.680><c> like</c><00:07:32.080><c> m</c>
+
+00:07:32.230 --> 00:07:32.240 align:start position:0%
+basically didn't use any kind of like m
+ 
+
+00:07:32.240 --> 00:07:33.430 align:start position:0%
+basically didn't use any kind of like m
+underscore<00:07:32.720><c> or</c><00:07:32.880><c> whatever</c><00:07:33.120><c> naming</c>
+
+00:07:33.430 --> 00:07:33.440 align:start position:0%
+underscore or whatever naming
+ 
+
+00:07:33.440 --> 00:07:35.189 align:start position:0%
+underscore or whatever naming
+conventions.<00:07:34.000><c> I</c><00:07:34.160><c> just</c><00:07:34.319><c> wrote</c><00:07:34.560><c> code</c><00:07:34.880><c> like</c>
+
+00:07:35.189 --> 00:07:35.199 align:start position:0%
+conventions. I just wrote code like
+ 
+
+00:07:35.199 --> 00:07:38.550 align:start position:0%
+conventions. I just wrote code like
+this.<00:07:35.759><c> But</c><00:07:36.160><c> to</c><00:07:36.560><c> illustrate</c><00:07:37.280><c> why</c><00:07:38.080><c> this</c><00:07:38.319><c> is</c>
+
+00:07:38.550 --> 00:07:38.560 align:start position:0%
+this. But to illustrate why this is
+ 
+
+00:07:38.560 --> 00:07:40.870 align:start position:0%
+this. But to illustrate why this is
+still<00:07:38.880><c> kind</c><00:07:39.120><c> of</c><00:07:39.759><c> not</c><00:07:40.000><c> as</c><00:07:40.240><c> clear,</c><00:07:40.560><c> not</c><00:07:40.639><c> as</c>
+
+00:07:40.870 --> 00:07:40.880 align:start position:0%
+still kind of not as clear, not as
+ 
+
+00:07:40.880 --> 00:07:42.469 align:start position:0%
+still kind of not as clear, not as
+readable<00:07:41.120><c> to</c><00:07:41.280><c> me</c><00:07:41.360><c> as</c><00:07:41.599><c> it</c><00:07:41.759><c> potentially</c><00:07:42.240><c> could</c>
+
+00:07:42.469 --> 00:07:42.479 align:start position:0%
+readable to me as it potentially could
+ 
+
+00:07:42.479 --> 00:07:45.189 align:start position:0%
+readable to me as it potentially could
+be,<00:07:42.960><c> let's</c><00:07:43.280><c> just</c><00:07:43.599><c> focus</c><00:07:44.080><c> on</c><00:07:44.479><c> this</c><00:07:44.800><c> particular</c>
+
+00:07:45.189 --> 00:07:45.199 align:start position:0%
+be, let's just focus on this particular
+ 
+
+00:07:45.199 --> 00:07:46.710 align:start position:0%
+be, let's just focus on this particular
+function<00:07:45.520><c> here.</c><00:07:45.840><c> I'll</c><00:07:46.080><c> drop</c><00:07:46.240><c> it</c><00:07:46.400><c> down</c><00:07:46.560><c> a</c>
+
+00:07:46.710 --> 00:07:46.720 align:start position:0%
+function here. I'll drop it down a
+ 
+
+00:07:46.720 --> 00:07:47.830 align:start position:0%
+function here. I'll drop it down a
+little<00:07:46.800><c> bit</c><00:07:46.960><c> because</c><00:07:47.199><c> usually</c><00:07:47.520><c> you</c><00:07:47.680><c> wouldn't</c>
+
+00:07:47.830 --> 00:07:47.840 align:start position:0%
+little bit because usually you wouldn't
+ 
+
+00:07:47.840 --> 00:07:49.270 align:start position:0%
+little bit because usually you wouldn't
+just<00:07:48.000><c> have</c><00:07:48.080><c> a</c><00:07:48.240><c> single</c><00:07:48.479><c> function</c><00:07:48.720><c> in</c><00:07:48.880><c> the</c><00:07:49.039><c> file.</c>
+
+00:07:49.270 --> 00:07:49.280 align:start position:0%
+just have a single function in the file.
+ 
+
+00:07:49.280 --> 00:07:50.710 align:start position:0%
+just have a single function in the file.
+So<00:07:49.440><c> this</c><00:07:49.599><c> would</c><00:07:49.759><c> effectively</c><00:07:50.160><c> just</c><00:07:50.400><c> be</c>
+
+00:07:50.710 --> 00:07:50.720 align:start position:0%
+So this would effectively just be
+ 
+
+00:07:50.720 --> 00:07:52.550 align:start position:0%
+So this would effectively just be
+somewhere<00:07:51.199><c> in</c><00:07:51.440><c> your</c><00:07:51.599><c> source</c><00:07:51.919><c> code.</c><00:07:52.240><c> We</c><00:07:52.400><c> have</c>
+
+00:07:52.550 --> 00:07:52.560 align:start position:0%
+somewhere in your source code. We have
+ 
+
+00:07:52.560 --> 00:07:54.230 align:start position:0%
+somewhere in your source code. We have
+this<00:07:52.720><c> function</c><00:07:53.199><c> over</c><00:07:53.440><c> here.</c><00:07:53.759><c> And</c><00:07:53.919><c> if</c><00:07:54.080><c> we</c><00:07:54.160><c> look</c>
+
+00:07:54.230 --> 00:07:54.240 align:start position:0%
+this function over here. And if we look
+ 
+
+00:07:54.240 --> 00:07:56.469 align:start position:0%
+this function over here. And if we look
+at<00:07:54.319><c> it</c><00:07:54.479><c> at</c><00:07:54.560><c> a</c><00:07:54.800><c> glance,</c><00:07:55.280><c> it</c><00:07:55.520><c> kind</c><00:07:55.680><c> of</c><00:07:56.000><c> I</c><00:07:56.160><c> mean</c><00:07:56.319><c> to</c>
+
+00:07:56.469 --> 00:07:56.479 align:start position:0%
+at it at a glance, it kind of I mean to
+ 
+
+00:07:56.479 --> 00:07:58.390 align:start position:0%
+at it at a glance, it kind of I mean to
+me<00:07:56.720><c> honestly</c><00:07:57.199><c> right</c><00:07:57.440><c> now</c><00:07:57.680><c> it</c><00:07:57.840><c> just</c><00:07:58.000><c> looks</c><00:07:58.240><c> like</c>
+
+00:07:58.390 --> 00:07:58.400 align:start position:0%
+me honestly right now it just looks like
+ 
+
+00:07:58.400 --> 00:08:00.070 align:start position:0%
+me honestly right now it just looks like
+it's<00:07:58.639><c> got</c><00:07:58.720><c> a</c><00:07:58.960><c> couple</c><00:07:59.120><c> inputs</c><00:07:59.520><c> like</c><00:07:59.680><c> it's</c><00:07:59.919><c> got</c>
+
+00:08:00.070 --> 00:08:00.080 align:start position:0%
+it's got a couple inputs like it's got
+ 
+
+00:08:00.080 --> 00:08:01.749 align:start position:0%
+it's got a couple inputs like it's got
+origin,<00:08:00.560><c> direction,</c><00:08:00.879><c> and</c><00:08:01.120><c> speed</c><00:08:01.360><c> as</c><00:08:01.599><c> an</c>
+
+00:08:01.749 --> 00:08:01.759 align:start position:0%
+origin, direction, and speed as an
+ 
+
+00:08:01.759 --> 00:08:04.390 align:start position:0%
+origin, direction, and speed as an
+input.<00:08:02.319><c> It</c><00:08:02.479><c> returns</c><00:08:02.800><c> a</c><00:08:02.960><c> projectile.</c><00:08:03.840><c> So</c><00:08:04.160><c> I</c>
+
+00:08:04.390 --> 00:08:04.400 align:start position:0%
+input. It returns a projectile. So I
+ 
+
+00:08:04.400 --> 00:08:06.309 align:start position:0%
+input. It returns a projectile. So I
+mean<00:08:05.039><c> you</c><00:08:05.199><c> know</c><00:08:05.360><c> if</c><00:08:05.520><c> I</c><00:08:05.680><c> need</c><00:08:05.759><c> to</c><00:08:05.919><c> copy</c><00:08:06.160><c> and</c>
+
+00:08:06.309 --> 00:08:06.319 align:start position:0%
+mean you know if I need to copy and
+ 
+
+00:08:06.319 --> 00:08:07.830 align:start position:0%
+mean you know if I need to copy and
+paste<00:08:06.560><c> it</c><00:08:06.800><c> into</c><00:08:06.960><c> a</c><00:08:07.199><c> completely</c><00:08:07.520><c> different</c>
+
+00:08:07.830 --> 00:08:07.840 align:start position:0%
+paste it into a completely different
+ 
+
+00:08:07.840 --> 00:08:09.830 align:start position:0%
+paste it into a completely different
+class<00:08:08.400><c> if</c><00:08:08.560><c> I</c><00:08:08.720><c> need</c><00:08:08.800><c> to</c><00:08:08.960><c> reuse</c><00:08:09.280><c> this</c><00:08:09.520><c> code</c>
+
+00:08:09.830 --> 00:08:09.840 align:start position:0%
+class if I need to reuse this code
+ 
+
+00:08:09.840 --> 00:08:11.749 align:start position:0%
+class if I need to reuse this code
+potentially<00:08:10.160><c> in</c><00:08:10.400><c> a</c><00:08:10.560><c> different</c><00:08:10.800><c> project.</c><00:08:11.440><c> If</c><00:08:11.599><c> I</c>
+
+00:08:11.749 --> 00:08:11.759 align:start position:0%
+potentially in a different project. If I
+ 
+
+00:08:11.759 --> 00:08:13.029 align:start position:0%
+potentially in a different project. If I
+just<00:08:11.919><c> want</c><00:08:12.080><c> to</c><00:08:12.240><c> kind</c><00:08:12.400><c> of</c><00:08:12.479><c> look</c><00:08:12.639><c> at</c><00:08:12.800><c> it</c>
+
+00:08:13.029 --> 00:08:13.039 align:start position:0%
+just want to kind of look at it
+ 
+
+00:08:13.039 --> 00:08:15.430 align:start position:0%
+just want to kind of look at it
+functionally<00:08:13.759><c> as</c><00:08:14.080><c> just</c><00:08:14.479><c> having</c><00:08:14.720><c> some</c><00:08:14.960><c> inputs</c>
+
+00:08:15.430 --> 00:08:15.440 align:start position:0%
+functionally as just having some inputs
+ 
+
+00:08:15.440 --> 00:08:17.189 align:start position:0%
+functionally as just having some inputs
+and<00:08:15.759><c> having</c><00:08:16.000><c> some</c><00:08:16.160><c> outputs</c><00:08:16.560><c> and</c><00:08:16.800><c> some</c><00:08:16.960><c> code</c>
+
+00:08:17.189 --> 00:08:17.199 align:start position:0%
+and having some outputs and some code
+ 
+
+00:08:17.199 --> 00:08:19.270 align:start position:0%
+and having some outputs and some code
+that<00:08:17.440><c> processes</c><00:08:17.919><c> the</c><00:08:18.160><c> data.</c><00:08:18.720><c> To</c><00:08:18.879><c> me</c><00:08:19.039><c> it</c><00:08:19.199><c> kind</c>
+
+00:08:19.270 --> 00:08:19.280 align:start position:0%
+that processes the data. To me it kind
+ 
+
+00:08:19.280 --> 00:08:20.390 align:start position:0%
+that processes the data. To me it kind
+of<00:08:19.360><c> looks</c><00:08:19.599><c> like</c><00:08:19.680><c> the</c><00:08:19.840><c> data</c><00:08:20.080><c> that</c><00:08:20.240><c> it's</c>
+
+00:08:20.390 --> 00:08:20.400 align:start position:0%
+of looks like the data that it's
+ 
+
+00:08:20.400 --> 00:08:22.550 align:start position:0%
+of looks like the data that it's
+processing<00:08:21.039><c> is</c><00:08:21.360><c> basically</c><00:08:21.680><c> all</c><00:08:21.919><c> within</c><00:08:22.319><c> this</c>
+
+00:08:22.550 --> 00:08:22.560 align:start position:0%
+processing is basically all within this
+ 
+
+00:08:22.560 --> 00:08:24.309 align:start position:0%
+processing is basically all within this
+function.<00:08:23.120><c> And</c><00:08:23.360><c> that's</c><00:08:23.599><c> a</c><00:08:23.840><c> problem</c><00:08:24.080><c> because</c>
+
+00:08:24.309 --> 00:08:24.319 align:start position:0%
+function. And that's a problem because
+ 
+
+00:08:24.319 --> 00:08:25.990 align:start position:0%
+function. And that's a problem because
+if<00:08:24.560><c> we</c><00:08:24.639><c> have</c><00:08:24.720><c> a</c><00:08:24.879><c> look</c><00:08:24.960><c> at</c><00:08:25.120><c> this</c><00:08:25.280><c> more</c><00:08:25.520><c> closely.</c>
+
+00:08:25.990 --> 00:08:26.000 align:start position:0%
+if we have a look at this more closely.
+ 
+
+00:08:26.000 --> 00:08:27.990 align:start position:0%
+if we have a look at this more closely.
+Well,<00:08:26.479><c> next</c><00:08:26.800><c> projectile</c><00:08:27.280><c> index.</c><00:08:27.680><c> What</c><00:08:27.840><c> is</c>
+
+00:08:27.990 --> 00:08:28.000 align:start position:0%
+Well, next projectile index. What is
+ 
+
+00:08:28.000 --> 00:08:29.589 align:start position:0%
+Well, next projectile index. What is
+that?<00:08:28.319><c> That's</c><00:08:28.639><c> not</c><00:08:28.800><c> like</c><00:08:29.120><c> one</c><00:08:29.360><c> of</c><00:08:29.440><c> the</c>
+
+00:08:29.589 --> 00:08:29.599 align:start position:0%
+that? That's not like one of the
+ 
+
+00:08:29.599 --> 00:08:31.430 align:start position:0%
+that? That's not like one of the
+parameters.<00:08:30.479><c> It's</c><00:08:30.639><c> probably</c><00:08:30.879><c> like</c><00:08:30.960><c> a</c><00:08:31.120><c> member</c>
+
+00:08:31.430 --> 00:08:31.440 align:start position:0%
+parameters. It's probably like a member
+ 
+
+00:08:31.440 --> 00:08:34.230 align:start position:0%
+parameters. It's probably like a member
+variable.<00:08:32.240><c> Oh,</c><00:08:32.719><c> it's</c><00:08:33.279><c> actually</c><00:08:33.680><c> just</c><00:08:33.919><c> a</c>
+
+00:08:34.230 --> 00:08:34.240 align:start position:0%
+variable. Oh, it's actually just a
+ 
+
+00:08:34.240 --> 00:08:37.269 align:start position:0%
+variable. Oh, it's actually just a
+static<00:08:34.719><c> un</c><00:08:35.279><c> 32t.</c><00:08:36.240><c> That's</c><00:08:36.640><c> all</c><00:08:36.800><c> the</c><00:08:36.959><c> way</c><00:08:37.039><c> up</c>
+
+00:08:37.269 --> 00:08:37.279 align:start position:0%
+static un 32t. That's all the way up
+ 
+
+00:08:37.279 --> 00:08:38.790 align:start position:0%
+static un 32t. That's all the way up
+here.<00:08:37.599><c> Okay.</c><00:08:37.919><c> Then</c><00:08:38.080><c> we</c><00:08:38.240><c> create</c><00:08:38.479><c> like</c><00:08:38.640><c> the</c>
+
+00:08:38.790 --> 00:08:38.800 align:start position:0%
+here. Okay. Then we create like the
+ 
+
+00:08:38.800 --> 00:08:40.630 align:start position:0%
+here. Okay. Then we create like the
+projectile.<00:08:39.360><c> We</c><00:08:39.440><c> have</c><00:08:39.519><c> this</c><00:08:39.760><c> projectile</c><00:08:40.320><c> pool</c>
+
+00:08:40.630 --> 00:08:40.640 align:start position:0%
+projectile. We have this projectile pool
+ 
+
+00:08:40.640 --> 00:08:42.709 align:start position:0%
+projectile. We have this projectile pool
+which<00:08:41.039><c> again</c><00:08:41.360><c> is</c><00:08:41.599><c> not</c><00:08:41.760><c> like</c><00:08:41.919><c> in</c><00:08:42.080><c> the</c><00:08:42.240><c> class</c><00:08:42.479><c> or</c>
+
+00:08:42.709 --> 00:08:42.719 align:start position:0%
+which again is not like in the class or
+ 
+
+00:08:42.719 --> 00:08:44.790 align:start position:0%
+which again is not like in the class or
+anything.<00:08:43.039><c> It's</c><00:08:43.279><c> just</c><00:08:43.519><c> static</c><00:08:44.000><c> up</c><00:08:44.240><c> here.</c><00:08:44.640><c> It's</c>
+
+00:08:44.790 --> 00:08:44.800 align:start position:0%
+anything. It's just static up here. It's
+ 
+
+00:08:44.800 --> 00:08:46.550 align:start position:0%
+anything. It's just static up here. It's
+effectively<00:08:45.200><c> a</c><00:08:45.440><c> kind</c><00:08:45.519><c> of</c><00:08:45.680><c> global</c><00:08:46.160><c> variable</c>
+
+00:08:46.550 --> 00:08:46.560 align:start position:0%
+effectively a kind of global variable
+ 
+
+00:08:46.560 --> 00:08:48.550 align:start position:0%
+effectively a kind of global variable
+but<00:08:46.800><c> just</c><00:08:47.040><c> locked</c><00:08:47.360><c> to</c><00:08:47.519><c> this</c><00:08:47.760><c> translation</c><00:08:48.240><c> unit</c>
+
+00:08:48.550 --> 00:08:48.560 align:start position:0%
+but just locked to this translation unit
+ 
+
+00:08:48.560 --> 00:08:50.310 align:start position:0%
+but just locked to this translation unit
+to<00:08:48.720><c> the</c><00:08:48.800><c> CPP</c><00:08:49.360><c> file.</c><00:08:49.680><c> And</c><00:08:49.839><c> then</c><00:08:50.000><c> we</c><00:08:50.160><c> have</c>
+
+00:08:50.310 --> 00:08:50.320 align:start position:0%
+to the CPP file. And then we have
+ 
+
+00:08:50.320 --> 00:08:53.430 align:start position:0%
+to the CPP file. And then we have
+entities<00:08:51.040><c> which</c><00:08:51.600><c> oh</c><00:08:51.839><c> okay</c><00:08:52.240><c> that's</c><00:08:52.640><c> inside</c><00:08:53.120><c> the</c>
+
+00:08:53.430 --> 00:08:53.440 align:start position:0%
+entities which oh okay that's inside the
+ 
+
+00:08:53.440 --> 00:08:55.590 align:start position:0%
+entities which oh okay that's inside the
+class.<00:08:54.000><c> So</c><00:08:54.240><c> as</c><00:08:54.399><c> you</c><00:08:54.560><c> can</c><00:08:54.720><c> see</c><00:08:55.040><c> it's</c><00:08:55.279><c> kind</c><00:08:55.440><c> of</c>
+
+00:08:55.590 --> 00:08:55.600 align:start position:0%
+class. So as you can see it's kind of
+ 
+
+00:08:55.600 --> 00:08:57.910 align:start position:0%
+class. So as you can see it's kind of
+difficult<00:08:56.160><c> for</c><00:08:56.399><c> me</c><00:08:56.560><c> to</c><00:08:56.720><c> tell</c><00:08:57.279><c> all</c><00:08:57.519><c> of</c><00:08:57.680><c> the</c>
+
+00:08:57.910 --> 00:08:57.920 align:start position:0%
+difficult for me to tell all of the
+ 
+
+00:08:57.920 --> 00:09:00.630 align:start position:0%
+difficult for me to tell all of the
+different<00:08:58.320><c> like</c><00:08:58.800><c> branches</c><00:08:59.519><c> like</c><00:08:59.760><c> the</c><00:09:00.000><c> strings</c>
+
+00:09:00.630 --> 00:09:00.640 align:start position:0%
+different like branches like the strings
+ 
+
+00:09:00.640 --> 00:09:02.550 align:start position:0%
+different like branches like the strings
+you<00:09:00.800><c> know</c><00:09:01.040><c> of</c><00:09:01.279><c> like</c><00:09:01.600><c> where</c><00:09:01.839><c> does</c><00:09:02.000><c> this</c><00:09:02.240><c> connect</c>
+
+00:09:02.550 --> 00:09:02.560 align:start position:0%
+you know of like where does this connect
+ 
+
+00:09:02.560 --> 00:09:04.949 align:start position:0%
+you know of like where does this connect
+to?<00:09:03.120><c> Where</c><00:09:03.360><c> does</c><00:09:03.519><c> the</c><00:09:03.760><c> functionality</c><00:09:04.560><c> of</c><00:09:04.800><c> this</c>
+
+00:09:04.949 --> 00:09:04.959 align:start position:0%
+to? Where does the functionality of this
+ 
+
+00:09:04.959 --> 00:09:07.430 align:start position:0%
+to? Where does the functionality of this
+function<00:09:05.680><c> like</c><00:09:05.920><c> what</c><00:09:06.080><c> is</c><00:09:06.240><c> it</c><00:09:06.480><c> reaching</c><00:09:06.880><c> for?</c>
+
+00:09:07.430 --> 00:09:07.440 align:start position:0%
+function like what is it reaching for?
+ 
+
+00:09:07.440 --> 00:09:09.110 align:start position:0%
+function like what is it reaching for?
+What<00:09:07.600><c> is</c><00:09:07.760><c> it</c><00:09:08.080><c> tied</c><00:09:08.399><c> to?</c><00:09:08.640><c> I</c><00:09:08.800><c> guess</c><00:09:08.880><c> you</c><00:09:09.040><c> could</c>
+
+00:09:09.110 --> 00:09:09.120 align:start position:0%
+What is it tied to? I guess you could
+ 
+
+00:09:09.120 --> 00:09:10.550 align:start position:0%
+What is it tied to? I guess you could
+picture<00:09:09.360><c> it</c><00:09:09.440><c> as</c><00:09:09.600><c> like</c><00:09:09.760><c> coupling</c><00:09:10.080><c> in</c><00:09:10.240><c> a</c><00:09:10.320><c> way.</c>
+
+00:09:10.550 --> 00:09:10.560 align:start position:0%
+picture it as like coupling in a way.
+ 
+
+00:09:10.560 --> 00:09:12.470 align:start position:0%
+picture it as like coupling in a way.
+What<00:09:10.720><c> is</c><00:09:10.800><c> it</c><00:09:10.959><c> coupled</c><00:09:11.440><c> to?</c><00:09:11.920><c> It's</c><00:09:12.160><c> very</c>
+
+00:09:12.470 --> 00:09:12.480 align:start position:0%
+What is it coupled to? It's very
+ 
+
+00:09:12.480 --> 00:09:13.750 align:start position:0%
+What is it coupled to? It's very
+difficult<00:09:12.800><c> for</c><00:09:12.959><c> me</c><00:09:13.120><c> to</c><00:09:13.200><c> see.</c><00:09:13.360><c> And</c><00:09:13.519><c> even</c>
+
+00:09:13.750 --> 00:09:13.760 align:start position:0%
+difficult for me to see. And even
+ 
+
+00:09:13.760 --> 00:09:15.030 align:start position:0%
+difficult for me to see. And even
+looking<00:09:13.920><c> at</c><00:09:14.000><c> this</c><00:09:14.160><c> now,</c><00:09:14.480><c> like</c><00:09:14.640><c> I've</c><00:09:14.880><c> just</c>
+
+00:09:15.030 --> 00:09:15.040 align:start position:0%
+looking at this now, like I've just
+ 
+
+00:09:15.040 --> 00:09:18.070 align:start position:0%
+looking at this now, like I've just
+shown<00:09:15.279><c> you</c><00:09:15.600><c> what</c><00:09:15.839><c> it</c><00:09:16.000><c> is.</c><00:09:16.480><c> And</c><00:09:16.640><c> I</c><00:09:17.200><c> still</c><00:09:17.600><c> like</c>
+
+00:09:18.070 --> 00:09:18.080 align:start position:0%
+shown you what it is. And I still like
+ 
+
+00:09:18.080 --> 00:09:19.670 align:start position:0%
+shown you what it is. And I still like
+need<00:09:18.240><c> to</c><00:09:18.399><c> keep</c><00:09:18.640><c> reminding</c><00:09:18.959><c> myself,</c><00:09:19.440><c> okay,</c>
+
+00:09:19.670 --> 00:09:19.680 align:start position:0%
+need to keep reminding myself, okay,
+ 
+
+00:09:19.680 --> 00:09:21.670 align:start position:0%
+need to keep reminding myself, okay,
+these<00:09:20.000><c> two</c><00:09:20.240><c> are</c><00:09:20.480><c> static,</c><00:09:20.880><c> I</c><00:09:21.120><c> think.</c><00:09:21.279><c> Yes.</c><00:09:21.519><c> And</c>
+
+00:09:21.670 --> 00:09:21.680 align:start position:0%
+these two are static, I think. Yes. And
+ 
+
+00:09:21.680 --> 00:09:22.870 align:start position:0%
+these two are static, I think. Yes. And
+then<00:09:21.760><c> that's</c><00:09:21.920><c> the</c><00:09:22.080><c> member</c><00:09:22.480><c> variable,</c><00:09:22.720><c> and</c>
+
+00:09:22.870 --> 00:09:22.880 align:start position:0%
+then that's the member variable, and
+ 
+
+00:09:22.880 --> 00:09:24.630 align:start position:0%
+then that's the member variable, and
+then<00:09:23.120><c> everything</c><00:09:23.360><c> else</c><00:09:23.600><c> must</c><00:09:23.839><c> be</c><00:09:24.080><c> a</c><00:09:24.399><c> local</c>
+
+00:09:24.630 --> 00:09:24.640 align:start position:0%
+then everything else must be a local
+ 
+
+00:09:24.640 --> 00:09:26.630 align:start position:0%
+then everything else must be a local
+variable,<00:09:25.040><c> either</c><00:09:25.279><c> like</c><00:09:25.440><c> a</c><00:09:25.600><c> parameter</c><00:09:26.240><c> or</c><00:09:26.399><c> an</c>
+
+00:09:26.630 --> 00:09:26.640 align:start position:0%
+variable, either like a parameter or an
+ 
+
+00:09:26.640 --> 00:09:28.310 align:start position:0%
+variable, either like a parameter or an
+actual<00:09:26.880><c> like</c><00:09:27.120><c> variable</c><00:09:27.440><c> that</c><00:09:27.680><c> was</c><00:09:27.839><c> created</c><00:09:28.080><c> in</c>
+
+00:09:28.310 --> 00:09:28.320 align:start position:0%
+actual like variable that was created in
+ 
+
+00:09:28.320 --> 00:09:30.070 align:start position:0%
+actual like variable that was created in
+this<00:09:28.480><c> scope.</c><00:09:28.880><c> And</c><00:09:29.040><c> you</c><00:09:29.200><c> might</c><00:09:29.360><c> think,</c><00:09:29.600><c> well,</c><00:09:29.839><c> I</c>
+
+00:09:30.070 --> 00:09:30.080 align:start position:0%
+this scope. And you might think, well, I
+ 
+
+00:09:30.080 --> 00:09:32.150 align:start position:0%
+this scope. And you might think, well, I
+don't<00:09:30.320><c> care</c><00:09:30.560><c> about</c><00:09:30.720><c> that.</c><00:09:31.200><c> And</c><00:09:31.360><c> that's</c><00:09:31.680><c> that's</c>
+
+00:09:32.150 --> 00:09:32.160 align:start position:0%
+don't care about that. And that's that's
+ 
+
+00:09:32.160 --> 00:09:35.110 align:start position:0%
+don't care about that. And that's that's
+okay.<00:09:32.800><c> I</c><00:09:33.120><c> once</c><00:09:33.519><c> also</c><00:09:34.160><c> didn't</c><00:09:34.560><c> care</c><00:09:34.880><c> about</c>
+
+00:09:35.110 --> 00:09:35.120 align:start position:0%
+okay. I once also didn't care about
+ 
+
+00:09:35.120 --> 00:09:37.910 align:start position:0%
+okay. I once also didn't care about
+that.<00:09:35.680><c> But</c><00:09:35.920><c> as</c><00:09:36.240><c> you</c><00:09:36.480><c> start</c><00:09:36.720><c> being</c><00:09:37.040><c> involved</c><00:09:37.600><c> in</c>
+
+00:09:37.910 --> 00:09:37.920 align:start position:0%
+that. But as you start being involved in
+ 
+
+00:09:37.920 --> 00:09:40.630 align:start position:0%
+that. But as you start being involved in
+more<00:09:38.160><c> complicated</c><00:09:38.880><c> systems,</c><00:09:39.600><c> like</c><00:09:39.760><c> in</c><00:09:40.080><c> my</c>
+
+00:09:40.630 --> 00:09:40.640 align:start position:0%
+more complicated systems, like in my
+ 
+
+00:09:40.640 --> 00:09:42.630 align:start position:0%
+more complicated systems, like in my
+personal,<00:09:41.200><c> again,</c><00:09:41.519><c> my</c><00:09:41.760><c> opinion,</c><00:09:42.080><c> this</c><00:09:42.320><c> video,</c>
+
+00:09:42.630 --> 00:09:42.640 align:start position:0%
+personal, again, my opinion, this video,
+ 
+
+00:09:42.640 --> 00:09:45.190 align:start position:0%
+personal, again, my opinion, this video,
+in<00:09:42.880><c> my</c><00:09:43.200><c> personal</c><00:09:43.760><c> day-to-day</c><00:09:44.320><c> life,</c><00:09:44.800><c> writing</c>
+
+00:09:45.190 --> 00:09:45.200 align:start position:0%
+in my personal day-to-day life, writing
+ 
+
+00:09:45.200 --> 00:09:47.750 align:start position:0%
+in my personal day-to-day life, writing
+game<00:09:45.519><c> engines,</c><00:09:46.080><c> it's</c><00:09:46.399><c> really</c><00:09:46.800><c> useful</c><00:09:47.279><c> to</c><00:09:47.519><c> just</c>
+
+00:09:47.750 --> 00:09:47.760 align:start position:0%
+game engines, it's really useful to just
+ 
+
+00:09:47.760 --> 00:09:50.389 align:start position:0%
+game engines, it's really useful to just
+be<00:09:47.920><c> able</c><00:09:48.080><c> to</c><00:09:48.320><c> quickly</c><00:09:48.720><c> tell</c><00:09:49.120><c> what</c><00:09:49.440><c> is</c><00:09:49.760><c> local</c>
+
+00:09:50.389 --> 00:09:50.399 align:start position:0%
+be able to quickly tell what is local
+ 
+
+00:09:50.399 --> 00:09:52.310 align:start position:0%
+be able to quickly tell what is local
+and<00:09:50.720><c> what</c><00:09:50.880><c> is</c><00:09:51.120><c> not.</c><00:09:51.360><c> And</c><00:09:51.519><c> if</c><00:09:51.600><c> it's</c><00:09:51.760><c> not</c><00:09:51.920><c> local,</c>
+
+00:09:52.310 --> 00:09:52.320 align:start position:0%
+and what is not. And if it's not local,
+ 
+
+00:09:52.320 --> 00:09:54.150 align:start position:0%
+and what is not. And if it's not local,
+what<00:09:52.480><c> kind</c><00:09:52.560><c> of</c><00:09:52.720><c> not</c><00:09:52.959><c> local</c><00:09:53.360><c> it</c><00:09:53.519><c> is.</c><00:09:53.760><c> So</c><00:09:53.920><c> to</c><00:09:54.080><c> give</c>
+
+00:09:54.150 --> 00:09:54.160 align:start position:0%
+what kind of not local it is. So to give
+ 
+
+00:09:54.160 --> 00:09:55.509 align:start position:0%
+what kind of not local it is. So to give
+you<00:09:54.320><c> an</c><00:09:54.480><c> example</c><00:09:54.720><c> of</c><00:09:54.880><c> why</c><00:09:55.040><c> that</c><00:09:55.200><c> might</c><00:09:55.360><c> be</c>
+
+00:09:55.509 --> 00:09:55.519 align:start position:0%
+you an example of why that might be
+ 
+
+00:09:55.519 --> 00:09:57.190 align:start position:0%
+you an example of why that might be
+useful<00:09:55.760><c> for</c><00:09:56.000><c> something</c><00:09:56.160><c> like</c><00:09:56.320><c> this,</c><00:09:56.880><c> other</c>
+
+00:09:57.190 --> 00:09:57.200 align:start position:0%
+useful for something like this, other
+ 
+
+00:09:57.200 --> 00:09:58.710 align:start position:0%
+useful for something like this, other
+than<00:09:57.360><c> just</c><00:09:57.519><c> if</c><00:09:57.760><c> I</c><00:09:57.920><c> want</c><00:09:58.000><c> to</c><00:09:58.080><c> reuse</c><00:09:58.399><c> this</c><00:09:58.560><c> code</c>
+
+00:09:58.710 --> 00:09:58.720 align:start position:0%
+than just if I want to reuse this code
+ 
+
+00:09:58.720 --> 00:09:59.990 align:start position:0%
+than just if I want to reuse this code
+in<00:09:58.800><c> another</c><00:09:59.120><c> project</c><00:09:59.279><c> and</c><00:09:59.440><c> I</c><00:09:59.600><c> can't</c><00:09:59.760><c> see</c><00:09:59.920><c> what</c>
+
+00:09:59.990 --> 00:10:00.000 align:start position:0%
+in another project and I can't see what
+ 
+
+00:10:00.000 --> 00:10:01.750 align:start position:0%
+in another project and I can't see what
+it's<00:10:00.240><c> tied</c><00:10:00.399><c> to,</c><00:10:00.800><c> suppose</c><00:10:01.120><c> for</c><00:10:01.200><c> example,</c><00:10:01.519><c> these</c>
+
+00:10:01.750 --> 00:10:01.760 align:start position:0%
+it's tied to, suppose for example, these
+ 
+
+00:10:01.760 --> 00:10:02.870 align:start position:0%
+it's tied to, suppose for example, these
+projectiles<00:10:02.240><c> were</c><00:10:02.399><c> fired</c><00:10:02.560><c> in</c><00:10:02.640><c> like</c><00:10:02.800><c> a</c>
+
+00:10:02.870 --> 00:10:02.880 align:start position:0%
+projectiles were fired in like a
+ 
+
+00:10:02.880 --> 00:10:04.630 align:start position:0%
+projectiles were fired in like a
+multi-threaded<00:10:03.440><c> context.</c><00:10:03.839><c> We</c><00:10:04.080><c> might</c><00:10:04.240><c> have</c><00:10:04.399><c> a</c>
+
+00:10:04.630 --> 00:10:04.640 align:start position:0%
+multi-threaded context. We might have a
+ 
+
+00:10:04.640 --> 00:10:06.310 align:start position:0%
+multi-threaded context. We might have a
+whole<00:10:04.800><c> job</c><00:10:05.120><c> system</c><00:10:05.360><c> that</c><00:10:05.600><c> just</c><00:10:05.920><c> fires</c>
+
+00:10:06.310 --> 00:10:06.320 align:start position:0%
+whole job system that just fires
+ 
+
+00:10:06.320 --> 00:10:08.150 align:start position:0%
+whole job system that just fires
+projectiles<00:10:07.120><c> from</c><00:10:07.440><c> various</c><00:10:07.760><c> entities</c>
+
+00:10:08.150 --> 00:10:08.160 align:start position:0%
+projectiles from various entities
+ 
+
+00:10:08.160 --> 00:10:09.430 align:start position:0%
+projectiles from various entities
+because<00:10:08.399><c> we</c><00:10:08.560><c> might</c><00:10:08.720><c> want</c><00:10:08.800><c> to</c><00:10:08.880><c> process</c><00:10:09.200><c> our</c>
+
+00:10:09.430 --> 00:10:09.440 align:start position:0%
+because we might want to process our
+ 
+
+00:10:09.440 --> 00:10:11.990 align:start position:0%
+because we might want to process our
+entities<00:10:09.760><c> in</c><00:10:09.920><c> parallel.</c><00:10:10.640><c> Maybe</c><00:10:11.040><c> we</c><00:10:11.360><c> even</c><00:10:11.600><c> have</c>
+
+00:10:11.990 --> 00:10:12.000 align:start position:0%
+entities in parallel. Maybe we even have
+ 
+
+00:10:12.000 --> 00:10:13.829 align:start position:0%
+entities in parallel. Maybe we even have
+multiple<00:10:12.480><c> game</c><00:10:12.800><c> worlds.</c><00:10:13.200><c> Like</c><00:10:13.360><c> we</c><00:10:13.600><c> could</c><00:10:13.760><c> have</c>
+
+00:10:13.829 --> 00:10:13.839 align:start position:0%
+multiple game worlds. Like we could have
+ 
+
+00:10:13.839 --> 00:10:15.829 align:start position:0%
+multiple game worlds. Like we could have
+a<00:10:14.000><c> game</c><00:10:14.240><c> world</c><00:10:14.640><c> per</c><00:10:14.880><c> thread,</c><00:10:15.279><c> like</c><00:10:15.360><c> a</c><00:10:15.519><c> thread</c>
+
+00:10:15.829 --> 00:10:15.839 align:start position:0%
+a game world per thread, like a thread
+ 
+
+00:10:15.839 --> 00:10:17.750 align:start position:0%
+a game world per thread, like a thread
+local<00:10:16.160><c> game</c><00:10:16.399><c> world.</c><00:10:16.800><c> It's</c><00:10:17.040><c> not</c><00:10:17.200><c> immediately</c>
+
+00:10:17.750 --> 00:10:17.760 align:start position:0%
+local game world. It's not immediately
+ 
+
+00:10:17.760 --> 00:10:19.350 align:start position:0%
+local game world. It's not immediately
+clear<00:10:18.000><c> that</c><00:10:18.240><c> that</c><00:10:18.480><c> wouldn't</c><00:10:18.720><c> really</c><00:10:18.959><c> work</c>
+
+00:10:19.350 --> 00:10:19.360 align:start position:0%
+clear that that wouldn't really work
+ 
+
+00:10:19.360 --> 00:10:21.269 align:start position:0%
+clear that that wouldn't really work
+because<00:10:19.600><c> the</c><00:10:19.839><c> projectile</c><00:10:20.399><c> pool</c><00:10:20.720><c> is</c><00:10:20.959><c> actually</c>
+
+00:10:21.269 --> 00:10:21.279 align:start position:0%
+because the projectile pool is actually
+ 
+
+00:10:21.279 --> 00:10:22.949 align:start position:0%
+because the projectile pool is actually
+static.<00:10:21.680><c> It's</c><00:10:21.839><c> effectively</c><00:10:22.320><c> global</c><00:10:22.640><c> here.</c>
+
+00:10:22.949 --> 00:10:22.959 align:start position:0%
+static. It's effectively global here.
+ 
+
+00:10:22.959 --> 00:10:24.230 align:start position:0%
+static. It's effectively global here.
+And<00:10:23.120><c> so</c><00:10:23.200><c> we</c><00:10:23.360><c> need</c><00:10:23.519><c> to</c><00:10:23.600><c> make</c><00:10:23.760><c> sure</c><00:10:23.839><c> that</c><00:10:24.000><c> we</c>
+
+00:10:24.230 --> 00:10:24.240 align:start position:0%
+And so we need to make sure that we
+ 
+
+00:10:24.240 --> 00:10:26.069 align:start position:0%
+And so we need to make sure that we
+actually<00:10:24.800><c> manage</c><00:10:25.120><c> that</c><00:10:25.360><c> multi-threaded</c>
+
+00:10:26.069 --> 00:10:26.079 align:start position:0%
+actually manage that multi-threaded
+ 
+
+00:10:26.079 --> 00:10:28.150 align:start position:0%
+actually manage that multi-threaded
+access<00:10:26.399><c> to</c><00:10:26.640><c> it</c><00:10:26.959><c> and</c><00:10:27.200><c> this</c><00:10:27.440><c> next</c><00:10:27.680><c> projectile</c>
+
+00:10:28.150 --> 00:10:28.160 align:start position:0%
+access to it and this next projectile
+ 
+
+00:10:28.160 --> 00:10:30.069 align:start position:0%
+access to it and this next projectile
+index<00:10:28.480><c> variable</c><00:10:28.880><c> as</c><00:10:29.120><c> well.</c><00:10:29.519><c> like</c><00:10:29.760><c> we</c><00:10:29.920><c> would</c>
+
+00:10:30.069 --> 00:10:30.079 align:start position:0%
+index variable as well. like we would
+ 
+
+00:10:30.079 --> 00:10:31.590 align:start position:0%
+index variable as well. like we would
+potentially<00:10:30.480><c> make</c><00:10:30.640><c> this</c><00:10:30.880><c> atomic</c><00:10:31.279><c> and</c><00:10:31.440><c> then</c>
+
+00:10:31.590 --> 00:10:31.600 align:start position:0%
+potentially make this atomic and then
+ 
+
+00:10:31.600 --> 00:10:33.990 align:start position:0%
+potentially make this atomic and then
+maybe<00:10:31.920><c> have</c><00:10:32.160><c> this</c><00:10:32.480><c> be</c><00:10:32.880><c> maybe</c><00:10:33.279><c> thread</c><00:10:33.600><c> local</c><00:10:33.839><c> if</c>
+
+00:10:33.990 --> 00:10:34.000 align:start position:0%
+maybe have this be maybe thread local if
+ 
+
+00:10:34.000 --> 00:10:35.590 align:start position:0%
+maybe have this be maybe thread local if
+we<00:10:34.160><c> can</c><00:10:34.240><c> afford</c><00:10:34.480><c> that</c><00:10:34.640><c> or</c><00:10:34.880><c> we'd</c><00:10:35.120><c> have</c><00:10:35.200><c> to</c><00:10:35.279><c> lock</c>
+
+00:10:35.590 --> 00:10:35.600 align:start position:0%
+we can afford that or we'd have to lock
+ 
+
+00:10:35.600 --> 00:10:37.910 align:start position:0%
+we can afford that or we'd have to lock
+access<00:10:35.839><c> to</c><00:10:36.079><c> it.</c><00:10:36.399><c> I</c><00:10:36.720><c> don't</c><00:10:36.959><c> know</c><00:10:37.279><c> that</c><00:10:37.519><c> I</c><00:10:37.760><c> have</c>
+
+00:10:37.910 --> 00:10:37.920 align:start position:0%
+access to it. I don't know that I have
+ 
+
+00:10:37.920 --> 00:10:41.110 align:start position:0%
+access to it. I don't know that I have
+to<00:10:38.079><c> do</c><00:10:38.240><c> that</c><00:10:38.880><c> just</c><00:10:39.200><c> by</c><00:10:39.920><c> breezing</c><00:10:40.480><c> over</c><00:10:40.800><c> this</c>
+
+00:10:41.110 --> 00:10:41.120 align:start position:0%
+to do that just by breezing over this
+ 
+
+00:10:41.120 --> 00:10:43.430 align:start position:0%
+to do that just by breezing over this
+code.<00:10:41.839><c> I</c><00:10:42.000><c> would</c><00:10:42.160><c> actually</c><00:10:42.480><c> have</c><00:10:42.640><c> to</c><00:10:42.800><c> go</c><00:10:42.959><c> in</c>
+
+00:10:43.430 --> 00:10:43.440 align:start position:0%
+code. I would actually have to go in
+ 
+
+00:10:43.440 --> 00:10:45.110 align:start position:0%
+code. I would actually have to go in
+look<00:10:43.600><c> at</c><00:10:43.680><c> these</c><00:10:43.920><c> variables</c><00:10:44.480><c> understand</c><00:10:44.959><c> how</c>
+
+00:10:45.110 --> 00:10:45.120 align:start position:0%
+look at these variables understand how
+ 
+
+00:10:45.120 --> 00:10:47.430 align:start position:0%
+look at these variables understand how
+this<00:10:45.360><c> works</c><00:10:45.760><c> much</c><00:10:46.079><c> more</c><00:10:46.240><c> deeply</c><00:10:46.880><c> before</c><00:10:47.200><c> my</c>
+
+00:10:47.430 --> 00:10:47.440 align:start position:0%
+this works much more deeply before my
+ 
+
+00:10:47.440 --> 00:10:49.269 align:start position:0%
+this works much more deeply before my
+brain<00:10:47.680><c> can</c><00:10:47.920><c> kind</c><00:10:48.000><c> of</c><00:10:48.160><c> make</c><00:10:48.320><c> those</c><00:10:48.560><c> decisions.</c>
+
+00:10:49.269 --> 00:10:49.279 align:start position:0%
+brain can kind of make those decisions.
+ 
+
+00:10:49.279 --> 00:10:51.190 align:start position:0%
+brain can kind of make those decisions.
+It's<00:10:49.519><c> also</c><00:10:49.920><c> potentially</c><00:10:50.399><c> worth</c><00:10:50.640><c> noting</c><00:10:50.959><c> that</c>
+
+00:10:51.190 --> 00:10:51.200 align:start position:0%
+It's also potentially worth noting that
+ 
+
+00:10:51.200 --> 00:10:53.269 align:start position:0%
+It's also potentially worth noting that
+if<00:10:51.440><c> you're</c><00:10:51.600><c> optimizing</c><00:10:52.240><c> things</c><00:10:52.880><c> like</c><00:10:53.120><c> you</c>
+
+00:10:53.269 --> 00:10:53.279 align:start position:0%
+if you're optimizing things like you
+ 
+
+00:10:53.279 --> 00:10:54.949 align:start position:0%
+if you're optimizing things like you
+definitely<00:10:53.600><c> want</c><00:10:53.839><c> to</c><00:10:54.000><c> know</c><00:10:54.240><c> where</c><00:10:54.720><c> that</c>
+
+00:10:54.949 --> 00:10:54.959 align:start position:0%
+definitely want to know where that
+ 
+
+00:10:54.959 --> 00:10:56.550 align:start position:0%
+definitely want to know where that
+memory<00:10:55.360><c> is.</c><00:10:55.760><c> I</c><00:10:55.920><c> want</c><00:10:56.000><c> to</c><00:10:56.160><c> know</c><00:10:56.240><c> if</c><00:10:56.399><c> it's</c>
+
+00:10:56.550 --> 00:10:56.560 align:start position:0%
+memory is. I want to know if it's
+ 
+
+00:10:56.560 --> 00:10:58.470 align:start position:0%
+memory is. I want to know if it's
+static.<00:10:56.959><c> I</c><00:10:57.200><c> want</c><00:10:57.279><c> to</c><00:10:57.440><c> know</c><00:10:57.600><c> if</c><00:10:57.839><c> it's</c><00:10:58.079><c> inside</c>
+
+00:10:58.470 --> 00:10:58.480 align:start position:0%
+static. I want to know if it's inside
+ 
+
+00:10:58.480 --> 00:11:01.269 align:start position:0%
+static. I want to know if it's inside
+like<00:10:58.720><c> this</c><00:10:58.959><c> class</c><00:10:59.519><c> or</c><00:10:59.760><c> is</c><00:11:00.000><c> it</c><00:11:00.160><c> local.</c><00:11:00.959><c> That's</c>
+
+00:11:01.269 --> 00:11:01.279 align:start position:0%
+like this class or is it local. That's
+ 
+
+00:11:01.279 --> 00:11:03.750 align:start position:0%
+like this class or is it local. That's
+like<00:11:01.600><c> really</c><00:11:02.000><c> important</c><00:11:02.399><c> to</c><00:11:02.720><c> know.</c><00:11:03.120><c> Now,</c><00:11:03.360><c> I</c><00:11:03.600><c> do</c>
+
+00:11:03.750 --> 00:11:03.760 align:start position:0%
+like really important to know. Now, I do
+ 
+
+00:11:03.760 --> 00:11:05.910 align:start position:0%
+like really important to know. Now, I do
+want<00:11:03.920><c> to</c><00:11:04.160><c> quickly</c><00:11:04.640><c> point</c><00:11:04.880><c> out</c><00:11:05.120><c> that</c><00:11:05.440><c> some</c>
+
+00:11:05.910 --> 00:11:05.920 align:start position:0%
+want to quickly point out that some
+ 
+
+00:11:05.920 --> 00:11:08.790 align:start position:0%
+want to quickly point out that some
+idees<00:11:06.720><c> or</c><00:11:07.040><c> some</c><00:11:07.279><c> like</c><00:11:07.519><c> syntax</c><00:11:08.000><c> highlighters</c>
+
+00:11:08.790 --> 00:11:08.800 align:start position:0%
+idees or some like syntax highlighters
+ 
+
+00:11:08.800 --> 00:11:10.550 align:start position:0%
+idees or some like syntax highlighters
+probably<00:11:09.200><c> depending</c><00:11:09.519><c> on</c><00:11:09.760><c> like</c><00:11:10.079><c> your</c><00:11:10.240><c> your</c>
+
+00:11:10.550 --> 00:11:10.560 align:start position:0%
+probably depending on like your your
+ 
+
+00:11:10.560 --> 00:11:12.790 align:start position:0%
+probably depending on like your your
+settings<00:11:10.880><c> or</c><00:11:11.120><c> whatever,</c><00:11:11.519><c> they</c><00:11:11.839><c> may</c><00:11:12.160><c> actually</c>
+
+00:11:12.790 --> 00:11:12.800 align:start position:0%
+settings or whatever, they may actually
+ 
+
+00:11:12.800 --> 00:11:15.110 align:start position:0%
+settings or whatever, they may actually
+use<00:11:13.040><c> a</c><00:11:13.279><c> different</c><00:11:13.600><c> color</c><00:11:14.320><c> for</c><00:11:14.720><c> certain</c>
+
+00:11:15.110 --> 00:11:15.120 align:start position:0%
+use a different color for certain
+ 
+
+00:11:15.120 --> 00:11:16.710 align:start position:0%
+use a different color for certain
+variables.<00:11:15.839><c> So,</c><00:11:16.000><c> they</c><00:11:16.160><c> might</c><00:11:16.320><c> use</c><00:11:16.480><c> a</c>
+
+00:11:16.710 --> 00:11:16.720 align:start position:0%
+variables. So, they might use a
+ 
+
+00:11:16.720 --> 00:11:18.710 align:start position:0%
+variables. So, they might use a
+particular<00:11:17.040><c> color</c><00:11:17.200><c> for</c><00:11:17.360><c> a</c><00:11:17.519><c> local</c><00:11:17.839><c> variable</c>
+
+00:11:18.710 --> 00:11:18.720 align:start position:0%
+particular color for a local variable
+ 
+
+00:11:18.720 --> 00:11:20.710 align:start position:0%
+particular color for a local variable
+versus<00:11:19.279><c> maybe</c><00:11:19.600><c> like</c><00:11:19.680><c> a</c><00:11:19.920><c> static</c><00:11:20.160><c> or</c><00:11:20.320><c> a</c><00:11:20.399><c> global</c>
+
+00:11:20.710 --> 00:11:20.720 align:start position:0%
+versus maybe like a static or a global
+ 
+
+00:11:20.720 --> 00:11:22.710 align:start position:0%
+versus maybe like a static or a global
+variable<00:11:21.120><c> or</c><00:11:21.360><c> a</c><00:11:21.519><c> class</c><00:11:21.839><c> member</c><00:11:22.160><c> variable.</c>
+
+00:11:22.710 --> 00:11:22.720 align:start position:0%
+variable or a class member variable.
+ 
+
+00:11:22.720 --> 00:11:25.030 align:start position:0%
+variable or a class member variable.
+Like<00:11:22.959><c> I've</c><00:11:23.200><c> just</c><00:11:23.360><c> opened</c><00:11:23.680><c> this</c><00:11:23.839><c> in</c><00:11:24.000><c> VS</c><00:11:24.399><c> Code</c><00:11:24.800><c> as</c>
+
+00:11:25.030 --> 00:11:25.040 align:start position:0%
+Like I've just opened this in VS Code as
+ 
+
+00:11:25.040 --> 00:11:26.550 align:start position:0%
+Like I've just opened this in VS Code as
+an<00:11:25.120><c> example.</c><00:11:25.600><c> And</c><00:11:25.760><c> you</c><00:11:25.920><c> can</c><00:11:26.000><c> see</c><00:11:26.079><c> that</c><00:11:26.320><c> next</c>
+
+00:11:26.550 --> 00:11:26.560 align:start position:0%
+an example. And you can see that next
+ 
+
+00:11:26.560 --> 00:11:29.750 align:start position:0%
+an example. And you can see that next
+projectile<00:11:27.120><c> index</c><00:11:27.920><c> uh</c><00:11:28.079><c> well</c><00:11:28.320><c> actually</c><00:11:28.760><c> no</c>
+
+00:11:29.750 --> 00:11:29.760 align:start position:0%
+projectile index uh well actually no
+ 
+
+00:11:29.760 --> 00:11:32.069 align:start position:0%
+projectile index uh well actually no
+next<00:11:30.000><c> projectile</c><00:11:30.560><c> index</c><00:11:30.880><c> is</c><00:11:31.120><c> white</c><00:11:31.839><c> which</c>
+
+00:11:32.069 --> 00:11:32.079 align:start position:0%
+next projectile index is white which
+ 
+
+00:11:32.079 --> 00:11:33.750 align:start position:0%
+next projectile index is white which
+makes<00:11:32.240><c> it</c><00:11:32.399><c> seem</c><00:11:32.640><c> like</c><00:11:32.880><c> maybe</c><00:11:33.120><c> it's</c><00:11:33.440><c> not.</c><00:11:33.600><c> I</c>
+
+00:11:33.750 --> 00:11:33.760 align:start position:0%
+makes it seem like maybe it's not. I
+ 
+
+00:11:33.760 --> 00:11:35.190 align:start position:0%
+makes it seem like maybe it's not. I
+mean<00:11:33.920><c> yeah</c><00:11:34.079><c> this</c><00:11:34.240><c> is</c><00:11:34.320><c> the</c><00:11:34.399><c> syntax</c><00:11:34.720><c> coloring</c>
+
+00:11:35.190 --> 00:11:35.200 align:start position:0%
+mean yeah this is the syntax coloring
+ 
+
+00:11:35.200 --> 00:11:36.710 align:start position:0%
+mean yeah this is the syntax coloring
+here<00:11:35.279><c> is</c><00:11:35.519><c> all</c><00:11:35.600><c> over</c><00:11:35.760><c> the</c><00:11:35.920><c> place</c><00:11:36.240><c> so</c><00:11:36.480><c> never</c>
+
+00:11:36.710 --> 00:11:36.720 align:start position:0%
+here is all over the place so never
+ 
+
+00:11:36.720 --> 00:11:39.030 align:start position:0%
+here is all over the place so never
+mind.<00:11:37.040><c> But</c><00:11:37.200><c> in</c><00:11:37.360><c> some</c><00:11:37.600><c> circumstances</c><00:11:38.320><c> yes</c><00:11:38.720><c> your</c>
+
+00:11:39.030 --> 00:11:39.040 align:start position:0%
+mind. But in some circumstances yes your
+ 
+
+00:11:39.040 --> 00:11:40.790 align:start position:0%
+mind. But in some circumstances yes your
+IDE<00:11:39.519><c> your</c><00:11:39.680><c> tool</c><00:11:40.000><c> chain</c><00:11:40.240><c> once</c><00:11:40.480><c> it</c><00:11:40.640><c> probably</c>
+
+00:11:40.790 --> 00:11:40.800 align:start position:0%
+IDE your tool chain once it probably
+ 
+
+00:11:40.800 --> 00:11:42.310 align:start position:0%
+IDE your tool chain once it probably
+compiles<00:11:41.200><c> everything</c><00:11:41.519><c> it</c><00:11:41.680><c> knows</c><00:11:42.079><c> where</c>
+
+00:11:42.310 --> 00:11:42.320 align:start position:0%
+compiles everything it knows where
+ 
+
+00:11:42.320 --> 00:11:44.550 align:start position:0%
+compiles everything it knows where
+variables<00:11:42.880><c> actually</c><00:11:43.120><c> are.</c><00:11:43.440><c> It</c><00:11:43.680><c> can</c><00:11:43.839><c> point</c><00:11:44.079><c> out</c>
+
+00:11:44.550 --> 00:11:44.560 align:start position:0%
+variables actually are. It can point out
+ 
+
+00:11:44.560 --> 00:11:46.550 align:start position:0%
+variables actually are. It can point out
+what<00:11:44.800><c> is</c><00:11:45.040><c> like</c><00:11:45.279><c> local</c><00:11:45.680><c> and</c><00:11:46.000><c> what</c><00:11:46.160><c> is</c><00:11:46.320><c> not</c>
+
+00:11:46.550 --> 00:11:46.560 align:start position:0%
+what is like local and what is not
+ 
+
+00:11:46.560 --> 00:11:48.710 align:start position:0%
+what is like local and what is not
+local.<00:11:47.040><c> And</c><00:11:47.279><c> of</c><00:11:47.440><c> course</c><00:11:47.680><c> that</c><00:11:47.839><c> can</c><00:11:48.000><c> be</c><00:11:48.160><c> useful.</c>
+
+00:11:48.710 --> 00:11:48.720 align:start position:0%
+local. And of course that can be useful.
+ 
+
+00:11:48.720 --> 00:11:51.269 align:start position:0%
+local. And of course that can be useful.
+However<00:11:49.440><c> it's</c><00:11:49.920><c> not</c><00:11:50.160><c> something</c><00:11:50.480><c> that</c><00:11:50.720><c> I</c><00:11:51.040><c> seem</c>
+
+00:11:51.269 --> 00:11:51.279 align:start position:0%
+However it's not something that I seem
+ 
+
+00:11:51.279 --> 00:11:53.350 align:start position:0%
+However it's not something that I seem
+to<00:11:51.440><c> have</c><00:11:51.600><c> here</c><00:11:51.760><c> in</c><00:11:52.000><c> Visual</c><00:11:52.320><c> Studio.</c><00:11:53.040><c> I</c><00:11:53.279><c> don't</c>
+
+00:11:53.350 --> 00:11:53.360 align:start position:0%
+to have here in Visual Studio. I don't
+ 
+
+00:11:53.360 --> 00:11:54.550 align:start position:0%
+to have here in Visual Studio. I don't
+really<00:11:53.519><c> care</c><00:11:53.680><c> about</c><00:11:53.839><c> it</c><00:11:54.000><c> obviously</c><00:11:54.240><c> because</c><00:11:54.399><c> I</c>
+
+00:11:54.550 --> 00:11:54.560 align:start position:0%
+really care about it obviously because I
+ 
+
+00:11:54.560 --> 00:11:55.829 align:start position:0%
+really care about it obviously because I
+use<00:11:54.640><c> the</c><00:11:54.800><c> naming</c><00:11:55.120><c> conventions,</c><00:11:55.519><c> but</c><00:11:55.680><c> let's</c>
+
+00:11:55.829 --> 00:11:55.839 align:start position:0%
+use the naming conventions, but let's
+ 
+
+00:11:55.839 --> 00:11:57.269 align:start position:0%
+use the naming conventions, but let's
+just<00:11:56.000><c> let's</c><00:11:56.240><c> just</c><00:11:56.320><c> go</c><00:11:56.480><c> with</c><00:11:56.560><c> it.</c><00:11:56.800><c> In</c><00:11:56.959><c> the</c><00:11:57.040><c> past,</c>
+
+00:11:57.269 --> 00:11:57.279 align:start position:0%
+just let's just go with it. In the past,
+ 
+
+00:11:57.279 --> 00:11:58.949 align:start position:0%
+just let's just go with it. In the past,
+I<00:11:57.519><c> remember</c><00:11:57.839><c> having</c><00:11:58.240><c> that</c><00:11:58.480><c> feature.</c><00:11:58.880><c> Maybe</c>
+
+00:11:58.949 --> 00:11:58.959 align:start position:0%
+I remember having that feature. Maybe
+ 
+
+00:11:58.959 --> 00:12:00.470 align:start position:0%
+I remember having that feature. Maybe
+that<00:11:59.120><c> was</c><00:11:59.200><c> like</c><00:11:59.360><c> in</c><00:11:59.519><c> Java</c><00:11:59.839><c> or</c><00:12:00.000><c> something.</c><00:12:00.320><c> It</c>
+
+00:12:00.470 --> 00:12:00.480 align:start position:0%
+that was like in Java or something. It
+ 
+
+00:12:00.480 --> 00:12:02.389 align:start position:0%
+that was like in Java or something. It
+was<00:12:00.560><c> never</c><00:12:00.720><c> really</c><00:12:01.040><c> obvious</c><00:12:01.440><c> enough</c><00:12:01.760><c> to</c><00:12:02.000><c> me</c>
+
+00:12:02.389 --> 00:12:02.399 align:start position:0%
+was never really obvious enough to me
+ 
+
+00:12:02.399 --> 00:12:03.910 align:start position:0%
+was never really obvious enough to me
+just<00:12:02.480><c> that</c><00:12:02.640><c> the</c><00:12:02.800><c> variable</c><00:12:03.120><c> was</c><00:12:03.279><c> a</c><00:12:03.519><c> slightly</c>
+
+00:12:03.910 --> 00:12:03.920 align:start position:0%
+just that the variable was a slightly
+ 
+
+00:12:03.920 --> 00:12:05.110 align:start position:0%
+just that the variable was a slightly
+different<00:12:04.160><c> color</c><00:12:04.399><c> cuz</c><00:12:04.560><c> it</c><00:12:04.720><c> usually</c><00:12:04.880><c> wouldn't</c>
+
+00:12:05.110 --> 00:12:05.120 align:start position:0%
+different color cuz it usually wouldn't
+ 
+
+00:12:05.120 --> 00:12:06.550 align:start position:0%
+different color cuz it usually wouldn't
+be<00:12:05.279><c> a</c><00:12:05.440><c> completely</c><00:12:05.760><c> different</c><00:12:06.000><c> color.</c><00:12:06.480><c> But</c>
+
+00:12:06.550 --> 00:12:06.560 align:start position:0%
+be a completely different color. But
+ 
+
+00:12:06.560 --> 00:12:08.150 align:start position:0%
+be a completely different color. But
+then<00:12:06.720><c> again,</c><00:12:06.959><c> that</c><00:12:07.200><c> kind</c><00:12:07.279><c> of</c><00:12:07.360><c> relies</c><00:12:07.760><c> on</c><00:12:07.920><c> your</c>
+
+00:12:08.150 --> 00:12:08.160 align:start position:0%
+then again, that kind of relies on your
+ 
+
+00:12:08.160 --> 00:12:09.910 align:start position:0%
+then again, that kind of relies on your
+like<00:12:08.399><c> code</c><00:12:08.639><c> environment,</c><00:12:09.120><c> your</c><00:12:09.360><c> IDE</c><00:12:09.760><c> or</c>
+
+00:12:09.910 --> 00:12:09.920 align:start position:0%
+like code environment, your IDE or
+ 
+
+00:12:09.920 --> 00:12:11.829 align:start position:0%
+like code environment, your IDE or
+whatever<00:12:10.320><c> actually</c><00:12:10.720><c> like</c><00:12:11.040><c> compiling</c><00:12:11.519><c> the</c>
+
+00:12:11.829 --> 00:12:11.839 align:start position:0%
+whatever actually like compiling the
+ 
+
+00:12:11.839 --> 00:12:13.829 align:start position:0%
+whatever actually like compiling the
+code<00:12:12.000><c> and</c><00:12:12.320><c> making</c><00:12:12.560><c> sense</c><00:12:12.800><c> of</c><00:12:12.959><c> it</c><00:12:13.200><c> to</c><00:12:13.440><c> highlight</c>
+
+00:12:13.829 --> 00:12:13.839 align:start position:0%
+code and making sense of it to highlight
+ 
+
+00:12:13.839 --> 00:12:15.670 align:start position:0%
+code and making sense of it to highlight
+that<00:12:14.000><c> for</c><00:12:14.240><c> you.</c><00:12:14.720><c> which</c><00:12:14.880><c> also</c><00:12:15.120><c> means</c><00:12:15.279><c> it</c><00:12:15.440><c> it</c>
+
+00:12:15.670 --> 00:12:15.680 align:start position:0%
+that for you. which also means it it
+ 
+
+00:12:15.680 --> 00:12:18.230 align:start position:0%
+that for you. which also means it it
+wouldn't<00:12:16.000><c> work</c><00:12:16.399><c> in</c><00:12:16.639><c> something</c><00:12:16.959><c> like</c><00:12:17.360><c> a</c><00:12:17.839><c> git</c>
+
+00:12:18.230 --> 00:12:18.240 align:start position:0%
+wouldn't work in something like a git
+ 
+
+00:12:18.240 --> 00:12:20.069 align:start position:0%
+wouldn't work in something like a git
+diff<00:12:18.720><c> viewer</c><00:12:19.040><c> or</c><00:12:19.200><c> like</c><00:12:19.360><c> if</c><00:12:19.519><c> I'm</c><00:12:19.680><c> just</c><00:12:19.839><c> using</c>
+
+00:12:20.069 --> 00:12:20.079 align:start position:0%
+diff viewer or like if I'm just using
+ 
+
+00:12:20.079 --> 00:12:21.829 align:start position:0%
+diff viewer or like if I'm just using
+fork<00:12:20.399><c> and</c><00:12:20.560><c> I</c><00:12:20.720><c> want</c><00:12:20.800><c> to</c><00:12:20.959><c> quickly</c><00:12:21.200><c> see</c><00:12:21.360><c> like</c><00:12:21.600><c> code</c>
+
+00:12:21.829 --> 00:12:21.839 align:start position:0%
+fork and I want to quickly see like code
+ 
+
+00:12:21.839 --> 00:12:23.190 align:start position:0%
+fork and I want to quickly see like code
+changes<00:12:22.079><c> and</c><00:12:22.320><c> stuff.</c><00:12:22.480><c> All</c><00:12:22.720><c> right,</c><00:12:22.959><c> this</c>
+
+00:12:23.190 --> 00:12:23.200 align:start position:0%
+changes and stuff. All right, this
+ 
+
+00:12:23.200 --> 00:12:25.269 align:start position:0%
+changes and stuff. All right, this
+became<00:12:23.519><c> a</c><00:12:23.680><c> member</c><00:12:24.000><c> or</c><00:12:24.240><c> it</c><00:12:24.399><c> became</c><00:12:24.720><c> static.</c><00:12:25.040><c> It</c>
+
+00:12:25.269 --> 00:12:25.279 align:start position:0%
+became a member or it became static. It
+ 
+
+00:12:25.279 --> 00:12:26.790 align:start position:0%
+became a member or it became static. It
+wasn't<00:12:25.440><c> before.</c><00:12:25.920><c> Obviously,</c><00:12:26.320><c> whatever</c><00:12:26.560><c> you</c>
+
+00:12:26.790 --> 00:12:26.800 align:start position:0%
+wasn't before. Obviously, whatever you
+ 
+
+00:12:26.800 --> 00:12:28.870 align:start position:0%
+wasn't before. Obviously, whatever you
+write<00:12:27.120><c> in</c><00:12:27.360><c> the</c><00:12:27.519><c> actual</c><00:12:27.920><c> variable</c><00:12:28.320><c> name</c><00:12:28.560><c> that's</c>
+
+00:12:28.870 --> 00:12:28.880 align:start position:0%
+write in the actual variable name that's
+ 
+
+00:12:28.880 --> 00:12:30.790 align:start position:0%
+write in the actual variable name that's
+more<00:12:29.040><c> or</c><00:12:29.200><c> less</c><00:12:29.440><c> permanent.</c><00:12:30.000><c> You</c><00:12:30.240><c> can't</c><00:12:30.399><c> like</c>
+
+00:12:30.790 --> 00:12:30.800 align:start position:0%
+more or less permanent. You can't like
+ 
+
+00:12:30.800 --> 00:12:32.949 align:start position:0%
+more or less permanent. You can't like
+get<00:12:31.040><c> rid</c><00:12:31.200><c> of</c><00:12:31.360><c> that.</c><00:12:31.920><c> It's</c><00:12:32.160><c> actually</c><00:12:32.399><c> in</c><00:12:32.720><c> the</c>
+
+00:12:32.949 --> 00:12:32.959 align:start position:0%
+get rid of that. It's actually in the
+ 
+
+00:12:32.959 --> 00:12:34.949 align:start position:0%
+get rid of that. It's actually in the
+code<00:12:33.200><c> itself.</c><00:12:33.839><c> It's</c><00:12:34.079><c> not</c><00:12:34.240><c> relying</c><00:12:34.560><c> on</c><00:12:34.800><c> some</c>
+
+00:12:34.949 --> 00:12:34.959 align:start position:0%
+code itself. It's not relying on some
+ 
+
+00:12:34.959 --> 00:12:37.110 align:start position:0%
+code itself. It's not relying on some
+kind<00:12:35.120><c> of</c><00:12:35.279><c> external</c><00:12:35.760><c> feature</c><00:12:36.320><c> to</c><00:12:36.560><c> go</c><00:12:36.720><c> in</c><00:12:36.959><c> and</c>
+
+00:12:37.110 --> 00:12:37.120 align:start position:0%
+kind of external feature to go in and
+ 
+
+00:12:37.120 --> 00:12:39.430 align:start position:0%
+kind of external feature to go in and
+like<00:12:37.360><c> decorate</c><00:12:37.839><c> things</c><00:12:38.079><c> for</c><00:12:38.240><c> you.</c><00:12:38.639><c> So</c><00:12:38.880><c> now</c>
+
+00:12:39.430 --> 00:12:39.440 align:start position:0%
+like decorate things for you. So now
+ 
+
+00:12:39.440 --> 00:12:42.870 align:start position:0%
+like decorate things for you. So now
+let's<00:12:39.680><c> go</c><00:12:39.920><c> from</c><00:12:40.160><c> this</c><00:12:40.639><c> to</c><00:12:41.600><c> my</c><00:12:41.920><c> version.</c><00:12:42.399><c> So</c><00:12:42.639><c> the</c>
+
+00:12:42.870 --> 00:12:42.880 align:start position:0%
+let's go from this to my version. So the
+ 
+
+00:12:42.880 --> 00:12:44.470 align:start position:0%
+let's go from this to my version. So the
+only<00:12:43.120><c> thing</c><00:12:43.200><c> that</c><00:12:43.440><c> has</c><00:12:43.680><c> changed</c><00:12:44.000><c> here</c><00:12:44.240><c> are</c>
+
+00:12:44.470 --> 00:12:44.480 align:start position:0%
+only thing that has changed here are
+ 
+
+00:12:44.480 --> 00:12:46.870 align:start position:0%
+only thing that has changed here are
+these<00:12:44.800><c> two</c><00:12:44.959><c> static</c><00:12:45.360><c> variables</c><00:12:45.839><c> and</c><00:12:46.240><c> this</c><00:12:46.639><c> m</c>
+
+00:12:46.870 --> 00:12:46.880 align:start position:0%
+these two static variables and this m
+ 
+
+00:12:46.880 --> 00:12:50.710 align:start position:0%
+these two static variables and this m
+entities<00:12:47.880><c> variable.h</c><00:12:48.880><c> I</c><00:12:49.360><c> honestly</c><00:12:50.320><c> this</c><00:12:50.560><c> is</c>
+
+00:12:50.710 --> 00:12:50.720 align:start position:0%
+entities variable.h I honestly this is
+ 
+
+00:12:50.720 --> 00:12:52.150 align:start position:0%
+entities variable.h I honestly this is
+such<00:12:50.880><c> a</c><00:12:51.040><c> this</c><00:12:51.279><c> is</c><00:12:51.360><c> such</c><00:12:51.519><c> a</c><00:12:51.600><c> silly</c><00:12:51.839><c> thing</c><00:12:52.000><c> cuz</c>
+
+00:12:52.150 --> 00:12:52.160 align:start position:0%
+such a this is such a silly thing cuz
+ 
+
+00:12:52.160 --> 00:12:53.829 align:start position:0%
+such a this is such a silly thing cuz
+this<00:12:52.320><c> is</c><00:12:52.399><c> just</c><00:12:52.720><c> s</c><00:12:52.720><c> such</c><00:12:52.959><c> a</c><00:12:53.120><c> small</c><00:12:53.360><c> function</c>
+
+00:12:53.829 --> 00:12:53.839 align:start position:0%
+this is just s such a small function
+ 
+
+00:12:53.839 --> 00:12:55.350 align:start position:0%
+this is just s such a small function
+like<00:12:54.079><c> I</c><00:12:54.240><c> don't</c><00:12:54.320><c> know</c><00:12:54.480><c> it's</c><00:12:54.720><c> like</c><00:12:54.880><c> it's</c><00:12:55.040><c> like</c><00:12:55.200><c> a</c>
+
+00:12:55.350 --> 00:12:55.360 align:start position:0%
+like I don't know it's like it's like a
+ 
+
+00:12:55.360 --> 00:12:57.030 align:start position:0%
+like I don't know it's like it's like a
+weight<00:12:55.680><c> has</c><00:12:55.839><c> been</c><00:12:56.000><c> lifted</c><00:12:56.240><c> off</c><00:12:56.399><c> my</c><00:12:56.639><c> shoulders</c>
+
+00:12:57.030 --> 00:12:57.040 align:start position:0%
+weight has been lifted off my shoulders
+ 
+
+00:12:57.040 --> 00:13:00.069 align:start position:0%
+weight has been lifted off my shoulders
+like<00:12:57.279><c> I</c><00:12:57.600><c> can</c><00:12:57.839><c> actually</c><00:12:58.639><c> understand</c><00:12:59.600><c> a</c><00:12:59.920><c> lot</c>
+
+00:13:00.069 --> 00:13:00.079 align:start position:0%
+like I can actually understand a lot
+ 
+
+00:13:00.079 --> 00:13:02.470 align:start position:0%
+like I can actually understand a lot
+more<00:13:00.480><c> about</c><00:13:00.880><c> what</c><00:13:01.120><c> is</c><00:13:01.360><c> going</c><00:13:01.519><c> on</c><00:13:01.680><c> here.</c><00:13:02.160><c> Now,</c>
+
+00:13:02.470 --> 00:13:02.480 align:start position:0%
+more about what is going on here. Now,
+ 
+
+00:13:02.480 --> 00:13:04.389 align:start position:0%
+more about what is going on here. Now,
+of<00:13:02.639><c> course,</c><00:13:03.120><c> I'm</c><00:13:03.440><c> used</c><00:13:03.600><c> to</c><00:13:03.760><c> this.</c><00:13:04.079><c> Like,</c><00:13:04.240><c> we</c>
+
+00:13:04.389 --> 00:13:04.399 align:start position:0%
+of course, I'm used to this. Like, we
+ 
+
+00:13:04.399 --> 00:13:06.470 align:start position:0%
+of course, I'm used to this. Like, we
+used<00:13:04.560><c> to</c><00:13:04.720><c> use</c><00:13:04.880><c> this</c><00:13:05.040><c> convention</c><00:13:05.519><c> at</c><00:13:05.680><c> EA,</c><00:13:06.079><c> and</c><00:13:06.320><c> I</c>
+
+00:13:06.470 --> 00:13:06.480 align:start position:0%
+used to use this convention at EA, and I
+ 
+
+00:13:06.480 --> 00:13:08.389 align:start position:0%
+used to use this convention at EA, and I
+obviously<00:13:06.880><c> spent</c><00:13:07.120><c> a</c><00:13:07.279><c> lot</c><00:13:07.440><c> of</c><00:13:07.519><c> time</c><00:13:08.079><c> reading</c>
+
+00:13:08.389 --> 00:13:08.399 align:start position:0%
+obviously spent a lot of time reading
+ 
+
+00:13:08.399 --> 00:13:10.230 align:start position:0%
+obviously spent a lot of time reading
+and<00:13:08.639><c> writing</c><00:13:08.959><c> code</c><00:13:09.279><c> when</c><00:13:09.519><c> I</c><00:13:09.680><c> was</c><00:13:09.760><c> a</c><00:13:09.920><c> full-time</c>
+
+00:13:10.230 --> 00:13:10.240 align:start position:0%
+and writing code when I was a full-time
+ 
+
+00:13:10.240 --> 00:13:12.470 align:start position:0%
+and writing code when I was a full-time
+software<00:13:10.639><c> engineer</c><00:13:11.200><c> at</c><00:13:11.440><c> EA.</c><00:13:11.839><c> And</c><00:13:12.000><c> it's</c><00:13:12.240><c> also</c>
+
+00:13:12.470 --> 00:13:12.480 align:start position:0%
+software engineer at EA. And it's also
+ 
+
+00:13:12.480 --> 00:13:13.990 align:start position:0%
+software engineer at EA. And it's also
+the<00:13:12.720><c> code</c><00:13:12.959><c> convention</c><00:13:13.360><c> that</c><00:13:13.519><c> I</c><00:13:13.760><c> of</c><00:13:13.920><c> course</c>
+
+00:13:13.990 --> 00:13:14.000 align:start position:0%
+the code convention that I of course
+ 
+
+00:13:14.000 --> 00:13:15.829 align:start position:0%
+the code convention that I of course
+have<00:13:14.160><c> adopted</c><00:13:14.560><c> for</c><00:13:14.800><c> like</c><00:13:14.959><c> Hazel,</c><00:13:15.360><c> and</c><00:13:15.519><c> I</c><00:13:15.680><c> just</c>
+
+00:13:15.829 --> 00:13:15.839 align:start position:0%
+have adopted for like Hazel, and I just
+ 
+
+00:13:15.839 --> 00:13:17.829 align:start position:0%
+have adopted for like Hazel, and I just
+use<00:13:16.000><c> it</c><00:13:16.240><c> in</c><00:13:16.480><c> like</c><00:13:16.720><c> all</c><00:13:16.880><c> of</c><00:13:17.040><c> my</c><00:13:17.279><c> programming</c>
+
+00:13:17.829 --> 00:13:17.839 align:start position:0%
+use it in like all of my programming
+ 
+
+00:13:17.839 --> 00:13:19.590 align:start position:0%
+use it in like all of my programming
+basically.<00:13:18.399><c> So,</c><00:13:18.560><c> yes,</c><00:13:18.880><c> there</c><00:13:19.040><c> is</c><00:13:19.200><c> that</c><00:13:19.440><c> kind</c>
+
+00:13:19.590 --> 00:13:19.600 align:start position:0%
+basically. So, yes, there is that kind
+ 
+
+00:13:19.600 --> 00:13:21.910 align:start position:0%
+basically. So, yes, there is that kind
+of<00:13:19.920><c> familiarity</c><00:13:20.639><c> thing</c><00:13:20.959><c> where</c><00:13:21.279><c> it's</c><00:13:21.519><c> familiar</c>
+
+00:13:21.910 --> 00:13:21.920 align:start position:0%
+of familiarity thing where it's familiar
+ 
+
+00:13:21.920 --> 00:13:24.389 align:start position:0%
+of familiarity thing where it's familiar
+to<00:13:22.079><c> me.</c><00:13:22.480><c> It</c><00:13:23.040><c> might</c><00:13:23.279><c> not</c><00:13:23.519><c> be</c><00:13:23.760><c> to</c><00:13:24.000><c> you.</c><00:13:24.240><c> So</c>
+
+00:13:24.389 --> 00:13:24.399 align:start position:0%
+to me. It might not be to you. So
+ 
+
+00:13:24.399 --> 00:13:25.350 align:start position:0%
+to me. It might not be to you. So
+therefore,<00:13:24.720><c> it's</c><00:13:24.880><c> probably</c><00:13:25.040><c> not</c><00:13:25.200><c> going</c><00:13:25.200><c> to</c><00:13:25.279><c> be</c>
+
+00:13:25.350 --> 00:13:25.360 align:start position:0%
+therefore, it's probably not going to be
+ 
+
+00:13:25.360 --> 00:13:27.430 align:start position:0%
+therefore, it's probably not going to be
+that<00:13:25.600><c> dramatic.</c><00:13:26.079><c> But</c><00:13:26.320><c> hopefully</c><00:13:26.959><c> you</c><00:13:27.279><c> can</c>
+
+00:13:27.430 --> 00:13:27.440 align:start position:0%
+that dramatic. But hopefully you can
+ 
+
+00:13:27.440 --> 00:13:30.389 align:start position:0%
+that dramatic. But hopefully you can
+just<00:13:27.760><c> see</c><00:13:28.320><c> why</c><00:13:28.800><c> I</c><00:13:29.040><c> like</c><00:13:29.279><c> using</c><00:13:29.519><c> it</c><00:13:29.760><c> and</c><00:13:30.079><c> why</c>
+
+00:13:30.389 --> 00:13:30.399 align:start position:0%
+just see why I like using it and why
+ 
+
+00:13:30.399 --> 00:13:32.470 align:start position:0%
+just see why I like using it and why
+potentially<00:13:30.880><c> you</c><00:13:31.200><c> should</c><00:13:31.680><c> try</c><00:13:32.000><c> using</c><00:13:32.240><c> it</c>
+
+00:13:32.470 --> 00:13:32.480 align:start position:0%
+potentially you should try using it
+ 
+
+00:13:32.480 --> 00:13:33.829 align:start position:0%
+potentially you should try using it
+because<00:13:32.720><c> looking</c><00:13:32.880><c> at</c><00:13:33.040><c> this</c><00:13:33.200><c> function</c><00:13:33.600><c> now,</c>
+
+00:13:33.829 --> 00:13:33.839 align:start position:0%
+because looking at this function now,
+ 
+
+00:13:33.839 --> 00:13:35.509 align:start position:0%
+because looking at this function now,
+it's<00:13:34.320><c> just</c><00:13:34.480><c> way</c><00:13:34.639><c> more</c><00:13:34.800><c> clear.</c><00:13:35.040><c> And</c><00:13:35.120><c> if</c><00:13:35.279><c> I</c><00:13:35.360><c> drop</c>
+
+00:13:35.509 --> 00:13:35.519 align:start position:0%
+it's just way more clear. And if I drop
+ 
+
+00:13:35.519 --> 00:13:36.710 align:start position:0%
+it's just way more clear. And if I drop
+this<00:13:35.680><c> down</c><00:13:35.760><c> a</c><00:13:35.920><c> little</c><00:13:36.000><c> bit</c><00:13:36.079><c> so</c><00:13:36.240><c> that</c><00:13:36.399><c> we</c><00:13:36.560><c> don't</c>
+
+00:13:36.710 --> 00:13:36.720 align:start position:0%
+this down a little bit so that we don't
+ 
+
+00:13:36.720 --> 00:13:39.269 align:start position:0%
+this down a little bit so that we don't
+see<00:13:36.959><c> the</c><00:13:37.200><c> two</c><00:13:37.360><c> static</c><00:13:37.680><c> variables</c><00:13:38.160><c> up</c><00:13:38.399><c> here,</c><00:13:39.040><c> I</c>
+
+00:13:39.269 --> 00:13:39.279 align:start position:0%
+see the two static variables up here, I
+ 
+
+00:13:39.279 --> 00:13:40.790 align:start position:0%
+see the two static variables up here, I
+know<00:13:39.440><c> now</c><00:13:39.680><c> that</c><00:13:39.920><c> okay,</c><00:13:40.240><c> this</c><00:13:40.399><c> is</c><00:13:40.560><c> actually</c>
+
+00:13:40.790 --> 00:13:40.800 align:start position:0%
+know now that okay, this is actually
+ 
+
+00:13:40.800 --> 00:13:42.310 align:start position:0%
+know now that okay, this is actually
+something<00:13:41.040><c> that's</c><00:13:41.279><c> like</c><00:13:41.519><c> static.</c><00:13:42.000><c> So</c><00:13:42.160><c> the</c>
+
+00:13:42.310 --> 00:13:42.320 align:start position:0%
+something that's like static. So the
+ 
+
+00:13:42.320 --> 00:13:44.230 align:start position:0%
+something that's like static. So the
+projectile<00:13:42.800><c> pool</c><00:13:43.120><c> is</c><00:13:43.279><c> actually</c><00:13:43.760><c> external</c>
+
+00:13:44.230 --> 00:13:44.240 align:start position:0%
+projectile pool is actually external
+ 
+
+00:13:44.240 --> 00:13:45.590 align:start position:0%
+projectile pool is actually external
+first<00:13:44.399><c> of</c><00:13:44.480><c> all</c><00:13:44.639><c> to</c><00:13:44.800><c> this</c><00:13:44.959><c> function,</c><00:13:45.200><c> but</c><00:13:45.440><c> also</c>
+
+00:13:45.590 --> 00:13:45.600 align:start position:0%
+first of all to this function, but also
+ 
+
+00:13:45.600 --> 00:13:47.030 align:start position:0%
+first of all to this function, but also
+it's<00:13:45.839><c> external</c><00:13:46.160><c> to</c><00:13:46.320><c> the</c><00:13:46.480><c> class.</c><00:13:46.720><c> It's</c><00:13:46.959><c> just</c>
+
+00:13:47.030 --> 00:13:47.040 align:start position:0%
+it's external to the class. It's just
+ 
+
+00:13:47.040 --> 00:13:48.949 align:start position:0%
+it's external to the class. It's just
+like<00:13:47.200><c> a</c><00:13:47.360><c> static</c><00:13:47.839><c> kind</c><00:13:48.000><c> of</c><00:13:48.079><c> global</c><00:13:48.480><c> internal</c>
+
+00:13:48.949 --> 00:13:48.959 align:start position:0%
+like a static kind of global internal
+ 
+
+00:13:48.959 --> 00:13:50.870 align:start position:0%
+like a static kind of global internal
+variable<00:13:49.279><c> up</c><00:13:49.519><c> here.</c><00:13:49.920><c> And</c><00:13:50.079><c> then</c><00:13:50.240><c> m</c><00:13:50.480><c> underscore</c>
+
+00:13:50.870 --> 00:13:50.880 align:start position:0%
+variable up here. And then m underscore
+ 
+
+00:13:50.880 --> 00:13:52.150 align:start position:0%
+variable up here. And then m underscore
+is<00:13:51.040><c> the</c><00:13:51.200><c> only</c><00:13:51.279><c> thing</c><00:13:51.360><c> that's</c><00:13:51.600><c> actually</c><00:13:51.839><c> tied</c>
+
+00:13:52.150 --> 00:13:52.160 align:start position:0%
+is the only thing that's actually tied
+ 
+
+00:13:52.160 --> 00:13:53.829 align:start position:0%
+is the only thing that's actually tied
+to<00:13:52.399><c> this</c><00:13:52.639><c> class.</c><00:13:53.040><c> and</c><00:13:53.200><c> then</c><00:13:53.440><c> everything</c><00:13:53.680><c> else</c>
+
+00:13:53.829 --> 00:13:53.839 align:start position:0%
+to this class. and then everything else
+ 
+
+00:13:53.839 --> 00:13:55.750 align:start position:0%
+to this class. and then everything else
+must<00:13:54.079><c> be</c><00:13:54.240><c> local.</c><00:13:54.720><c> As</c><00:13:54.959><c> you're</c><00:13:55.200><c> scrolling</c>
+
+00:13:55.750 --> 00:13:55.760 align:start position:0%
+must be local. As you're scrolling
+ 
+
+00:13:55.760 --> 00:13:58.069 align:start position:0%
+must be local. As you're scrolling
+through<00:13:56.160><c> code</c><00:13:56.720><c> and</c><00:13:56.959><c> you</c><00:13:57.199><c> just</c><00:13:57.440><c> notice</c><00:13:57.839><c> things</c>
+
+00:13:58.069 --> 00:13:58.079 align:start position:0%
+through code and you just notice things
+ 
+
+00:13:58.079 --> 00:13:59.750 align:start position:0%
+through code and you just notice things
+like<00:13:58.240><c> this,</c><00:13:58.560><c> if</c><00:13:58.720><c> I</c><00:13:58.880><c> need</c><00:13:59.040><c> to</c><00:13:59.199><c> now</c><00:13:59.360><c> take</c><00:13:59.600><c> this</c>
+
+00:13:59.750 --> 00:13:59.760 align:start position:0%
+like this, if I need to now take this
+ 
+
+00:13:59.760 --> 00:14:01.590 align:start position:0%
+like this, if I need to now take this
+function<00:14:00.160><c> somewhere</c><00:14:00.480><c> else,</c><00:14:01.040><c> then</c><00:14:01.199><c> I</c><00:14:01.440><c> know</c>
+
+00:14:01.590 --> 00:14:01.600 align:start position:0%
+function somewhere else, then I know
+ 
+
+00:14:01.600 --> 00:14:03.350 align:start position:0%
+function somewhere else, then I know
+that<00:14:01.839><c> it's</c><00:14:02.160><c> got</c><00:14:02.399><c> basically</c><00:14:02.800><c> like</c><00:14:03.040><c> three</c>
+
+00:14:03.350 --> 00:14:03.360 align:start position:0%
+that it's got basically like three
+ 
+
+00:14:03.360 --> 00:14:05.030 align:start position:0%
+that it's got basically like three
+dependencies.<00:14:04.000><c> It's</c><00:14:04.240><c> dependent</c><00:14:04.560><c> on</c><00:14:04.800><c> this</c>
+
+00:14:05.030 --> 00:14:05.040 align:start position:0%
+dependencies. It's dependent on this
+ 
+
+00:14:05.040 --> 00:14:07.350 align:start position:0%
+dependencies. It's dependent on this
+projectile<00:14:05.519><c> pool</c><00:14:05.920><c> and</c><00:14:06.160><c> its</c><00:14:06.480><c> functionality</c><00:14:07.199><c> as</c>
+
+00:14:07.350 --> 00:14:07.360 align:start position:0%
+projectile pool and its functionality as
+ 
+
+00:14:07.360 --> 00:14:09.350 align:start position:0%
+projectile pool and its functionality as
+well<00:14:07.519><c> as</c><00:14:07.839><c> obviously</c><00:14:08.160><c> the</c><00:14:08.399><c> entity</c><00:14:08.959><c> where</c><00:14:09.199><c> it</c>
+
+00:14:09.350 --> 00:14:09.360 align:start position:0%
+well as obviously the entity where it
+ 
+
+00:14:09.360 --> 00:14:11.110 align:start position:0%
+well as obviously the entity where it
+actually<00:14:09.600><c> spawns</c><00:14:09.920><c> that</c><00:14:10.160><c> projectile.</c><00:14:10.880><c> That's</c>
+
+00:14:11.110 --> 00:14:11.120 align:start position:0%
+actually spawns that projectile. That's
+ 
+
+00:14:11.120 --> 00:14:13.189 align:start position:0%
+actually spawns that projectile. That's
+now<00:14:11.440><c> immediately</c><00:14:12.160><c> clear</c><00:14:12.399><c> to</c><00:14:12.560><c> me</c><00:14:12.880><c> without</c>
+
+00:14:13.189 --> 00:14:13.199 align:start position:0%
+now immediately clear to me without
+ 
+
+00:14:13.199 --> 00:14:14.870 align:start position:0%
+now immediately clear to me without
+having<00:14:13.440><c> to</c><00:14:13.600><c> dive</c><00:14:13.839><c> in</c><00:14:14.000><c> and</c><00:14:14.240><c> actually</c><00:14:14.639><c> start</c>
+
+00:14:14.870 --> 00:14:14.880 align:start position:0%
+having to dive in and actually start
+ 
+
+00:14:14.880 --> 00:14:17.110 align:start position:0%
+having to dive in and actually start
+inspecting<00:14:15.680><c> the</c><00:14:16.000><c> code.</c><00:14:16.320><c> If</c><00:14:16.480><c> I</c><00:14:16.639><c> show</c><00:14:16.720><c> you</c><00:14:16.959><c> some</c>
+
+00:14:17.110 --> 00:14:17.120 align:start position:0%
+inspecting the code. If I show you some
+ 
+
+00:14:17.120 --> 00:14:18.550 align:start position:0%
+inspecting the code. If I show you some
+slightly<00:14:17.440><c> more</c><00:14:17.600><c> complicated</c><00:14:18.079><c> code</c><00:14:18.320><c> from</c>
+
+00:14:18.550 --> 00:14:18.560 align:start position:0%
+slightly more complicated code from
+ 
+
+00:14:18.560 --> 00:14:21.509 align:start position:0%
+slightly more complicated code from
+Hazel<00:14:19.519><c> for</c><00:14:19.680><c> example,</c><00:14:20.320><c> like</c><00:14:20.560><c> this</c><00:14:20.880><c> like</c><00:14:21.120><c> submit</c>
+
+00:14:21.509 --> 00:14:21.519 align:start position:0%
+Hazel for example, like this like submit
+ 
+
+00:14:21.519 --> 00:14:23.189 align:start position:0%
+Hazel for example, like this like submit
+physics<00:14:21.839><c> debug</c><00:14:22.240><c> mesh</c><00:14:22.560><c> completely</c><00:14:22.880><c> random</c>
+
+00:14:23.189 --> 00:14:23.199 align:start position:0%
+physics debug mesh completely random
+ 
+
+00:14:23.199 --> 00:14:24.629 align:start position:0%
+physics debug mesh completely random
+function<00:14:23.440><c> that</c><00:14:23.600><c> I</c><00:14:23.760><c> found</c><00:14:23.920><c> here</c><00:14:24.160><c> inside</c><00:14:24.480><c> the</c>
+
+00:14:24.629 --> 00:14:24.639 align:start position:0%
+function that I found here inside the
+ 
+
+00:14:24.639 --> 00:14:26.230 align:start position:0%
+function that I found here inside the
+scene<00:14:24.880><c> renderer</c><00:14:25.279><c> class.</c><00:14:25.680><c> Same</c><00:14:25.920><c> kind</c><00:14:26.079><c> of</c>
+
+00:14:26.230 --> 00:14:26.240 align:start position:0%
+scene renderer class. Same kind of
+ 
+
+00:14:26.240 --> 00:14:28.150 align:start position:0%
+scene renderer class. Same kind of
+situation.<00:14:26.800><c> I</c><00:14:27.040><c> can</c><00:14:27.120><c> look</c><00:14:27.360><c> through</c><00:14:27.519><c> this</c><00:14:27.760><c> and</c><00:14:28.000><c> I</c>
+
+00:14:28.150 --> 00:14:28.160 align:start position:0%
+situation. I can look through this and I
+ 
+
+00:14:28.160 --> 00:14:30.710 align:start position:0%
+situation. I can look through this and I
+know<00:14:28.639><c> what</c><00:14:28.959><c> is</c><00:14:29.279><c> like</c><00:14:29.519><c> a</c><00:14:29.760><c> member</c><00:14:30.079><c> variable</c><00:14:30.480><c> over</c>
+
+00:14:30.710 --> 00:14:30.720 align:start position:0%
+know what is like a member variable over
+ 
+
+00:14:30.720 --> 00:14:32.150 align:start position:0%
+know what is like a member variable over
+here.<00:14:31.120><c> I</c><00:14:31.279><c> mean</c><00:14:31.440><c> there's</c><00:14:31.600><c> nothing</c><00:14:31.839><c> static</c>
+
+00:14:32.150 --> 00:14:32.160 align:start position:0%
+here. I mean there's nothing static
+ 
+
+00:14:32.160 --> 00:14:33.590 align:start position:0%
+here. I mean there's nothing static
+inside<00:14:32.560><c> here.</c><00:14:32.880><c> There's</c><00:14:33.120><c> nothing</c><00:14:33.279><c> really</c>
+
+00:14:33.590 --> 00:14:33.600 align:start position:0%
+inside here. There's nothing really
+ 
+
+00:14:33.600 --> 00:14:35.430 align:start position:0%
+inside here. There's nothing really
+static<00:14:33.920><c> in</c><00:14:34.160><c> this</c><00:14:34.560><c> entire</c><00:14:34.880><c> class</c><00:14:35.199><c> to</c><00:14:35.360><c> be</c>
+
+00:14:35.430 --> 00:14:35.440 align:start position:0%
+static in this entire class to be
+ 
+
+00:14:35.440 --> 00:14:37.110 align:start position:0%
+static in this entire class to be
+honest.<00:14:35.839><c> But</c><00:14:36.000><c> as</c><00:14:36.160><c> I'm</c><00:14:36.320><c> going</c><00:14:36.480><c> through</c><00:14:36.639><c> this,</c><00:14:36.959><c> I</c>
+
+00:14:37.110 --> 00:14:37.120 align:start position:0%
+honest. But as I'm going through this, I
+ 
+
+00:14:37.120 --> 00:14:38.870 align:start position:0%
+honest. But as I'm going through this, I
+can<00:14:37.199><c> way</c><00:14:37.440><c> more</c><00:14:37.600><c> easily</c><00:14:38.000><c> see</c><00:14:38.240><c> and</c><00:14:38.480><c> understand</c>
+
+00:14:38.870 --> 00:14:38.880 align:start position:0%
+can way more easily see and understand
+ 
+
+00:14:38.880 --> 00:14:40.470 align:start position:0%
+can way more easily see and understand
+like<00:14:39.120><c> what</c><00:14:39.279><c> the</c><00:14:39.440><c> code</c><00:14:39.600><c> is</c><00:14:39.839><c> actually</c><00:14:40.079><c> doing</c><00:14:40.240><c> and</c>
+
+00:14:40.470 --> 00:14:40.480 align:start position:0%
+like what the code is actually doing and
+ 
+
+00:14:40.480 --> 00:14:41.990 align:start position:0%
+like what the code is actually doing and
+how<00:14:40.639><c> it's</c><00:14:40.800><c> put</c><00:14:40.959><c> together.</c><00:14:41.440><c> Not</c><00:14:41.600><c> to</c><00:14:41.760><c> mention</c>
+
+00:14:41.990 --> 00:14:42.000 align:start position:0%
+how it's put together. Not to mention
+ 
+
+00:14:42.000 --> 00:14:43.990 align:start position:0%
+how it's put together. Not to mention
+that<00:14:42.240><c> I</c><00:14:42.480><c> can</c><00:14:42.639><c> also</c><00:14:43.040><c> search</c><00:14:43.279><c> for</c><00:14:43.440><c> these</c><00:14:43.680><c> things,</c>
+
+00:14:43.990 --> 00:14:44.000 align:start position:0%
+that I can also search for these things,
+ 
+
+00:14:44.000 --> 00:14:45.670 align:start position:0%
+that I can also search for these things,
+right?<00:14:44.240><c> So</c><00:14:44.480><c> m</c><00:14:44.720><c> underscore</c><00:14:45.199><c> and</c><00:14:45.360><c> I</c><00:14:45.519><c> can</c>
+
+00:14:45.670 --> 00:14:45.680 align:start position:0%
+right? So m underscore and I can
+ 
+
+00:14:45.680 --> 00:14:47.189 align:start position:0%
+right? So m underscore and I can
+immediately<00:14:46.079><c> see</c><00:14:46.240><c> like</c><00:14:46.399><c> within</c><00:14:46.639><c> a</c><00:14:46.880><c> function.</c>
+
+00:14:47.189 --> 00:14:47.199 align:start position:0%
+immediately see like within a function.
+ 
+
+00:14:47.199 --> 00:14:49.030 align:start position:0%
+immediately see like within a function.
+Okay,<00:14:47.440><c> these</c><00:14:47.680><c> are</c><00:14:47.839><c> all</c><00:14:48.000><c> member</c><00:14:48.399><c> variables.</c>
+
+00:14:49.030 --> 00:14:49.040 align:start position:0%
+Okay, these are all member variables.
+ 
+
+00:14:49.040 --> 00:14:50.550 align:start position:0%
+Okay, these are all member variables.
+There's<00:14:49.279><c> also</c><00:14:49.440><c> another</c><00:14:49.760><c> advantage</c><00:14:50.079><c> of</c><00:14:50.320><c> not</c>
+
+00:14:50.550 --> 00:14:50.560 align:start position:0%
+There's also another advantage of not
+ 
+
+00:14:50.560 --> 00:14:52.710 align:start position:0%
+There's also another advantage of not
+just<00:14:50.800><c> having</c><00:14:51.120><c> like</c><00:14:51.360><c> no</c><00:14:51.680><c> space</c><00:14:52.000><c> here</c><00:14:52.240><c> like</c><00:14:52.480><c> m</c>
+
+00:14:52.710 --> 00:14:52.720 align:start position:0%
+just having like no space here like m
+ 
+
+00:14:52.720 --> 00:14:54.069 align:start position:0%
+just having like no space here like m
+entities<00:14:53.040><c> cuz</c><00:14:53.279><c> then</c><00:14:53.440><c> you</c><00:14:53.600><c> can't</c><00:14:53.760><c> really</c>
+
+00:14:54.069 --> 00:14:54.079 align:start position:0%
+entities cuz then you can't really
+ 
+
+00:14:54.079 --> 00:14:55.590 align:start position:0%
+entities cuz then you can't really
+search<00:14:54.320><c> for</c><00:14:54.560><c> that</c><00:14:54.880><c> unless</c><00:14:55.120><c> you</c><00:14:55.279><c> have</c><00:14:55.360><c> maybe</c>
+
+00:14:55.590 --> 00:14:55.600 align:start position:0%
+search for that unless you have maybe
+ 
+
+00:14:55.600 --> 00:14:56.870 align:start position:0%
+search for that unless you have maybe
+like<00:14:55.680><c> a</c><00:14:55.839><c> regular</c><00:14:56.079><c> expression</c><00:14:56.480><c> or</c><00:14:56.639><c> something.</c>
+
+00:14:56.870 --> 00:14:56.880 align:start position:0%
+like a regular expression or something.
+ 
+
+00:14:56.880 --> 00:14:58.310 align:start position:0%
+like a regular expression or something.
+But<00:14:57.040><c> m</c><00:14:57.279><c> underscore</c><00:14:57.680><c> will</c><00:14:57.839><c> obviously</c><00:14:58.079><c> light</c>
+
+00:14:58.310 --> 00:14:58.320 align:start position:0%
+But m underscore will obviously light
+ 
+
+00:14:58.320 --> 00:15:00.710 align:start position:0%
+But m underscore will obviously light
+that<00:14:58.480><c> up.</c><00:14:58.800><c> S</c><00:14:59.360><c> will</c><00:14:59.519><c> light</c><00:14:59.760><c> that</c><00:14:59.920><c> up</c><00:15:00.240><c> since</c><00:15:00.480><c> it</c>
+
+00:15:00.710 --> 00:15:00.720 align:start position:0%
+that up. S will light that up since it
+ 
+
+00:15:00.720 --> 00:15:03.590 align:start position:0%
+that up. S will light that up since it
+happens<00:15:01.040><c> to</c><00:15:01.279><c> be</c><00:15:01.600><c> important</c><00:15:02.160><c> to</c><00:15:02.399><c> me</c><00:15:02.880><c> in</c><00:15:03.199><c> my</c><00:15:03.360><c> line</c>
+
+00:15:03.590 --> 00:15:03.600 align:start position:0%
+happens to be important to me in my line
+ 
+
+00:15:03.600 --> 00:15:06.389 align:start position:0%
+happens to be important to me in my line
+of<00:15:03.760><c> work</c><00:15:04.560><c> where</c><00:15:04.880><c> a</c><00:15:05.120><c> variable</c><00:15:05.600><c> actually</c><00:15:05.920><c> is.</c>
+
+00:15:06.389 --> 00:15:06.399 align:start position:0%
+of work where a variable actually is.
+ 
+
+00:15:06.399 --> 00:15:08.389 align:start position:0%
+of work where a variable actually is.
+This<00:15:06.560><c> is</c><00:15:06.720><c> obviously</c><00:15:07.279><c> a</c><00:15:07.519><c> game</c><00:15:07.680><c> changer.</c><00:15:08.160><c> It</c>
+
+00:15:08.389 --> 00:15:08.399 align:start position:0%
+This is obviously a game changer. It
+ 
+
+00:15:08.399 --> 00:15:10.629 align:start position:0%
+This is obviously a game changer. It
+also<00:15:08.639><c> by</c><00:15:08.800><c> the</c><00:15:08.959><c> way</c><00:15:09.199><c> shows</c><00:15:09.440><c> me</c><00:15:09.760><c> exactly</c><00:15:10.160><c> what</c><00:15:10.399><c> is</c>
+
+00:15:10.629 --> 00:15:10.639 align:start position:0%
+also by the way shows me exactly what is
+ 
+
+00:15:10.639 --> 00:15:12.550 align:start position:0%
+also by the way shows me exactly what is
+supposed<00:15:10.800><c> to</c><00:15:11.040><c> be</c><00:15:11.199><c> like</c><00:15:11.440><c> an</c><00:15:11.680><c> implementation</c>
+
+00:15:12.550 --> 00:15:12.560 align:start position:0%
+supposed to be like an implementation
+ 
+
+00:15:12.560 --> 00:15:14.230 align:start position:0%
+supposed to be like an implementation
+detail<00:15:13.040><c> what</c><00:15:13.199><c> is</c><00:15:13.360><c> kind</c><00:15:13.440><c> of</c><00:15:13.519><c> internal</c><00:15:13.920><c> and</c><00:15:14.079><c> what</c>
+
+00:15:14.230 --> 00:15:14.240 align:start position:0%
+detail what is kind of internal and what
+ 
+
+00:15:14.240 --> 00:15:16.150 align:start position:0%
+detail what is kind of internal and what
+is<00:15:14.399><c> not</c><00:15:14.639><c> because</c><00:15:15.040><c> I</c><00:15:15.199><c> would</c><00:15:15.360><c> only</c><00:15:15.600><c> use</c><00:15:15.839><c> these</c>
+
+00:15:16.150 --> 00:15:16.160 align:start position:0%
+is not because I would only use these
+ 
+
+00:15:16.160 --> 00:15:18.550 align:start position:0%
+is not because I would only use these
+for<00:15:16.480><c> private</c><00:15:16.959><c> variables</c><00:15:17.519><c> effectively.</c><00:15:18.079><c> So</c><00:15:18.320><c> s</c>
+
+00:15:18.550 --> 00:15:18.560 align:start position:0%
+for private variables effectively. So s
+ 
+
+00:15:18.560 --> 00:15:19.910 align:start position:0%
+for private variables effectively. So s
+projectile<00:15:19.040><c> pull</c><00:15:19.279><c> is</c><00:15:19.440><c> obviously</c><00:15:19.680><c> something</c>
+
+00:15:19.910 --> 00:15:19.920 align:start position:0%
+projectile pull is obviously something
+ 
+
+00:15:19.920 --> 00:15:21.750 align:start position:0%
+projectile pull is obviously something
+that<00:15:20.079><c> is</c><00:15:20.240><c> static</c><00:15:20.720><c> like</c><00:15:20.880><c> to</c><00:15:21.120><c> this</c><00:15:21.279><c> class</c><00:15:21.600><c> kind</c>
+
+00:15:21.750 --> 00:15:21.760 align:start position:0%
+that is static like to this class kind
+ 
+
+00:15:21.760 --> 00:15:24.150 align:start position:0%
+that is static like to this class kind
+of<00:15:21.920><c> private</c><00:15:22.240><c> here.</c><00:15:22.639><c> G</c><00:15:22.880><c> underscore</c><00:15:23.519><c> is</c><00:15:23.839><c> an</c>
+
+00:15:24.150 --> 00:15:24.160 align:start position:0%
+of private here. G underscore is an
+ 
+
+00:15:24.160 --> 00:15:25.990 align:start position:0%
+of private here. G underscore is an
+exception<00:15:24.480><c> to</c><00:15:24.639><c> that</c><00:15:25.120><c> because</c><00:15:25.360><c> if</c><00:15:25.600><c> this</c><00:15:25.760><c> was</c>
+
+00:15:25.990 --> 00:15:26.000 align:start position:0%
+exception to that because if this was
+ 
+
+00:15:26.000 --> 00:15:27.670 align:start position:0%
+exception to that because if this was
+global<00:15:26.399><c> I</c><00:15:26.560><c> would</c><00:15:26.639><c> still</c><00:15:26.800><c> have</c><00:15:26.880><c> the</c><00:15:27.120><c> g</c><00:15:27.279><c> here</c><00:15:27.519><c> but</c>
+
+00:15:27.670 --> 00:15:27.680 align:start position:0%
+global I would still have the g here but
+ 
+
+00:15:27.680 --> 00:15:29.670 align:start position:0%
+global I would still have the g here but
+I<00:15:27.839><c> think</c><00:15:27.920><c> it</c><00:15:28.079><c> is</c><00:15:28.320><c> important</c><00:15:28.639><c> to</c><00:15:28.800><c> just</c><00:15:28.959><c> be</c><00:15:29.120><c> aware</c>
+
+00:15:29.670 --> 00:15:29.680 align:start position:0%
+I think it is important to just be aware
+ 
+
+00:15:29.680 --> 00:15:31.829 align:start position:0%
+I think it is important to just be aware
+of<00:15:29.920><c> global</c><00:15:30.320><c> variables</c><00:15:30.800><c> if</c><00:15:31.040><c> you</c><00:15:31.120><c> do</c><00:15:31.279><c> use</c><00:15:31.519><c> them.</c>
+
+00:15:31.829 --> 00:15:31.839 align:start position:0%
+of global variables if you do use them.
+ 
+
+00:15:31.839 --> 00:15:34.150 align:start position:0%
+of global variables if you do use them.
+But<00:15:32.000><c> this</c><00:15:32.240><c> m</c><00:15:32.880><c> entities</c><00:15:33.360><c> would</c><00:15:33.600><c> not</c><00:15:33.760><c> have</c><00:15:33.920><c> this</c>
+
+00:15:34.150 --> 00:15:34.160 align:start position:0%
+But this m entities would not have this
+ 
+
+00:15:34.160 --> 00:15:36.389 align:start position:0%
+But this m entities would not have this
+convention<00:15:34.639><c> if</c><00:15:34.959><c> it</c><00:15:35.199><c> was</c><00:15:35.440><c> public</c><00:15:35.920><c> because</c><00:15:36.160><c> then</c>
+
+00:15:36.389 --> 00:15:36.399 align:start position:0%
+convention if it was public because then
+ 
+
+00:15:36.399 --> 00:15:38.470 align:start position:0%
+convention if it was public because then
+it's<00:15:36.639><c> kind</c><00:15:36.720><c> of</c><00:15:36.800><c> like</c><00:15:37.279><c> part</c><00:15:37.519><c> of</c><00:15:37.600><c> the</c><00:15:37.760><c> API.</c><00:15:38.320><c> You</c>
+
+00:15:38.470 --> 00:15:38.480 align:start position:0%
+it's kind of like part of the API. You
+ 
+
+00:15:38.480 --> 00:15:40.389 align:start position:0%
+it's kind of like part of the API. You
+can<00:15:38.639><c> see</c><00:15:38.720><c> here</c><00:15:38.880><c> with</c><00:15:39.120><c> entity</c><00:15:39.519><c> position</c><00:15:40.000><c> and</c>
+
+00:15:40.389 --> 00:15:40.399 align:start position:0%
+can see here with entity position and
+ 
+
+00:15:40.399 --> 00:15:42.389 align:start position:0%
+can see here with entity position and
+projectile<00:15:41.040><c> velocity</c><00:15:41.680><c> they're</c><00:15:41.920><c> just</c><00:15:42.079><c> public</c>
+
+00:15:42.389 --> 00:15:42.399 align:start position:0%
+projectile velocity they're just public
+ 
+
+00:15:42.399 --> 00:15:44.150 align:start position:0%
+projectile velocity they're just public
+variables<00:15:42.720><c> that</c><00:15:42.959><c> are</c><00:15:43.120><c> part</c><00:15:43.199><c> of</c><00:15:43.360><c> this</c><00:15:43.519><c> strct.</c>
+
+00:15:44.150 --> 00:15:44.160 align:start position:0%
+variables that are part of this strct.
+ 
+
+00:15:44.160 --> 00:15:45.990 align:start position:0%
+variables that are part of this strct.
+So<00:15:44.320><c> in</c><00:15:44.480><c> that</c><00:15:44.720><c> case</c><00:15:45.040><c> I</c><00:15:45.279><c> just</c><00:15:45.440><c> have</c><00:15:45.600><c> them</c><00:15:45.760><c> in</c>
+
+00:15:45.990 --> 00:15:46.000 align:start position:0%
+So in that case I just have them in
+ 
+
+00:15:46.000 --> 00:15:48.310 align:start position:0%
+So in that case I just have them in
+Pascal<00:15:46.560><c> case</c><00:15:46.880><c> which</c><00:15:47.120><c> also</c><00:15:47.360><c> makes</c><00:15:47.600><c> the</c><00:15:47.839><c> code</c><00:15:48.160><c> I</c>
+
+00:15:48.310 --> 00:15:48.320 align:start position:0%
+Pascal case which also makes the code I
+ 
+
+00:15:48.320 --> 00:15:49.990 align:start position:0%
+Pascal case which also makes the code I
+think<00:15:48.560><c> look</c><00:15:48.720><c> a</c><00:15:48.959><c> lot</c><00:15:49.120><c> better.</c><00:15:49.440><c> Like</c><00:15:49.600><c> if</c><00:15:49.759><c> I</c><00:15:49.839><c> was</c>
+
+00:15:49.990 --> 00:15:50.000 align:start position:0%
+think look a lot better. Like if I was
+ 
+
+00:15:50.000 --> 00:15:51.829 align:start position:0%
+think look a lot better. Like if I was
+to<00:15:50.160><c> actually</c><00:15:50.399><c> access</c><00:15:50.880><c> these</c><00:15:51.199><c> variables.</c>
+
+00:15:51.829 --> 00:15:51.839 align:start position:0%
+to actually access these variables.
+ 
+
+00:15:51.839 --> 00:15:52.870 align:start position:0%
+to actually access these variables.
+Thank<00:15:52.000><c> you</c><00:15:52.079><c> for</c><00:15:52.240><c> watching.</c><00:15:52.480><c> I</c><00:15:52.639><c> hope</c><00:15:52.720><c> you</c>
+
+00:15:52.870 --> 00:15:52.880 align:start position:0%
+Thank you for watching. I hope you
+ 
+
+00:15:52.880 --> 00:15:54.069 align:start position:0%
+Thank you for watching. I hope you
+enjoyed<00:15:53.040><c> this</c><00:15:53.199><c> video.</c><00:15:53.360><c> I</c><00:15:53.440><c> hope</c><00:15:53.600><c> this</c><00:15:53.759><c> added</c><00:15:54.000><c> a</c>
+
+00:15:54.069 --> 00:15:54.079 align:start position:0%
+enjoyed this video. I hope this added a
+ 
+
+00:15:54.079 --> 00:15:55.350 align:start position:0%
+enjoyed this video. I hope this added a
+little<00:15:54.160><c> bit</c><00:15:54.320><c> more</c><00:15:54.480><c> clarity</c><00:15:54.800><c> to</c><00:15:55.040><c> what</c><00:15:55.199><c> these</c>
+
+00:15:55.350 --> 00:15:55.360 align:start position:0%
+little bit more clarity to what these
+ 
+
+00:15:55.360 --> 00:15:57.509 align:start position:0%
+little bit more clarity to what these
+naming<00:15:55.759><c> conventions</c><00:15:56.320><c> actually</c><00:15:56.639><c> are</c><00:15:56.959><c> and</c><00:15:57.279><c> why</c>
+
+00:15:57.509 --> 00:15:57.519 align:start position:0%
+naming conventions actually are and why
+ 
+
+00:15:57.519 --> 00:15:59.030 align:start position:0%
+naming conventions actually are and why
+they're<00:15:57.759><c> used</c><00:15:58.000><c> in</c><00:15:58.160><c> the</c><00:15:58.320><c> first</c><00:15:58.480><c> place.</c><00:15:58.800><c> Let</c><00:15:58.959><c> me</c>
+
+00:15:59.030 --> 00:15:59.040 align:start position:0%
+they're used in the first place. Let me
+ 
+
+00:15:59.040 --> 00:16:00.310 align:start position:0%
+they're used in the first place. Let me
+know<00:15:59.120><c> what</c><00:15:59.360><c> you</c><00:15:59.519><c> think</c><00:15:59.600><c> of</c><00:15:59.680><c> these</c><00:16:00.000><c> in</c><00:16:00.160><c> the</c>
+
+00:16:00.310 --> 00:16:00.320 align:start position:0%
+know what you think of these in the
+ 
+
+00:16:00.320 --> 00:16:01.910 align:start position:0%
+know what you think of these in the
+comment<00:16:00.560><c> section</c><00:16:00.800><c> below.</c><00:16:01.040><c> Again,</c><00:16:01.519><c> I</c><00:16:01.759><c> really</c>
+
+00:16:01.910 --> 00:16:01.920 align:start position:0%
+comment section below. Again, I really
+ 
+
+00:16:01.920 --> 00:16:03.509 align:start position:0%
+comment section below. Again, I really
+like<00:16:02.160><c> them.</c><00:16:02.399><c> Personally,</c><00:16:02.880><c> in</c><00:16:03.120><c> all</c><00:16:03.199><c> of</c><00:16:03.360><c> my</c>
+
+00:16:03.509 --> 00:16:03.519 align:start position:0%
+like them. Personally, in all of my
+ 
+
+00:16:03.519 --> 00:16:04.629 align:start position:0%
+like them. Personally, in all of my
+experience,<00:16:04.000><c> I</c><00:16:04.160><c> think</c><00:16:04.240><c> they</c><00:16:04.399><c> help</c>
+
+00:16:04.629 --> 00:16:04.639 align:start position:0%
+experience, I think they help
+ 
+
+00:16:04.639 --> 00:16:06.150 align:start position:0%
+experience, I think they help
+tremendously.<00:16:05.279><c> I</c><00:16:05.440><c> will</c><00:16:05.600><c> see</c><00:16:05.680><c> you</c><00:16:05.759><c> guys</c><00:16:05.920><c> next</c>
+
+00:16:06.150 --> 00:16:06.160 align:start position:0%
+tremendously. I will see you guys next
+ 
+
+00:16:06.160 --> 00:16:09.279 align:start position:0%
+tremendously. I will see you guys next
+time.<00:16:06.480><c> Goodbye.</c>
+

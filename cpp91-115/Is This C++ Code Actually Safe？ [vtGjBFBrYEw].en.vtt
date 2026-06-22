@@ -1,0 +1,2792 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:01.510 align:start position:0%
+ 
+Today<00:00:00.320><c> we're</c><00:00:00.480><c> here</c><00:00:00.560><c> to</c><00:00:00.719><c> answer</c><00:00:00.960><c> one</c><00:00:01.199><c> simple</c>
+
+00:00:01.510 --> 00:00:01.520 align:start position:0%
+Today we're here to answer one simple
+ 
+
+00:00:01.520 --> 00:00:04.550 align:start position:0%
+Today we're here to answer one simple
+question.<00:00:02.240><c> Is</c><00:00:02.480><c> this</c><00:00:02.879><c> safe</c><00:00:03.600><c> or</c><00:00:03.840><c> not?</c><00:00:04.240><c> Welcome</c>
+
+00:00:04.550 --> 00:00:04.560 align:start position:0%
+question. Is this safe or not? Welcome
+ 
+
+00:00:04.560 --> 00:00:07.269 align:start position:0%
+question. Is this safe or not? Welcome
+to<00:00:04.880><c> bugs</c><00:00:05.359><c> of</c><00:00:05.680><c> C++.</c><00:00:06.400><c> I</c><00:00:06.640><c> don't</c><00:00:06.720><c> have</c><00:00:06.879><c> like</c><00:00:07.040><c> an</c>
+
+00:00:07.269 --> 00:00:07.279 align:start position:0%
+to bugs of C++. I don't have like an
+ 
+
+00:00:07.279 --> 00:00:09.190 align:start position:0%
+to bugs of C++. I don't have like an
+intro<00:00:07.759><c> animation,</c><00:00:08.320><c> so</c><00:00:08.559><c> let's</c><00:00:08.800><c> just</c><00:00:08.880><c> get</c><00:00:09.040><c> on</c>
+
+00:00:09.190 --> 00:00:09.200 align:start position:0%
+intro animation, so let's just get on
+ 
+
+00:00:09.200 --> 00:00:10.549 align:start position:0%
+intro animation, so let's just get on
+with<00:00:09.280><c> it.</c><00:00:09.519><c> This</c><00:00:09.679><c> video</c><00:00:09.840><c> is</c><00:00:10.000><c> pretty</c><00:00:10.160><c> simple.</c>
+
+00:00:10.549 --> 00:00:10.559 align:start position:0%
+with it. This video is pretty simple.
+ 
+
+00:00:10.559 --> 00:00:11.830 align:start position:0%
+with it. This video is pretty simple.
+Could<00:00:10.800><c> probably</c><00:00:10.960><c> have</c><00:00:11.120><c> just</c><00:00:11.280><c> been</c><00:00:11.360><c> a</c><00:00:11.519><c> YouTube</c>
+
+00:00:11.830 --> 00:00:11.840 align:start position:0%
+Could probably have just been a YouTube
+ 
+
+00:00:11.840 --> 00:00:13.430 align:start position:0%
+Could probably have just been a YouTube
+short,<00:00:12.160><c> but</c><00:00:12.480><c> you</c><00:00:12.639><c> know</c><00:00:12.800><c> me.</c><00:00:13.040><c> We're</c><00:00:13.280><c> going</c><00:00:13.360><c> to</c>
+
+00:00:13.430 --> 00:00:13.440 align:start position:0%
+short, but you know me. We're going to
+ 
+
+00:00:13.440 --> 00:00:14.950 align:start position:0%
+short, but you know me. We're going to
+dive<00:00:13.679><c> deep.</c><00:00:13.920><c> So,</c><00:00:14.080><c> fundamentally,</c><00:00:14.719><c> let's</c><00:00:14.880><c> have</c>
+
+00:00:14.950 --> 00:00:14.960 align:start position:0%
+dive deep. So, fundamentally, let's have
+ 
+
+00:00:14.960 --> 00:00:16.150 align:start position:0%
+dive deep. So, fundamentally, let's have
+a<00:00:15.040><c> look</c><00:00:15.200><c> at</c><00:00:15.280><c> this.</c><00:00:15.519><c> What</c><00:00:15.679><c> is</c><00:00:15.839><c> actually</c>
+
+00:00:16.150 --> 00:00:16.160 align:start position:0%
+a look at this. What is actually
+ 
+
+00:00:16.160 --> 00:00:17.910 align:start position:0%
+a look at this. What is actually
+happening<00:00:16.480><c> here?</c><00:00:16.960><c> We</c><00:00:17.119><c> have</c><00:00:17.199><c> a</c><00:00:17.359><c> get</c><00:00:17.680><c> name</c>
+
+00:00:17.910 --> 00:00:17.920 align:start position:0%
+happening here? We have a get name
+ 
+
+00:00:17.920 --> 00:00:19.830 align:start position:0%
+happening here? We have a get name
+function<00:00:18.240><c> which</c><00:00:18.480><c> returns</c><00:00:18.800><c> a</c><00:00:19.039><c> string.</c><00:00:19.600><c> It's</c>
+
+00:00:19.830 --> 00:00:19.840 align:start position:0%
+function which returns a string. It's
+ 
+
+00:00:19.840 --> 00:00:21.429 align:start position:0%
+function which returns a string. It's
+returning<00:00:20.080><c> a</c><00:00:20.320><c> string</c><00:00:20.560><c> literal.</c><00:00:21.039><c> So,</c><00:00:21.199><c> it's</c>
+
+00:00:21.429 --> 00:00:21.439 align:start position:0%
+returning a string literal. So, it's
+ 
+
+00:00:21.439 --> 00:00:22.870 align:start position:0%
+returning a string literal. So, it's
+creating<00:00:21.680><c> a</c><00:00:21.920><c> new</c><00:00:22.080><c> string.</c><00:00:22.480><c> This</c><00:00:22.640><c> is</c><00:00:22.800><c> going</c><00:00:22.800><c> to</c>
+
+00:00:22.870 --> 00:00:22.880 align:start position:0%
+creating a new string. This is going to
+ 
+
+00:00:22.880 --> 00:00:24.950 align:start position:0%
+creating a new string. This is going to
+be<00:00:23.039><c> using</c><00:00:23.199><c> the</c><00:00:23.359><c> implicit</c><00:00:23.920><c> constructor</c><00:00:24.720><c> of</c>
+
+00:00:24.950 --> 00:00:24.960 align:start position:0%
+be using the implicit constructor of
+ 
+
+00:00:24.960 --> 00:00:28.710 align:start position:0%
+be using the implicit constructor of
+string<00:00:25.359><c> to</c><00:00:25.600><c> convert</c><00:00:26.000><c> this</c><00:00:26.320><c> const</c><00:00:27.519><c> array</c><00:00:28.240><c> into</c>
+
+00:00:28.710 --> 00:00:28.720 align:start position:0%
+string to convert this const array into
+ 
+
+00:00:28.720 --> 00:00:31.109 align:start position:0%
+string to convert this const array into
+an<00:00:28.960><c> actual</c><00:00:29.279><c> string</c><00:00:29.599><c> object.</c><00:00:30.400><c> We're</c><00:00:30.640><c> returning</c>
+
+00:00:31.109 --> 00:00:31.119 align:start position:0%
+an actual string object. We're returning
+ 
+
+00:00:31.119 --> 00:00:34.630 align:start position:0%
+an actual string object. We're returning
+that.<00:00:31.599><c> Here</c><00:00:31.760><c> it</c><00:00:32.000><c> is.</c><00:00:32.640><c> And</c><00:00:32.880><c> then</c><00:00:33.360><c> we're</c><00:00:33.680><c> doing</c><00:00:34.399><c> C</c>
+
+00:00:34.630 --> 00:00:34.640 align:start position:0%
+that. Here it is. And then we're doing C
+ 
+
+00:00:34.640 --> 00:00:37.430 align:start position:0%
+that. Here it is. And then we're doing C
+string<00:00:35.120><c> to</c><00:00:35.440><c> get</c><00:00:35.600><c> the</c><00:00:35.840><c> underlying</c><00:00:36.719><c> const</c>
+
+00:00:37.430 --> 00:00:37.440 align:start position:0%
+string to get the underlying const
+ 
+
+00:00:37.440 --> 00:00:39.510 align:start position:0%
+string to get the underlying const
+pointer<00:00:37.920><c> buffer</c><00:00:38.399><c> that</c><00:00:38.640><c> is</c><00:00:38.800><c> held</c><00:00:39.120><c> by</c><00:00:39.280><c> the</c>
+
+00:00:39.510 --> 00:00:39.520 align:start position:0%
+pointer buffer that is held by the
+ 
+
+00:00:39.520 --> 00:00:41.510 align:start position:0%
+pointer buffer that is held by the
+string<00:00:39.760><c> object</c><00:00:40.480><c> and</c><00:00:40.719><c> we're</c><00:00:40.960><c> sending</c><00:00:41.280><c> that</c>
+
+00:00:41.510 --> 00:00:41.520 align:start position:0%
+string object and we're sending that
+ 
+
+00:00:41.520 --> 00:00:43.670 align:start position:0%
+string object and we're sending that
+into<00:00:42.000><c> the</c><00:00:42.239><c> print</c><00:00:42.559><c> line</c><00:00:42.879><c> function.</c><00:00:43.360><c> Now,</c><00:00:43.520><c> let</c>
+
+00:00:43.670 --> 00:00:43.680 align:start position:0%
+into the print line function. Now, let
+ 
+
+00:00:43.680 --> 00:00:44.950 align:start position:0%
+into the print line function. Now, let
+me<00:00:43.760><c> just</c><00:00:43.920><c> quickly</c><00:00:44.160><c> mention</c><00:00:44.399><c> that</c><00:00:44.559><c> you</c><00:00:44.800><c> of</c>
+
+00:00:44.950 --> 00:00:44.960 align:start position:0%
+me just quickly mention that you of
+ 
+
+00:00:44.960 --> 00:00:46.389 align:start position:0%
+me just quickly mention that you of
+course<00:00:45.040><c> do</c><00:00:45.280><c> not</c><00:00:45.440><c> actually</c><00:00:45.760><c> have</c><00:00:45.920><c> to</c><00:00:46.000><c> do</c><00:00:46.160><c> this</c>
+
+00:00:46.389 --> 00:00:46.399 align:start position:0%
+course do not actually have to do this
+ 
+
+00:00:46.399 --> 00:00:48.869 align:start position:0%
+course do not actually have to do this
+if<00:00:46.640><c> you're</c><00:00:47.039><c> trying</c><00:00:47.360><c> to</c><00:00:47.600><c> print</c><00:00:48.160><c> a</c><00:00:48.480><c> string</c>
+
+00:00:48.869 --> 00:00:48.879 align:start position:0%
+if you're trying to print a string
+ 
+
+00:00:48.879 --> 00:00:50.310 align:start position:0%
+if you're trying to print a string
+because<00:00:49.120><c> the</c><00:00:49.280><c> print</c><00:00:49.520><c> line</c><00:00:49.760><c> function</c><00:00:50.079><c> can</c>
+
+00:00:50.310 --> 00:00:50.320 align:start position:0%
+because the print line function can
+ 
+
+00:00:50.320 --> 00:00:52.310 align:start position:0%
+because the print line function can
+handle<00:00:50.800><c> a</c><00:00:51.039><c> string</c><00:00:51.360><c> object.</c><00:00:51.760><c> So,</c><00:00:51.920><c> if</c><00:00:52.079><c> anyone</c>
+
+00:00:52.310 --> 00:00:52.320 align:start position:0%
+handle a string object. So, if anyone
+ 
+
+00:00:52.320 --> 00:00:54.150 align:start position:0%
+handle a string object. So, if anyone
+here<00:00:52.480><c> is</c><00:00:52.640><c> new</c><00:00:52.800><c> to</c><00:00:52.960><c> C++</c><00:00:53.520><c> and</c><00:00:53.680><c> you're</c><00:00:53.760><c> like,</c><00:00:54.000><c> why</c>
+
+00:00:54.150 --> 00:00:54.160 align:start position:0%
+here is new to C++ and you're like, why
+ 
+
+00:00:54.160 --> 00:00:55.270 align:start position:0%
+here is new to C++ and you're like, why
+are<00:00:54.239><c> you</c><00:00:54.399><c> doing</c><00:00:54.480><c> that?</c><00:00:54.719><c> That's</c><00:00:54.879><c> that's</c><00:00:55.199><c> not</c>
+
+00:00:55.270 --> 00:00:55.280 align:start position:0%
+are you doing that? That's that's not
+ 
+
+00:00:55.280 --> 00:00:56.790 align:start position:0%
+are you doing that? That's that's not
+the<00:00:55.440><c> point</c><00:00:55.520><c> of</c><00:00:55.680><c> the</c><00:00:55.840><c> video.</c><00:00:56.160><c> The</c><00:00:56.399><c> problem</c>
+
+00:00:56.790 --> 00:00:56.800 align:start position:0%
+the point of the video. The problem
+ 
+
+00:00:56.800 --> 00:00:59.110 align:start position:0%
+the point of the video. The problem
+here,<00:00:57.199><c> or</c><00:00:57.360><c> the</c><00:00:57.600><c> potential</c><00:00:58.000><c> problem</c><00:00:58.399><c> here,</c><00:00:58.879><c> is</c>
+
+00:00:59.110 --> 00:00:59.120 align:start position:0%
+here, or the potential problem here, is
+ 
+
+00:00:59.120 --> 00:01:02.310 align:start position:0%
+here, or the potential problem here, is
+that<00:00:59.600><c> this</c><00:01:00.000><c> string</c><00:01:00.399><c> object,</c><00:01:01.280><c> which</c><00:01:01.760><c> kind</c><00:01:02.079><c> of</c>
+
+00:01:02.310 --> 00:01:02.320 align:start position:0%
+that this string object, which kind of
+ 
+
+00:01:02.320 --> 00:01:05.189 align:start position:0%
+that this string object, which kind of
+only<00:01:02.719><c> exists</c><00:01:03.280><c> in</c><00:01:03.600><c> this</c><00:01:03.920><c> context</c><00:01:04.479><c> here,</c><00:01:04.879><c> is</c>
+
+00:01:05.189 --> 00:01:05.199 align:start position:0%
+only exists in this context here, is
+ 
+
+00:01:05.199 --> 00:01:07.590 align:start position:0%
+only exists in this context here, is
+responsible<00:01:05.840><c> for</c><00:01:06.159><c> holding</c><00:01:06.479><c> the</c><00:01:06.720><c> memory</c><00:01:07.280><c> that</c>
+
+00:01:07.590 --> 00:01:07.600 align:start position:0%
+responsible for holding the memory that
+ 
+
+00:01:07.600 --> 00:01:10.230 align:start position:0%
+responsible for holding the memory that
+makes<00:01:07.920><c> up</c><00:01:08.479><c> these</c><00:01:08.960><c> characters.</c><00:01:09.600><c> So</c><00:01:09.840><c> obviously</c>
+
+00:01:10.230 --> 00:01:10.240 align:start position:0%
+makes up these characters. So obviously
+ 
+
+00:01:10.240 --> 00:01:12.390 align:start position:0%
+makes up these characters. So obviously
+by<00:01:10.560><c> that</c><00:01:10.720><c> logic,</c><00:01:11.119><c> since</c><00:01:11.360><c> the</c><00:01:11.600><c> string</c><00:01:12.000><c> actually</c>
+
+00:01:12.390 --> 00:01:12.400 align:start position:0%
+by that logic, since the string actually
+ 
+
+00:01:12.400 --> 00:01:14.710 align:start position:0%
+by that logic, since the string actually
+holds<00:01:12.720><c> the</c><00:01:12.960><c> conch</c><00:01:13.360><c> char</c><00:01:13.600><c> buffer</c><00:01:14.159><c> that</c><00:01:14.479><c> makes</c>
+
+00:01:14.710 --> 00:01:14.720 align:start position:0%
+holds the conch char buffer that makes
+ 
+
+00:01:14.720 --> 00:01:17.030 align:start position:0%
+holds the conch char buffer that makes
+up<00:01:14.880><c> the</c><00:01:15.439><c> characters</c><00:01:15.840><c> of</c><00:01:16.000><c> the</c><00:01:16.159><c> string,</c><00:01:16.720><c> once</c>
+
+00:01:17.030 --> 00:01:17.040 align:start position:0%
+up the characters of the string, once
+ 
+
+00:01:17.040 --> 00:01:19.429 align:start position:0%
+up the characters of the string, once
+the<00:01:17.200><c> string</c><00:01:17.520><c> dies,</c><00:01:18.159><c> so</c><00:01:18.479><c> does</c><00:01:18.640><c> the</c><00:01:18.799><c> const</c>
+
+00:01:19.429 --> 00:01:19.439 align:start position:0%
+the string dies, so does the const
+ 
+
+00:01:19.439 --> 00:01:21.510 align:start position:0%
+the string dies, so does the const
+buffer.<00:01:19.840><c> So</c><00:01:20.000><c> if</c><00:01:20.240><c> we</c><00:01:20.400><c> deliberately</c><00:01:21.040><c> expand</c>
+
+00:01:21.510 --> 00:01:21.520 align:start position:0%
+buffer. So if we deliberately expand
+ 
+
+00:01:21.520 --> 00:01:23.270 align:start position:0%
+buffer. So if we deliberately expand
+this<00:01:21.840><c> example</c><00:01:22.320><c> to</c><00:01:22.560><c> what</c><00:01:22.720><c> a</c><00:01:22.880><c> lot</c><00:01:22.960><c> of</c><00:01:23.119><c> people</c>
+
+00:01:23.270 --> 00:01:23.280 align:start position:0%
+this example to what a lot of people
+ 
+
+00:01:23.280 --> 00:01:25.510 align:start position:0%
+this example to what a lot of people
+probably<00:01:23.680><c> think</c><00:01:23.920><c> is</c><00:01:24.159><c> going</c><00:01:24.320><c> on</c><00:01:24.479><c> here.</c><00:01:24.880><c> If</c><00:01:25.119><c> I</c><00:01:25.280><c> do</c>
+
+00:01:25.510 --> 00:01:25.520 align:start position:0%
+probably think is going on here. If I do
+ 
+
+00:01:25.520 --> 00:01:28.870 align:start position:0%
+probably think is going on here. If I do
+const<00:01:26.240><c> pointer</c><00:01:26.720><c> name</c><00:01:27.280><c> equals</c><00:01:27.759><c> getname</c><00:01:28.560><c> dot</c>
+
+00:01:28.870 --> 00:01:28.880 align:start position:0%
+const pointer name equals getname dot
+ 
+
+00:01:28.880 --> 00:01:31.190 align:start position:0%
+const pointer name equals getname dot
+cring<00:01:29.680><c> and</c><00:01:29.920><c> then</c><00:01:30.240><c> we</c><00:01:30.479><c> try</c><00:01:30.640><c> and</c><00:01:30.799><c> print</c><00:01:31.040><c> the</c>
+
+00:01:31.190 --> 00:01:31.200 align:start position:0%
+cring and then we try and print the
+ 
+
+00:01:31.200 --> 00:01:33.590 align:start position:0%
+cring and then we try and print the
+name.<00:01:31.759><c> This</c><00:01:32.079><c> tells</c><00:01:32.400><c> a</c><00:01:32.799><c> slightly</c><00:01:33.280><c> different</c>
+
+00:01:33.590 --> 00:01:33.600 align:start position:0%
+name. This tells a slightly different
+ 
+
+00:01:33.600 --> 00:01:35.429 align:start position:0%
+name. This tells a slightly different
+story.<00:01:33.920><c> And</c><00:01:34.079><c> in</c><00:01:34.240><c> fact</c><00:01:34.400><c> Visual</c><00:01:34.720><c> Studio</c><00:01:35.200><c> is</c>
+
+00:01:35.429 --> 00:01:35.439 align:start position:0%
+story. And in fact Visual Studio is
+ 
+
+00:01:35.439 --> 00:01:37.350 align:start position:0%
+story. And in fact Visual Studio is
+telling<00:01:35.680><c> me</c><00:01:36.240><c> immediately</c><00:01:36.640><c> that</c><00:01:36.799><c> the</c><00:01:36.960><c> pointer</c>
+
+00:01:37.350 --> 00:01:37.360 align:start position:0%
+telling me immediately that the pointer
+ 
+
+00:01:37.360 --> 00:01:39.030 align:start position:0%
+telling me immediately that the pointer
+is<00:01:37.520><c> dangling</c><00:01:38.000><c> because</c><00:01:38.159><c> it</c><00:01:38.400><c> points</c><00:01:38.640><c> at</c><00:01:38.799><c> a</c>
+
+00:01:39.030 --> 00:01:39.040 align:start position:0%
+is dangling because it points at a
+ 
+
+00:01:39.040 --> 00:01:41.429 align:start position:0%
+is dangling because it points at a
+temporary<00:01:39.439><c> instance</c><00:01:40.159><c> which</c><00:01:40.479><c> was</c><00:01:40.720><c> destroyed.</c>
+
+00:01:41.429 --> 00:01:41.439 align:start position:0%
+temporary instance which was destroyed.
+ 
+
+00:01:41.439 --> 00:01:43.030 align:start position:0%
+temporary instance which was destroyed.
+What<00:01:41.600><c> we're</c><00:01:41.840><c> doing</c><00:01:42.000><c> here</c><00:01:42.320><c> is</c><00:01:42.479><c> we're</c><00:01:42.720><c> calling</c>
+
+00:01:43.030 --> 00:01:43.040 align:start position:0%
+What we're doing here is we're calling
+ 
+
+00:01:43.040 --> 00:01:45.670 align:start position:0%
+What we're doing here is we're calling
+get<00:01:43.360><c> name</c><00:01:43.680><c> which</c><00:01:44.000><c> returns</c><00:01:44.400><c> a</c><00:01:44.640><c> brand</c><00:01:44.880><c> new</c><00:01:45.200><c> std</c>
+
+00:01:45.670 --> 00:01:45.680 align:start position:0%
+get name which returns a brand new std
+ 
+
+00:01:45.680 --> 00:01:47.350 align:start position:0%
+get name which returns a brand new std
+string<00:01:45.920><c> object.</c><00:01:46.399><c> But</c><00:01:46.640><c> notice</c><00:01:46.960><c> we're</c><00:01:47.200><c> not</c>
+
+00:01:47.350 --> 00:01:47.360 align:start position:0%
+string object. But notice we're not
+ 
+
+00:01:47.360 --> 00:01:49.749 align:start position:0%
+string object. But notice we're not
+storing<00:01:47.680><c> it</c><00:01:47.840><c> in</c><00:01:48.079><c> any</c><00:01:48.320><c> sort</c><00:01:48.560><c> of</c><00:01:48.720><c> variable.</c><00:01:49.520><c> It's</c>
+
+00:01:49.749 --> 00:01:49.759 align:start position:0%
+storing it in any sort of variable. It's
+ 
+
+00:01:49.759 --> 00:01:52.310 align:start position:0%
+storing it in any sort of variable. It's
+sort<00:01:49.920><c> of</c><00:01:50.079><c> just</c><00:01:50.640><c> transiently</c><00:01:51.520><c> temporarily</c>
+
+00:01:52.310 --> 00:01:52.320 align:start position:0%
+sort of just transiently temporarily
+ 
+
+00:01:52.320 --> 00:01:55.350 align:start position:0%
+sort of just transiently temporarily
+existing<00:01:53.200><c> within</c><00:01:53.840><c> this</c><00:01:54.240><c> line</c><00:01:54.479><c> of</c><00:01:54.720><c> code.</c><00:01:55.200><c> So</c>
+
+00:01:55.350 --> 00:01:55.360 align:start position:0%
+existing within this line of code. So
+ 
+
+00:01:55.360 --> 00:01:57.350 align:start position:0%
+existing within this line of code. So
+then<00:01:55.520><c> when</c><00:01:55.759><c> we</c><00:01:55.920><c> try</c><00:01:56.079><c> and</c><00:01:56.320><c> pull</c><00:01:56.479><c> out</c><00:01:56.720><c> a</c><00:01:56.960><c> simple</c>
+
+00:01:57.350 --> 00:01:57.360 align:start position:0%
+then when we try and pull out a simple
+ 
+
+00:01:57.360 --> 00:02:00.069 align:start position:0%
+then when we try and pull out a simple
+pointer<00:01:58.000><c> from</c><00:01:58.479><c> that</c><00:01:58.719><c> object</c><00:01:59.119><c> and</c><00:01:59.439><c> remember</c><00:01:59.920><c> a</c>
+
+00:02:00.069 --> 00:02:00.079 align:start position:0%
+pointer from that object and remember a
+ 
+
+00:02:00.079 --> 00:02:01.830 align:start position:0%
+pointer from that object and remember a
+pointer<00:02:00.399><c> is</c><00:02:00.560><c> just</c><00:02:00.719><c> an</c><00:02:00.880><c> integer.</c><00:02:01.360><c> It's</c><00:02:01.520><c> just</c><00:02:01.680><c> a</c>
+
+00:02:01.830 --> 00:02:01.840 align:start position:0%
+pointer is just an integer. It's just a
+ 
+
+00:02:01.840 --> 00:02:03.429 align:start position:0%
+pointer is just an integer. It's just a
+memory<00:02:02.159><c> address.</c><00:02:02.560><c> So</c><00:02:02.719><c> it's</c><00:02:02.880><c> not</c><00:02:02.960><c> like</c><00:02:03.119><c> it's</c>
+
+00:02:03.429 --> 00:02:03.439 align:start position:0%
+memory address. So it's not like it's
+ 
+
+00:02:03.439 --> 00:02:05.590 align:start position:0%
+memory address. So it's not like it's
+going<00:02:03.600><c> to</c><00:02:04.159><c> transfer</c><00:02:04.719><c> ownership</c><00:02:05.200><c> of</c><00:02:05.360><c> that</c>
+
+00:02:05.590 --> 00:02:05.600 align:start position:0%
+going to transfer ownership of that
+ 
+
+00:02:05.600 --> 00:02:07.429 align:start position:0%
+going to transfer ownership of that
+memory<00:02:05.920><c> or</c><00:02:06.079><c> anything.</c><00:02:06.399><c> No,</c><00:02:06.719><c> it</c><00:02:06.880><c> is</c><00:02:07.040><c> literally</c>
+
+00:02:07.429 --> 00:02:07.439 align:start position:0%
+memory or anything. No, it is literally
+ 
+
+00:02:07.439 --> 00:02:09.749 align:start position:0%
+memory or anything. No, it is literally
+just<00:02:07.680><c> a</c><00:02:07.840><c> number.</c><00:02:08.399><c> We're</c><00:02:08.640><c> pulling</c><00:02:08.879><c> an</c><00:02:09.119><c> int</c><00:02:09.520><c> out</c>
+
+00:02:09.749 --> 00:02:09.759 align:start position:0%
+just a number. We're pulling an int out
+ 
+
+00:02:09.759 --> 00:02:11.830 align:start position:0%
+just a number. We're pulling an int out
+of<00:02:09.840><c> this</c><00:02:10.160><c> string</c><00:02:10.720><c> and</c><00:02:10.959><c> storing</c><00:02:11.280><c> it</c><00:02:11.520><c> within</c>
+
+00:02:11.830 --> 00:02:11.840 align:start position:0%
+of this string and storing it within
+ 
+
+00:02:11.840 --> 00:02:14.309 align:start position:0%
+of this string and storing it within
+this<00:02:12.080><c> object.</c><00:02:12.720><c> So</c><00:02:12.879><c> then</c><00:02:13.200><c> get</c><00:02:13.520><c> name</c><00:02:14.080><c> which</c>
+
+00:02:14.309 --> 00:02:14.319 align:start position:0%
+this object. So then get name which
+ 
+
+00:02:14.319 --> 00:02:16.470 align:start position:0%
+this object. So then get name which
+returns<00:02:14.640><c> our</c><00:02:14.959><c> string.</c><00:02:15.680><c> That</c><00:02:15.920><c> string</c><00:02:16.160><c> is</c><00:02:16.319><c> not</c>
+
+00:02:16.470 --> 00:02:16.480 align:start position:0%
+returns our string. That string is not
+ 
+
+00:02:16.480 --> 00:02:18.710 align:start position:0%
+returns our string. That string is not
+being<00:02:16.640><c> stored</c><00:02:16.879><c> anywhere</c><00:02:17.599><c> means</c><00:02:17.920><c> that</c><00:02:18.080><c> when</c><00:02:18.319><c> we</c>
+
+00:02:18.710 --> 00:02:18.720 align:start position:0%
+being stored anywhere means that when we
+ 
+
+00:02:18.720 --> 00:02:21.589 align:start position:0%
+being stored anywhere means that when we
+go<00:02:18.959><c> to</c><00:02:19.120><c> the</c><00:02:19.360><c> next</c><00:02:19.599><c> line</c><00:02:19.840><c> of</c><00:02:20.080><c> code</c><00:02:20.640><c> that</c><00:02:21.280><c> string</c>
+
+00:02:21.589 --> 00:02:21.599 align:start position:0%
+go to the next line of code that string
+ 
+
+00:02:21.599 --> 00:02:23.670 align:start position:0%
+go to the next line of code that string
+is<00:02:21.840><c> gone.</c><00:02:22.239><c> That</c><00:02:22.480><c> string</c><00:02:22.800><c> has</c><00:02:23.040><c> been</c><00:02:23.200><c> deleted</c>
+
+00:02:23.670 --> 00:02:23.680 align:start position:0%
+is gone. That string has been deleted
+ 
+
+00:02:23.680 --> 00:02:26.390 align:start position:0%
+is gone. That string has been deleted
+and<00:02:23.920><c> it</c><00:02:24.160><c> has</c><00:02:24.400><c> obviously</c><00:02:24.959><c> freed</c><00:02:25.599><c> its</c><00:02:25.840><c> buffer</c><00:02:26.239><c> of</c>
+
+00:02:26.390 --> 00:02:26.400 align:start position:0%
+and it has obviously freed its buffer of
+ 
+
+00:02:26.400 --> 00:02:29.270 align:start position:0%
+and it has obviously freed its buffer of
+memory<00:02:26.959><c> which</c><00:02:27.200><c> we</c><00:02:27.440><c> are</c><00:02:27.680><c> still</c><00:02:28.239><c> pointing</c><00:02:28.640><c> to</c>
+
+00:02:29.270 --> 00:02:29.280 align:start position:0%
+memory which we are still pointing to
+ 
+
+00:02:29.280 --> 00:02:31.990 align:start position:0%
+memory which we are still pointing to
+with<00:02:29.599><c> our</c><00:02:29.840><c> little</c><00:02:30.160><c> pointer</c><00:02:30.879><c> into</c><00:02:31.280><c> this</c><00:02:31.520><c> name</c>
+
+00:02:31.990 --> 00:02:32.000 align:start position:0%
+with our little pointer into this name
+ 
+
+00:02:32.000 --> 00:02:34.229 align:start position:0%
+with our little pointer into this name
+variable.<00:02:32.720><c> So</c><00:02:32.879><c> then</c><00:02:33.040><c> when</c><00:02:33.200><c> we</c><00:02:33.360><c> go</c><00:02:33.599><c> to</c><00:02:33.840><c> print</c>
+
+00:02:34.229 --> 00:02:34.239 align:start position:0%
+variable. So then when we go to print
+ 
+
+00:02:34.239 --> 00:02:36.390 align:start position:0%
+variable. So then when we go to print
+that<00:02:34.560><c> name,</c><00:02:34.959><c> the</c><00:02:35.200><c> print</c><00:02:35.440><c> line</c><00:02:35.760><c> function</c><00:02:36.160><c> is</c>
+
+00:02:36.390 --> 00:02:36.400 align:start position:0%
+that name, the print line function is
+ 
+
+00:02:36.400 --> 00:02:38.550 align:start position:0%
+that name, the print line function is
+going<00:02:36.560><c> to</c><00:02:36.800><c> start</c><00:02:37.040><c> reading</c><00:02:37.599><c> characters</c><00:02:38.080><c> from</c><00:02:38.319><c> a</c>
+
+00:02:38.550 --> 00:02:38.560 align:start position:0%
+going to start reading characters from a
+ 
+
+00:02:38.560 --> 00:02:40.550 align:start position:0%
+going to start reading characters from a
+buffer<00:02:39.040><c> that</c><00:02:39.440><c> doesn't</c><00:02:39.840><c> actually</c><00:02:40.239><c> exist</c>
+
+00:02:40.550 --> 00:02:40.560 align:start position:0%
+buffer that doesn't actually exist
+ 
+
+00:02:40.560 --> 00:02:42.790 align:start position:0%
+buffer that doesn't actually exist
+anymore.<00:02:41.120><c> It's</c><00:02:41.360><c> been</c><00:02:41.760><c> freed.</c><00:02:42.239><c> But</c><00:02:42.400><c> aren't</c><00:02:42.640><c> we</c>
+
+00:02:42.790 --> 00:02:42.800 align:start position:0%
+anymore. It's been freed. But aren't we
+ 
+
+00:02:42.800 --> 00:02:44.869 align:start position:0%
+anymore. It's been freed. But aren't we
+doing<00:02:42.959><c> the</c><00:02:43.200><c> same</c><00:02:43.360><c> thing</c><00:02:43.680><c> over</c><00:02:44.000><c> here?</c><00:02:44.480><c> Is</c><00:02:44.640><c> this</c>
+
+00:02:44.869 --> 00:02:44.879 align:start position:0%
+doing the same thing over here? Is this
+ 
+
+00:02:44.879 --> 00:02:48.229 align:start position:0%
+doing the same thing over here? Is this
+not<00:02:45.120><c> the</c><00:02:45.360><c> same</c><00:02:45.519><c> code?</c><00:02:46.080><c> It</c><00:02:46.319><c> is</c><00:02:47.200><c> the</c><00:02:47.519><c> same</c><00:02:47.760><c> code,</c>
+
+00:02:48.229 --> 00:02:48.239 align:start position:0%
+not the same code? It is the same code,
+ 
+
+00:02:48.239 --> 00:02:51.190 align:start position:0%
+not the same code? It is the same code,
+but<00:02:48.560><c> the</c><00:02:48.800><c> difference</c><00:02:49.200><c> is</c><00:02:49.680><c> where</c><00:02:50.319><c> the</c><00:02:50.560><c> actual</c><00:02:51.040><c> C</c>
+
+00:02:51.190 --> 00:02:51.200 align:start position:0%
+but the difference is where the actual C
+ 
+
+00:02:51.200 --> 00:02:53.670 align:start position:0%
+but the difference is where the actual C
+string<00:02:51.599><c> pointer</c><00:02:52.000><c> is</c><00:02:52.160><c> being</c><00:02:52.400><c> used.</c><00:02:53.200><c> In</c><00:02:53.440><c> this</c>
+
+00:02:53.670 --> 00:02:53.680 align:start position:0%
+string pointer is being used. In this
+ 
+
+00:02:53.680 --> 00:02:56.229 align:start position:0%
+string pointer is being used. In this
+case,<00:02:54.080><c> it's</c><00:02:54.400><c> being</c><00:02:54.640><c> passed</c><00:02:55.040><c> directly</c><00:02:55.920><c> into</c>
+
+00:02:56.229 --> 00:02:56.239 align:start position:0%
+case, it's being passed directly into
+ 
+
+00:02:56.239 --> 00:02:58.150 align:start position:0%
+case, it's being passed directly into
+the<00:02:56.480><c> print</c><00:02:56.800><c> line</c><00:02:57.120><c> function.</c><00:02:57.760><c> Think</c><00:02:57.920><c> of</c><00:02:58.080><c> it</c>
+
+00:02:58.150 --> 00:02:58.160 align:start position:0%
+the print line function. Think of it
+ 
+
+00:02:58.160 --> 00:03:01.350 align:start position:0%
+the print line function. Think of it
+this<00:02:58.400><c> way.</c><00:02:58.800><c> Get</c><00:02:59.120><c> name</c><00:02:59.599><c> is</c><00:02:59.920><c> our</c><00:03:00.160><c> string,</c><00:03:00.720><c> right?</c>
+
+00:03:01.350 --> 00:03:01.360 align:start position:0%
+this way. Get name is our string, right?
+ 
+
+00:03:01.360 --> 00:03:04.470 align:start position:0%
+this way. Get name is our string, right?
+Our<00:03:01.680><c> string</c><00:03:02.080><c> dies</c><00:03:02.879><c> when</c><00:03:03.200><c> we</c><00:03:03.440><c> hit</c><00:03:03.920><c> this</c>
+
+00:03:04.470 --> 00:03:04.480 align:start position:0%
+Our string dies when we hit this
+ 
+
+00:03:04.480 --> 00:03:06.869 align:start position:0%
+Our string dies when we hit this
+semicolon<00:03:05.360><c> at</c><00:03:05.599><c> the</c><00:03:05.760><c> end</c><00:03:05.920><c> of</c><00:03:06.080><c> our</c><00:03:06.319><c> statement.</c>
+
+00:03:06.869 --> 00:03:06.879 align:start position:0%
+semicolon at the end of our statement.
+ 
+
+00:03:06.879 --> 00:03:08.229 align:start position:0%
+semicolon at the end of our statement.
+So<00:03:07.120><c> basically</c><00:03:07.440><c> what</c><00:03:07.599><c> I'm</c><00:03:07.840><c> saying</c><00:03:07.920><c> is</c><00:03:08.080><c> that</c>
+
+00:03:08.229 --> 00:03:08.239 align:start position:0%
+So basically what I'm saying is that
+ 
+
+00:03:08.239 --> 00:03:10.309 align:start position:0%
+So basically what I'm saying is that
+this<00:03:08.400><c> string</c><00:03:08.640><c> that</c><00:03:08.800><c> we're</c><00:03:09.040><c> returning,</c><00:03:09.840><c> it</c><00:03:10.080><c> is</c>
+
+00:03:10.309 --> 00:03:10.319 align:start position:0%
+this string that we're returning, it is
+ 
+
+00:03:10.319 --> 00:03:13.830 align:start position:0%
+this string that we're returning, it is
+safe<00:03:10.800><c> within</c><00:03:11.840><c> this</c><00:03:12.319><c> exact</c><00:03:13.120><c> line</c><00:03:13.360><c> of</c><00:03:13.519><c> code</c>
+
+00:03:13.830 --> 00:03:13.840 align:start position:0%
+safe within this exact line of code
+ 
+
+00:03:13.840 --> 00:03:16.229 align:start position:0%
+safe within this exact line of code
+which<00:03:14.080><c> includes</c><00:03:14.480><c> going</c><00:03:14.800><c> into</c><00:03:15.440><c> the</c><00:03:15.680><c> print</c><00:03:16.000><c> line</c>
+
+00:03:16.229 --> 00:03:16.239 align:start position:0%
+which includes going into the print line
+ 
+
+00:03:16.239 --> 00:03:19.509 align:start position:0%
+which includes going into the print line
+function.<00:03:16.879><c> Our</c><00:03:17.280><c> actual</c><00:03:17.920><c> string</c><00:03:18.480><c> object</c><00:03:19.200><c> is</c>
+
+00:03:19.509 --> 00:03:19.519 align:start position:0%
+function. Our actual string object is
+ 
+
+00:03:19.519 --> 00:03:22.070 align:start position:0%
+function. Our actual string object is
+not<00:03:19.840><c> going</c><00:03:20.080><c> to</c><00:03:20.239><c> die</c><00:03:20.720><c> until</c><00:03:21.200><c> this</c><00:03:21.519><c> statement,</c>
+
+00:03:22.070 --> 00:03:22.080 align:start position:0%
+not going to die until this statement,
+ 
+
+00:03:22.080 --> 00:03:24.309 align:start position:0%
+not going to die until this statement,
+this<00:03:22.319><c> expression</c><00:03:22.959><c> actually</c><00:03:23.440><c> finishes.</c><00:03:24.080><c> When</c>
+
+00:03:24.309 --> 00:03:24.319 align:start position:0%
+this expression actually finishes. When
+ 
+
+00:03:24.319 --> 00:03:26.470 align:start position:0%
+this expression actually finishes. When
+we<00:03:24.480><c> drop</c><00:03:24.720><c> to</c><00:03:24.879><c> the</c><00:03:25.040><c> next</c><00:03:25.200><c> line</c><00:03:25.440><c> of</c><00:03:25.599><c> code,</c><00:03:26.080><c> it's</c>
+
+00:03:26.470 --> 00:03:26.480 align:start position:0%
+we drop to the next line of code, it's
+ 
+
+00:03:26.480 --> 00:03:29.509 align:start position:0%
+we drop to the next line of code, it's
+gone.<00:03:27.040><c> But</c><00:03:27.200><c> within</c><00:03:27.840><c> this</c><00:03:28.159><c> line</c><00:03:28.400><c> of</c><00:03:28.560><c> code,</c><00:03:29.200><c> it's</c>
+
+00:03:29.509 --> 00:03:29.519 align:start position:0%
+gone. But within this line of code, it's
+ 
+
+00:03:29.519 --> 00:03:32.390 align:start position:0%
+gone. But within this line of code, it's
+still<00:03:29.760><c> alive,</c><00:03:30.319><c> which</c><00:03:30.560><c> means</c><00:03:30.879><c> that</c><00:03:31.200><c> this</c><00:03:31.519><c> is</c><00:03:32.080><c> in</c>
+
+00:03:32.390 --> 00:03:32.400 align:start position:0%
+still alive, which means that this is in
+ 
+
+00:03:32.400 --> 00:03:35.509 align:start position:0%
+still alive, which means that this is in
+fact<00:03:32.879><c> safe.</c><00:03:33.440><c> The</c><00:03:33.760><c> example</c><00:03:34.319><c> below</c><00:03:34.959><c> is</c><00:03:35.200><c> a</c><00:03:35.440><c> little</c>
+
+00:03:35.509 --> 00:03:35.519 align:start position:0%
+fact safe. The example below is a little
+ 
+
+00:03:35.519 --> 00:03:37.990 align:start position:0%
+fact safe. The example below is a little
+bit<00:03:35.680><c> different</c><00:03:36.159><c> because</c><00:03:36.640><c> by</c><00:03:36.959><c> our</c><00:03:37.280><c> same</c><00:03:37.519><c> logic</c>
+
+00:03:37.990 --> 00:03:38.000 align:start position:0%
+bit different because by our same logic
+ 
+
+00:03:38.000 --> 00:03:40.789 align:start position:0%
+bit different because by our same logic
+of<00:03:38.560><c> our</c><00:03:38.799><c> string</c><00:03:39.200><c> existing</c><00:03:39.840><c> within</c><00:03:40.319><c> this</c><00:03:40.640><c> line</c>
+
+00:03:40.789 --> 00:03:40.799 align:start position:0%
+of our string existing within this line
+ 
+
+00:03:40.799 --> 00:03:42.949 align:start position:0%
+of our string existing within this line
+of<00:03:41.040><c> code,</c><00:03:41.519><c> yeah,</c><00:03:41.760><c> it</c><00:03:42.000><c> does</c><00:03:42.159><c> exist</c><00:03:42.480><c> within</c><00:03:42.799><c> this</c>
+
+00:03:42.949 --> 00:03:42.959 align:start position:0%
+of code, yeah, it does exist within this
+ 
+
+00:03:42.959 --> 00:03:44.229 align:start position:0%
+of code, yeah, it does exist within this
+line<00:03:43.120><c> of</c><00:03:43.200><c> code.</c><00:03:43.440><c> And</c><00:03:43.599><c> what</c><00:03:43.760><c> are</c><00:03:43.920><c> we</c><00:03:44.000><c> doing</c><00:03:44.080><c> with</c>
+
+00:03:44.229 --> 00:03:44.239 align:start position:0%
+line of code. And what are we doing with
+ 
+
+00:03:44.239 --> 00:03:45.990 align:start position:0%
+line of code. And what are we doing with
+it?<00:03:44.480><c> We're</c><00:03:44.720><c> simply</c><00:03:44.959><c> pulling</c><00:03:45.280><c> out</c><00:03:45.440><c> an</c><00:03:45.599><c> integer.</c>
+
+00:03:45.990 --> 00:03:46.000 align:start position:0%
+it? We're simply pulling out an integer.
+ 
+
+00:03:46.000 --> 00:03:47.750 align:start position:0%
+it? We're simply pulling out an integer.
+We're<00:03:46.159><c> pulling</c><00:03:46.400><c> out</c><00:03:46.480><c> a</c><00:03:46.640><c> const</c><00:03:47.200><c> pointer.</c><00:03:47.599><c> So</c>
+
+00:03:47.750 --> 00:03:47.760 align:start position:0%
+We're pulling out a const pointer. So
+ 
+
+00:03:47.760 --> 00:03:49.589 align:start position:0%
+We're pulling out a const pointer. So
+then<00:03:48.000><c> it</c><00:03:48.159><c> clearly</c><00:03:48.480><c> gets</c><00:03:48.720><c> destroyed</c><00:03:49.280><c> after</c>
+
+00:03:49.589 --> 00:03:49.599 align:start position:0%
+then it clearly gets destroyed after
+ 
+
+00:03:49.599 --> 00:03:51.270 align:start position:0%
+then it clearly gets destroyed after
+that<00:03:49.840><c> line</c><00:03:50.080><c> of</c><00:03:50.239><c> code.</c><00:03:50.480><c> And</c><00:03:50.720><c> when</c><00:03:50.879><c> we</c><00:03:50.959><c> go</c><00:03:51.120><c> to</c>
+
+00:03:51.270 --> 00:03:51.280 align:start position:0%
+that line of code. And when we go to
+ 
+
+00:03:51.280 --> 00:03:54.630 align:start position:0%
+that line of code. And when we go to
+print<00:03:51.519><c> it</c><00:03:51.760><c> now</c><00:03:52.239><c> with</c><00:03:52.560><c> name,</c><00:03:53.200><c> a</c><00:03:53.519><c> pointer</c><00:03:54.080><c> within</c>
+
+00:03:54.630 --> 00:03:54.640 align:start position:0%
+print it now with name, a pointer within
+ 
+
+00:03:54.640 --> 00:03:56.949 align:start position:0%
+print it now with name, a pointer within
+our<00:03:54.879><c> string</c><00:03:55.200><c> that</c><00:03:55.440><c> has</c><00:03:55.599><c> now</c><00:03:55.760><c> been</c><00:03:55.920><c> destroyed,</c>
+
+00:03:56.949 --> 00:03:56.959 align:start position:0%
+our string that has now been destroyed,
+ 
+
+00:03:56.959 --> 00:03:58.470 align:start position:0%
+our string that has now been destroyed,
+boom.<00:03:57.439><c> Now,</c><00:03:57.599><c> if</c><00:03:57.760><c> you</c><00:03:57.840><c> want</c><00:03:57.920><c> to</c><00:03:58.000><c> make</c><00:03:58.159><c> sure</c><00:03:58.239><c> that</c>
+
+00:03:58.470 --> 00:03:58.480 align:start position:0%
+boom. Now, if you want to make sure that
+ 
+
+00:03:58.480 --> 00:04:00.390 align:start position:0%
+boom. Now, if you want to make sure that
+you<00:03:58.640><c> and</c><00:03:58.799><c> your</c><00:03:58.959><c> team</c><00:03:59.280><c> catch</c><00:03:59.519><c> bugs</c><00:03:59.920><c> like</c><00:04:00.080><c> this,</c>
+
+00:04:00.390 --> 00:04:00.400 align:start position:0%
+you and your team catch bugs like this,
+ 
+
+00:04:00.400 --> 00:04:01.750 align:start position:0%
+you and your team catch bugs like this,
+then<00:04:00.560><c> you</c><00:04:00.720><c> should</c><00:04:00.799><c> check</c><00:04:00.959><c> out</c><00:04:01.120><c> Code</c><00:04:01.360><c> Rabbit,</c>
+
+00:04:01.750 --> 00:04:01.760 align:start position:0%
+then you should check out Code Rabbit,
+ 
+
+00:04:01.760 --> 00:04:03.350 align:start position:0%
+then you should check out Code Rabbit,
+the<00:04:01.920><c> sponsor</c><00:04:02.080><c> of</c><00:04:02.239><c> this</c><00:04:02.400><c> video.</c><00:04:02.720><c> Code</c><00:04:03.040><c> Rabbit</c>
+
+00:04:03.350 --> 00:04:03.360 align:start position:0%
+the sponsor of this video. Code Rabbit
+ 
+
+00:04:03.360 --> 00:04:05.110 align:start position:0%
+the sponsor of this video. Code Rabbit
+is<00:04:03.439><c> your</c><00:04:03.599><c> AI</c><00:04:04.000><c> co-pilot,</c><00:04:04.560><c> helping</c><00:04:04.799><c> you</c><00:04:04.959><c> and</c>
+
+00:04:05.110 --> 00:04:05.120 align:start position:0%
+is your AI co-pilot, helping you and
+ 
+
+00:04:05.120 --> 00:04:06.949 align:start position:0%
+is your AI co-pilot, helping you and
+your<00:04:05.280><c> team</c><00:04:05.519><c> produce</c><00:04:05.840><c> higher</c><00:04:06.239><c> quality</c><00:04:06.560><c> code.</c>
+
+00:04:06.949 --> 00:04:06.959 align:start position:0%
+your team produce higher quality code.
+ 
+
+00:04:06.959 --> 00:04:08.309 align:start position:0%
+your team produce higher quality code.
+Dev<00:04:07.200><c> teams</c><00:04:07.439><c> are</c><00:04:07.519><c> moving</c><00:04:07.760><c> faster</c><00:04:08.000><c> than</c><00:04:08.159><c> ever</c>
+
+00:04:08.309 --> 00:04:08.319 align:start position:0%
+Dev teams are moving faster than ever
+ 
+
+00:04:08.319 --> 00:04:09.990 align:start position:0%
+Dev teams are moving faster than ever
+with<00:04:08.560><c> all</c><00:04:08.720><c> these</c><00:04:08.879><c> AI</c><00:04:09.200><c> tools</c><00:04:09.519><c> writing</c><00:04:09.760><c> your</c>
+
+00:04:09.990 --> 00:04:10.000 align:start position:0%
+with all these AI tools writing your
+ 
+
+00:04:10.000 --> 00:04:12.309 align:start position:0%
+with all these AI tools writing your
+code<00:04:10.159><c> for</c><00:04:10.319><c> you.</c><00:04:10.640><c> So,</c><00:04:11.120><c> how</c><00:04:11.439><c> can</c><00:04:11.599><c> you</c><00:04:11.760><c> possibly</c>
+
+00:04:12.309 --> 00:04:12.319 align:start position:0%
+code for you. So, how can you possibly
+ 
+
+00:04:12.319 --> 00:04:13.910 align:start position:0%
+code for you. So, how can you possibly
+keep<00:04:12.560><c> up</c><00:04:12.720><c> and</c><00:04:12.959><c> ensure</c><00:04:13.280><c> that</c><00:04:13.439><c> you're</c><00:04:13.680><c> still</c>
+
+00:04:13.910 --> 00:04:13.920 align:start position:0%
+keep up and ensure that you're still
+ 
+
+00:04:13.920 --> 00:04:15.830 align:start position:0%
+keep up and ensure that you're still
+delivering<00:04:14.480><c> quality</c><00:04:14.879><c> code?</c><00:04:15.280><c> Code</c><00:04:15.519><c> reviews</c>
+
+00:04:15.830 --> 00:04:15.840 align:start position:0%
+delivering quality code? Code reviews
+ 
+
+00:04:15.840 --> 00:04:18.150 align:start position:0%
+delivering quality code? Code reviews
+are<00:04:15.920><c> super</c><00:04:16.239><c> critical</c><00:04:16.720><c> but</c><00:04:17.120><c> timeconuming.</c><00:04:18.000><c> So,</c>
+
+00:04:18.150 --> 00:04:18.160 align:start position:0%
+are super critical but timeconuming. So,
+ 
+
+00:04:18.160 --> 00:04:19.909 align:start position:0%
+are super critical but timeconuming. So,
+we<00:04:18.320><c> need</c><00:04:18.479><c> better</c><00:04:18.720><c> tools</c><00:04:18.959><c> to</c><00:04:19.199><c> help</c><00:04:19.359><c> us.</c><00:04:19.680><c> Code</c>
+
+00:04:19.909 --> 00:04:19.919 align:start position:0%
+we need better tools to help us. Code
+ 
+
+00:04:19.919 --> 00:04:21.749 align:start position:0%
+we need better tools to help us. Code
+Rabbit<00:04:20.239><c> is</c><00:04:20.320><c> the</c><00:04:20.479><c> category</c><00:04:20.959><c> defining</c><00:04:21.359><c> platform</c>
+
+00:04:21.749 --> 00:04:21.759 align:start position:0%
+Rabbit is the category defining platform
+ 
+
+00:04:21.759 --> 00:04:23.830 align:start position:0%
+Rabbit is the category defining platform
+for<00:04:21.919><c> AI</c><00:04:22.320><c> code</c><00:04:22.560><c> reviews</c><00:04:22.960><c> with</c><00:04:23.120><c> contextaware</c>
+
+00:04:23.830 --> 00:04:23.840 align:start position:0%
+for AI code reviews with contextaware
+ 
+
+00:04:23.840 --> 00:04:25.830 align:start position:0%
+for AI code reviews with contextaware
+reviews<00:04:24.160><c> that</c><00:04:24.320><c> pull</c><00:04:24.479><c> in</c><00:04:24.720><c> dozens</c><00:04:25.040><c> of</c><00:04:25.280><c> points</c><00:04:25.600><c> of</c>
+
+00:04:25.830 --> 00:04:25.840 align:start position:0%
+reviews that pull in dozens of points of
+ 
+
+00:04:25.840 --> 00:04:27.430 align:start position:0%
+reviews that pull in dozens of points of
+context.<00:04:26.400><c> Code</c><00:04:26.639><c> Rabbit</c><00:04:26.960><c> provides</c><00:04:27.199><c> you</c><00:04:27.280><c> with</c>
+
+00:04:27.430 --> 00:04:27.440 align:start position:0%
+context. Code Rabbit provides you with
+ 
+
+00:04:27.440 --> 00:04:28.870 align:start position:0%
+context. Code Rabbit provides you with
+instant<00:04:27.759><c> code</c><00:04:28.000><c> review</c><00:04:28.240><c> comments</c><00:04:28.479><c> and</c><00:04:28.720><c> shows</c>
+
+00:04:28.870 --> 00:04:28.880 align:start position:0%
+instant code review comments and shows
+ 
+
+00:04:28.880 --> 00:04:30.790 align:start position:0%
+instant code review comments and shows
+you<00:04:29.040><c> the</c><00:04:29.199><c> potential</c><00:04:29.600><c> impact</c><00:04:29.919><c> of</c><00:04:30.160><c> every</c><00:04:30.479><c> pull</c>
+
+00:04:30.790 --> 00:04:30.800 align:start position:0%
+you the potential impact of every pull
+ 
+
+00:04:30.800 --> 00:04:32.390 align:start position:0%
+you the potential impact of every pull
+request,<00:04:31.280><c> meaning</c><00:04:31.440><c> you</c><00:04:31.600><c> can</c><00:04:31.759><c> stay</c><00:04:31.919><c> on</c><00:04:32.080><c> top</c><00:04:32.240><c> of</c>
+
+00:04:32.390 --> 00:04:32.400 align:start position:0%
+request, meaning you can stay on top of
+ 
+
+00:04:32.400 --> 00:04:34.469 align:start position:0%
+request, meaning you can stay on top of
+every<00:04:32.720><c> change</c><00:04:33.280><c> in</c><00:04:33.520><c> your</c><00:04:33.680><c> codebase.</c><00:04:34.240><c> Code</c>
+
+00:04:34.469 --> 00:04:34.479 align:start position:0%
+every change in your codebase. Code
+ 
+
+00:04:34.479 --> 00:04:36.230 align:start position:0%
+every change in your codebase. Code
+Rabbit<00:04:34.800><c> is</c><00:04:34.880><c> a</c><00:04:34.960><c> self-improving</c><00:04:35.600><c> agent</c><00:04:36.000><c> that</c>
+
+00:04:36.230 --> 00:04:36.240 align:start position:0%
+Rabbit is a self-improving agent that
+ 
+
+00:04:36.240 --> 00:04:37.749 align:start position:0%
+Rabbit is a self-improving agent that
+learns<00:04:36.479><c> from</c><00:04:36.720><c> all</c><00:04:36.880><c> of</c><00:04:36.960><c> the</c><00:04:37.120><c> interactions</c><00:04:37.520><c> that</c>
+
+00:04:37.749 --> 00:04:37.759 align:start position:0%
+learns from all of the interactions that
+ 
+
+00:04:37.759 --> 00:04:39.350 align:start position:0%
+learns from all of the interactions that
+you<00:04:37.919><c> have</c><00:04:38.000><c> with</c><00:04:38.160><c> it</c><00:04:38.400><c> with</c><00:04:38.639><c> customization</c>
+
+00:04:39.350 --> 00:04:39.360 align:start position:0%
+you have with it with customization
+ 
+
+00:04:39.360 --> 00:04:41.189 align:start position:0%
+you have with it with customization
+features<00:04:39.759><c> that</c><00:04:40.000><c> allow</c><00:04:40.160><c> you</c><00:04:40.320><c> to</c><00:04:40.479><c> tailor</c><00:04:40.800><c> it</c><00:04:40.960><c> to</c>
+
+00:04:41.189 --> 00:04:41.199 align:start position:0%
+features that allow you to tailor it to
+ 
+
+00:04:41.199 --> 00:04:43.350 align:start position:0%
+features that allow you to tailor it to
+your<00:04:41.520><c> codebase.</c><00:04:42.240><c> It</c><00:04:42.400><c> helps</c><00:04:42.639><c> organizations</c>
+
+00:04:43.350 --> 00:04:43.360 align:start position:0%
+your codebase. It helps organizations
+ 
+
+00:04:43.360 --> 00:04:45.030 align:start position:0%
+your codebase. It helps organizations
+catch<00:04:43.680><c> bugs,</c><00:04:44.000><c> strengthen</c><00:04:44.479><c> security,</c><00:04:44.880><c> and</c>
+
+00:04:45.030 --> 00:04:45.040 align:start position:0%
+catch bugs, strengthen security, and
+ 
+
+00:04:45.040 --> 00:04:46.950 align:start position:0%
+catch bugs, strengthen security, and
+ship<00:04:45.280><c> reliable</c><00:04:45.759><c> code</c><00:04:46.000><c> at</c><00:04:46.320><c> speed,</c><00:04:46.720><c> which</c><00:04:46.880><c> is</c>
+
+00:04:46.950 --> 00:04:46.960 align:start position:0%
+ship reliable code at speed, which is
+ 
+
+00:04:46.960 --> 00:04:48.629 align:start position:0%
+ship reliable code at speed, which is
+why<00:04:47.120><c> it's</c><00:04:47.360><c> trusted</c><00:04:47.759><c> by</c><00:04:48.000><c> thousands</c><00:04:48.479><c> of</c>
+
+00:04:48.629 --> 00:04:48.639 align:start position:0%
+why it's trusted by thousands of
+ 
+
+00:04:48.639 --> 00:04:50.950 align:start position:0%
+why it's trusted by thousands of
+organizations<00:04:49.600><c> and</c><00:04:49.919><c> open-source</c><00:04:50.479><c> projects</c>
+
+00:04:50.950 --> 00:04:50.960 align:start position:0%
+organizations and open-source projects
+ 
+
+00:04:50.960 --> 00:04:53.270 align:start position:0%
+organizations and open-source projects
+worldwide,<00:04:51.680><c> such</c><00:04:51.919><c> as</c><00:04:52.160><c> Nvidia.</c><00:04:52.720><c> Code</c><00:04:52.960><c> Rabbit</c>
+
+00:04:53.270 --> 00:04:53.280 align:start position:0%
+worldwide, such as Nvidia. Code Rabbit
+ 
+
+00:04:53.280 --> 00:04:55.350 align:start position:0%
+worldwide, such as Nvidia. Code Rabbit
+reviews<00:04:53.600><c> 1</c><00:04:53.919><c> million</c><00:04:54.240><c> pull</c><00:04:54.560><c> requests</c><00:04:54.880><c> per</c><00:04:55.199><c> week</c>
+
+00:04:55.350 --> 00:04:55.360 align:start position:0%
+reviews 1 million pull requests per week
+ 
+
+00:04:55.360 --> 00:04:57.430 align:start position:0%
+reviews 1 million pull requests per week
+across<00:04:55.840><c> 3</c><00:04:56.080><c> million</c><00:04:56.479><c> repositories</c><00:04:57.040><c> and</c><00:04:57.280><c> is</c>
+
+00:04:57.430 --> 00:04:57.440 align:start position:0%
+across 3 million repositories and is
+ 
+
+00:04:57.440 --> 00:05:00.070 align:start position:0%
+across 3 million repositories and is
+used<00:04:57.600><c> by</c><00:04:58.000><c> 100,000</c><00:04:58.880><c> open-</c><00:04:59.199><c> source</c><00:04:59.520><c> projects.</c>
+
+00:05:00.070 --> 00:05:00.080 align:start position:0%
+used by 100,000 open- source projects.
+ 
+
+00:05:00.080 --> 00:05:01.909 align:start position:0%
+used by 100,000 open- source projects.
+Aside<00:05:00.400><c> from</c><00:05:00.639><c> seamlessly</c><00:05:01.199><c> integrating</c><00:05:01.680><c> into</c>
+
+00:05:01.909 --> 00:05:01.919 align:start position:0%
+Aside from seamlessly integrating into
+ 
+
+00:05:01.919 --> 00:05:04.150 align:start position:0%
+Aside from seamlessly integrating into
+GitHub<00:05:02.400><c> or</c><00:05:02.560><c> GitLab,</c><00:05:03.040><c> Code</c><00:05:03.360><c> Rabbit</c><00:05:03.759><c> is</c><00:05:03.919><c> also</c>
+
+00:05:04.150 --> 00:05:04.160 align:start position:0%
+GitHub or GitLab, Code Rabbit is also
+ 
+
+00:05:04.160 --> 00:05:06.950 align:start position:0%
+GitHub or GitLab, Code Rabbit is also
+available<00:05:04.560><c> in</c><00:05:04.880><c> CLI</c><00:05:05.440><c> and</c><00:05:05.759><c> IDE.</c><00:05:06.400><c> So</c><00:05:06.639><c> give</c><00:05:06.720><c> it</c><00:05:06.800><c> a</c>
+
+00:05:06.950 --> 00:05:06.960 align:start position:0%
+available in CLI and IDE. So give it a
+ 
+
+00:05:06.960 --> 00:05:08.790 align:start position:0%
+available in CLI and IDE. So give it a
+try<00:05:07.120><c> today</c><00:05:07.360><c> and</c><00:05:07.600><c> cut</c><00:05:07.840><c> code</c><00:05:08.080><c> review</c><00:05:08.320><c> time</c><00:05:08.560><c> and</c>
+
+00:05:08.790 --> 00:05:08.800 align:start position:0%
+try today and cut code review time and
+ 
+
+00:05:08.800 --> 00:05:10.870 align:start position:0%
+try today and cut code review time and
+bugs<00:05:09.199><c> in</c><00:05:09.440><c> half</c><00:05:09.919><c> instantly.</c><00:05:10.560><c> Go</c><00:05:10.720><c> to</c>
+
+00:05:10.870 --> 00:05:10.880 align:start position:0%
+bugs in half instantly. Go to
+ 
+
+00:05:10.880 --> 00:05:12.550 align:start position:0%
+bugs in half instantly. Go to
+codrabbit.link/cho.
+
+00:05:12.550 --> 00:05:12.560 align:start position:0%
+codrabbit.link/cho.
+ 
+
+00:05:12.560 --> 00:05:14.070 align:start position:0%
+codrabbit.link/cho.
+Link<00:05:12.800><c> will</c><00:05:12.960><c> be</c><00:05:13.039><c> in</c><00:05:13.199><c> the</c><00:05:13.360><c> description</c><00:05:13.680><c> below.</c>
+
+00:05:14.070 --> 00:05:14.080 align:start position:0%
+Link will be in the description below.
+ 
+
+00:05:14.080 --> 00:05:15.430 align:start position:0%
+Link will be in the description below.
+Huge<00:05:14.320><c> thank</c><00:05:14.479><c> you</c><00:05:14.560><c> to</c><00:05:14.720><c> Code</c><00:05:14.960><c> Rabbit</c><00:05:15.280><c> for</c>
+
+00:05:15.430 --> 00:05:15.440 align:start position:0%
+Huge thank you to Code Rabbit for
+ 
+
+00:05:15.440 --> 00:05:17.510 align:start position:0%
+Huge thank you to Code Rabbit for
+sponsoring<00:05:15.919><c> this</c><00:05:16.240><c> video.</c><00:05:16.720><c> I</c><00:05:16.880><c> think</c><00:05:17.039><c> this</c><00:05:17.199><c> is</c><00:05:17.360><c> a</c>
+
+00:05:17.510 --> 00:05:17.520 align:start position:0%
+sponsoring this video. I think this is a
+ 
+
+00:05:17.520 --> 00:05:19.350 align:start position:0%
+sponsoring this video. I think this is a
+bit<00:05:17.600><c> of</c><00:05:17.680><c> a</c><00:05:17.919><c> common</c><00:05:18.240><c> misconception</c><00:05:19.039><c> that</c>
+
+00:05:19.350 --> 00:05:19.360 align:start position:0%
+bit of a common misconception that
+ 
+
+00:05:19.360 --> 00:05:21.189 align:start position:0%
+bit of a common misconception that
+people<00:05:19.600><c> have</c><00:05:19.919><c> because</c><00:05:20.240><c> this</c><00:05:20.479><c> looks</c><00:05:20.800><c> like</c><00:05:20.960><c> it</c>
+
+00:05:21.189 --> 00:05:21.199 align:start position:0%
+people have because this looks like it
+ 
+
+00:05:21.199 --> 00:05:23.189 align:start position:0%
+people have because this looks like it
+might<00:05:21.440><c> be</c><00:05:21.680><c> dangerous.</c><00:05:22.320><c> So,</c><00:05:22.639><c> how</c><00:05:22.880><c> would</c><00:05:23.039><c> we</c>
+
+00:05:23.189 --> 00:05:23.199 align:start position:0%
+might be dangerous. So, how would we
+ 
+
+00:05:23.199 --> 00:05:26.150 align:start position:0%
+might be dangerous. So, how would we
+then<00:05:23.759><c> rewrite</c><00:05:24.240><c> this</c><00:05:24.800><c> so</c><00:05:24.960><c> that</c><00:05:25.199><c> it</c><00:05:25.520><c> is</c><00:05:25.680><c> in</c><00:05:25.840><c> fact</c>
+
+00:05:26.150 --> 00:05:26.160 align:start position:0%
+then rewrite this so that it is in fact
+ 
+
+00:05:26.160 --> 00:05:28.629 align:start position:0%
+then rewrite this so that it is in fact
+safe?<00:05:26.880><c> Well,</c><00:05:27.280><c> we</c><00:05:27.520><c> just</c><00:05:27.680><c> need</c><00:05:27.840><c> to</c><00:05:28.080><c> make</c><00:05:28.320><c> sure</c>
+
+00:05:28.629 --> 00:05:28.639 align:start position:0%
+safe? Well, we just need to make sure
+ 
+
+00:05:28.639 --> 00:05:31.350 align:start position:0%
+safe? Well, we just need to make sure
+that<00:05:28.880><c> the</c><00:05:29.120><c> string</c><00:05:29.600><c> is</c><00:05:29.919><c> stored</c><00:05:30.560><c> until</c><00:05:31.039><c> we're</c>
+
+00:05:31.350 --> 00:05:31.360 align:start position:0%
+that the string is stored until we're
+ 
+
+00:05:31.360 --> 00:05:33.990 align:start position:0%
+that the string is stored until we're
+actually<00:05:31.759><c> truly</c><00:05:32.160><c> done</c><00:05:32.479><c> with</c><00:05:33.039><c> its</c><00:05:33.360><c> memory.</c><00:05:33.840><c> So,</c>
+
+00:05:33.990 --> 00:05:34.000 align:start position:0%
+actually truly done with its memory. So,
+ 
+
+00:05:34.000 --> 00:05:36.950 align:start position:0%
+actually truly done with its memory. So,
+instead<00:05:34.320><c> of</c><00:05:34.479><c> constame,</c><00:05:35.680><c> we</c><00:05:35.840><c> would</c><00:05:36.000><c> just</c><00:05:36.160><c> do</c><00:05:36.400><c> sd</c>
+
+00:05:36.950 --> 00:05:36.960 align:start position:0%
+instead of constame, we would just do sd
+ 
+
+00:05:36.960 --> 00:05:39.590 align:start position:0%
+instead of constame, we would just do sd
+string<00:05:37.280><c> name</c><00:05:37.759><c> equals</c><00:05:38.240><c> get</c><00:05:38.560><c> name.</c><00:05:39.199><c> And</c><00:05:39.360><c> then</c>
+
+00:05:39.590 --> 00:05:39.600 align:start position:0%
+string name equals get name. And then
+ 
+
+00:05:39.600 --> 00:05:41.909 align:start position:0%
+string name equals get name. And then
+from<00:05:39.840><c> there,</c><00:05:40.320><c> if</c><00:05:40.560><c> we</c><00:05:40.720><c> really</c><00:05:40.960><c> wanted</c><00:05:41.199><c> it</c><00:05:41.360><c> to</c><00:05:41.520><c> be</c>
+
+00:05:41.909 --> 00:05:41.919 align:start position:0%
+from there, if we really wanted it to be
+ 
+
+00:05:41.919 --> 00:05:44.310 align:start position:0%
+from there, if we really wanted it to be
+like<00:05:42.160><c> a</c><00:05:42.320><c> char</c><00:05:42.639><c> pointer</c><00:05:43.120><c> in</c><00:05:43.360><c> its</c><00:05:43.600><c> own</c><00:05:43.759><c> variable,</c>
+
+00:05:44.310 --> 00:05:44.320 align:start position:0%
+like a char pointer in its own variable,
+ 
+
+00:05:44.320 --> 00:05:46.950 align:start position:0%
+like a char pointer in its own variable,
+we<00:05:44.479><c> could</c><00:05:44.639><c> do</c><00:05:44.800><c> something</c><00:05:45.120><c> like</c><00:05:45.520><c> name</c><00:05:46.240><c> cring</c>
+
+00:05:46.950 --> 00:05:46.960 align:start position:0%
+we could do something like name cring
+ 
+
+00:05:46.960 --> 00:05:49.110 align:start position:0%
+we could do something like name cring
+like<00:05:47.199><c> this.</c><00:05:47.600><c> And</c><00:05:47.840><c> then</c><00:05:48.080><c> we</c><00:05:48.320><c> would</c><00:05:48.560><c> provide</c><00:05:48.880><c> our</c>
+
+00:05:49.110 --> 00:05:49.120 align:start position:0%
+like this. And then we would provide our
+ 
+
+00:05:49.120 --> 00:05:51.670 align:start position:0%
+like this. And then we would provide our
+function<00:05:49.680><c> with</c><00:05:50.000><c> that.</c><00:05:50.639><c> I</c><00:05:50.880><c> would</c><00:05:51.039><c> just</c><00:05:51.199><c> rewrite</c>
+
+00:05:51.670 --> 00:05:51.680 align:start position:0%
+function with that. I would just rewrite
+ 
+
+00:05:51.680 --> 00:05:53.189 align:start position:0%
+function with that. I would just rewrite
+this<00:05:51.919><c> like</c><00:05:52.080><c> this</c><00:05:52.400><c> though.</c><00:05:52.720><c> There's</c><00:05:52.960><c> no</c><00:05:53.039><c> need</c>
+
+00:05:53.189 --> 00:05:53.199 align:start position:0%
+this like this though. There's no need
+ 
+
+00:05:53.199 --> 00:05:54.950 align:start position:0%
+this like this though. There's no need
+to<00:05:53.280><c> pull</c><00:05:53.440><c> out</c><00:05:53.600><c> the</c><00:05:53.759><c> constru</c><00:05:54.240><c> pointer</c><00:05:54.560><c> into</c><00:05:54.720><c> its</c>
+
+00:05:54.950 --> 00:05:54.960 align:start position:0%
+to pull out the constru pointer into its
+ 
+
+00:05:54.960 --> 00:05:57.430 align:start position:0%
+to pull out the constru pointer into its
+own<00:05:55.120><c> variable.</c><00:05:55.680><c> But</c><00:05:55.919><c> this</c><00:05:56.240><c> is</c><00:05:56.560><c> in</c><00:05:56.800><c> fact</c><00:05:57.039><c> safe.</c>
+
+00:05:57.430 --> 00:05:57.440 align:start position:0%
+own variable. But this is in fact safe.
+ 
+
+00:05:57.440 --> 00:05:59.270 align:start position:0%
+own variable. But this is in fact safe.
+Our<00:05:57.759><c> string</c><00:05:58.000><c> that</c><00:05:58.240><c> is</c><00:05:58.400><c> created</c><00:05:58.639><c> by</c><00:05:58.800><c> this</c><00:05:58.960><c> get</c>
+
+00:05:59.270 --> 00:05:59.280 align:start position:0%
+Our string that is created by this get
+ 
+
+00:05:59.280 --> 00:06:00.790 align:start position:0%
+Our string that is created by this get
+name<00:05:59.520><c> function</c><00:05:59.840><c> is</c><00:06:00.080><c> going</c><00:06:00.160><c> to</c><00:06:00.320><c> be</c><00:06:00.479><c> stored</c>
+
+00:06:00.790 --> 00:06:00.800 align:start position:0%
+name function is going to be stored
+ 
+
+00:06:00.800 --> 00:06:03.350 align:start position:0%
+name function is going to be stored
+within<00:06:01.199><c> this</c><00:06:01.440><c> string</c><00:06:01.759><c> variable</c><00:06:02.320><c> until</c><00:06:03.120><c> this</c>
+
+00:06:03.350 --> 00:06:03.360 align:start position:0%
+within this string variable until this
+ 
+
+00:06:03.360 --> 00:06:05.350 align:start position:0%
+within this string variable until this
+string<00:06:03.680><c> variable</c><00:06:04.080><c> name</c><00:06:04.479><c> goes</c><00:06:04.720><c> out</c><00:06:04.880><c> of</c><00:06:05.039><c> scope</c>
+
+00:06:05.350 --> 00:06:05.360 align:start position:0%
+string variable name goes out of scope
+ 
+
+00:06:05.360 --> 00:06:06.950 align:start position:0%
+string variable name goes out of scope
+which<00:06:05.600><c> in</c><00:06:05.759><c> this</c><00:06:05.919><c> case</c><00:06:06.080><c> is</c><00:06:06.319><c> of</c><00:06:06.479><c> course</c><00:06:06.639><c> going</c><00:06:06.800><c> to</c>
+
+00:06:06.950 --> 00:06:06.960 align:start position:0%
+which in this case is of course going to
+ 
+
+00:06:06.960 --> 00:06:09.189 align:start position:0%
+which in this case is of course going to
+be<00:06:07.120><c> the</c><00:06:07.360><c> end</c><00:06:07.520><c> of</c><00:06:07.680><c> our</c><00:06:07.919><c> program.</c><00:06:08.479><c> So</c><00:06:08.639><c> that's</c><00:06:08.880><c> it.</c>
+
+00:06:09.189 --> 00:06:09.199 align:start position:0%
+be the end of our program. So that's it.
+ 
+
+00:06:09.199 --> 00:06:11.749 align:start position:0%
+be the end of our program. So that's it.
+This<00:06:09.360><c> is</c><00:06:09.759><c> 100%</c><00:06:10.319><c> safe.</c><00:06:10.720><c> So</c><00:06:10.960><c> either</c><00:06:11.199><c> of</c><00:06:11.360><c> these</c>
+
+00:06:11.749 --> 00:06:11.759 align:start position:0%
+This is 100% safe. So either of these
+ 
+
+00:06:11.759 --> 00:06:14.629 align:start position:0%
+This is 100% safe. So either of these
+are<00:06:12.160><c> technically</c><00:06:12.720><c> safe</c><00:06:13.120><c> in</c><00:06:13.440><c> this</c><00:06:13.840><c> specific</c>
+
+00:06:14.629 --> 00:06:14.639 align:start position:0%
+are technically safe in this specific
+ 
+
+00:06:14.639 --> 00:06:18.469 align:start position:0%
+are technically safe in this specific
+context.<00:06:15.440><c> However,</c><00:06:16.479><c> this</c><00:06:17.039><c> is</c><00:06:17.919><c> kind</c><00:06:18.240><c> of</c>
+
+00:06:18.469 --> 00:06:18.479 align:start position:0%
+context. However, this is kind of
+ 
+
+00:06:18.479 --> 00:06:21.350 align:start position:0%
+context. However, this is kind of
+guaranteed<00:06:18.960><c> to</c><00:06:19.199><c> be</c><00:06:19.360><c> safe,</c><00:06:20.160><c> but</c><00:06:20.560><c> it's</c><00:06:20.960><c> really</c>
+
+00:06:21.350 --> 00:06:21.360 align:start position:0%
+guaranteed to be safe, but it's really
+ 
+
+00:06:21.360 --> 00:06:23.830 align:start position:0%
+guaranteed to be safe, but it's really
+up<00:06:21.600><c> to</c><00:06:21.919><c> what</c><00:06:22.319><c> the</c><00:06:22.560><c> function</c><00:06:23.120><c> is</c><00:06:23.440><c> actually</c>
+
+00:06:23.830 --> 00:06:23.840 align:start position:0%
+up to what the function is actually
+ 
+
+00:06:23.840 --> 00:06:26.710 align:start position:0%
+up to what the function is actually
+doing<00:06:24.479><c> with</c><00:06:24.800><c> this</c><00:06:25.120><c> pointer.</c><00:06:25.759><c> For</c><00:06:25.919><c> example,</c>
+
+00:06:26.710 --> 00:06:26.720 align:start position:0%
+doing with this pointer. For example,
+ 
+
+00:06:26.720 --> 00:06:29.110 align:start position:0%
+doing with this pointer. For example,
+this<00:06:26.960><c> is</c><00:06:27.120><c> pretty</c><00:06:27.440><c> unlikely</c><00:06:28.080><c> in</c><00:06:28.400><c> practice,</c><00:06:28.880><c> I</c>
+
+00:06:29.110 --> 00:06:29.120 align:start position:0%
+this is pretty unlikely in practice, I
+ 
+
+00:06:29.120 --> 00:06:31.350 align:start position:0%
+this is pretty unlikely in practice, I
+would<00:06:29.280><c> have</c><00:06:29.440><c> to</c><00:06:29.600><c> say,</c><00:06:30.160><c> but</c><00:06:30.400><c> if</c><00:06:30.639><c> the</c><00:06:30.800><c> print</c><00:06:31.120><c> line</c>
+
+00:06:31.350 --> 00:06:31.360 align:start position:0%
+would have to say, but if the print line
+ 
+
+00:06:31.360 --> 00:06:33.830 align:start position:0%
+would have to say, but if the print line
+function<00:06:31.840><c> decided</c><00:06:32.400><c> to</c><00:06:32.639><c> take</c><00:06:32.960><c> this</c><00:06:33.199><c> conchar</c>
+
+00:06:33.830 --> 00:06:33.840 align:start position:0%
+function decided to take this conchar
+ 
+
+00:06:33.840 --> 00:06:36.870 align:start position:0%
+function decided to take this conchar
+pointer<00:06:34.639><c> and</c><00:06:35.039><c> store</c><00:06:35.280><c> it</c><00:06:36.000><c> for</c><00:06:36.240><c> some</c><00:06:36.479><c> reason,</c>
+
+00:06:36.870 --> 00:06:36.880 align:start position:0%
+pointer and store it for some reason,
+ 
+
+00:06:36.880 --> 00:06:39.350 align:start position:0%
+pointer and store it for some reason,
+and<00:06:37.039><c> then</c><00:06:37.280><c> later</c><00:06:37.600><c> in</c><00:06:37.840><c> the</c><00:06:38.000><c> program</c><00:06:38.479><c> after</c><00:06:39.039><c> this</c>
+
+00:06:39.350 --> 00:06:39.360 align:start position:0%
+and then later in the program after this
+ 
+
+00:06:39.360 --> 00:06:41.510 align:start position:0%
+and then later in the program after this
+line<00:06:39.680><c> has</c><00:06:39.919><c> finished,</c><00:06:40.479><c> it</c><00:06:40.639><c> would</c><00:06:40.800><c> then</c><00:06:41.120><c> try</c><00:06:41.280><c> and</c>
+
+00:06:41.510 --> 00:06:41.520 align:start position:0%
+line has finished, it would then try and
+ 
+
+00:06:41.520 --> 00:06:43.830 align:start position:0%
+line has finished, it would then try and
+use<00:06:41.840><c> the</c><00:06:42.160><c> memory</c><00:06:42.479><c> at</c><00:06:42.720><c> that</c><00:06:42.960><c> pointer.</c><00:06:43.440><c> That</c><00:06:43.680><c> of</c>
+
+00:06:43.830 --> 00:06:43.840 align:start position:0%
+use the memory at that pointer. That of
+ 
+
+00:06:43.840 --> 00:06:46.390 align:start position:0%
+use the memory at that pointer. That of
+course<00:06:44.000><c> is</c><00:06:44.319><c> going</c><00:06:44.560><c> to</c><00:06:45.039><c> not</c><00:06:45.360><c> be</c><00:06:45.520><c> there</c><00:06:45.840><c> anymore</c>
+
+00:06:46.390 --> 00:06:46.400 align:start position:0%
+course is going to not be there anymore
+ 
+
+00:06:46.400 --> 00:06:48.550 align:start position:0%
+course is going to not be there anymore
+because<00:06:46.800><c> the</c><00:06:47.120><c> string</c><00:06:47.520><c> has</c><00:06:47.759><c> been</c><00:06:48.000><c> destroyed.</c>
+
+00:06:48.550 --> 00:06:48.560 align:start position:0%
+because the string has been destroyed.
+ 
+
+00:06:48.560 --> 00:06:51.110 align:start position:0%
+because the string has been destroyed.
+Now<00:06:48.880><c> it</c><00:06:49.120><c> would</c><00:06:49.280><c> be</c><00:06:49.440><c> pretty</c><00:06:50.000><c> psychopathic</c><00:06:50.800><c> for</c>
+
+00:06:51.110 --> 00:06:51.120 align:start position:0%
+Now it would be pretty psychopathic for
+ 
+
+00:06:51.120 --> 00:06:53.270 align:start position:0%
+Now it would be pretty psychopathic for
+someone<00:06:51.440><c> to</c><00:06:51.680><c> write</c><00:06:51.919><c> a</c><00:06:52.160><c> function</c><00:06:52.400><c> like</c><00:06:52.720><c> this</c>
+
+00:06:53.270 --> 00:06:53.280 align:start position:0%
+someone to write a function like this
+ 
+
+00:06:53.280 --> 00:06:56.309 align:start position:0%
+someone to write a function like this
+that<00:06:53.600><c> takes</c><00:06:53.840><c> in</c><00:06:54.400><c> a</c><00:06:54.639><c> pointer</c><00:06:55.360><c> and</c><00:06:55.600><c> then</c><00:06:55.840><c> just</c>
+
+00:06:56.309 --> 00:06:56.319 align:start position:0%
+that takes in a pointer and then just
+ 
+
+00:06:56.319 --> 00:06:58.950 align:start position:0%
+that takes in a pointer and then just
+stores<00:06:56.720><c> it</c><00:06:56.960><c> without</c><00:06:57.360><c> any</c><00:06:57.600><c> kind</c><00:06:57.840><c> of</c><00:06:58.319><c> copying</c><00:06:58.720><c> it</c>
+
+00:06:58.950 --> 00:06:58.960 align:start position:0%
+stores it without any kind of copying it
+ 
+
+00:06:58.960 --> 00:07:01.350 align:start position:0%
+stores it without any kind of copying it
+into<00:06:59.199><c> its</c><00:06:59.440><c> own</c><00:06:59.680><c> internal</c><00:07:00.080><c> buffer</c><00:07:00.720><c> but</c><00:07:01.039><c> just</c>
+
+00:07:01.350 --> 00:07:01.360 align:start position:0%
+into its own internal buffer but just
+ 
+
+00:07:01.360 --> 00:07:03.350 align:start position:0%
+into its own internal buffer but just
+storing<00:07:01.680><c> the</c><00:07:02.080><c> the</c><00:07:02.240><c> pointer</c><00:07:02.639><c> directly.</c><00:07:03.039><c> Like</c>
+
+00:07:03.350 --> 00:07:03.360 align:start position:0%
+storing the the pointer directly. Like
+ 
+
+00:07:03.360 --> 00:07:05.430 align:start position:0%
+storing the the pointer directly. Like
+that<00:07:03.599><c> doesn't</c><00:07:03.919><c> really</c><00:07:04.319><c> happen</c><00:07:04.880><c> at</c><00:07:04.960><c> least</c><00:07:05.280><c> not</c>
+
+00:07:05.430 --> 00:07:05.440 align:start position:0%
+that doesn't really happen at least not
+ 
+
+00:07:05.440 --> 00:07:08.550 align:start position:0%
+that doesn't really happen at least not
+with<00:07:05.840><c> a</c><00:07:06.160><c> string</c><00:07:06.639><c> pointer</c><00:07:07.120><c> like</c><00:07:07.440><c> this.</c><00:07:08.000><c> But</c><00:07:08.240><c> in</c>
+
+00:07:08.550 --> 00:07:08.560 align:start position:0%
+with a string pointer like this. But in
+ 
+
+00:07:08.560 --> 00:07:10.150 align:start position:0%
+with a string pointer like this. But in
+other<00:07:08.800><c> cases</c><00:07:09.120><c> it</c><00:07:09.360><c> can</c><00:07:09.520><c> certainly</c><00:07:09.840><c> happen.</c>
+
+00:07:10.150 --> 00:07:10.160 align:start position:0%
+other cases it can certainly happen.
+ 
+
+00:07:10.160 --> 00:07:12.390 align:start position:0%
+other cases it can certainly happen.
+Like<00:07:10.319><c> if</c><00:07:10.560><c> this</c><00:07:10.639><c> was</c><00:07:10.800><c> a</c><00:07:10.960><c> pointer</c><00:07:11.440><c> to</c><00:07:11.680><c> an</c><00:07:11.919><c> object,</c>
+
+00:07:12.390 --> 00:07:12.400 align:start position:0%
+Like if this was a pointer to an object,
+ 
+
+00:07:12.400 --> 00:07:14.150 align:start position:0%
+Like if this was a pointer to an object,
+then<00:07:12.639><c> by</c><00:07:12.880><c> taking</c><00:07:13.120><c> in</c><00:07:13.280><c> a</c><00:07:13.360><c> raw</c><00:07:13.680><c> pointer</c><00:07:13.919><c> into</c>
+
+00:07:14.150 --> 00:07:14.160 align:start position:0%
+then by taking in a raw pointer into
+ 
+
+00:07:14.160 --> 00:07:15.189 align:start position:0%
+then by taking in a raw pointer into
+some<00:07:14.319><c> sort</c><00:07:14.479><c> of</c><00:07:14.560><c> function</c><00:07:14.880><c> then</c><00:07:15.039><c> and</c>
+
+00:07:15.189 --> 00:07:15.199 align:start position:0%
+some sort of function then and
+ 
+
+00:07:15.199 --> 00:07:16.629 align:start position:0%
+some sort of function then and
+potentially<00:07:15.520><c> storing</c><00:07:15.840><c> it,</c><00:07:16.000><c> it's</c><00:07:16.319><c> kind</c><00:07:16.560><c> of</c>
+
+00:07:16.629 --> 00:07:16.639 align:start position:0%
+potentially storing it, it's kind of
+ 
+
+00:07:16.639 --> 00:07:18.390 align:start position:0%
+potentially storing it, it's kind of
+like<00:07:16.800><c> a</c><00:07:17.039><c> weak</c><00:07:17.280><c> pointer.</c><00:07:17.840><c> But</c><00:07:18.000><c> again,</c><00:07:18.240><c> that</c>
+
+00:07:18.390 --> 00:07:18.400 align:start position:0%
+like a weak pointer. But again, that
+ 
+
+00:07:18.400 --> 00:07:20.469 align:start position:0%
+like a weak pointer. But again, that
+would<00:07:18.560><c> only</c><00:07:18.880><c> apply</c><00:07:19.360><c> if</c><00:07:19.599><c> you</c><00:07:19.759><c> have</c><00:07:20.000><c> some</c><00:07:20.240><c> sort</c>
+
+00:07:20.469 --> 00:07:20.479 align:start position:0%
+would only apply if you have some sort
+ 
+
+00:07:20.479 --> 00:07:23.589 align:start position:0%
+would only apply if you have some sort
+of<00:07:20.720><c> external</c><00:07:21.360><c> object</c><00:07:21.840><c> that</c><00:07:22.240><c> internally</c><00:07:23.280><c> is</c>
+
+00:07:23.589 --> 00:07:23.599 align:start position:0%
+of external object that internally is
+ 
+
+00:07:23.599 --> 00:07:26.469 align:start position:0%
+of external object that internally is
+owning<00:07:24.240><c> a</c><00:07:24.560><c> pointer</c><00:07:25.120><c> that</c><00:07:25.360><c> will</c><00:07:25.599><c> be</c><00:07:25.680><c> freed</c><00:07:26.160><c> when</c>
+
+00:07:26.469 --> 00:07:26.479 align:start position:0%
+owning a pointer that will be freed when
+ 
+
+00:07:26.479 --> 00:07:28.790 align:start position:0%
+owning a pointer that will be freed when
+that<00:07:26.880><c> external</c><00:07:27.440><c> object</c><00:07:27.919><c> dies.</c><00:07:28.400><c> But</c><00:07:28.560><c> the</c><00:07:28.720><c> point</c>
+
+00:07:28.790 --> 00:07:28.800 align:start position:0%
+that external object dies. But the point
+ 
+
+00:07:28.800 --> 00:07:30.469 align:start position:0%
+that external object dies. But the point
+is<00:07:29.039><c> you</c><00:07:29.280><c> don't</c><00:07:29.360><c> technically</c><00:07:29.840><c> know</c><00:07:30.160><c> what's</c>
+
+00:07:30.469 --> 00:07:30.479 align:start position:0%
+is you don't technically know what's
+ 
+
+00:07:30.479 --> 00:07:32.070 align:start position:0%
+is you don't technically know what's
+happening<00:07:30.800><c> here.</c><00:07:31.120><c> Maybe</c><00:07:31.440><c> some</c><00:07:31.680><c> logging</c>
+
+00:07:32.070 --> 00:07:32.080 align:start position:0%
+happening here. Maybe some logging
+ 
+
+00:07:32.080 --> 00:07:34.390 align:start position:0%
+happening here. Maybe some logging
+library<00:07:32.479><c> decides</c><00:07:32.880><c> to</c><00:07:33.520><c> buffer</c><00:07:33.919><c> the</c><00:07:34.160><c> log</c>
+
+00:07:34.390 --> 00:07:34.400 align:start position:0%
+library decides to buffer the log
+ 
+
+00:07:34.400 --> 00:07:35.990 align:start position:0%
+library decides to buffer the log
+messages<00:07:34.880><c> and</c><00:07:35.120><c> not</c><00:07:35.280><c> just</c><00:07:35.520><c> print</c><00:07:35.759><c> them</c>
+
+00:07:35.990 --> 00:07:36.000 align:start position:0%
+messages and not just print them
+ 
+
+00:07:36.000 --> 00:07:37.589 align:start position:0%
+messages and not just print them
+immediately<00:07:36.560><c> and</c><00:07:36.800><c> they</c><00:07:37.039><c> would</c><00:07:37.199><c> just</c><00:07:37.360><c> store</c>
+
+00:07:37.589 --> 00:07:37.599 align:start position:0%
+immediately and they would just store
+ 
+
+00:07:37.599 --> 00:07:39.749 align:start position:0%
+immediately and they would just store
+the<00:07:37.919><c> conch</c><00:07:38.319><c> char</c><00:07:38.560><c> pointer.</c><00:07:38.960><c> Again,</c><00:07:39.360><c> in</c><00:07:39.599><c> that</c>
+
+00:07:39.749 --> 00:07:39.759 align:start position:0%
+the conch char pointer. Again, in that
+ 
+
+00:07:39.759 --> 00:07:41.430 align:start position:0%
+the conch char pointer. Again, in that
+scenario,<00:07:40.319><c> the</c><00:07:40.479><c> logging</c><00:07:40.880><c> library</c><00:07:41.199><c> would</c>
+
+00:07:41.430 --> 00:07:41.440 align:start position:0%
+scenario, the logging library would
+ 
+
+00:07:41.440 --> 00:07:43.749 align:start position:0%
+scenario, the logging library would
+almost<00:07:41.680><c> certainly</c><00:07:42.400><c> copy</c><00:07:42.880><c> the</c><00:07:43.120><c> string</c><00:07:43.440><c> into</c>
+
+00:07:43.749 --> 00:07:43.759 align:start position:0%
+almost certainly copy the string into
+ 
+
+00:07:43.759 --> 00:07:45.990 align:start position:0%
+almost certainly copy the string into
+its<00:07:44.000><c> own</c><00:07:44.160><c> internal</c><00:07:44.639><c> memory</c><00:07:45.280><c> so</c><00:07:45.520><c> that</c><00:07:45.759><c> you</c>
+
+00:07:45.990 --> 00:07:46.000 align:start position:0%
+its own internal memory so that you
+ 
+
+00:07:46.000 --> 00:07:47.990 align:start position:0%
+its own internal memory so that you
+wouldn't<00:07:46.240><c> be</c><00:07:46.400><c> bound</c><00:07:46.720><c> by</c><00:07:46.960><c> some</c><00:07:47.199><c> weird</c><00:07:47.599><c> lifetime</c>
+
+00:07:47.990 --> 00:07:48.000 align:start position:0%
+wouldn't be bound by some weird lifetime
+ 
+
+00:07:48.000 --> 00:07:50.230 align:start position:0%
+wouldn't be bound by some weird lifetime
+like<00:07:48.240><c> this.</c><00:07:48.639><c> Another</c><00:07:49.120><c> really</c><00:07:49.440><c> common</c><00:07:49.759><c> example</c>
+
+00:07:50.230 --> 00:07:50.240 align:start position:0%
+like this. Another really common example
+ 
+
+00:07:50.240 --> 00:07:52.550 align:start position:0%
+like this. Another really common example
+that<00:07:50.479><c> I</c><00:07:50.720><c> see</c><00:07:50.880><c> that</c><00:07:51.199><c> people</c><00:07:51.440><c> are</c><00:07:51.680><c> unsure</c><00:07:52.160><c> about</c>
+
+00:07:52.550 --> 00:07:52.560 align:start position:0%
+that I see that people are unsure about
+ 
+
+00:07:52.560 --> 00:07:55.110 align:start position:0%
+that I see that people are unsure about
+pretty<00:07:52.880><c> often</c><00:07:53.680><c> is</c><00:07:54.000><c> if</c><00:07:54.240><c> you</c><00:07:54.400><c> have</c><00:07:54.560><c> a</c><00:07:54.800><c> file</c>
+
+00:07:55.110 --> 00:07:55.120 align:start position:0%
+pretty often is if you have a file
+ 
+
+00:07:55.120 --> 00:07:58.309 align:start position:0%
+pretty often is if you have a file
+system<00:07:55.520><c> path.</c><00:07:56.080><c> So,</c><00:07:56.319><c> let's</c><00:07:56.560><c> do</c><00:07:56.720><c> get</c><00:07:57.039><c> path</c>
+
+00:07:58.309 --> 00:07:58.319 align:start position:0%
+system path. So, let's do get path
+ 
+
+00:07:58.319 --> 00:08:01.270 align:start position:0%
+system path. So, let's do get path
+return<00:07:59.199><c> image.png.</c><00:08:00.560><c> If</c><00:08:00.720><c> I</c><00:08:00.879><c> have</c><00:08:00.960><c> a</c><00:08:01.039><c> file</c>
+
+00:08:01.270 --> 00:08:01.280 align:start position:0%
+return image.png. If I have a file
+ 
+
+00:08:01.280 --> 00:08:03.029 align:start position:0%
+return image.png. If I have a file
+system<00:08:01.520><c> path</c><00:08:01.759><c> and</c><00:08:02.000><c> I</c><00:08:02.160><c> need</c><00:08:02.240><c> to</c><00:08:02.400><c> get</c><00:08:02.560><c> a</c><00:08:02.720><c> char</c>
+
+00:08:03.029 --> 00:08:03.039 align:start position:0%
+system path and I need to get a char
+ 
+
+00:08:03.039 --> 00:08:04.790 align:start position:0%
+system path and I need to get a char
+pointer<00:08:03.360><c> out</c><00:08:03.520><c> of</c><00:08:03.599><c> it,</c><00:08:03.840><c> how</c><00:08:04.000><c> do</c><00:08:04.160><c> I</c><00:08:04.240><c> do</c><00:08:04.400><c> that?</c><00:08:04.639><c> And</c>
+
+00:08:04.790 --> 00:08:04.800 align:start position:0%
+pointer out of it, how do I do that? And
+ 
+
+00:08:04.800 --> 00:08:05.990 align:start position:0%
+pointer out of it, how do I do that? And
+in<00:08:04.960><c> fact,</c><00:08:05.120><c> let's</c><00:08:05.280><c> just</c><00:08:05.440><c> say</c><00:08:05.599><c> that</c><00:08:05.759><c> I'm</c>
+
+00:08:05.990 --> 00:08:06.000 align:start position:0%
+in fact, let's just say that I'm
+ 
+
+00:08:06.000 --> 00:08:07.749 align:start position:0%
+in fact, let's just say that I'm
+actually<00:08:06.240><c> storing</c><00:08:06.639><c> this</c><00:08:06.879><c> properly.</c><00:08:07.360><c> So</c><00:08:07.599><c> here</c>
+
+00:08:07.749 --> 00:08:07.759 align:start position:0%
+actually storing this properly. So here
+ 
+
+00:08:07.759 --> 00:08:09.510 align:start position:0%
+actually storing this properly. So here
+is<00:08:07.919><c> my</c><00:08:08.080><c> path</c><00:08:08.400><c> and</c><00:08:08.639><c> then</c><00:08:08.720><c> I</c><00:08:08.960><c> want</c><00:08:09.039><c> to</c><00:08:09.280><c> I</c><00:08:09.440><c> don't</c>
+
+00:08:09.510 --> 00:08:09.520 align:start position:0%
+is my path and then I want to I don't
+ 
+
+00:08:09.520 --> 00:08:11.510 align:start position:0%
+is my path and then I want to I don't
+know<00:08:09.680><c> display</c><00:08:10.000><c> it</c><00:08:10.240><c> in</c><00:08:10.479><c> the</c><00:08:10.639><c> UI</c><00:08:10.960><c> using</c><00:08:11.280><c> I'm</c>
+
+00:08:11.510 --> 00:08:11.520 align:start position:0%
+know display it in the UI using I'm
+ 
+
+00:08:11.520 --> 00:08:13.430 align:start position:0%
+know display it in the UI using I'm
+guey.<00:08:11.840><c> Maybe</c><00:08:12.000><c> it</c><00:08:12.240><c> needs</c><00:08:12.400><c> an</c><00:08:12.720><c> actual</c><00:08:13.039><c> char</c>
+
+00:08:13.430 --> 00:08:13.440 align:start position:0%
+guey. Maybe it needs an actual char
+ 
+
+00:08:13.440 --> 00:08:14.950 align:start position:0%
+guey. Maybe it needs an actual char
+pointer.<00:08:13.840><c> So</c><00:08:14.000><c> how</c><00:08:14.080><c> do</c><00:08:14.160><c> I</c><00:08:14.319><c> get</c><00:08:14.400><c> to</c><00:08:14.560><c> a</c><00:08:14.639><c> char</c>
+
+00:08:14.950 --> 00:08:14.960 align:start position:0%
+pointer. So how do I get to a char
+ 
+
+00:08:14.960 --> 00:08:16.869 align:start position:0%
+pointer. So how do I get to a char
+pointer?<00:08:15.360><c> Well</c><00:08:15.599><c> file</c><00:08:15.919><c> system</c><00:08:16.160><c> path</c><00:08:16.560><c> does</c><00:08:16.720><c> have</c>
+
+00:08:16.869 --> 00:08:16.879 align:start position:0%
+pointer? Well file system path does have
+ 
+
+00:08:16.879 --> 00:08:19.589 align:start position:0%
+pointer? Well file system path does have
+a<00:08:17.120><c> cring</c><00:08:17.599><c> function.</c><00:08:18.080><c> However</c><00:08:18.720><c> that</c><00:08:19.199><c> doesn't</c>
+
+00:08:19.589 --> 00:08:19.599 align:start position:0%
+a cring function. However that doesn't
+ 
+
+00:08:19.599 --> 00:08:22.070 align:start position:0%
+a cring function. However that doesn't
+actually<00:08:20.080><c> return</c><00:08:20.720><c> a</c><00:08:20.960><c> char.</c><00:08:21.440><c> It</c><00:08:21.599><c> returns</c><00:08:21.919><c> a</c>
+
+00:08:22.070 --> 00:08:22.080 align:start position:0%
+actually return a char. It returns a
+ 
+
+00:08:22.080 --> 00:08:24.309 align:start position:0%
+actually return a char. It returns a
+wide<00:08:22.400><c> string</c><00:08:22.879><c> at</c><00:08:22.879><c> least</c><00:08:23.199><c> in</c><00:08:23.440><c> MSVC's</c>
+
+00:08:24.309 --> 00:08:24.319 align:start position:0%
+wide string at least in MSVC's
+ 
+
+00:08:24.319 --> 00:08:26.550 align:start position:0%
+wide string at least in MSVC's
+implementation.<00:08:25.199><c> So</c><00:08:25.440><c> that's</c><00:08:25.680><c> no</c><00:08:26.000><c> good.</c><00:08:26.319><c> I</c>
+
+00:08:26.550 --> 00:08:26.560 align:start position:0%
+implementation. So that's no good. I
+ 
+
+00:08:26.560 --> 00:08:29.510 align:start position:0%
+implementation. So that's no good. I
+need<00:08:26.800><c> a</c><00:08:27.120><c> normal</c><00:08:27.680><c> cring.</c><00:08:28.400><c> So</c><00:08:28.560><c> I</c><00:08:28.720><c> have</c><00:08:28.879><c> to</c><00:08:28.960><c> do</c><00:08:29.199><c> dot</c>
+
+00:08:29.510 --> 00:08:29.520 align:start position:0%
+need a normal cring. So I have to do dot
+ 
+
+00:08:29.520 --> 00:08:32.870 align:start position:0%
+need a normal cring. So I have to do dot
+string<00:08:30.240><c> dot</c><00:08:30.879><c> cring.</c><00:08:31.840><c> That</c><00:08:32.080><c> is</c><00:08:32.240><c> the</c><00:08:32.560><c> pattern</c>
+
+00:08:32.870 --> 00:08:32.880 align:start position:0%
+string dot cring. That is the pattern
+ 
+
+00:08:32.880 --> 00:08:34.790 align:start position:0%
+string dot cring. That is the pattern
+that<00:08:33.279><c> most</c><00:08:33.519><c> people</c><00:08:33.760><c> are</c><00:08:34.000><c> used</c><00:08:34.159><c> to.</c><00:08:34.479><c> And</c><00:08:34.640><c> you</c>
+
+00:08:34.790 --> 00:08:34.800 align:start position:0%
+that most people are used to. And you
+ 
+
+00:08:34.800 --> 00:08:36.550 align:start position:0%
+that most people are used to. And you
+can<00:08:34.880><c> see</c><00:08:34.959><c> that</c><00:08:35.200><c> this</c><00:08:35.519><c> can</c><00:08:35.760><c> also</c><00:08:36.080><c> kind</c><00:08:36.240><c> of</c><00:08:36.399><c> look</c>
+
+00:08:36.550 --> 00:08:36.560 align:start position:0%
+can see that this can also kind of look
+ 
+
+00:08:36.560 --> 00:08:38.630 align:start position:0%
+can see that this can also kind of look
+crazier<00:08:36.959><c> if</c><00:08:37.200><c> it's</c><00:08:37.360><c> like</c><00:08:37.519><c> this.</c><00:08:37.919><c> So</c><00:08:38.080><c> then</c><00:08:38.320><c> if</c><00:08:38.479><c> I</c>
+
+00:08:38.630 --> 00:08:38.640 align:start position:0%
+crazier if it's like this. So then if I
+ 
+
+00:08:38.640 --> 00:08:40.949 align:start position:0%
+crazier if it's like this. So then if I
+had<00:08:38.880><c> this</c><00:08:39.200><c> and</c><00:08:39.440><c> I</c><00:08:39.680><c> wanted</c><00:08:39.839><c> to</c><00:08:40.000><c> log</c><00:08:40.320><c> it,</c><00:08:40.640><c> would</c>
+
+00:08:40.949 --> 00:08:40.959 align:start position:0%
+had this and I wanted to log it, would
+ 
+
+00:08:40.959 --> 00:08:43.750 align:start position:0%
+had this and I wanted to log it, would
+something<00:08:41.519><c> like</c><00:08:41.760><c> this</c><00:08:42.399><c> be</c><00:08:42.880><c> acceptable?</c><00:08:43.599><c> And</c>
+
+00:08:43.750 --> 00:08:43.760 align:start position:0%
+something like this be acceptable? And
+ 
+
+00:08:43.760 --> 00:08:46.150 align:start position:0%
+something like this be acceptable? And
+again,<00:08:44.000><c> if</c><00:08:44.159><c> we</c><00:08:44.399><c> apply</c><00:08:44.640><c> our</c><00:08:44.959><c> rules</c><00:08:45.200><c> to</c><00:08:45.360><c> it,</c><00:08:45.920><c> we</c>
+
+00:08:46.150 --> 00:08:46.160 align:start position:0%
+again, if we apply our rules to it, we
+ 
+
+00:08:46.160 --> 00:08:48.150 align:start position:0%
+again, if we apply our rules to it, we
+have<00:08:46.320><c> a</c><00:08:46.560><c> very</c><00:08:46.800><c> transient</c><00:08:47.440><c> string</c><00:08:47.839><c> here</c>
+
+00:08:48.150 --> 00:08:48.160 align:start position:0%
+have a very transient string here
+ 
+
+00:08:48.160 --> 00:08:50.310 align:start position:0%
+have a very transient string here
+because<00:08:48.480><c> path.string,</c><00:08:49.519><c> this</c><00:08:49.680><c> doesn't</c><00:08:50.000><c> return</c>
+
+00:08:50.310 --> 00:08:50.320 align:start position:0%
+because path.string, this doesn't return
+ 
+
+00:08:50.320 --> 00:08:52.230 align:start position:0%
+because path.string, this doesn't return
+a<00:08:50.560><c> const</c><00:08:51.040><c> string</c><00:08:51.360><c> reference</c><00:08:51.680><c> or</c><00:08:51.920><c> anything.</c>
+
+00:08:52.230 --> 00:08:52.240 align:start position:0%
+a const string reference or anything.
+ 
+
+00:08:52.240 --> 00:08:54.389 align:start position:0%
+a const string reference or anything.
+You<00:08:52.399><c> can</c><00:08:52.480><c> see</c><00:08:52.800><c> it's</c><00:08:53.120><c> actually</c><00:08:53.519><c> constructing</c><00:08:54.080><c> a</c>
+
+00:08:54.389 --> 00:08:54.399 align:start position:0%
+You can see it's actually constructing a
+ 
+
+00:08:54.399 --> 00:08:56.389 align:start position:0%
+You can see it's actually constructing a
+new<00:08:54.560><c> string.</c><00:08:55.040><c> And</c><00:08:55.200><c> then</c><00:08:55.360><c> we're</c><00:08:55.519><c> calling</c><00:08:56.000><c> cring</c>
+
+00:08:56.389 --> 00:08:56.399 align:start position:0%
+new string. And then we're calling cring
+ 
+
+00:08:56.399 --> 00:08:58.470 align:start position:0%
+new string. And then we're calling cring
+to<00:08:56.480><c> get</c><00:08:56.640><c> the</c><00:08:56.800><c> pointer</c><00:08:57.120><c> to</c><00:08:57.360><c> the</c><00:08:57.600><c> char</c><00:08:58.000><c> array</c>
+
+00:08:58.470 --> 00:08:58.480 align:start position:0%
+to get the pointer to the char array
+ 
+
+00:08:58.480 --> 00:09:01.190 align:start position:0%
+to get the pointer to the char array
+buffer<00:08:59.040><c> from</c><00:08:59.279><c> within</c><00:09:00.000><c> that</c><00:09:00.480><c> transient</c>
+
+00:09:01.190 --> 00:09:01.200 align:start position:0%
+buffer from within that transient
+ 
+
+00:09:01.200 --> 00:09:02.949 align:start position:0%
+buffer from within that transient
+string.<00:09:01.760><c> However,</c><00:09:02.320><c> because</c><00:09:02.560><c> it's</c><00:09:02.800><c> all</c>
+
+00:09:02.949 --> 00:09:02.959 align:start position:0%
+string. However, because it's all
+ 
+
+00:09:02.959 --> 00:09:05.269 align:start position:0%
+string. However, because it's all
+happening<00:09:03.279><c> within</c><00:09:03.760><c> this</c><00:09:04.080><c> one</c><00:09:04.320><c> line</c><00:09:04.720><c> and</c><00:09:04.959><c> print</c>
+
+00:09:05.269 --> 00:09:05.279 align:start position:0%
+happening within this one line and print
+ 
+
+00:09:05.279 --> 00:09:08.710 align:start position:0%
+happening within this one line and print
+line<00:09:05.600><c> will</c><00:09:06.240><c> consume</c><00:09:06.880><c> and</c><00:09:07.200><c> be</c><00:09:07.360><c> done</c><00:09:07.680><c> with</c><00:09:08.320><c> that</c>
+
+00:09:08.710 --> 00:09:08.720 align:start position:0%
+line will consume and be done with that
+ 
+
+00:09:08.720 --> 00:09:11.990 align:start position:0%
+line will consume and be done with that
+actual<00:09:09.200><c> char</c><00:09:09.600><c> pointer</c><00:09:10.160><c> by</c><00:09:10.480><c> the</c><00:09:10.640><c> end</c><00:09:11.200><c> of</c><00:09:11.519><c> its</c>
+
+00:09:11.990 --> 00:09:12.000 align:start position:0%
+actual char pointer by the end of its
+ 
+
+00:09:12.000 --> 00:09:15.750 align:start position:0%
+actual char pointer by the end of its
+scope.<00:09:13.040><c> This</c><00:09:13.760><c> is</c><00:09:14.080><c> in</c><00:09:14.320><c> fact</c><00:09:14.880><c> safe.</c><00:09:15.360><c> I</c><00:09:15.600><c> should</c>
+
+00:09:15.750 --> 00:09:15.760 align:start position:0%
+scope. This is in fact safe. I should
+ 
+
+00:09:15.760 --> 00:09:17.350 align:start position:0%
+scope. This is in fact safe. I should
+also<00:09:15.920><c> note</c><00:09:16.160><c> that</c><00:09:16.399><c> the</c><00:09:16.640><c> reason</c><00:09:16.959><c> why</c>
+
+00:09:17.350 --> 00:09:17.360 align:start position:0%
+also note that the reason why
+ 
+
+00:09:17.360 --> 00:09:19.269 align:start position:0%
+also note that the reason why
+specifically<00:09:17.920><c> this</c><00:09:18.080><c> is</c><00:09:18.240><c> unclear</c><00:09:18.800><c> is</c><00:09:19.120><c> because</c>
+
+00:09:19.269 --> 00:09:19.279 align:start position:0%
+specifically this is unclear is because
+ 
+
+00:09:19.279 --> 00:09:21.590 align:start position:0%
+specifically this is unclear is because
+we<00:09:19.600><c> are</c><00:09:19.760><c> constructing</c><00:09:20.240><c> and</c><00:09:20.480><c> returning</c><00:09:21.120><c> a</c><00:09:21.440><c> new</c>
+
+00:09:21.590 --> 00:09:21.600 align:start position:0%
+we are constructing and returning a new
+ 
+
+00:09:21.600 --> 00:09:24.230 align:start position:0%
+we are constructing and returning a new
+string<00:09:21.920><c> that</c><00:09:22.240><c> clearly</c><00:09:22.720><c> only</c><00:09:23.120><c> exists</c><00:09:23.760><c> within</c>
+
+00:09:24.230 --> 00:09:24.240 align:start position:0%
+string that clearly only exists within
+ 
+
+00:09:24.240 --> 00:09:26.310 align:start position:0%
+string that clearly only exists within
+this<00:09:24.560><c> line</c><00:09:24.800><c> of</c><00:09:24.959><c> code.</c><00:09:25.600><c> If</c><00:09:25.760><c> we</c><00:09:25.920><c> had</c><00:09:26.160><c> the</c>
+
+00:09:26.310 --> 00:09:26.320 align:start position:0%
+this line of code. If we had the
+ 
+
+00:09:26.320 --> 00:09:28.790 align:start position:0%
+this line of code. If we had the
+function<00:09:26.720><c> get</c><00:09:27.040><c> name</c><00:09:27.519><c> return</c><00:09:27.839><c> a</c><00:09:28.080><c> constring</c>
+
+00:09:28.790 --> 00:09:28.800 align:start position:0%
+function get name return a constring
+ 
+
+00:09:28.800 --> 00:09:31.110 align:start position:0%
+function get name return a constring
+reference.<00:09:29.519><c> So</c><00:09:29.680><c> if</c><00:09:30.000><c> this</c><00:09:30.399><c> was</c><00:09:30.720><c> actually</c>
+
+00:09:31.110 --> 00:09:31.120 align:start position:0%
+reference. So if this was actually
+ 
+
+00:09:31.120 --> 00:09:33.670 align:start position:0%
+reference. So if this was actually
+stored<00:09:31.760><c> here</c><00:09:32.399><c> for</c><00:09:32.560><c> example</c><00:09:33.040><c> and</c><00:09:33.279><c> then</c><00:09:33.440><c> we</c>
+
+00:09:33.670 --> 00:09:33.680 align:start position:0%
+stored here for example and then we
+ 
+
+00:09:33.680 --> 00:09:36.230 align:start position:0%
+stored here for example and then we
+simply<00:09:34.160><c> returned</c><00:09:34.720><c> the</c><00:09:35.040><c> reference</c><00:09:35.440><c> to</c><00:09:35.600><c> this</c>
+
+00:09:36.230 --> 00:09:36.240 align:start position:0%
+simply returned the reference to this
+ 
+
+00:09:36.240 --> 00:09:39.030 align:start position:0%
+simply returned the reference to this
+then<00:09:36.640><c> this</c><00:09:37.200><c> of</c><00:09:37.440><c> course</c><00:09:38.000><c> would</c><00:09:38.240><c> always</c><00:09:38.640><c> work</c>
+
+00:09:39.030 --> 00:09:39.040 align:start position:0%
+then this of course would always work
+ 
+
+00:09:39.040 --> 00:09:40.949 align:start position:0%
+then this of course would always work
+even<00:09:39.279><c> in</c><00:09:39.519><c> that</c><00:09:39.680><c> example</c><00:09:40.160><c> where</c><00:09:40.399><c> I</c><00:09:40.640><c> was</c><00:09:40.720><c> just</c>
+
+00:09:40.949 --> 00:09:40.959 align:start position:0%
+even in that example where I was just
+ 
+
+00:09:40.959 --> 00:09:43.269 align:start position:0%
+even in that example where I was just
+pulling<00:09:41.279><c> out</c><00:09:41.519><c> the</c><00:09:41.760><c> string</c><00:09:42.240><c> like</c><00:09:42.560><c> this</c><00:09:43.040><c> and</c>
+
+00:09:43.269 --> 00:09:43.279 align:start position:0%
+pulling out the string like this and
+ 
+
+00:09:43.279 --> 00:09:45.750 align:start position:0%
+pulling out the string like this and
+then<00:09:43.680><c> printing</c><00:09:44.080><c> it.</c><00:09:44.399><c> This</c><00:09:44.640><c> is</c><00:09:44.800><c> legit</c><00:09:45.279><c> now</c>
+
+00:09:45.750 --> 00:09:45.760 align:start position:0%
+then printing it. This is legit now
+ 
+
+00:09:45.760 --> 00:09:48.230 align:start position:0%
+then printing it. This is legit now
+because<00:09:46.080><c> get</c><00:09:46.399><c> name</c><00:09:46.720><c> returns</c><00:09:47.440><c> a</c><00:09:47.680><c> const</c>
+
+00:09:48.230 --> 00:09:48.240 align:start position:0%
+because get name returns a const
+ 
+
+00:09:48.240 --> 00:09:50.790 align:start position:0%
+because get name returns a const
+reference<00:09:48.880><c> of</c><00:09:49.040><c> a</c><00:09:49.279><c> string</c><00:09:49.839><c> that</c><00:09:50.160><c> is</c><00:09:50.560><c> just</c>
+
+00:09:50.790 --> 00:09:50.800 align:start position:0%
+reference of a string that is just
+ 
+
+00:09:50.800 --> 00:09:52.870 align:start position:0%
+reference of a string that is just
+global.<00:09:51.279><c> So</c><00:09:51.440><c> it's</c><00:09:51.680><c> just</c><00:09:51.839><c> it's</c><00:09:52.160><c> always</c><00:09:52.560><c> present</c>
+
+00:09:52.870 --> 00:09:52.880 align:start position:0%
+global. So it's just it's always present
+ 
+
+00:09:52.880 --> 00:09:54.550 align:start position:0%
+global. So it's just it's always present
+and<00:09:53.040><c> it's</c><00:09:53.279><c> never</c><00:09:53.440><c> going</c><00:09:53.519><c> to</c><00:09:53.600><c> get</c><00:09:53.760><c> deleted.</c><00:09:54.320><c> So</c>
+
+00:09:54.550 --> 00:09:54.560 align:start position:0%
+and it's never going to get deleted. So
+ 
+
+00:09:54.560 --> 00:09:56.230 align:start position:0%
+and it's never going to get deleted. So
+therefore<00:09:54.880><c> this</c><00:09:55.040><c> pointer</c><00:09:55.440><c> will</c><00:09:55.680><c> always</c><00:09:56.000><c> be</c>
+
+00:09:56.230 --> 00:09:56.240 align:start position:0%
+therefore this pointer will always be
+ 
+
+00:09:56.240 --> 00:09:57.829 align:start position:0%
+therefore this pointer will always be
+valid<00:09:56.640><c> not</c><00:09:56.720><c> just</c><00:09:56.880><c> within</c><00:09:57.200><c> this</c><00:09:57.360><c> line.</c><00:09:57.600><c> The</c>
+
+00:09:57.829 --> 00:09:57.839 align:start position:0%
+valid not just within this line. The
+ 
+
+00:09:57.839 --> 00:09:59.350 align:start position:0%
+valid not just within this line. The
+whole<00:09:58.000><c> point</c><00:09:58.240><c> of</c><00:09:58.399><c> this</c><00:09:58.720><c> was</c><00:09:58.959><c> that</c><00:09:59.120><c> it</c><00:09:59.279><c> was</c>
+
+00:09:59.350 --> 00:09:59.360 align:start position:0%
+whole point of this was that it was
+ 
+
+00:09:59.360 --> 00:10:01.190 align:start position:0%
+whole point of this was that it was
+constructing<00:09:59.760><c> a</c><00:09:59.920><c> new</c><00:10:00.160><c> string</c><00:10:00.480><c> that</c><00:10:00.800><c> only</c>
+
+00:10:01.190 --> 00:10:01.200 align:start position:0%
+constructing a new string that only
+ 
+
+00:10:01.200 --> 00:10:04.070 align:start position:0%
+constructing a new string that only
+existed<00:10:01.920><c> within</c><00:10:02.640><c> the</c><00:10:02.880><c> line</c><00:10:03.120><c> of</c><00:10:03.360><c> code</c><00:10:03.680><c> that</c><00:10:03.920><c> it</c>
+
+00:10:04.070 --> 00:10:04.080 align:start position:0%
+existed within the line of code that it
+ 
+
+00:10:04.080 --> 00:10:06.070 align:start position:0%
+existed within the line of code that it
+was<00:10:04.240><c> used</c><00:10:04.560><c> in.</c><00:10:04.959><c> So</c><00:10:05.120><c> you</c><00:10:05.279><c> can</c><00:10:05.440><c> see</c><00:10:05.519><c> that</c><00:10:05.760><c> things</c>
+
+00:10:06.070 --> 00:10:06.080 align:start position:0%
+was used in. So you can see that things
+ 
+
+00:10:06.080 --> 00:10:08.070 align:start position:0%
+was used in. So you can see that things
+are<00:10:06.240><c> a</c><00:10:06.480><c> little</c><00:10:06.560><c> bit</c><00:10:06.720><c> messy</c><00:10:07.200><c> here.</c><00:10:07.680><c> And</c><00:10:07.839><c> that's</c>
+
+00:10:08.070 --> 00:10:08.080 align:start position:0%
+are a little bit messy here. And that's
+ 
+
+00:10:08.080 --> 00:10:11.590 align:start position:0%
+are a little bit messy here. And that's
+why<00:10:08.800><c> I</c><00:10:09.200><c> try</c><00:10:09.440><c> and</c><00:10:09.600><c> avoid</c><00:10:10.160><c> as</c><00:10:10.480><c> best</c><00:10:10.720><c> as</c><00:10:10.880><c> I</c><00:10:11.040><c> can</c>
+
+00:10:11.590 --> 00:10:11.600 align:start position:0%
+why I try and avoid as best as I can
+ 
+
+00:10:11.600 --> 00:10:14.150 align:start position:0%
+why I try and avoid as best as I can
+writing<00:10:12.080><c> code</c><00:10:12.320><c> like</c><00:10:12.640><c> this</c><00:10:13.120><c> really</c><00:10:13.440><c> ever.</c><00:10:13.920><c> What</c>
+
+00:10:14.150 --> 00:10:14.160 align:start position:0%
+writing code like this really ever. What
+ 
+
+00:10:14.160 --> 00:10:16.710 align:start position:0%
+writing code like this really ever. What
+I<00:10:14.399><c> normally</c><00:10:14.800><c> do</c><00:10:15.120><c> is</c><00:10:15.360><c> I</c><00:10:15.600><c> pull</c><00:10:15.839><c> this</c><00:10:16.079><c> out</c><00:10:16.399><c> like</c>
+
+00:10:16.710 --> 00:10:16.720 align:start position:0%
+I normally do is I pull this out like
+ 
+
+00:10:16.720 --> 00:10:19.269 align:start position:0%
+I normally do is I pull this out like
+this.<00:10:17.200><c> And</c><00:10:17.440><c> I</c><00:10:17.600><c> have</c><00:10:17.839><c> path.string</c><00:10:18.480><c> string</c><00:10:19.040><c> and</c>
+
+00:10:19.269 --> 00:10:19.279 align:start position:0%
+this. And I have path.string string and
+ 
+
+00:10:19.279 --> 00:10:22.310 align:start position:0%
+this. And I have path.string string and
+then<00:10:19.680><c> it's</c><00:10:20.160><c> very</c><00:10:20.480><c> very</c><00:10:20.959><c> clear</c><00:10:21.279><c> here</c><00:10:21.760><c> that</c><00:10:22.079><c> yes</c>
+
+00:10:22.310 --> 00:10:22.320 align:start position:0%
+then it's very very clear here that yes
+ 
+
+00:10:22.320 --> 00:10:25.269 align:start position:0%
+then it's very very clear here that yes
+in<00:10:22.560><c> fact</c><00:10:22.800><c> I</c><00:10:23.120><c> am</c><00:10:23.519><c> taking</c><00:10:23.760><c> a</c><00:10:24.079><c> pointer</c><00:10:24.560><c> from</c><00:10:25.040><c> this</c>
+
+00:10:25.269 --> 00:10:25.279 align:start position:0%
+in fact I am taking a pointer from this
+ 
+
+00:10:25.279 --> 00:10:27.990 align:start position:0%
+in fact I am taking a pointer from this
+string<00:10:25.920><c> but</c><00:10:26.160><c> the</c><00:10:26.320><c> string</c><00:10:26.720><c> is</c><00:10:26.959><c> now</c><00:10:27.200><c> a</c><00:10:27.440><c> proper</c><00:10:27.760><c> L</c>
+
+00:10:27.990 --> 00:10:28.000 align:start position:0%
+string but the string is now a proper L
+ 
+
+00:10:28.000 --> 00:10:29.750 align:start position:0%
+string but the string is now a proper L
+value<00:10:28.320><c> it's</c><00:10:28.480><c> a</c><00:10:28.640><c> proper</c><00:10:28.880><c> variable</c><00:10:29.360><c> I've</c><00:10:29.600><c> made</c>
+
+00:10:29.750 --> 00:10:29.760 align:start position:0%
+value it's a proper variable I've made
+ 
+
+00:10:29.760 --> 00:10:32.389 align:start position:0%
+value it's a proper variable I've made
+the<00:10:30.000><c> lifetime</c><00:10:30.720><c> super</c><00:10:31.040><c> clear</c><00:10:31.519><c> so</c><00:10:31.839><c> even</c><00:10:32.079><c> though</c>
+
+00:10:32.389 --> 00:10:32.399 align:start position:0%
+the lifetime super clear so even though
+ 
+
+00:10:32.399 --> 00:10:34.230 align:start position:0%
+the lifetime super clear so even though
+something<00:10:32.640><c> like</c><00:10:32.880><c> this</c><00:10:33.040><c> is</c><00:10:33.279><c> safe</c><00:10:33.760><c> and</c><00:10:34.000><c> the</c><00:10:34.160><c> way</c>
+
+00:10:34.230 --> 00:10:34.240 align:start position:0%
+something like this is safe and the way
+ 
+
+00:10:34.240 --> 00:10:37.030 align:start position:0%
+something like this is safe and the way
+that<00:10:34.399><c> this</c><00:10:34.640><c> was</c><00:10:34.800><c> written</c><00:10:35.040><c> before</c><00:10:35.680><c> is</c><00:10:36.000><c> safe</c><00:10:36.800><c> I</c>
+
+00:10:37.030 --> 00:10:37.040 align:start position:0%
+that this was written before is safe I
+ 
+
+00:10:37.040 --> 00:10:39.750 align:start position:0%
+that this was written before is safe I
+still<00:10:37.279><c> prefer</c><00:10:37.760><c> to</c><00:10:38.000><c> write</c><00:10:38.240><c> it</c><00:10:38.640><c> like</c><00:10:38.959><c> this</c><00:10:39.440><c> now</c>
+
+00:10:39.750 --> 00:10:39.760 align:start position:0%
+still prefer to write it like this now
+ 
+
+00:10:39.760 --> 00:10:42.310 align:start position:0%
+still prefer to write it like this now
+one<00:10:39.920><c> more</c><00:10:40.079><c> thing</c><00:10:40.399><c> that</c><00:10:40.640><c> I</c><00:10:40.800><c> want</c><00:10:40.959><c> to</c><00:10:41.040><c> say</c><00:10:41.680><c> is</c><00:10:42.079><c> the</c>
+
+00:10:42.310 --> 00:10:42.320 align:start position:0%
+one more thing that I want to say is the
+ 
+
+00:10:42.320 --> 00:10:44.389 align:start position:0%
+one more thing that I want to say is the
+annoying<00:10:42.720><c> thing</c><00:10:42.880><c> about</c><00:10:43.040><c> this</c><00:10:43.279><c> bug</c><00:10:43.760><c> is</c><00:10:44.079><c> that</c>
+
+00:10:44.389 --> 00:10:44.399 align:start position:0%
+annoying thing about this bug is that
+ 
+
+00:10:44.399 --> 00:10:47.430 align:start position:0%
+annoying thing about this bug is that
+sometimes<00:10:45.200><c> even</c><00:10:45.440><c> if</c><00:10:45.680><c> you</c><00:10:46.399><c> actually</c><00:10:46.800><c> do</c><00:10:47.120><c> things</c>
+
+00:10:47.430 --> 00:10:47.440 align:start position:0%
+sometimes even if you actually do things
+ 
+
+00:10:47.440 --> 00:10:49.829 align:start position:0%
+sometimes even if you actually do things
+not<00:10:47.760><c> properly</c><00:10:47.920><c> Y.</c><00:10:48.399><c> So</c><00:10:48.560><c> if</c><00:10:48.720><c> we</c><00:10:48.880><c> go</c><00:10:49.120><c> back</c><00:10:49.360><c> to</c><00:10:49.600><c> this</c>
+
+00:10:49.829 --> 00:10:49.839 align:start position:0%
+not properly Y. So if we go back to this
+ 
+
+00:10:49.839 --> 00:10:53.030 align:start position:0%
+not properly Y. So if we go back to this
+example<00:10:50.320><c> here,</c><00:10:50.800><c> but</c><00:10:51.040><c> I</c><00:10:51.360><c> change</c><00:10:52.160><c> the</c><00:10:52.399><c> get</c><00:10:52.720><c> name</c>
+
+00:10:53.030 --> 00:10:53.040 align:start position:0%
+example here, but I change the get name
+ 
+
+00:10:53.040 --> 00:10:55.829 align:start position:0%
+example here, but I change the get name
+function<00:10:53.519><c> to</c><00:10:53.839><c> use</c><00:10:54.160><c> this</c><00:10:54.480><c> version</c><00:10:54.959><c> instead.</c>
+
+00:10:55.829 --> 00:10:55.839 align:start position:0%
+function to use this version instead.
+ 
+
+00:10:55.839 --> 00:10:57.350 align:start position:0%
+function to use this version instead.
+This<00:10:56.079><c> clearly</c><00:10:56.399><c> shouldn't</c><00:10:56.720><c> work,</c><00:10:56.959><c> right?</c><00:10:57.200><c> I</c>
+
+00:10:57.350 --> 00:10:57.360 align:start position:0%
+This clearly shouldn't work, right? I
+ 
+
+00:10:57.360 --> 00:10:58.949 align:start position:0%
+This clearly shouldn't work, right? I
+mean,<00:10:57.519><c> even</c><00:10:57.760><c> Visual</c><00:10:58.000><c> Studio</c><00:10:58.399><c> says</c><00:10:58.640><c> that</c><00:10:58.800><c> it</c>
+
+00:10:58.949 --> 00:10:58.959 align:start position:0%
+mean, even Visual Studio says that it
+ 
+
+00:10:58.959 --> 00:11:02.230 align:start position:0%
+mean, even Visual Studio says that it
+shouldn't<00:10:59.200><c> work.</c><00:10:59.839><c> However,</c><00:11:00.720><c> it</c><00:11:01.120><c> can</c><00:11:01.839><c> work.</c>
+
+00:11:02.230 --> 00:11:02.240 align:start position:0%
+shouldn't work. However, it can work.
+ 
+
+00:11:02.240 --> 00:11:04.150 align:start position:0%
+shouldn't work. However, it can work.
+The<00:11:02.480><c> reason</c><00:11:02.640><c> why</c><00:11:02.880><c> is</c><00:11:03.120><c> because</c><00:11:03.519><c> at</c><00:11:03.760><c> the</c><00:11:03.920><c> end</c><00:11:04.000><c> of</c>
+
+00:11:04.150 --> 00:11:04.160 align:start position:0%
+The reason why is because at the end of
+ 
+
+00:11:04.160 --> 00:11:06.630 align:start position:0%
+The reason why is because at the end of
+this<00:11:04.399><c> line,</c><00:11:04.880><c> the</c><00:11:05.120><c> memory</c><00:11:05.600><c> that</c><00:11:05.839><c> this</c><00:11:06.079><c> const</c>
+
+00:11:06.630 --> 00:11:06.640 align:start position:0%
+this line, the memory that this const
+ 
+
+00:11:06.640 --> 00:11:08.630 align:start position:0%
+this line, the memory that this const
+pointer<00:11:06.959><c> is</c><00:11:07.120><c> pointing</c><00:11:07.360><c> towards</c><00:11:07.920><c> has</c><00:11:08.240><c> in</c><00:11:08.399><c> fact</c>
+
+00:11:08.630 --> 00:11:08.640 align:start position:0%
+pointer is pointing towards has in fact
+ 
+
+00:11:08.640 --> 00:11:10.630 align:start position:0%
+pointer is pointing towards has in fact
+been<00:11:08.880><c> freed,</c><00:11:09.519><c> but</c><00:11:09.760><c> it</c><00:11:10.000><c> may</c><00:11:10.160><c> not</c><00:11:10.399><c> have</c>
+
+00:11:10.630 --> 00:11:10.640 align:start position:0%
+been freed, but it may not have
+ 
+
+00:11:10.640 --> 00:11:14.470 align:start position:0%
+been freed, but it may not have
+necessarily<00:11:11.920><c> changed</c><00:11:12.560><c> or</c><00:11:13.279><c> been</c><00:11:13.680><c> rewritten</c>
+
+00:11:14.470 --> 00:11:14.480 align:start position:0%
+necessarily changed or been rewritten
+ 
+
+00:11:14.480 --> 00:11:16.069 align:start position:0%
+necessarily changed or been rewritten
+yet.<00:11:14.959><c> I</c><00:11:15.120><c> mean,</c><00:11:15.279><c> not</c><00:11:15.440><c> much</c><00:11:15.600><c> has</c><00:11:15.839><c> probably</c>
+
+00:11:16.069 --> 00:11:16.079 align:start position:0%
+yet. I mean, not much has probably
+ 
+
+00:11:16.079 --> 00:11:17.350 align:start position:0%
+yet. I mean, not much has probably
+happened<00:11:16.320><c> between</c><00:11:16.560><c> these</c><00:11:16.800><c> two</c><00:11:16.959><c> lines</c><00:11:17.200><c> of</c>
+
+00:11:17.350 --> 00:11:17.360 align:start position:0%
+happened between these two lines of
+ 
+
+00:11:17.360 --> 00:11:19.590 align:start position:0%
+happened between these two lines of
+code.<00:11:17.519><c> And</c><00:11:17.760><c> so</c><00:11:18.000><c> technically</c><00:11:18.560><c> if</c><00:11:18.800><c> I</c><00:11:19.040><c> run</c><00:11:19.360><c> just</c>
+
+00:11:19.590 --> 00:11:19.600 align:start position:0%
+code. And so technically if I run just
+ 
+
+00:11:19.600 --> 00:11:21.670 align:start position:0%
+code. And so technically if I run just
+sort<00:11:19.839><c> of</c><00:11:19.920><c> this</c><00:11:20.240><c> section</c><00:11:20.480><c> of</c><00:11:20.720><c> code</c><00:11:21.120><c> then</c><00:11:21.440><c> our</c>
+
+00:11:21.670 --> 00:11:21.680 align:start position:0%
+sort of this section of code then our
+ 
+
+00:11:21.680 --> 00:11:24.630 align:start position:0%
+sort of this section of code then our
+result<00:11:22.000><c> is</c><00:11:23.040><c> absolutely</c><00:11:23.600><c> nothing</c><00:11:24.079><c> is</c><00:11:24.399><c> getting</c>
+
+00:11:24.630 --> 00:11:24.640 align:start position:0%
+result is absolutely nothing is getting
+ 
+
+00:11:24.640 --> 00:11:26.710 align:start position:0%
+result is absolutely nothing is getting
+printed.<00:11:25.040><c> If</c><00:11:25.279><c> I</c><00:11:25.440><c> switch</c><00:11:25.680><c> to</c><00:11:25.839><c> a</c><00:11:26.000><c> release</c><00:11:26.399><c> build</c>
+
+00:11:26.710 --> 00:11:26.720 align:start position:0%
+printed. If I switch to a release build
+ 
+
+00:11:26.720 --> 00:11:29.430 align:start position:0%
+printed. If I switch to a release build
+and<00:11:26.959><c> I</c><00:11:27.200><c> also</c><00:11:27.519><c> run</c><00:11:27.680><c> this</c><00:11:28.160><c> nothing</c><00:11:28.640><c> again</c><00:11:29.120><c> using</c>
+
+00:11:29.430 --> 00:11:29.440 align:start position:0%
+and I also run this nothing again using
+ 
+
+00:11:29.440 --> 00:11:33.110 align:start position:0%
+and I also run this nothing again using
+MSVC.<00:11:30.480><c> However</c><00:11:31.760><c> this</c><00:11:31.920><c> is</c><00:11:32.000><c> where</c><00:11:32.160><c> it</c><00:11:32.320><c> gets</c><00:11:32.560><c> fun.</c>
+
+00:11:33.110 --> 00:11:33.120 align:start position:0%
+MSVC. However this is where it gets fun.
+ 
+
+00:11:33.120 --> 00:11:36.630 align:start position:0%
+MSVC. However this is where it gets fun.
+If<00:11:33.279><c> we</c><00:11:33.440><c> have</c><00:11:33.600><c> a</c><00:11:33.760><c> look</c><00:11:34.079><c> at</c><00:11:34.640><c> GCC</c><00:11:35.680><c> same</c><00:11:36.000><c> exact</c><00:11:36.320><c> code</c>
+
+00:11:36.630 --> 00:11:36.640 align:start position:0%
+If we have a look at GCC same exact code
+ 
+
+00:11:36.640 --> 00:11:39.030 align:start position:0%
+If we have a look at GCC same exact code
+we<00:11:36.880><c> have</c><00:11:37.040><c> this</c><00:11:37.200><c> being</c><00:11:37.440><c> returned.</c><00:11:38.160><c> We're</c><00:11:38.399><c> doing</c>
+
+00:11:39.030 --> 00:11:39.040 align:start position:0%
+we have this being returned. We're doing
+ 
+
+00:11:39.040 --> 00:11:40.949 align:start position:0%
+we have this being returned. We're doing
+C<00:11:39.279><c> string</c><00:11:39.680><c> and</c><00:11:39.839><c> then</c><00:11:40.000><c> here</c><00:11:40.240><c> in</c><00:11:40.399><c> fact</c><00:11:40.560><c> is</c><00:11:40.800><c> our</c>
+
+00:11:40.949 --> 00:11:40.959 align:start position:0%
+C string and then here in fact is our
+ 
+
+00:11:40.959 --> 00:11:42.870 align:start position:0%
+C string and then here in fact is our
+conchar<00:11:41.600><c> pointer</c><00:11:41.920><c> string</c><00:11:42.160><c> that</c><00:11:42.399><c> we're</c><00:11:42.560><c> taking</c>
+
+00:11:42.870 --> 00:11:42.880 align:start position:0%
+conchar pointer string that we're taking
+ 
+
+00:11:42.880 --> 00:11:46.790 align:start position:0%
+conchar pointer string that we're taking
+out<00:11:43.040><c> and</c><00:11:43.360><c> printing.</c><00:11:44.399><c> The</c><00:11:44.640><c> result</c><00:11:45.279><c> is</c><00:11:46.240><c> well,</c><00:11:46.560><c> it</c>
+
+00:11:46.790 --> 00:11:46.800 align:start position:0%
+out and printing. The result is well, it
+ 
+
+00:11:46.800 --> 00:11:49.430 align:start position:0%
+out and printing. The result is well, it
+says<00:11:47.440><c> Cherno.</c><00:11:48.000><c> If</c><00:11:48.160><c> we</c><00:11:48.320><c> turn</c><00:11:48.560><c> optimization</c><00:11:49.200><c> on</c>
+
+00:11:49.430 --> 00:11:49.440 align:start position:0%
+says Cherno. If we turn optimization on
+ 
+
+00:11:49.440 --> 00:11:51.190 align:start position:0%
+says Cherno. If we turn optimization on
+and<00:11:49.600><c> we</c><00:11:49.760><c> run</c><00:11:49.920><c> it</c><00:11:50.160><c> again,</c><00:11:50.480><c> we</c><00:11:50.640><c> get</c><00:11:50.800><c> a</c><00:11:50.959><c> different</c>
+
+00:11:51.190 --> 00:11:51.200 align:start position:0%
+and we run it again, we get a different
+ 
+
+00:11:51.200 --> 00:11:54.150 align:start position:0%
+and we run it again, we get a different
+result.<00:11:52.399><c> Name</c><00:11:52.959><c> I</c><00:11:53.200><c> don't</c><00:11:53.279><c> know.</c><00:11:53.839><c> But</c><00:11:54.000><c> with</c>
+
+00:11:54.150 --> 00:11:54.160 align:start position:0%
+result. Name I don't know. But with
+ 
+
+00:11:54.160 --> 00:11:56.870 align:start position:0%
+result. Name I don't know. But with
+optimization<00:11:54.800><c> off,</c><00:11:55.279><c> name</c><00:11:55.600><c> is</c><00:11:55.920><c> Cherno.</c><00:11:56.720><c> What</c>
+
+00:11:56.870 --> 00:11:56.880 align:start position:0%
+optimization off, name is Cherno. What
+ 
+
+00:11:56.880 --> 00:11:58.790 align:start position:0%
+optimization off, name is Cherno. What
+about<00:11:57.120><c> Clang?</c><00:11:57.600><c> Here's</c><00:11:57.920><c> Clang.</c><00:11:58.399><c> Let's</c><00:11:58.640><c> run</c>
+
+00:11:58.790 --> 00:11:58.800 align:start position:0%
+about Clang? Here's Clang. Let's run
+ 
+
+00:11:58.800 --> 00:12:01.190 align:start position:0%
+about Clang? Here's Clang. Let's run
+that.<00:11:59.040><c> We</c><00:11:59.279><c> get</c><00:11:59.360><c> a</c><00:11:59.519><c> warning,</c><00:12:00.079><c> which</c><00:12:00.320><c> is</c><00:12:00.640><c> nice,</c>
+
+00:12:01.190 --> 00:12:01.200 align:start position:0%
+that. We get a warning, which is nice,
+ 
+
+00:12:01.200 --> 00:12:03.509 align:start position:0%
+that. We get a warning, which is nice,
+but<00:12:01.600><c> it</c><00:12:01.920><c> still</c><00:12:02.240><c> prints</c><00:12:02.720><c> correctly.</c><00:12:03.200><c> Let's</c><00:12:03.360><c> try</c>
+
+00:12:03.509 --> 00:12:03.519 align:start position:0%
+but it still prints correctly. Let's try
+ 
+
+00:12:03.519 --> 00:12:06.230 align:start position:0%
+but it still prints correctly. Let's try
+optimization<00:12:04.160><c> on</c><00:12:04.480><c> again.</c><00:12:04.880><c> Same</c><00:12:05.120><c> warning,</c><00:12:05.680><c> and</c>
+
+00:12:06.230 --> 00:12:06.240 align:start position:0%
+optimization on again. Same warning, and
+ 
+
+00:12:06.240 --> 00:12:08.069 align:start position:0%
+optimization on again. Same warning, and
+it<00:12:06.560><c> didn't</c><00:12:06.800><c> actually</c><00:12:07.040><c> run.</c><00:12:07.519><c> So</c><00:12:07.680><c> maybe</c><00:12:07.920><c> it</c>
+
+00:12:08.069 --> 00:12:08.079 align:start position:0%
+it didn't actually run. So maybe it
+ 
+
+00:12:08.079 --> 00:12:10.629 align:start position:0%
+it didn't actually run. So maybe it
+crashed.<00:12:08.560><c> So</c><00:12:08.880><c> clearly</c><00:12:09.760><c> this</c><00:12:10.000><c> is</c><00:12:10.240><c> something</c>
+
+00:12:10.629 --> 00:12:10.639 align:start position:0%
+crashed. So clearly this is something
+ 
+
+00:12:10.639 --> 00:12:13.110 align:start position:0%
+crashed. So clearly this is something
+that<00:12:11.040><c> can</c><00:12:11.519><c> kind</c><00:12:11.760><c> of</c><00:12:11.920><c> slip</c><00:12:12.240><c> through</c><00:12:12.480><c> the</c><00:12:12.639><c> cracks</c>
+
+00:12:13.110 --> 00:12:13.120 align:start position:0%
+that can kind of slip through the cracks
+ 
+
+00:12:13.120 --> 00:12:15.590 align:start position:0%
+that can kind of slip through the cracks
+because<00:12:13.519><c> unless</c><00:12:14.160><c> something</c><00:12:14.720><c> has</c><00:12:14.959><c> overwritten</c>
+
+00:12:15.590 --> 00:12:15.600 align:start position:0%
+because unless something has overwritten
+ 
+
+00:12:15.600 --> 00:12:17.110 align:start position:0%
+because unless something has overwritten
+that<00:12:15.760><c> memory.</c><00:12:16.160><c> Just</c><00:12:16.320><c> because</c><00:12:16.480><c> it's</c><00:12:16.800><c> free</c>
+
+00:12:17.110 --> 00:12:17.120 align:start position:0%
+that memory. Just because it's free
+ 
+
+00:12:17.120 --> 00:12:18.230 align:start position:0%
+that memory. Just because it's free
+doesn't<00:12:17.440><c> mean</c><00:12:17.519><c> that</c><00:12:17.680><c> you're</c><00:12:17.920><c> completely</c>
+
+00:12:18.230 --> 00:12:18.240 align:start position:0%
+doesn't mean that you're completely
+ 
+
+00:12:18.240 --> 00:12:20.150 align:start position:0%
+doesn't mean that you're completely
+banned<00:12:18.560><c> from</c><00:12:18.720><c> using</c><00:12:18.880><c> it.</c><00:12:19.200><c> So</c><00:12:19.360><c> yes,</c><00:12:19.839><c> this</c><00:12:20.000><c> is</c>
+
+00:12:20.150 --> 00:12:20.160 align:start position:0%
+banned from using it. So yes, this is
+ 
+
+00:12:20.160 --> 00:12:21.750 align:start position:0%
+banned from using it. So yes, this is
+something<00:12:20.399><c> that</c><00:12:20.800><c> you</c><00:12:21.040><c> need</c><00:12:21.120><c> to</c><00:12:21.279><c> make</c><00:12:21.440><c> sure</c>
+
+00:12:21.750 --> 00:12:21.760 align:start position:0%
+something that you need to make sure
+ 
+
+00:12:21.760 --> 00:12:23.350 align:start position:0%
+something that you need to make sure
+that<00:12:22.000><c> you</c><00:12:22.160><c> are</c><00:12:22.320><c> careful</c><00:12:22.560><c> with.</c><00:12:22.800><c> And</c><00:12:22.959><c> a</c><00:12:23.200><c> really</c>
+
+00:12:23.350 --> 00:12:23.360 align:start position:0%
+that you are careful with. And a really
+ 
+
+00:12:23.360 --> 00:12:25.750 align:start position:0%
+that you are careful with. And a really
+good<00:12:23.519><c> way</c><00:12:23.680><c> of</c><00:12:23.920><c> avoiding</c><00:12:24.560><c> all</c><00:12:24.800><c> of</c><00:12:24.880><c> this</c><00:12:25.279><c> is</c><00:12:25.519><c> to</c>
+
+00:12:25.750 --> 00:12:25.760 align:start position:0%
+good way of avoiding all of this is to
+ 
+
+00:12:25.760 --> 00:12:28.150 align:start position:0%
+good way of avoiding all of this is to
+just<00:12:26.320><c> make</c><00:12:26.560><c> sure</c><00:12:26.800><c> that</c><00:12:27.040><c> you</c><00:12:27.279><c> basically</c><00:12:27.920><c> don't</c>
+
+00:12:28.150 --> 00:12:28.160 align:start position:0%
+just make sure that you basically don't
+ 
+
+00:12:28.160 --> 00:12:30.790 align:start position:0%
+just make sure that you basically don't
+have<00:12:28.720><c> any</c><00:12:28.959><c> sort</c><00:12:29.200><c> of</c><00:12:29.440><c> transient</c><00:12:30.160><c> temporaries,</c>
+
+00:12:30.790 --> 00:12:30.800 align:start position:0%
+have any sort of transient temporaries,
+ 
+
+00:12:30.800 --> 00:12:33.590 align:start position:0%
+have any sort of transient temporaries,
+but<00:12:31.040><c> you</c><00:12:31.360><c> clearly</c><00:12:32.000><c> define</c><00:12:32.639><c> the</c><00:12:32.959><c> scope</c><00:12:33.200><c> and</c><00:12:33.360><c> the</c>
+
+00:12:33.590 --> 00:12:33.600 align:start position:0%
+but you clearly define the scope and the
+ 
+
+00:12:33.600 --> 00:12:37.030 align:start position:0%
+but you clearly define the scope and the
+lifetime<00:12:34.160><c> of</c><00:12:34.480><c> every</c><00:12:35.120><c> object</c><00:12:35.839><c> whose</c><00:12:36.399><c> data</c><00:12:36.800><c> you</c>
+
+00:12:37.030 --> 00:12:37.040 align:start position:0%
+lifetime of every object whose data you
+ 
+
+00:12:37.040 --> 00:12:39.910 align:start position:0%
+lifetime of every object whose data you
+then<00:12:37.600><c> use.</c><00:12:38.079><c> and</c><00:12:38.320><c> are</c><00:12:38.560><c> dependent</c><00:12:39.120><c> on.</c><00:12:39.600><c> Hope</c><00:12:39.760><c> you</c>
+
+00:12:39.910 --> 00:12:39.920 align:start position:0%
+then use. and are dependent on. Hope you
+ 
+
+00:12:39.920 --> 00:12:40.949 align:start position:0%
+then use. and are dependent on. Hope you
+all<00:12:40.079><c> enjoyed</c><00:12:40.240><c> this</c><00:12:40.399><c> video.</c><00:12:40.560><c> If</c><00:12:40.639><c> you</c><00:12:40.720><c> did,</c>
+
+00:12:40.949 --> 00:12:40.959 align:start position:0%
+all enjoyed this video. If you did,
+ 
+
+00:12:40.959 --> 00:12:41.910 align:start position:0%
+all enjoyed this video. If you did,
+please<00:12:41.120><c> don't</c><00:12:41.279><c> forget</c><00:12:41.440><c> to</c><00:12:41.600><c> hit</c><00:12:41.680><c> the</c><00:12:41.839><c> like</c>
+
+00:12:41.910 --> 00:12:41.920 align:start position:0%
+please don't forget to hit the like
+ 
+
+00:12:41.920 --> 00:12:43.750 align:start position:0%
+please don't forget to hit the like
+button.<00:12:42.240><c> Let</c><00:12:42.399><c> me</c><00:12:42.480><c> know</c><00:12:42.639><c> your</c><00:12:42.880><c> thoughts</c><00:12:43.360><c> in</c><00:12:43.519><c> the</c>
+
+00:12:43.750 --> 00:12:43.760 align:start position:0%
+button. Let me know your thoughts in the
+ 
+
+00:12:43.760 --> 00:12:45.430 align:start position:0%
+button. Let me know your thoughts in the
+comment<00:12:44.000><c> section</c><00:12:44.240><c> below</c><00:12:44.560><c> as</c><00:12:44.720><c> well.</c><00:12:45.120><c> Do</c><00:12:45.360><c> you</c>
+
+00:12:45.430 --> 00:12:45.440 align:start position:0%
+comment section below as well. Do you
+ 
+
+00:12:45.440 --> 00:12:47.350 align:start position:0%
+comment section below as well. Do you
+encounter<00:12:45.920><c> this</c><00:12:46.240><c> often?</c><00:12:46.720><c> How</c><00:12:46.880><c> do</c><00:12:47.040><c> you</c><00:12:47.200><c> deal</c>
+
+00:12:47.350 --> 00:12:47.360 align:start position:0%
+encounter this often? How do you deal
+ 
+
+00:12:47.360 --> 00:12:49.110 align:start position:0%
+encounter this often? How do you deal
+with<00:12:47.519><c> it?</c><00:12:47.760><c> Has</c><00:12:48.000><c> this</c><00:12:48.160><c> ever</c><00:12:48.399><c> burned</c><00:12:48.720><c> you?</c>
+
+00:12:49.110 --> 00:12:49.120 align:start position:0%
+with it? Has this ever burned you?
+ 
+
+00:12:49.120 --> 00:12:50.949 align:start position:0%
+with it? Has this ever burned you?
+Because<00:12:49.600><c> it's</c><00:12:49.839><c> burned</c><00:12:50.160><c> me.</c><00:12:50.399><c> If</c><00:12:50.560><c> you</c><00:12:50.639><c> have</c><00:12:50.800><c> any</c>
+
+00:12:50.949 --> 00:12:50.959 align:start position:0%
+Because it's burned me. If you have any
+ 
+
+00:12:50.959 --> 00:12:52.150 align:start position:0%
+Because it's burned me. If you have any
+other<00:12:51.120><c> bugs</c><00:12:51.279><c> that</c><00:12:51.440><c> you'd</c><00:12:51.600><c> like</c><00:12:51.680><c> me</c><00:12:51.760><c> to</c><00:12:51.920><c> make</c><00:12:52.000><c> a</c>
+
+00:12:52.150 --> 00:12:52.160 align:start position:0%
+other bugs that you'd like me to make a
+ 
+
+00:12:52.160 --> 00:12:53.110 align:start position:0%
+other bugs that you'd like me to make a
+video<00:12:52.240><c> on,</c><00:12:52.480><c> leave</c><00:12:52.560><c> them</c><00:12:52.720><c> in</c><00:12:52.800><c> the</c><00:12:52.959><c> comment</c>
+
+00:12:53.110 --> 00:12:53.120 align:start position:0%
+video on, leave them in the comment
+ 
+
+00:12:53.120 --> 00:12:54.629 align:start position:0%
+video on, leave them in the comment
+section<00:12:53.360><c> below.</c><00:12:53.680><c> And</c><00:12:53.839><c> I</c><00:12:54.079><c> will</c><00:12:54.160><c> see</c><00:12:54.320><c> you</c><00:12:54.480><c> guys</c>
+
+00:12:54.629 --> 00:12:54.639 align:start position:0%
+section below. And I will see you guys
+ 
+
+00:12:54.639 --> 00:12:57.839 align:start position:0%
+section below. And I will see you guys
+next<00:12:54.800><c> time.</c><00:12:55.040><c> Goodbye.</c>
+

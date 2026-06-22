@@ -1,0 +1,3184 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.230 align:start position:0%
+ 
+Reference<00:00:00.560><c> counting.</c><00:00:01.360><c> What</c><00:00:01.520><c> is</c><00:00:01.600><c> it?</c><00:00:01.920><c> How</c><00:00:02.159><c> does</c>
+
+00:00:02.230 --> 00:00:02.240 align:start position:0%
+Reference counting. What is it? How does
+ 
+
+00:00:02.240 --> 00:00:04.309 align:start position:0%
+Reference counting. What is it? How does
+it<00:00:02.399><c> work?</c><00:00:02.720><c> And</c><00:00:02.879><c> why</c><00:00:03.040><c> not</c><00:00:03.200><c> just</c><00:00:03.360><c> use</c><00:00:03.600><c> SCD</c><00:00:04.080><c> shared</c>
+
+00:00:04.309 --> 00:00:04.319 align:start position:0%
+it work? And why not just use SCD shared
+ 
+
+00:00:04.319 --> 00:00:05.670 align:start position:0%
+it work? And why not just use SCD shared
+pointer?<00:00:04.880><c> That</c><00:00:05.040><c> is</c><00:00:05.200><c> what</c><00:00:05.359><c> we're</c><00:00:05.520><c> talking</c>
+
+00:00:05.670 --> 00:00:05.680 align:start position:0%
+pointer? That is what we're talking
+ 
+
+00:00:05.680 --> 00:00:06.869 align:start position:0%
+pointer? That is what we're talking
+about<00:00:05.920><c> today.</c><00:00:06.240><c> It's</c><00:00:06.400><c> probably</c><00:00:06.560><c> the</c><00:00:06.720><c> number</c>
+
+00:00:06.869 --> 00:00:06.879 align:start position:0%
+about today. It's probably the number
+ 
+
+00:00:06.879 --> 00:00:08.070 align:start position:0%
+about today. It's probably the number
+one<00:00:07.040><c> question</c><00:00:07.279><c> that</c><00:00:07.440><c> people</c><00:00:07.600><c> have</c><00:00:07.759><c> when</c><00:00:07.919><c> they</c>
+
+00:00:08.070 --> 00:00:08.080 align:start position:0%
+one question that people have when they
+ 
+
+00:00:08.080 --> 00:00:10.230 align:start position:0%
+one question that people have when they
+see<00:00:08.240><c> Hazel's</c><00:00:08.720><c> codebase.</c><00:00:09.360><c> What</c><00:00:09.519><c> is</c><00:00:09.679><c> this</c><00:00:09.920><c> ref</c>
+
+00:00:10.230 --> 00:00:10.240 align:start position:0%
+see Hazel's codebase. What is this ref
+ 
+
+00:00:10.240 --> 00:00:11.749 align:start position:0%
+see Hazel's codebase. What is this ref
+thing?<00:00:10.559><c> Now,</c><00:00:10.639><c> I</c><00:00:10.800><c> want</c><00:00:10.960><c> to</c><00:00:11.040><c> quickly</c><00:00:11.280><c> clear</c><00:00:11.440><c> up</c><00:00:11.599><c> a</c>
+
+00:00:11.749 --> 00:00:11.759 align:start position:0%
+thing? Now, I want to quickly clear up a
+ 
+
+00:00:11.759 --> 00:00:13.830 align:start position:0%
+thing? Now, I want to quickly clear up a
+misconception.<00:00:12.480><c> So,</c><00:00:12.719><c> in</c><00:00:12.960><c> Hazel,</c><00:00:13.440><c> the</c><00:00:13.679><c> game</c>
+
+00:00:13.830 --> 00:00:13.840 align:start position:0%
+misconception. So, in Hazel, the game
+ 
+
+00:00:13.840 --> 00:00:16.070 align:start position:0%
+misconception. So, in Hazel, the game
+engine<00:00:14.240><c> series</c><00:00:14.559><c> version</c><00:00:14.799><c> of</c><00:00:14.960><c> Hazel,</c><00:00:15.679><c> this</c>
+
+00:00:16.070 --> 00:00:16.080 align:start position:0%
+engine series version of Hazel, this
+ 
+
+00:00:16.080 --> 00:00:18.710 align:start position:0%
+engine series version of Hazel, this
+which<00:00:16.240><c> is</c><00:00:16.400><c> a</c><00:00:16.560><c> public</c><00:00:16.960><c> GitHub</c><00:00:17.440><c> repository,</c><00:00:18.480><c> we</c>
+
+00:00:18.710 --> 00:00:18.720 align:start position:0%
+which is a public GitHub repository, we
+ 
+
+00:00:18.720 --> 00:00:23.269 align:start position:0%
+which is a public GitHub repository, we
+do<00:00:18.960><c> have</c><00:00:19.359><c> inside</c><00:00:19.920><c> base.h</c><00:00:21.039><c> ref</c><00:00:22.000><c> being</c><00:00:22.320><c> defined</c>
+
+00:00:23.269 --> 00:00:23.279 align:start position:0%
+do have inside base.h ref being defined
+ 
+
+00:00:23.279 --> 00:00:26.470 align:start position:0%
+do have inside base.h ref being defined
+as<00:00:23.760><c> a</c><00:00:24.000><c> shared</c><00:00:24.400><c> pointer.</c><00:00:24.960><c> So</c><00:00:25.199><c> in</c><00:00:25.519><c> this</c><00:00:26.080><c> like</c>
+
+00:00:26.470 --> 00:00:26.480 align:start position:0%
+as a shared pointer. So in this like
+ 
+
+00:00:26.480 --> 00:00:29.269 align:start position:0%
+as a shared pointer. So in this like
+free<00:00:27.119><c> 2D</c><00:00:27.760><c> game</c><00:00:28.080><c> engine</c><00:00:28.560><c> series</c><00:00:28.880><c> version</c><00:00:29.119><c> of</c>
+
+00:00:29.269 --> 00:00:29.279 align:start position:0%
+free 2D game engine series version of
+ 
+
+00:00:29.279 --> 00:00:32.549 align:start position:0%
+free 2D game engine series version of
+Hazel,<00:00:30.080><c> ref</c><00:00:30.560><c> is</c><00:00:30.800><c> in</c><00:00:30.960><c> fact</c><00:00:31.199><c> a</c><00:00:31.439><c> shared</c><00:00:31.760><c> pointer.</c>
+
+00:00:32.549 --> 00:00:32.559 align:start position:0%
+Hazel, ref is in fact a shared pointer.
+ 
+
+00:00:32.559 --> 00:00:35.430 align:start position:0%
+Hazel, ref is in fact a shared pointer.
+However,<00:00:33.440><c> inside</c><00:00:34.000><c> real</c><00:00:34.320><c> Hazel,</c><00:00:34.960><c> so</c><00:00:35.120><c> this</c><00:00:35.280><c> is</c>
+
+00:00:35.430 --> 00:00:35.440 align:start position:0%
+However, inside real Hazel, so this is
+ 
+
+00:00:35.440 --> 00:00:38.470 align:start position:0%
+However, inside real Hazel, so this is
+inside<00:00:36.000><c> the</c><00:00:36.320><c> big</c><00:00:36.640><c> proper</c><00:00:37.200><c> Hazel,</c><00:00:37.920><c> ref</c><00:00:38.239><c> is</c>
+
+00:00:38.470 --> 00:00:38.480 align:start position:0%
+inside the big proper Hazel, ref is
+ 
+
+00:00:38.480 --> 00:00:40.470 align:start position:0%
+inside the big proper Hazel, ref is
+actually<00:00:38.879><c> a</c><00:00:39.200><c> class,</c><00:00:39.520><c> a</c><00:00:39.760><c> class</c><00:00:39.920><c> that</c><00:00:40.160><c> we</c><00:00:40.320><c> are</c>
+
+00:00:40.470 --> 00:00:40.480 align:start position:0%
+actually a class, a class that we are
+ 
+
+00:00:40.480 --> 00:00:42.630 align:start position:0%
+actually a class, a class that we are
+going<00:00:40.559><c> to</c><00:00:40.719><c> take</c><00:00:40.879><c> a</c><00:00:41.120><c> look</c><00:00:41.200><c> at</c><00:00:41.440><c> in</c><00:00:41.680><c> more</c><00:00:41.840><c> detail</c>
+
+00:00:42.630 --> 00:00:42.640 align:start position:0%
+going to take a look at in more detail
+ 
+
+00:00:42.640 --> 00:00:44.549 align:start position:0%
+going to take a look at in more detail
+over<00:00:42.879><c> here.</c><00:00:43.280><c> In</c><00:00:43.520><c> this</c><00:00:43.680><c> video,</c><00:00:44.000><c> I</c><00:00:44.239><c> thought</c><00:00:44.320><c> that</c>
+
+00:00:44.549 --> 00:00:44.559 align:start position:0%
+over here. In this video, I thought that
+ 
+
+00:00:44.559 --> 00:00:46.549 align:start position:0%
+over here. In this video, I thought that
+it<00:00:44.800><c> would</c><00:00:44.879><c> make</c><00:00:45.040><c> more</c><00:00:45.280><c> sense</c><00:00:45.600><c> to</c><00:00:45.920><c> explain</c><00:00:46.320><c> the</c>
+
+00:00:46.549 --> 00:00:46.559 align:start position:0%
+it would make more sense to explain the
+ 
+
+00:00:46.559 --> 00:00:48.389 align:start position:0%
+it would make more sense to explain the
+concept<00:00:46.800><c> of</c><00:00:47.039><c> reference</c><00:00:47.520><c> counting</c><00:00:47.920><c> by</c><00:00:48.239><c> taking</c>
+
+00:00:48.389 --> 00:00:48.399 align:start position:0%
+concept of reference counting by taking
+ 
+
+00:00:48.399 --> 00:00:50.630 align:start position:0%
+concept of reference counting by taking
+a<00:00:48.559><c> look</c><00:00:48.719><c> at</c><00:00:48.960><c> some</c><00:00:49.280><c> examples.</c><00:00:50.079><c> As</c><00:00:50.320><c> we</c><00:00:50.480><c> look</c><00:00:50.559><c> at</c>
+
+00:00:50.630 --> 00:00:50.640 align:start position:0%
+a look at some examples. As we look at
+ 
+
+00:00:50.640 --> 00:00:53.029 align:start position:0%
+a look at some examples. As we look at
+the<00:00:50.879><c> examples,</c><00:00:51.440><c> I'll</c><00:00:52.000><c> explain</c><00:00:52.480><c> more</c><00:00:52.719><c> of</c><00:00:52.879><c> it.</c>
+
+00:00:53.029 --> 00:00:53.039 align:start position:0%
+the examples, I'll explain more of it.
+ 
+
+00:00:53.039 --> 00:00:54.709 align:start position:0%
+the examples, I'll explain more of it.
+We'll<00:00:53.360><c> dive</c><00:00:53.520><c> into</c><00:00:53.760><c> the</c><00:00:53.920><c> internals</c><00:00:54.320><c> of</c><00:00:54.399><c> how</c><00:00:54.559><c> it</c>
+
+00:00:54.709 --> 00:00:54.719 align:start position:0%
+We'll dive into the internals of how it
+ 
+
+00:00:54.719 --> 00:00:56.389 align:start position:0%
+We'll dive into the internals of how it
+works<00:00:54.960><c> and</c><00:00:55.280><c> hopefully</c><00:00:55.680><c> that</c><00:00:55.840><c> will</c><00:00:56.079><c> help</c><00:00:56.239><c> some</c>
+
+00:00:56.389 --> 00:00:56.399 align:start position:0%
+works and hopefully that will help some
+ 
+
+00:00:56.399 --> 00:00:58.229 align:start position:0%
+works and hopefully that will help some
+of<00:00:56.559><c> you</c><00:00:56.640><c> who</c><00:00:56.879><c> have</c><00:00:57.039><c> never</c><00:00:57.199><c> encountered</c><00:00:57.920><c> this</c>
+
+00:00:58.229 --> 00:00:58.239 align:start position:0%
+of you who have never encountered this
+ 
+
+00:00:58.239 --> 00:01:00.389 align:start position:0%
+of you who have never encountered this
+sort<00:00:58.399><c> of</c><00:00:58.559><c> thing</c><00:00:58.719><c> before.</c><00:00:59.280><c> But</c><00:00:59.440><c> fundamentally,</c>
+
+00:01:00.389 --> 00:01:00.399 align:start position:0%
+sort of thing before. But fundamentally,
+ 
+
+00:01:00.399 --> 00:01:02.310 align:start position:0%
+sort of thing before. But fundamentally,
+reference<00:01:00.879><c> counting</c><00:01:01.280><c> solves</c><00:01:01.600><c> the</c><00:01:01.760><c> problem</c><00:01:02.000><c> of</c>
+
+00:01:02.310 --> 00:01:02.320 align:start position:0%
+reference counting solves the problem of
+ 
+
+00:01:02.320 --> 00:01:04.310 align:start position:0%
+reference counting solves the problem of
+I<00:01:02.640><c> have</c><00:01:02.719><c> an</c><00:01:02.960><c> object</c><00:01:03.280><c> that</c><00:01:03.520><c> I</c><00:01:03.680><c> eventually</c><00:01:04.159><c> want</c>
+
+00:01:04.310 --> 00:01:04.320 align:start position:0%
+I have an object that I eventually want
+ 
+
+00:01:04.320 --> 00:01:06.630 align:start position:0%
+I have an object that I eventually want
+to<00:01:04.479><c> be</c><00:01:04.640><c> destroyed,</c><00:01:05.439><c> but</c><00:01:05.680><c> I'm</c><00:01:05.920><c> not</c><00:01:06.080><c> quite</c><00:01:06.400><c> sure</c>
+
+00:01:06.630 --> 00:01:06.640 align:start position:0%
+to be destroyed, but I'm not quite sure
+ 
+
+00:01:06.640 --> 00:01:08.789 align:start position:0%
+to be destroyed, but I'm not quite sure
+when<00:01:06.880><c> and</c><00:01:07.200><c> how.</c><00:01:07.600><c> And</c><00:01:07.840><c> either</c><00:01:08.159><c> way,</c><00:01:08.400><c> I</c><00:01:08.640><c> don't</c>
+
+00:01:08.789 --> 00:01:08.799 align:start position:0%
+when and how. And either way, I don't
+ 
+
+00:01:08.799 --> 00:01:10.390 align:start position:0%
+when and how. And either way, I don't
+want<00:01:08.880><c> to</c><00:01:09.040><c> handle</c><00:01:09.280><c> that.</c><00:01:09.680><c> It's</c><00:01:09.920><c> supposed</c><00:01:10.159><c> to</c><00:01:10.240><c> be</c>
+
+00:01:10.390 --> 00:01:10.400 align:start position:0%
+want to handle that. It's supposed to be
+ 
+
+00:01:10.400 --> 00:01:12.630 align:start position:0%
+want to handle that. It's supposed to be
+a<00:01:10.640><c> mechanism</c><00:01:11.200><c> for</c><00:01:11.520><c> automatic</c><00:01:12.159><c> memory</c>
+
+00:01:12.630 --> 00:01:12.640 align:start position:0%
+a mechanism for automatic memory
+ 
+
+00:01:12.640 --> 00:01:14.390 align:start position:0%
+a mechanism for automatic memory
+management.<00:01:13.280><c> But</c><00:01:13.520><c> I</c><00:01:13.680><c> want</c><00:01:13.840><c> to</c><00:01:13.920><c> stress</c><00:01:14.159><c> that</c>
+
+00:01:14.390 --> 00:01:14.400 align:start position:0%
+management. But I want to stress that
+ 
+
+00:01:14.400 --> 00:01:16.550 align:start position:0%
+management. But I want to stress that
+sometimes<00:01:14.960><c> this</c><00:01:15.280><c> particular</c><00:01:15.760><c> way</c><00:01:16.080><c> of</c>
+
+00:01:16.550 --> 00:01:16.560 align:start position:0%
+sometimes this particular way of
+ 
+
+00:01:16.560 --> 00:01:18.630 align:start position:0%
+sometimes this particular way of
+automatically<00:01:17.200><c> managing</c><00:01:17.520><c> your</c><00:01:17.759><c> memory</c><00:01:18.400><c> is</c>
+
+00:01:18.630 --> 00:01:18.640 align:start position:0%
+automatically managing your memory is
+ 
+
+00:01:18.640 --> 00:01:21.030 align:start position:0%
+automatically managing your memory is
+your<00:01:18.880><c> only</c><00:01:19.119><c> option</c><00:01:19.600><c> because</c><00:01:19.920><c> sometimes</c><00:01:20.799><c> you</c>
+
+00:01:21.030 --> 00:01:21.040 align:start position:0%
+your only option because sometimes you
+ 
+
+00:01:21.040 --> 00:01:23.670 align:start position:0%
+your only option because sometimes you
+don't<00:01:21.280><c> really</c><00:01:21.600><c> know</c><00:01:22.000><c> exactly</c><00:01:22.479><c> when</c><00:01:23.040><c> or</c><00:01:23.360><c> who</c>
+
+00:01:23.670 --> 00:01:23.680 align:start position:0%
+don't really know exactly when or who
+ 
+
+00:01:23.680 --> 00:01:26.149 align:start position:0%
+don't really know exactly when or who
+will<00:01:23.920><c> be</c><00:01:24.080><c> last</c><00:01:24.640><c> to</c><00:01:24.960><c> use</c><00:01:25.200><c> a</c><00:01:25.520><c> particular</c><00:01:25.840><c> memory</c>
+
+00:01:26.149 --> 00:01:26.159 align:start position:0%
+will be last to use a particular memory
+ 
+
+00:01:26.159 --> 00:01:28.310 align:start position:0%
+will be last to use a particular memory
+allocation<00:01:26.880><c> before</c><00:01:27.200><c> it</c><00:01:27.439><c> can</c><00:01:27.520><c> be</c><00:01:27.680><c> freed.</c><00:01:28.080><c> So</c>
+
+00:01:28.310 --> 00:01:28.320 align:start position:0%
+allocation before it can be freed. So
+ 
+
+00:01:28.320 --> 00:01:30.630 align:start position:0%
+allocation before it can be freed. So
+diving<00:01:28.640><c> into</c><00:01:28.880><c> this,</c><00:01:29.200><c> what</c><00:01:29.360><c> do</c><00:01:29.520><c> I</c><00:01:29.759><c> have</c><00:01:29.920><c> here?</c><00:01:30.320><c> I</c>
+
+00:01:30.630 --> 00:01:30.640 align:start position:0%
+diving into this, what do I have here? I
+ 
+
+00:01:30.640 --> 00:01:32.390 align:start position:0%
+diving into this, what do I have here? I
+have<00:01:30.720><c> a</c><00:01:31.040><c> resource</c><00:01:31.360><c> that</c><00:01:31.600><c> I</c><00:01:31.840><c> would</c><00:01:31.920><c> like</c><00:01:32.079><c> to</c><00:01:32.240><c> be</c>
+
+00:01:32.390 --> 00:01:32.400 align:start position:0%
+have a resource that I would like to be
+ 
+
+00:01:32.400 --> 00:01:35.109 align:start position:0%
+have a resource that I would like to be
+heap<00:01:32.799><c> allocated</c><00:01:33.360><c> and</c><00:01:33.600><c> then</c><00:01:34.159><c> used</c><00:01:34.560><c> for</c><00:01:34.799><c> some</c>
+
+00:01:35.109 --> 00:01:35.119 align:start position:0%
+heap allocated and then used for some
+ 
+
+00:01:35.119 --> 00:01:37.510 align:start position:0%
+heap allocated and then used for some
+sort<00:01:35.360><c> of</c><00:01:35.840><c> lifetime.</c><00:01:36.479><c> when</c><00:01:36.799><c> everyone</c><00:01:37.119><c> who</c><00:01:37.280><c> is</c>
+
+00:01:37.510 --> 00:01:37.520 align:start position:0%
+sort of lifetime. when everyone who is
+ 
+
+00:01:37.520 --> 00:01:40.149 align:start position:0%
+sort of lifetime. when everyone who is
+using<00:01:38.000><c> this</c><00:01:38.320><c> resource</c><00:01:38.880><c> is</c><00:01:39.119><c> done</c><00:01:39.360><c> with</c><00:01:39.520><c> it,</c><00:01:39.840><c> I</c>
+
+00:01:40.149 --> 00:01:40.159 align:start position:0%
+using this resource is done with it, I
+ 
+
+00:01:40.159 --> 00:01:41.830 align:start position:0%
+using this resource is done with it, I
+would<00:01:40.320><c> like</c><00:01:40.479><c> it</c><00:01:40.720><c> to</c><00:01:40.880><c> be</c><00:01:40.960><c> deleted</c><00:01:41.360><c> because</c><00:01:41.680><c> no</c>
+
+00:01:41.830 --> 00:01:41.840 align:start position:0%
+would like it to be deleted because no
+ 
+
+00:01:41.840 --> 00:01:44.230 align:start position:0%
+would like it to be deleted because no
+one's<00:01:42.079><c> using</c><00:01:42.240><c> it</c><00:01:42.479><c> anymore.</c><00:01:43.040><c> The</c><00:01:43.280><c> idea</c><00:01:43.680><c> is</c><00:01:43.920><c> that</c>
+
+00:01:44.230 --> 00:01:44.240 align:start position:0%
+one's using it anymore. The idea is that
+ 
+
+00:01:44.240 --> 00:01:45.990 align:start position:0%
+one's using it anymore. The idea is that
+this<00:01:44.560><c> particular</c><00:01:45.040><c> way</c><00:01:45.280><c> of</c><00:01:45.520><c> creating</c><00:01:45.759><c> a</c>
+
+00:01:45.990 --> 00:01:46.000 align:start position:0%
+this particular way of creating a
+ 
+
+00:01:46.000 --> 00:01:48.710 align:start position:0%
+this particular way of creating a
+resource<00:01:46.720><c> is</c><00:01:47.040><c> sort</c><00:01:47.200><c> of</c><00:01:47.360><c> replacing</c><00:01:48.240><c> just</c><00:01:48.479><c> a</c>
+
+00:01:48.710 --> 00:01:48.720 align:start position:0%
+resource is sort of replacing just a
+ 
+
+00:01:48.720 --> 00:01:50.789 align:start position:0%
+resource is sort of replacing just a
+regular<00:01:49.200><c> heap</c><00:01:49.520><c> allocation.</c><00:01:50.159><c> So</c><00:01:50.320><c> if</c><00:01:50.479><c> I</c><00:01:50.640><c> did</c>
+
+00:01:50.789 --> 00:01:50.799 align:start position:0%
+regular heap allocation. So if I did
+ 
+
+00:01:50.799 --> 00:01:53.270 align:start position:0%
+regular heap allocation. So if I did
+something<00:01:51.040><c> like</c><00:01:51.280><c> this</c><00:01:51.920><c> or</c><00:01:52.159><c> that,</c><00:01:52.640><c> I</c><00:01:52.880><c> would</c><00:01:53.040><c> of</c>
+
+00:01:53.270 --> 00:01:53.280 align:start position:0%
+something like this or that, I would of
+ 
+
+00:01:53.280 --> 00:01:55.749 align:start position:0%
+something like this or that, I would of
+course<00:01:53.600><c> have</c><00:01:53.840><c> to</c><00:01:54.000><c> then</c><00:01:54.399><c> at</c><00:01:54.720><c> some</c><00:01:54.960><c> point</c><00:01:55.439><c> delete</c>
+
+00:01:55.749 --> 00:01:55.759 align:start position:0%
+course have to then at some point delete
+ 
+
+00:01:55.759 --> 00:01:58.389 align:start position:0%
+course have to then at some point delete
+it.<00:01:56.399><c> This</c><00:01:56.640><c> just</c><00:01:56.880><c> automates</c><00:01:57.360><c> that.</c><00:01:58.000><c> Why?</c>
+
+00:01:58.389 --> 00:01:58.399 align:start position:0%
+it. This just automates that. Why?
+ 
+
+00:01:58.399 --> 00:02:00.709 align:start position:0%
+it. This just automates that. Why?
+because<00:01:58.640><c> this</c><00:01:58.880><c> ref</c><00:01:59.280><c> class</c><00:01:59.680><c> will</c><00:02:00.079><c> inside</c><00:02:00.479><c> the</c>
+
+00:02:00.709 --> 00:02:00.719 align:start position:0%
+because this ref class will inside the
+ 
+
+00:02:00.719 --> 00:02:03.350 align:start position:0%
+because this ref class will inside the
+create<00:02:01.040><c> function</c><00:02:01.680><c> actually</c><00:02:02.159><c> create</c><00:02:02.799><c> my</c><00:02:03.119><c> new</c>
+
+00:02:03.350 --> 00:02:03.360 align:start position:0%
+create function actually create my new
+ 
+
+00:02:03.360 --> 00:02:05.990 align:start position:0%
+create function actually create my new
+object<00:02:03.840><c> on</c><00:02:04.079><c> the</c><00:02:04.240><c> heap</c><00:02:04.640><c> and</c><00:02:04.880><c> then</c><00:02:05.280><c> eventually</c>
+
+00:02:05.990 --> 00:02:06.000 align:start position:0%
+object on the heap and then eventually
+ 
+
+00:02:06.000 --> 00:02:08.229 align:start position:0%
+object on the heap and then eventually
+when<00:02:06.159><c> the</c><00:02:06.399><c> reference</c><00:02:06.719><c> count</c><00:02:06.960><c> hits</c><00:02:07.280><c> zero</c><00:02:07.920><c> it</c>
+
+00:02:08.229 --> 00:02:08.239 align:start position:0%
+when the reference count hits zero it
+ 
+
+00:02:08.239 --> 00:02:10.869 align:start position:0%
+when the reference count hits zero it
+will<00:02:08.560><c> be</c><00:02:08.800><c> deleted.</c><00:02:09.599><c> So</c><00:02:09.920><c> you</c><00:02:10.160><c> can</c><00:02:10.319><c> see</c><00:02:10.560><c> that</c>
+
+00:02:10.869 --> 00:02:10.879 align:start position:0%
+will be deleted. So you can see that
+ 
+
+00:02:10.879 --> 00:02:12.949 align:start position:0%
+will be deleted. So you can see that
+this<00:02:11.200><c> new</c><00:02:11.440><c> and</c><00:02:11.760><c> delete</c><00:02:12.080><c> is</c><00:02:12.400><c> just</c><00:02:12.640><c> being</c>
+
+00:02:12.949 --> 00:02:12.959 align:start position:0%
+this new and delete is just being
+ 
+
+00:02:12.959 --> 00:02:15.110 align:start position:0%
+this new and delete is just being
+automatically<00:02:13.520><c> done.</c><00:02:13.840><c> It's</c><00:02:14.000><c> abstracted</c><00:02:14.480><c> away</c>
+
+00:02:15.110 --> 00:02:15.120 align:start position:0%
+automatically done. It's abstracted away
+ 
+
+00:02:15.120 --> 00:02:17.430 align:start position:0%
+automatically done. It's abstracted away
+into<00:02:15.599><c> this</c><00:02:15.920><c> ref</c><00:02:16.239><c> class.</c><00:02:16.640><c> Now</c><00:02:16.800><c> there</c><00:02:16.959><c> are</c><00:02:17.120><c> many</c>
+
+00:02:17.430 --> 00:02:17.440 align:start position:0%
+into this ref class. Now there are many
+ 
+
+00:02:17.440 --> 00:02:19.270 align:start position:0%
+into this ref class. Now there are many
+different<00:02:17.760><c> ways</c><00:02:18.080><c> that</c><00:02:18.319><c> we</c><00:02:18.480><c> can</c><00:02:18.879><c> sort</c><00:02:19.120><c> of</c>
+
+00:02:19.270 --> 00:02:19.280 align:start position:0%
+different ways that we can sort of
+ 
+
+00:02:19.280 --> 00:02:21.270 align:start position:0%
+different ways that we can sort of
+automate<00:02:19.680><c> or</c><00:02:19.840><c> abstract</c><00:02:20.319><c> new</c><00:02:20.560><c> and</c><00:02:20.800><c> delete.</c><00:02:21.120><c> Of</c>
+
+00:02:21.270 --> 00:02:21.280 align:start position:0%
+automate or abstract new and delete. Of
+ 
+
+00:02:21.280 --> 00:02:22.710 align:start position:0%
+automate or abstract new and delete. Of
+course<00:02:21.440><c> we</c><00:02:21.599><c> could</c><00:02:21.760><c> use</c><00:02:21.840><c> a</c><00:02:22.000><c> unique</c><00:02:22.239><c> pointer.</c><00:02:22.640><c> We</c>
+
+00:02:22.710 --> 00:02:22.720 align:start position:0%
+course we could use a unique pointer. We
+ 
+
+00:02:22.720 --> 00:02:24.550 align:start position:0%
+course we could use a unique pointer. We
+could<00:02:22.879><c> even</c><00:02:23.040><c> use</c><00:02:23.120><c> a</c><00:02:23.280><c> shared</c><00:02:23.599><c> pointer</c><00:02:24.239><c> in</c><00:02:24.400><c> this</c>
+
+00:02:24.550 --> 00:02:24.560 align:start position:0%
+could even use a shared pointer in this
+ 
+
+00:02:24.560 --> 00:02:26.470 align:start position:0%
+could even use a shared pointer in this
+case.<00:02:24.879><c> We'll</c><00:02:25.200><c> talk</c><00:02:25.280><c> about</c><00:02:25.520><c> the</c><00:02:25.840><c> nuances</c><00:02:26.319><c> of</c>
+
+00:02:26.470 --> 00:02:26.480 align:start position:0%
+case. We'll talk about the nuances of
+ 
+
+00:02:26.480 --> 00:02:29.030 align:start position:0%
+case. We'll talk about the nuances of
+those<00:02:26.800><c> specific</c><00:02:27.520><c> other</c><00:02:28.239><c> techniques.</c><00:02:28.800><c> We'll</c>
+
+00:02:29.030 --> 00:02:29.040 align:start position:0%
+those specific other techniques. We'll
+ 
+
+00:02:29.040 --> 00:02:30.949 align:start position:0%
+those specific other techniques. We'll
+call<00:02:29.200><c> them</c><00:02:29.520><c> later</c><00:02:29.760><c> in</c><00:02:30.000><c> this</c><00:02:30.160><c> video.</c><00:02:30.640><c> But</c><00:02:30.800><c> that</c>
+
+00:02:30.949 --> 00:02:30.959 align:start position:0%
+call them later in this video. But that
+ 
+
+00:02:30.959 --> 00:02:32.949 align:start position:0%
+call them later in this video. But that
+is<00:02:31.120><c> the</c><00:02:31.280><c> gist</c><00:02:31.520><c> of</c><00:02:31.760><c> how</c><00:02:32.080><c> this</c><00:02:32.400><c> works.</c><00:02:32.800><c> This</c>
+
+00:02:32.949 --> 00:02:32.959 align:start position:0%
+is the gist of how this works. This
+ 
+
+00:02:32.959 --> 00:02:34.550 align:start position:0%
+is the gist of how this works. This
+isn't<00:02:33.280><c> actually</c><00:02:33.519><c> a</c><00:02:33.680><c> compile</c><00:02:34.160><c> error,</c><00:02:34.400><c> by</c><00:02:34.480><c> the</c>
+
+00:02:34.550 --> 00:02:34.560 align:start position:0%
+isn't actually a compile error, by the
+ 
+
+00:02:34.560 --> 00:02:36.949 align:start position:0%
+isn't actually a compile error, by the
+way.<00:02:34.879><c> This</c><00:02:35.040><c> is</c><00:02:35.200><c> just</c><00:02:35.760><c> Visual</c><00:02:36.080><c> Studio.</c><00:02:36.640><c> Okay.</c>
+
+00:02:36.949 --> 00:02:36.959 align:start position:0%
+way. This is just Visual Studio. Okay.
+ 
+
+00:02:36.959 --> 00:02:39.190 align:start position:0%
+way. This is just Visual Studio. Okay.
+So,<00:02:37.120><c> to</c><00:02:37.440><c> explain</c><00:02:37.920><c> the</c><00:02:38.160><c> actual</c><00:02:38.560><c> concept</c><00:02:38.879><c> of</c>
+
+00:02:39.190 --> 00:02:39.200 align:start position:0%
+So, to explain the actual concept of
+ 
+
+00:02:39.200 --> 00:02:41.589 align:start position:0%
+So, to explain the actual concept of
+reference<00:02:39.599><c> counting,</c><00:02:40.239><c> it</c><00:02:40.480><c> works</c><00:02:40.720><c> like</c><00:02:40.959><c> this.</c>
+
+00:02:41.589 --> 00:02:41.599 align:start position:0%
+reference counting, it works like this.
+ 
+
+00:02:41.599 --> 00:02:43.990 align:start position:0%
+reference counting, it works like this.
+It's<00:02:41.840><c> simply</c><00:02:42.160><c> a</c><00:02:42.480><c> way</c><00:02:42.640><c> to</c><00:02:42.800><c> track</c><00:02:43.440><c> how</c><00:02:43.760><c> many</c>
+
+00:02:43.990 --> 00:02:44.000 align:start position:0%
+It's simply a way to track how many
+ 
+
+00:02:44.000 --> 00:02:46.710 align:start position:0%
+It's simply a way to track how many
+different<00:02:44.319><c> things</c><00:02:45.040><c> are</c><00:02:45.280><c> using</c><00:02:45.840><c> your</c><00:02:46.160><c> resource</c>
+
+00:02:46.710 --> 00:02:46.720 align:start position:0%
+different things are using your resource
+ 
+
+00:02:46.720 --> 00:02:48.790 align:start position:0%
+different things are using your resource
+with<00:02:46.959><c> the</c><00:02:47.120><c> idea</c><00:02:47.440><c> being</c><00:02:47.920><c> that</c><00:02:48.239><c> once</c><00:02:48.560><c> the</c>
+
+00:02:48.790 --> 00:02:48.800 align:start position:0%
+with the idea being that once the
+ 
+
+00:02:48.800 --> 00:02:51.670 align:start position:0%
+with the idea being that once the
+reference<00:02:49.280><c> count</c><00:02:49.760><c> hits</c><00:02:50.160><c> zero,</c><00:02:50.959><c> nothing</c><00:02:51.440><c> is</c>
+
+00:02:51.670 --> 00:02:51.680 align:start position:0%
+reference count hits zero, nothing is
+ 
+
+00:02:51.680 --> 00:02:53.830 align:start position:0%
+reference count hits zero, nothing is
+using<00:02:51.920><c> your</c><00:02:52.160><c> resource</c><00:02:52.800><c> and</c><00:02:53.040><c> therefore</c><00:02:53.519><c> it</c><00:02:53.680><c> can</c>
+
+00:02:53.830 --> 00:02:53.840 align:start position:0%
+using your resource and therefore it can
+ 
+
+00:02:53.840 --> 00:02:55.670 align:start position:0%
+using your resource and therefore it can
+be<00:02:54.000><c> freed.</c><00:02:54.400><c> So</c><00:02:54.640><c> to</c><00:02:54.879><c> demonstrate</c><00:02:55.360><c> this</c>
+
+00:02:55.670 --> 00:02:55.680 align:start position:0%
+be freed. So to demonstrate this
+ 
+
+00:02:55.680 --> 00:02:57.750 align:start position:0%
+be freed. So to demonstrate this
+practically<00:02:56.160><c> in</c><00:02:56.400><c> this</c><00:02:56.560><c> case</c><00:02:57.040><c> when</c><00:02:57.280><c> we</c><00:02:57.440><c> create</c>
+
+00:02:57.750 --> 00:02:57.760 align:start position:0%
+practically in this case when we create
+ 
+
+00:02:57.760 --> 00:03:00.070 align:start position:0%
+practically in this case when we create
+this<00:02:58.000><c> resource</c><00:02:58.720><c> exactly</c><00:02:59.200><c> one</c><00:02:59.440><c> thing</c><00:02:59.599><c> is</c><00:02:59.840><c> using</c>
+
+00:03:00.070 --> 00:03:00.080 align:start position:0%
+this resource exactly one thing is using
+ 
+
+00:03:00.080 --> 00:03:02.710 align:start position:0%
+this resource exactly one thing is using
+it<00:03:00.640><c> this</c><00:03:01.040><c> this</c><00:03:01.280><c> variable</c><00:03:01.760><c> resource</c><00:03:02.400><c> is</c>
+
+00:03:02.710 --> 00:03:02.720 align:start position:0%
+it this this variable resource is
+ 
+
+00:03:02.720 --> 00:03:05.030 align:start position:0%
+it this this variable resource is
+holding<00:03:03.200><c> our</c><00:03:03.599><c> actual</c><00:03:04.080><c> resource</c><00:03:04.560><c> that</c><00:03:04.720><c> is</c><00:03:04.879><c> our</c>
+
+00:03:05.030 --> 00:03:05.040 align:start position:0%
+holding our actual resource that is our
+ 
+
+00:03:05.040 --> 00:03:07.350 align:start position:0%
+holding our actual resource that is our
+one<00:03:05.360><c> reference</c><00:03:06.080><c> to</c><00:03:06.319><c> it.</c><00:03:06.640><c> So</c><00:03:06.879><c> therefore</c><00:03:07.200><c> the</c>
+
+00:03:07.350 --> 00:03:07.360 align:start position:0%
+one reference to it. So therefore the
+ 
+
+00:03:07.360 --> 00:03:09.509 align:start position:0%
+one reference to it. So therefore the
+reference<00:03:07.760><c> count</c><00:03:08.080><c> is</c><00:03:08.400><c> one.</c><00:03:08.720><c> When</c><00:03:08.959><c> we</c><00:03:09.200><c> then</c>
+
+00:03:09.509 --> 00:03:09.519 align:start position:0%
+reference count is one. When we then
+ 
+
+00:03:09.519 --> 00:03:11.670 align:start position:0%
+reference count is one. When we then
+want<00:03:09.760><c> to</c><00:03:09.920><c> print</c><00:03:10.239><c> it</c><00:03:10.560><c> what</c><00:03:10.720><c> are</c><00:03:10.879><c> we</c><00:03:11.040><c> doing</c><00:03:11.200><c> here?</c>
+
+00:03:11.670 --> 00:03:11.680 align:start position:0%
+want to print it what are we doing here?
+ 
+
+00:03:11.680 --> 00:03:13.270 align:start position:0%
+want to print it what are we doing here?
+We're<00:03:11.920><c> grabbing</c><00:03:12.159><c> this</c><00:03:12.400><c> resource</c><00:03:12.879><c> variable</c>
+
+00:03:13.270 --> 00:03:13.280 align:start position:0%
+We're grabbing this resource variable
+ 
+
+00:03:13.280 --> 00:03:15.270 align:start position:0%
+We're grabbing this resource variable
+and<00:03:13.519><c> we</c><00:03:13.760><c> are</c><00:03:13.840><c> passing</c><00:03:14.159><c> it</c><00:03:14.400><c> by</c><00:03:14.640><c> value.</c><00:03:15.040><c> We're</c>
+
+00:03:15.270 --> 00:03:15.280 align:start position:0%
+and we are passing it by value. We're
+ 
+
+00:03:15.280 --> 00:03:17.990 align:start position:0%
+and we are passing it by value. We're
+copying<00:03:15.760><c> it</c><00:03:16.239><c> into</c><00:03:16.560><c> this</c><00:03:16.879><c> print</c><00:03:17.360><c> ref</c><00:03:17.680><c> count</c>
+
+00:03:17.990 --> 00:03:18.000 align:start position:0%
+copying it into this print ref count
+ 
+
+00:03:18.000 --> 00:03:20.390 align:start position:0%
+copying it into this print ref count
+function.<00:03:18.720><c> So</c><00:03:18.959><c> therefore</c><00:03:19.519><c> at</c><00:03:19.840><c> this</c><00:03:20.080><c> point</c>
+
+00:03:20.390 --> 00:03:20.400 align:start position:0%
+function. So therefore at this point
+ 
+
+00:03:20.400 --> 00:03:22.949 align:start position:0%
+function. So therefore at this point
+within<00:03:20.959><c> this</c><00:03:21.440><c> scope</c><00:03:21.920><c> over</c><00:03:22.159><c> here</c><00:03:22.720><c> the</c>
+
+00:03:22.949 --> 00:03:22.959 align:start position:0%
+within this scope over here the
+ 
+
+00:03:22.959 --> 00:03:26.070 align:start position:0%
+within this scope over here the
+reference<00:03:23.360><c> count</c><00:03:23.680><c> of</c><00:03:24.000><c> resource</c><00:03:24.560><c> is</c><00:03:24.959><c> two.</c><00:03:25.920><c> Then</c>
+
+00:03:26.070 --> 00:03:26.080 align:start position:0%
+reference count of resource is two. Then
+ 
+
+00:03:26.080 --> 00:03:28.149 align:start position:0%
+reference count of resource is two. Then
+we<00:03:26.319><c> print</c><00:03:26.560><c> it.</c><00:03:27.040><c> So</c><00:03:27.200><c> we</c><00:03:27.360><c> should</c><00:03:27.519><c> see</c><00:03:27.680><c> two</c><00:03:27.920><c> in</c><00:03:28.080><c> the</c>
+
+00:03:28.149 --> 00:03:28.159 align:start position:0%
+we print it. So we should see two in the
+ 
+
+00:03:28.159 --> 00:03:30.070 align:start position:0%
+we print it. So we should see two in the
+console.<00:03:28.800><c> And</c><00:03:28.959><c> then</c><00:03:29.120><c> when</c><00:03:29.280><c> we</c><00:03:29.440><c> hit</c><00:03:29.680><c> this</c><00:03:29.920><c> and</c>
+
+00:03:30.070 --> 00:03:30.080 align:start position:0%
+console. And then when we hit this and
+ 
+
+00:03:30.080 --> 00:03:32.390 align:start position:0%
+console. And then when we hit this and
+we<00:03:30.319><c> return</c><00:03:30.640><c> back</c><00:03:30.879><c> over</c><00:03:31.120><c> here</c><00:03:31.680><c> this</c><00:03:32.000><c> particular</c>
+
+00:03:32.390 --> 00:03:32.400 align:start position:0%
+we return back over here this particular
+ 
+
+00:03:32.400 --> 00:03:34.229 align:start position:0%
+we return back over here this particular
+resource<00:03:32.879><c> variable</c><00:03:33.200><c> that</c><00:03:33.440><c> was</c><00:03:33.599><c> created</c><00:03:33.840><c> by</c><00:03:34.000><c> us</c>
+
+00:03:34.229 --> 00:03:34.239 align:start position:0%
+resource variable that was created by us
+ 
+
+00:03:34.239 --> 00:03:36.470 align:start position:0%
+resource variable that was created by us
+copying<00:03:34.799><c> our</c><00:03:35.120><c> original</c><00:03:35.519><c> resource</c><00:03:36.000><c> variable</c>
+
+00:03:36.470 --> 00:03:36.480 align:start position:0%
+copying our original resource variable
+ 
+
+00:03:36.480 --> 00:03:39.030 align:start position:0%
+copying our original resource variable
+into<00:03:36.959><c> this</c><00:03:37.200><c> function</c><00:03:37.680><c> is</c><00:03:38.000><c> now</c><00:03:38.159><c> gone.</c><00:03:38.799><c> It's</c>
+
+00:03:39.030 --> 00:03:39.040 align:start position:0%
+into this function is now gone. It's
+ 
+
+00:03:39.040 --> 00:03:41.589 align:start position:0%
+into this function is now gone. It's
+it's<00:03:39.440><c> dead.</c><00:03:39.840><c> It's</c><00:03:40.159><c> been</c><00:03:40.319><c> destroyed.</c><00:03:40.959><c> And</c><00:03:41.200><c> so</c>
+
+00:03:41.589 --> 00:03:41.599 align:start position:0%
+it's dead. It's been destroyed. And so
+ 
+
+00:03:41.599 --> 00:03:43.830 align:start position:0%
+it's dead. It's been destroyed. And so
+our<00:03:41.840><c> reference</c><00:03:42.239><c> count</c><00:03:42.640><c> falls</c><00:03:43.040><c> back</c><00:03:43.200><c> down</c><00:03:43.519><c> to</c>
+
+00:03:43.830 --> 00:03:43.840 align:start position:0%
+our reference count falls back down to
+ 
+
+00:03:43.840 --> 00:03:47.190 align:start position:0%
+our reference count falls back down to
+one.<00:03:44.400><c> Then</c><00:03:45.120><c> we</c><00:03:45.440><c> hit</c><00:03:45.680><c> the</c><00:03:45.920><c> end</c><00:03:46.159><c> of</c><00:03:46.400><c> this</c><00:03:46.640><c> scope</c>
+
+00:03:47.190 --> 00:03:47.200 align:start position:0%
+one. Then we hit the end of this scope
+ 
+
+00:03:47.200 --> 00:03:50.229 align:start position:0%
+one. Then we hit the end of this scope
+and<00:03:47.519><c> this</c><00:03:47.920><c> resource</c><00:03:48.319><c> variable</c><00:03:48.799><c> is</c><00:03:49.120><c> now</c><00:03:49.599><c> done.</c>
+
+00:03:50.229 --> 00:03:50.239 align:start position:0%
+and this resource variable is now done.
+ 
+
+00:03:50.239 --> 00:03:52.470 align:start position:0%
+and this resource variable is now done.
+It's<00:03:50.720><c> destroyed.</c><00:03:51.519><c> And</c><00:03:51.760><c> so</c><00:03:51.920><c> the</c><00:03:52.080><c> reference</c>
+
+00:03:52.470 --> 00:03:52.480 align:start position:0%
+It's destroyed. And so the reference
+ 
+
+00:03:52.480 --> 00:03:54.630 align:start position:0%
+It's destroyed. And so the reference
+count<00:03:52.720><c> of</c><00:03:52.959><c> our</c><00:03:53.200><c> actual</c><00:03:53.599><c> resource</c><00:03:54.080><c> that</c><00:03:54.319><c> is</c>
+
+00:03:54.630 --> 00:03:54.640 align:start position:0%
+count of our actual resource that is
+ 
+
+00:03:54.640 --> 00:03:57.589 align:start position:0%
+count of our actual resource that is
+held<00:03:54.959><c> within</c><00:03:55.599><c> this</c><00:03:55.920><c> resource</c><00:03:56.400><c> variable</c><00:03:57.200><c> goes</c>
+
+00:03:57.589 --> 00:03:57.599 align:start position:0%
+held within this resource variable goes
+ 
+
+00:03:57.599 --> 00:04:00.630 align:start position:0%
+held within this resource variable goes
+down<00:03:58.000><c> to</c><00:03:58.560><c> zero</c><00:03:59.360><c> at</c><00:03:59.599><c> which</c><00:03:59.840><c> point</c><00:04:00.159><c> it</c><00:04:00.400><c> gets</c>
+
+00:04:00.630 --> 00:04:00.640 align:start position:0%
+down to zero at which point it gets
+ 
+
+00:04:00.640 --> 00:04:02.949 align:start position:0%
+down to zero at which point it gets
+destroyed.<00:04:01.519><c> And</c><00:04:01.680><c> so</c><00:04:01.920><c> by</c><00:04:02.080><c> the</c><00:04:02.239><c> time</c><00:04:02.400><c> we</c><00:04:02.640><c> hit</c>
+
+00:04:02.949 --> 00:04:02.959 align:start position:0%
+destroyed. And so by the time we hit
+ 
+
+00:04:02.959 --> 00:04:05.589 align:start position:0%
+destroyed. And so by the time we hit
+this<00:04:03.200><c> print</c><00:04:03.439><c> line</c><00:04:03.760><c> function</c><00:04:04.159><c> over</c><00:04:04.480><c> here,</c><00:04:05.360><c> our</c>
+
+00:04:05.589 --> 00:04:05.599 align:start position:0%
+this print line function over here, our
+ 
+
+00:04:05.599 --> 00:04:07.429 align:start position:0%
+this print line function over here, our
+reference<00:04:05.920><c> count</c><00:04:06.159><c> is</c><00:04:06.319><c> zero.</c><00:04:06.720><c> But</c><00:04:06.879><c> also</c><00:04:07.200><c> the</c>
+
+00:04:07.429 --> 00:04:07.439 align:start position:0%
+reference count is zero. But also the
+ 
+
+00:04:07.439 --> 00:04:09.270 align:start position:0%
+reference count is zero. But also the
+actual<00:04:07.680><c> object</c><00:04:08.000><c> has</c><00:04:08.239><c> been</c><00:04:08.400><c> destroyed.</c><00:04:09.040><c> Now</c>
+
+00:04:09.270 --> 00:04:09.280 align:start position:0%
+actual object has been destroyed. Now
+ 
+
+00:04:09.280 --> 00:04:11.030 align:start position:0%
+actual object has been destroyed. Now
+what<00:04:09.439><c> is</c><00:04:09.599><c> resource?</c><00:04:10.080><c> resource</c><00:04:10.480><c> is</c><00:04:10.720><c> a</c><00:04:10.879><c> very</c>
+
+00:04:11.030 --> 00:04:11.040 align:start position:0%
+what is resource? resource is a very
+ 
+
+00:04:11.040 --> 00:04:13.190 align:start position:0%
+what is resource? resource is a very
+very<00:04:11.360><c> basic</c><00:04:11.680><c> class</c><00:04:12.239><c> that</c><00:04:12.480><c> just</c><00:04:12.640><c> simply</c><00:04:12.959><c> says</c>
+
+00:04:13.190 --> 00:04:13.200 align:start position:0%
+very basic class that just simply says
+ 
+
+00:04:13.200 --> 00:04:15.750 align:start position:0%
+very basic class that just simply says
+that<00:04:13.360><c> it</c><00:04:13.599><c> was</c><00:04:13.760><c> constructed</c><00:04:14.319><c> destroyed</c><00:04:15.200><c> and</c>
+
+00:04:15.750 --> 00:04:15.760 align:start position:0%
+that it was constructed destroyed and
+ 
+
+00:04:15.760 --> 00:04:18.229 align:start position:0%
+that it was constructed destroyed and
+for<00:04:16.079><c> a</c><00:04:16.400><c> more</c><00:04:16.720><c> complicated</c><00:04:17.280><c> example</c><00:04:17.759><c> later</c><00:04:18.079><c> in</c>
+
+00:04:18.229 --> 00:04:18.239 align:start position:0%
+for a more complicated example later in
+ 
+
+00:04:18.239 --> 00:04:20.150 align:start position:0%
+for a more complicated example later in
+this<00:04:18.479><c> video</c><00:04:18.799><c> we</c><00:04:18.959><c> have</c><00:04:19.120><c> this</c><00:04:19.359><c> as</c><00:04:19.519><c> well.</c><00:04:19.759><c> You</c><00:04:20.000><c> may</c>
+
+00:04:20.150 --> 00:04:20.160 align:start position:0%
+this video we have this as well. You may
+ 
+
+00:04:20.160 --> 00:04:21.990 align:start position:0%
+this video we have this as well. You may
+also<00:04:20.400><c> notice</c><00:04:20.639><c> that</c><00:04:20.880><c> this</c><00:04:21.120><c> is</c><00:04:21.519><c> actually</c>
+
+00:04:21.990 --> 00:04:22.000 align:start position:0%
+also notice that this is actually
+ 
+
+00:04:22.000 --> 00:04:23.990 align:start position:0%
+also notice that this is actually
+deriving<00:04:22.479><c> from</c><00:04:22.720><c> a</c><00:04:22.880><c> class</c><00:04:23.199><c> called</c><00:04:23.680><c> ref</c>
+
+00:04:23.990 --> 00:04:24.000 align:start position:0%
+deriving from a class called ref
+ 
+
+00:04:24.000 --> 00:04:26.550 align:start position:0%
+deriving from a class called ref
+counted.<00:04:24.560><c> More</c><00:04:24.720><c> on</c><00:04:24.880><c> that</c><00:04:25.120><c> later.</c><00:04:25.600><c> So</c><00:04:26.000><c> if</c><00:04:26.240><c> I</c><00:04:26.400><c> do</c>
+
+00:04:26.550 --> 00:04:26.560 align:start position:0%
+counted. More on that later. So if I do
+ 
+
+00:04:26.560 --> 00:04:28.550 align:start position:0%
+counted. More on that later. So if I do
+actually<00:04:26.960><c> run</c><00:04:27.280><c> this</c><00:04:27.520><c> program</c><00:04:28.000><c> then</c><00:04:28.240><c> you</c><00:04:28.400><c> will</c>
+
+00:04:28.550 --> 00:04:28.560 align:start position:0%
+actually run this program then you will
+ 
+
+00:04:28.560 --> 00:04:30.790 align:start position:0%
+actually run this program then you will
+see<00:04:28.880><c> the</c><00:04:29.199><c> result.</c><00:04:29.759><c> So</c><00:04:29.919><c> we</c><00:04:30.160><c> construct</c><00:04:30.639><c> the</c>
+
+00:04:30.790 --> 00:04:30.800 align:start position:0%
+see the result. So we construct the
+ 
+
+00:04:30.800 --> 00:04:32.950 align:start position:0%
+see the result. So we construct the
+resource<00:04:31.280><c> which</c><00:04:31.520><c> happens</c><00:04:31.919><c> over</c><00:04:32.160><c> here.</c><00:04:32.720><c> We</c>
+
+00:04:32.950 --> 00:04:32.960 align:start position:0%
+resource which happens over here. We
+ 
+
+00:04:32.960 --> 00:04:35.270 align:start position:0%
+resource which happens over here. We
+print<00:04:33.280><c> the</c><00:04:33.520><c> resource</c><00:04:34.000><c> ref</c><00:04:34.320><c> count</c><00:04:34.639><c> which</c><00:04:34.880><c> it</c><00:04:35.120><c> is</c>
+
+00:04:35.270 --> 00:04:35.280 align:start position:0%
+print the resource ref count which it is
+ 
+
+00:04:35.280 --> 00:04:37.350 align:start position:0%
+print the resource ref count which it is
+two<00:04:35.680><c> as</c><00:04:35.840><c> I</c><00:04:36.080><c> explained.</c><00:04:36.639><c> Then</c><00:04:36.880><c> after</c><00:04:37.120><c> this</c>
+
+00:04:37.350 --> 00:04:37.360 align:start position:0%
+two as I explained. Then after this
+ 
+
+00:04:37.360 --> 00:04:38.710 align:start position:0%
+two as I explained. Then after this
+function<00:04:37.680><c> returns,</c><00:04:38.000><c> the</c><00:04:38.160><c> reference</c><00:04:38.479><c> count</c>
+
+00:04:38.710 --> 00:04:38.720 align:start position:0%
+function returns, the reference count
+ 
+
+00:04:38.720 --> 00:04:40.710 align:start position:0%
+function returns, the reference count
+goes<00:04:39.040><c> back</c><00:04:39.199><c> down</c><00:04:39.440><c> to</c><00:04:39.680><c> one.</c><00:04:40.080><c> We</c><00:04:40.240><c> hit</c><00:04:40.400><c> the</c><00:04:40.479><c> end</c><00:04:40.639><c> of</c>
+
+00:04:40.710 --> 00:04:40.720 align:start position:0%
+goes back down to one. We hit the end of
+ 
+
+00:04:40.720 --> 00:04:42.469 align:start position:0%
+goes back down to one. We hit the end of
+the<00:04:40.800><c> scope.</c><00:04:41.280><c> The</c><00:04:41.440><c> reference</c><00:04:41.840><c> count</c><00:04:42.080><c> goes</c><00:04:42.320><c> down</c>
+
+00:04:42.469 --> 00:04:42.479 align:start position:0%
+the scope. The reference count goes down
+ 
+
+00:04:42.479 --> 00:04:45.510 align:start position:0%
+the scope. The reference count goes down
+to<00:04:42.639><c> zero.</c><00:04:43.759><c> Our</c><00:04:44.000><c> resource</c><00:04:44.400><c> is</c><00:04:44.639><c> destroyed.</c><00:04:45.360><c> And</c>
+
+00:04:45.510 --> 00:04:45.520 align:start position:0%
+to zero. Our resource is destroyed. And
+ 
+
+00:04:45.520 --> 00:04:47.670 align:start position:0%
+to zero. Our resource is destroyed. And
+then<00:04:45.759><c> finally,</c><00:04:46.160><c> our</c><00:04:46.400><c> program</c><00:04:46.880><c> ends.</c><00:04:47.360><c> If</c><00:04:47.520><c> I</c>
+
+00:04:47.670 --> 00:04:47.680 align:start position:0%
+then finally, our program ends. If I
+ 
+
+00:04:47.680 --> 00:04:49.590 align:start position:0%
+then finally, our program ends. If I
+just<00:04:47.840><c> pull</c><00:04:48.080><c> this</c><00:04:48.240><c> out</c><00:04:48.560><c> and</c><00:04:48.880><c> paste</c><00:04:49.199><c> it</c><00:04:49.360><c> into</c>
+
+00:04:49.590 --> 00:04:49.600 align:start position:0%
+just pull this out and paste it into
+ 
+
+00:04:49.600 --> 00:04:51.350 align:start position:0%
+just pull this out and paste it into
+here<00:04:49.919><c> and</c><00:04:50.160><c> here,</c><00:04:50.479><c> then</c><00:04:50.720><c> this</c><00:04:50.880><c> becomes</c><00:04:51.199><c> a</c>
+
+00:04:51.350 --> 00:04:51.360 align:start position:0%
+here and here, then this becomes a
+ 
+
+00:04:51.360 --> 00:04:52.950 align:start position:0%
+here and here, then this becomes a
+little<00:04:51.440><c> bit</c><00:04:51.600><c> more</c><00:04:51.919><c> clearer.</c><00:04:52.400><c> We</c><00:04:52.639><c> construct</c>
+
+00:04:52.950 --> 00:04:52.960 align:start position:0%
+little bit more clearer. We construct
+ 
+
+00:04:52.960 --> 00:04:54.230 align:start position:0%
+little bit more clearer. We construct
+the<00:04:53.120><c> resource.</c><00:04:53.440><c> We</c><00:04:53.600><c> have</c><00:04:53.600><c> a</c><00:04:53.759><c> reference</c><00:04:54.000><c> count</c>
+
+00:04:54.230 --> 00:04:54.240 align:start position:0%
+the resource. We have a reference count
+ 
+
+00:04:54.240 --> 00:04:55.990 align:start position:0%
+the resource. We have a reference count
+of<00:04:54.400><c> one.</c><00:04:54.720><c> We</c><00:04:54.880><c> put</c><00:04:54.960><c> it</c><00:04:55.120><c> into</c><00:04:55.280><c> this</c><00:04:55.440><c> function.</c><00:04:55.840><c> It</c>
+
+00:04:55.990 --> 00:04:56.000 align:start position:0%
+of one. We put it into this function. It
+ 
+
+00:04:56.000 --> 00:04:57.830 align:start position:0%
+of one. We put it into this function. It
+goes<00:04:56.160><c> up</c><00:04:56.240><c> to</c><00:04:56.400><c> two.</c><00:04:56.880><c> It</c><00:04:57.040><c> gets</c><00:04:57.199><c> destroyed.</c><00:04:57.680><c> Goes</c>
+
+00:04:57.830 --> 00:04:57.840 align:start position:0%
+goes up to two. It gets destroyed. Goes
+ 
+
+00:04:57.840 --> 00:04:59.590 align:start position:0%
+goes up to two. It gets destroyed. Goes
+back<00:04:57.919><c> down</c><00:04:58.080><c> to</c><00:04:58.320><c> one.</c><00:04:58.800><c> And</c><00:04:58.880><c> that's</c><00:04:59.040><c> it.</c><00:04:59.360><c> So</c>
+
+00:04:59.590 --> 00:04:59.600 align:start position:0%
+back down to one. And that's it. So
+ 
+
+00:04:59.600 --> 00:05:01.909 align:start position:0%
+back down to one. And that's it. So
+ultimately,<00:05:00.080><c> this</c><00:05:00.400><c> ref</c><00:05:00.720><c> object</c><00:05:01.280><c> just</c><00:05:01.520><c> simply</c>
+
+00:05:01.909 --> 00:05:01.919 align:start position:0%
+ultimately, this ref object just simply
+ 
+
+00:05:01.919 --> 00:05:05.030 align:start position:0%
+ultimately, this ref object just simply
+holds<00:05:02.560><c> the</c><00:05:02.800><c> pointer.</c><00:05:03.360><c> So</c><00:05:03.520><c> we</c><00:05:03.840><c> have</c><00:05:04.000><c> a</c><00:05:04.240><c> pointer</c>
+
+00:05:05.030 --> 00:05:05.040 align:start position:0%
+holds the pointer. So we have a pointer
+ 
+
+00:05:05.040 --> 00:05:07.909 align:start position:0%
+holds the pointer. So we have a pointer
+of<00:05:05.280><c> a</c><00:05:05.520><c> particular</c><00:05:05.919><c> type.</c><00:05:06.639><c> This</c><00:05:06.800><c> is</c><00:05:07.120><c> our</c><00:05:07.600><c> heap</c>
+
+00:05:07.909 --> 00:05:07.919 align:start position:0%
+of a particular type. This is our heap
+ 
+
+00:05:07.919 --> 00:05:11.909 align:start position:0%
+of a particular type. This is our heap
+allocation.<00:05:09.120><c> This</c><00:05:09.440><c> is</c><00:05:09.680><c> what</c><00:05:10.720><c> the</c><00:05:10.960><c> ref</c><00:05:11.360><c> class</c>
+
+00:05:11.909 --> 00:05:11.919 align:start position:0%
+allocation. This is what the ref class
+ 
+
+00:05:11.919 --> 00:05:14.070 align:start position:0%
+allocation. This is what the ref class
+holds.<00:05:12.560><c> That's</c><00:05:12.800><c> all</c><00:05:12.960><c> it</c><00:05:13.199><c> is.</c><00:05:13.520><c> It's</c><00:05:13.840><c> just</c>
+
+00:05:14.070 --> 00:05:14.080 align:start position:0%
+holds. That's all it is. It's just
+ 
+
+00:05:14.080 --> 00:05:16.469 align:start position:0%
+holds. That's all it is. It's just
+holding<00:05:14.400><c> a</c><00:05:14.560><c> pointer</c><00:05:15.360><c> and</c><00:05:15.600><c> it's</c><00:05:15.840><c> providing</c><00:05:16.240><c> all</c>
+
+00:05:16.469 --> 00:05:16.479 align:start position:0%
+holding a pointer and it's providing all
+ 
+
+00:05:16.479 --> 00:05:18.629 align:start position:0%
+holding a pointer and it's providing all
+of<00:05:16.639><c> this</c><00:05:16.800><c> functionality</c><00:05:17.600><c> around</c><00:05:18.320><c> that</c>
+
+00:05:18.629 --> 00:05:18.639 align:start position:0%
+of this functionality around that
+ 
+
+00:05:18.639 --> 00:05:20.629 align:start position:0%
+of this functionality around that
+pointer.<00:05:19.280><c> What</c><00:05:19.440><c> about</c><00:05:19.600><c> the</c><00:05:19.840><c> actual</c><00:05:20.160><c> reference</c>
+
+00:05:20.629 --> 00:05:20.639 align:start position:0%
+pointer. What about the actual reference
+ 
+
+00:05:20.639 --> 00:05:23.189 align:start position:0%
+pointer. What about the actual reference
+count?<00:05:21.120><c> Well,</c><00:05:21.600><c> that</c><00:05:21.919><c> is</c><00:05:22.080><c> stored</c><00:05:22.560><c> in</c><00:05:22.880><c> the</c>
+
+00:05:23.189 --> 00:05:23.199 align:start position:0%
+count? Well, that is stored in the
+ 
+
+00:05:23.199 --> 00:05:25.909 align:start position:0%
+count? Well, that is stored in the
+actual<00:05:24.080><c> resource.</c><00:05:24.960><c> So</c><00:05:25.120><c> in</c><00:05:25.360><c> the</c><00:05:25.520><c> resource</c>
+
+00:05:25.909 --> 00:05:25.919 align:start position:0%
+actual resource. So in the resource
+ 
+
+00:05:25.919 --> 00:05:28.310 align:start position:0%
+actual resource. So in the resource
+class<00:05:26.320><c> itself,</c><00:05:26.960><c> it</c><00:05:27.199><c> derives</c><00:05:27.600><c> from</c><00:05:27.919><c> ref</c>
+
+00:05:28.310 --> 00:05:28.320 align:start position:0%
+class itself, it derives from ref
+ 
+
+00:05:28.320 --> 00:05:29.990 align:start position:0%
+class itself, it derives from ref
+counted.<00:05:28.880><c> And</c><00:05:29.039><c> the</c><00:05:29.280><c> reason</c><00:05:29.440><c> for</c><00:05:29.600><c> that</c><00:05:29.759><c> is</c>
+
+00:05:29.990 --> 00:05:30.000 align:start position:0%
+counted. And the reason for that is
+ 
+
+00:05:30.000 --> 00:05:32.629 align:start position:0%
+counted. And the reason for that is
+because<00:05:30.800><c> this</c><00:05:31.280><c> has</c><00:05:31.600><c> the</c><00:05:31.840><c> reference</c><00:05:32.320><c> count.</c>
+
+00:05:32.629 --> 00:05:32.639 align:start position:0%
+because this has the reference count.
+ 
+
+00:05:32.639 --> 00:05:35.189 align:start position:0%
+because this has the reference count.
+It's<00:05:32.960><c> just</c><00:05:33.120><c> a</c><00:05:33.360><c> normal</c><00:05:33.759><c> unsigned</c><00:05:34.320><c> integer.</c><00:05:34.960><c> It</c>
+
+00:05:35.189 --> 00:05:35.199 align:start position:0%
+It's just a normal unsigned integer. It
+ 
+
+00:05:35.199 --> 00:05:37.510 align:start position:0%
+It's just a normal unsigned integer. It
+is<00:05:35.360><c> atomic</c><00:05:35.919><c> because</c><00:05:36.320><c> multi-threading</c><00:05:37.120><c> is</c><00:05:37.360><c> a</c>
+
+00:05:37.510 --> 00:05:37.520 align:start position:0%
+is atomic because multi-threading is a
+ 
+
+00:05:37.520 --> 00:05:39.590 align:start position:0%
+is atomic because multi-threading is a
+thing.<00:05:37.840><c> However,</c><00:05:38.400><c> ultimately</c><00:05:38.880><c> it's</c><00:05:39.199><c> just</c><00:05:39.360><c> a</c>
+
+00:05:39.590 --> 00:05:39.600 align:start position:0%
+thing. However, ultimately it's just a
+ 
+
+00:05:39.600 --> 00:05:42.710 align:start position:0%
+thing. However, ultimately it's just a
+uint<00:05:40.080><c> 32t.</c><00:05:40.880><c> You</c><00:05:41.039><c> can</c><00:05:41.120><c> see</c><00:05:41.280><c> it</c><00:05:41.440><c> starts</c><00:05:41.680><c> at</c><00:05:41.840><c> zero.</c>
+
+00:05:42.710 --> 00:05:42.720 align:start position:0%
+uint 32t. You can see it starts at zero.
+ 
+
+00:05:42.720 --> 00:05:44.629 align:start position:0%
+uint 32t. You can see it starts at zero.
+We<00:05:42.960><c> have</c><00:05:43.120><c> increment</c><00:05:43.520><c> and</c><00:05:43.759><c> decrement</c><00:05:44.320><c> ref</c>
+
+00:05:44.629 --> 00:05:44.639 align:start position:0%
+We have increment and decrement ref
+ 
+
+00:05:44.639 --> 00:05:46.790 align:start position:0%
+We have increment and decrement ref
+count.<00:05:45.120><c> And</c><00:05:45.280><c> when</c><00:05:45.600><c> the</c><00:05:45.840><c> ref</c><00:05:46.160><c> class</c><00:05:46.560><c> is</c>
+
+00:05:46.790 --> 00:05:46.800 align:start position:0%
+count. And when the ref class is
+ 
+
+00:05:46.800 --> 00:05:48.870 align:start position:0%
+count. And when the ref class is
+actually<00:05:47.199><c> constructed</c><00:05:47.919><c> with</c><00:05:48.240><c> a</c><00:05:48.400><c> valid</c>
+
+00:05:48.870 --> 00:05:48.880 align:start position:0%
+actually constructed with a valid
+ 
+
+00:05:48.880 --> 00:05:51.670 align:start position:0%
+actually constructed with a valid
+nonnull<00:05:49.840><c> pointer,</c><00:05:50.400><c> then</c><00:05:50.720><c> we</c><00:05:50.960><c> will</c><00:05:51.199><c> increment</c>
+
+00:05:51.670 --> 00:05:51.680 align:start position:0%
+nonnull pointer, then we will increment
+ 
+
+00:05:51.680 --> 00:05:53.990 align:start position:0%
+nonnull pointer, then we will increment
+the<00:05:51.919><c> reference</c><00:05:52.320><c> count,</c><00:05:52.720><c> which</c><00:05:53.039><c> simply</c><00:05:53.680><c> calls</c>
+
+00:05:53.990 --> 00:05:54.000 align:start position:0%
+the reference count, which simply calls
+ 
+
+00:05:54.000 --> 00:05:56.469 align:start position:0%
+the reference count, which simply calls
+increment<00:05:54.479><c> reference</c><00:05:54.880><c> count</c><00:05:55.120><c> on</c><00:05:55.520><c> the</c><00:05:55.840><c> actual</c>
+
+00:05:56.469 --> 00:05:56.479 align:start position:0%
+increment reference count on the actual
+ 
+
+00:05:56.479 --> 00:05:58.390 align:start position:0%
+increment reference count on the actual
+object.<00:05:57.039><c> Now,</c><00:05:57.280><c> how</c><00:05:57.440><c> can</c><00:05:57.600><c> we</c><00:05:57.840><c> speak</c><00:05:58.080><c> about</c>
+
+00:05:58.390 --> 00:05:58.400 align:start position:0%
+object. Now, how can we speak about
+ 
+
+00:05:58.400 --> 00:05:59.749 align:start position:0%
+object. Now, how can we speak about
+memory<00:05:58.720><c> management</c><00:05:59.199><c> without</c><00:05:59.520><c> even</c>
+
+00:05:59.749 --> 00:05:59.759 align:start position:0%
+memory management without even
+ 
+
+00:05:59.759 --> 00:06:02.209 align:start position:0%
+memory management without even
+mentioning<00:06:00.320><c> Rust,</c><00:06:00.800><c> the</c><00:06:01.039><c> language</c><00:06:01.360><c> that</c><00:06:01.680><c> fixes</c>
+
+00:06:02.209 --> 00:06:02.219 align:start position:0%
+mentioning Rust, the language that fixes
+ 
+
+00:06:02.219 --> 00:06:04.710 align:start position:0%
+mentioning Rust, the language that fixes
+[music]<00:06:02.240><c> it</c><00:06:02.479><c> all?</c><00:06:02.960><c> Well,</c><00:06:03.759><c> at</c><00:06:03.759><c> least</c><00:06:04.240><c> tries</c><00:06:04.560><c> to</c>
+
+00:06:04.710 --> 00:06:04.720 align:start position:0%
+[music] it all? Well, at least tries to
+ 
+
+00:06:04.720 --> 00:06:06.070 align:start position:0%
+[music] it all? Well, at least tries to
+make<00:06:04.800><c> it</c><00:06:04.960><c> better.</c><00:06:05.360><c> Why</c><00:06:05.520><c> don't</c><00:06:05.600><c> you</c><00:06:05.759><c> find</c><00:06:05.919><c> out</c>
+
+00:06:06.070 --> 00:06:06.080 align:start position:0%
+make it better. Why don't you find out
+ 
+
+00:06:06.080 --> 00:06:07.830 align:start position:0%
+make it better. Why don't you find out
+for<00:06:06.240><c> yourself</c><00:06:06.560><c> and</c><00:06:06.720><c> just</c><00:06:06.960><c> learn</c><00:06:07.199><c> Rust</c><00:06:07.680><c> with</c>
+
+00:06:07.830 --> 00:06:07.840 align:start position:0%
+for yourself and just learn Rust with
+ 
+
+00:06:07.840 --> 00:06:09.350 align:start position:0%
+for yourself and just learn Rust with
+Let's<00:06:08.080><c> Get</c><00:06:08.240><c> Rusty,</c><00:06:08.720><c> the</c><00:06:08.880><c> sponsor</c><00:06:09.039><c> of</c><00:06:09.199><c> this</c>
+
+00:06:09.350 --> 00:06:09.360 align:start position:0%
+Let's Get Rusty, the sponsor of this
+ 
+
+00:06:09.360 --> 00:06:10.790 align:start position:0%
+Let's Get Rusty, the sponsor of this
+video.<00:06:09.680><c> Let's</c><00:06:09.919><c> Get</c><00:06:10.080><c> Rusty</c><00:06:10.479><c> focuses</c>
+
+00:06:10.790 --> 00:06:10.800 align:start position:0%
+video. Let's Get Rusty focuses
+ 
+
+00:06:10.800 --> 00:06:12.550 align:start position:0%
+video. Let's Get Rusty focuses
+specifically<00:06:11.199><c> on</c><00:06:11.360><c> Rust</c><00:06:11.680><c> education</c><00:06:12.080><c> and</c><00:06:12.319><c> job</c>
+
+00:06:12.550 --> 00:06:12.560 align:start position:0%
+specifically on Rust education and job
+ 
+
+00:06:12.560 --> 00:06:14.230 align:start position:0%
+specifically on Rust education and job
+ready<00:06:12.880><c> training</c><00:06:13.199><c> made</c><00:06:13.440><c> by</c><00:06:13.520><c> a</c><00:06:13.680><c> fellow</c><00:06:13.840><c> YouTuber</c>
+
+00:06:14.230 --> 00:06:14.240 align:start position:0%
+ready training made by a fellow YouTuber
+ 
+
+00:06:14.240 --> 00:06:15.830 align:start position:0%
+ready training made by a fellow YouTuber
+with<00:06:14.400><c> a</c><00:06:14.560><c> YouTube</c><00:06:14.720><c> channel</c><00:06:14.960><c> all</c><00:06:15.199><c> about</c><00:06:15.360><c> Rust.</c>
+
+00:06:15.830 --> 00:06:15.840 align:start position:0%
+with a YouTube channel all about Rust.
+ 
+
+00:06:15.840 --> 00:06:17.110 align:start position:0%
+with a YouTube channel all about Rust.
+If<00:06:16.000><c> you're</c><00:06:16.080><c> used</c><00:06:16.240><c> to</c><00:06:16.319><c> a</c><00:06:16.479><c> low-level</c><00:06:16.880><c> language</c>
+
+00:06:17.110 --> 00:06:17.120 align:start position:0%
+If you're used to a low-level language
+ 
+
+00:06:17.120 --> 00:06:19.590 align:start position:0%
+If you're used to a low-level language
+like<00:06:17.360><c> C</c><00:06:17.520><c> or</c><00:06:17.680><c> C++,</c><00:06:18.240><c> Rust</c><00:06:18.639><c> builds</c><00:06:18.880><c> on</c><00:06:19.120><c> that</c><00:06:19.360><c> and</c>
+
+00:06:19.590 --> 00:06:19.600 align:start position:0%
+like C or C++, Rust builds on that and
+ 
+
+00:06:19.600 --> 00:06:21.830 align:start position:0%
+like C or C++, Rust builds on that and
+tries<00:06:19.919><c> to</c><00:06:20.080><c> improve</c><00:06:20.400><c> it</c><00:06:20.639><c> with</c><00:06:21.120><c> modern</c><00:06:21.440><c> tooling,</c>
+
+00:06:21.830 --> 00:06:21.840 align:start position:0%
+tries to improve it with modern tooling,
+ 
+
+00:06:21.840 --> 00:06:23.749 align:start position:0%
+tries to improve it with modern tooling,
+which<00:06:22.080><c> helps</c><00:06:22.319><c> greatly</c><00:06:22.720><c> with</c><00:06:22.880><c> safety</c><00:06:23.520><c> and</c>
+
+00:06:23.749 --> 00:06:23.759 align:start position:0%
+which helps greatly with safety and
+ 
+
+00:06:23.759 --> 00:06:25.110 align:start position:0%
+which helps greatly with safety and
+things<00:06:23.834><c> [music]</c><00:06:24.000><c> like</c><00:06:24.479><c> threads.</c>
+
+00:06:25.110 --> 00:06:25.120 align:start position:0%
+things [music] like threads.
+ 
+
+00:06:25.120 --> 00:06:26.870 align:start position:0%
+things [music] like threads.
+Multi-threading<00:06:25.919><c> can</c><00:06:26.080><c> be</c><00:06:26.240><c> difficult</c><00:06:26.479><c> and</c><00:06:26.720><c> the</c>
+
+00:06:26.870 --> 00:06:26.880 align:start position:0%
+Multi-threading can be difficult and the
+ 
+
+00:06:26.880 --> 00:06:29.110 align:start position:0%
+Multi-threading can be difficult and the
+strong<00:06:27.120><c> safety</c><00:06:27.440><c> guarantees</c><00:06:28.000><c> built</c><00:06:28.319><c> into</c><00:06:28.639><c> Rust</c>
+
+00:06:29.110 --> 00:06:29.120 align:start position:0%
+strong safety guarantees built into Rust
+ 
+
+00:06:29.120 --> 00:06:31.029 align:start position:0%
+strong safety guarantees built into Rust
+can<00:06:29.360><c> help</c><00:06:29.600><c> improve</c><00:06:29.729><c> [music]</c><00:06:30.160><c> safety.</c><00:06:30.720><c> All</c><00:06:30.880><c> of</c>
+
+00:06:31.029 --> 00:06:31.039 align:start position:0%
+can help improve [music] safety. All of
+ 
+
+00:06:31.039 --> 00:06:32.550 align:start position:0%
+can help improve [music] safety. All of
+this<00:06:31.199><c> is</c><00:06:31.360><c> exactly</c><00:06:31.680><c> why</c><00:06:32.000><c> companies</c><00:06:32.319><c> like</c>
+
+00:06:32.550 --> 00:06:32.560 align:start position:0%
+this is exactly why companies like
+ 
+
+00:06:32.560 --> 00:06:33.990 align:start position:0%
+this is exactly why companies like
+Google,<00:06:32.880><c> Microsoft,</c><00:06:33.280><c> and</c><00:06:33.440><c> Amazon</c><00:06:33.840><c> are</c>
+
+00:06:33.990 --> 00:06:34.000 align:start position:0%
+Google, Microsoft, and Amazon are
+ 
+
+00:06:34.000 --> 00:06:35.510 align:start position:0%
+Google, Microsoft, and Amazon are
+adopting<00:06:34.400><c> Rust</c><00:06:34.800><c> more</c><00:06:34.880><c> and</c><00:06:35.120><c> more</c><00:06:35.199><c> in</c>
+
+00:06:35.510 --> 00:06:35.520 align:start position:0%
+adopting Rust more and more in
+ 
+
+00:06:35.520 --> 00:06:37.270 align:start position:0%
+adopting Rust more and more in
+production<00:06:36.000><c> and</c><00:06:36.240><c> developers</c><00:06:36.720><c> really</c><00:06:37.039><c> enjoy</c>
+
+00:06:37.270 --> 00:06:37.280 align:start position:0%
+production and developers really enjoy
+ 
+
+00:06:37.280 --> 00:06:38.710 align:start position:0%
+production and developers really enjoy
+using<00:06:37.520><c> it.</c><00:06:37.759><c> It</c><00:06:37.919><c> keeps</c><00:06:38.240><c> topping</c><00:06:38.479><c> Stack</c>
+
+00:06:38.710 --> 00:06:38.720 align:start position:0%
+using it. It keeps topping Stack
+ 
+
+00:06:38.720 --> 00:06:40.710 align:start position:0%
+using it. It keeps topping Stack
+Overflow's<00:06:39.280><c> most</c><00:06:39.440><c> admired</c><00:06:39.840><c> language</c><00:06:40.479><c> year</c>
+
+00:06:40.710 --> 00:06:40.720 align:start position:0%
+Overflow's most admired language year
+ 
+
+00:06:40.720 --> 00:06:42.230 align:start position:0%
+Overflow's most admired language year
+after<00:06:40.960><c> year.</c><00:06:41.280><c> Let's</c><00:06:41.520><c> get</c><00:06:41.680><c> Rusty</c><00:06:42.080><c> runs</c>
+
+00:06:42.230 --> 00:06:42.240 align:start position:0%
+after year. Let's get Rusty runs
+ 
+
+00:06:42.240 --> 00:06:43.990 align:start position:0%
+after year. Let's get Rusty runs
+structured<00:06:42.639><c> programs</c><00:06:42.960><c> for</c><00:06:43.280><c> individuals</c><00:06:43.759><c> and</c>
+
+00:06:43.990 --> 00:06:44.000 align:start position:0%
+structured programs for individuals and
+ 
+
+00:06:44.000 --> 00:06:45.350 align:start position:0%
+structured programs for individuals and
+teams.<00:06:44.319><c> And</c><00:06:44.560><c> over</c><00:06:44.720><c> the</c><00:06:44.800><c> years,</c><00:06:45.039><c> they've</c>
+
+00:06:45.350 --> 00:06:45.360 align:start position:0%
+teams. And over the years, they've
+ 
+
+00:06:45.360 --> 00:06:47.029 align:start position:0%
+teams. And over the years, they've
+helped<00:06:45.600><c> thousands</c><00:06:46.000><c> of</c><00:06:46.160><c> developers</c><00:06:46.720><c> actually</c>
+
+00:06:47.029 --> 00:06:47.039 align:start position:0%
+helped thousands of developers actually
+ 
+
+00:06:47.039 --> 00:06:48.870 align:start position:0%
+helped thousands of developers actually
+learn<00:06:47.360><c> Rust,</c><00:06:47.759><c> become</c><00:06:48.080><c> productive</c><00:06:48.724><c> [music]</c>
+
+00:06:48.870 --> 00:06:48.880 align:start position:0%
+learn Rust, become productive [music]
+ 
+
+00:06:48.880 --> 00:06:50.629 align:start position:0%
+learn Rust, become productive [music]
+using<00:06:49.280><c> Rust,</c><00:06:49.680><c> not</c><00:06:49.840><c> just</c><00:06:50.000><c> watch</c><00:06:50.240><c> endless</c>
+
+00:06:50.629 --> 00:06:50.639 align:start position:0%
+using Rust, not just watch endless
+ 
+
+00:06:50.639 --> 00:06:52.550 align:start position:0%
+using Rust, not just watch endless
+tutorials<00:06:51.280><c> and</c><00:06:51.520><c> forget</c><00:06:51.840><c> everything</c><00:06:52.160><c> a</c><00:06:52.400><c> week</c>
+
+00:06:52.550 --> 00:06:52.560 align:start position:0%
+tutorials and forget everything a week
+ 
+
+00:06:52.560 --> 00:06:53.909 align:start position:0%
+tutorials and forget everything a week
+later.<00:06:52.880><c> And</c><00:06:53.039><c> here's</c><00:06:53.199><c> the</c><00:06:53.360><c> good</c><00:06:53.520><c> news.</c><00:06:53.759><c> They're</c>
+
+00:06:53.909 --> 00:06:53.919 align:start position:0%
+later. And here's the good news. They're
+ 
+
+00:06:53.919 --> 00:06:55.430 align:start position:0%
+later. And here's the good news. They're
+actually<00:06:54.160><c> running</c><00:06:54.319><c> a</c><00:06:54.479><c> new</c><00:06:54.639><c> cohort</c><00:06:55.120><c> next</c>
+
+00:06:55.430 --> 00:06:55.440 align:start position:0%
+actually running a new cohort next
+ 
+
+00:06:55.440 --> 00:06:57.110 align:start position:0%
+actually running a new cohort next
+month.<00:06:55.840><c> Spots</c><00:06:56.160><c> are</c><00:06:56.319><c> limited.</c><00:06:56.639><c> Now</c><00:06:56.800><c> is</c><00:06:56.960><c> a</c>
+
+00:06:57.110 --> 00:06:57.120 align:start position:0%
+month. Spots are limited. Now is a
+ 
+
+00:06:57.120 --> 00:06:58.150 align:start position:0%
+month. Spots are limited. Now is a
+really<00:06:57.280><c> great</c><00:06:57.520><c> time</c><00:06:57.680><c> to</c><00:06:57.840><c> check</c><00:06:57.894><c> [music]</c><00:06:58.000><c> it</c>
+
+00:06:58.150 --> 00:06:58.160 align:start position:0%
+really great time to check [music] it
+ 
+
+00:06:58.160 --> 00:06:58.790 align:start position:0%
+really great time to check [music] it
+out.<00:06:58.319><c> Go</c><00:06:58.479><c> to</c><00:06:58.639><c> let's</c>
+
+00:06:58.790 --> 00:06:58.800 align:start position:0%
+out. Go to let's
+ 
+
+00:06:58.800 --> 00:07:00.469 align:start position:0%
+out. Go to let's
+getrusty.com/startwithcher.
+
+00:07:00.469 --> 00:07:00.479 align:start position:0%
+getrusty.com/startwithcher.
+ 
+
+00:07:00.479 --> 00:07:02.070 align:start position:0%
+getrusty.com/startwithcher.
+Link<00:07:00.639><c> will</c><00:07:00.800><c> be</c><00:07:00.880><c> in</c><00:07:01.039><c> the</c><00:07:01.120><c> description</c><00:07:01.440><c> below</c><00:07:01.840><c> to</c>
+
+00:07:02.070 --> 00:07:02.080 align:start position:0%
+Link will be in the description below to
+ 
+
+00:07:02.080 --> 00:07:03.909 align:start position:0%
+Link will be in the description below to
+find<00:07:02.240><c> out</c><00:07:02.400><c> more</c><00:07:02.639><c> about</c><00:07:02.880><c> their</c><00:07:03.120><c> training.</c><00:07:03.599><c> Huge</c>
+
+00:07:03.909 --> 00:07:03.919 align:start position:0%
+find out more about their training. Huge
+ 
+
+00:07:03.919 --> 00:07:05.110 align:start position:0%
+find out more about their training. Huge
+thank<00:07:04.000><c> you</c><00:07:04.080><c> to</c><00:07:04.240><c> let's</c><00:07:04.400><c> get</c><00:07:04.560><c> rusty</c><00:07:04.960><c> for</c>
+
+00:07:05.110 --> 00:07:05.120 align:start position:0%
+thank you to let's get rusty for
+ 
+
+00:07:05.120 --> 00:07:07.510 align:start position:0%
+thank you to let's get rusty for
+sponsoring<00:07:05.599><c> this</c><00:07:05.840><c> video.</c><00:07:06.319><c> Now,</c><00:07:06.639><c> this</c><00:07:07.120><c> ref</c>
+
+00:07:07.510 --> 00:07:07.520 align:start position:0%
+sponsoring this video. Now, this ref
+ 
+
+00:07:07.520 --> 00:07:10.070 align:start position:0%
+sponsoring this video. Now, this ref
+counted<00:07:08.080><c> thing</c><00:07:08.560><c> is</c><00:07:08.880><c> kind</c><00:07:09.120><c> of</c><00:07:09.440><c> critical</c>
+
+00:07:10.070 --> 00:07:10.080 align:start position:0%
+counted thing is kind of critical
+ 
+
+00:07:10.080 --> 00:07:12.070 align:start position:0%
+counted thing is kind of critical
+because<00:07:10.319><c> this</c><00:07:10.560><c> is</c><00:07:10.720><c> the</c><00:07:10.960><c> biggest</c><00:07:11.360><c> reason</c><00:07:11.759><c> for</c>
+
+00:07:12.070 --> 00:07:12.080 align:start position:0%
+because this is the biggest reason for
+ 
+
+00:07:12.080 --> 00:07:16.230 align:start position:0%
+because this is the biggest reason for
+how<00:07:12.720><c> this</c><00:07:13.120><c> differs</c><00:07:13.919><c> from</c><00:07:14.240><c> what</c><00:07:14.639><c> C++</c><00:07:15.680><c> already</c>
+
+00:07:16.230 --> 00:07:16.240 align:start position:0%
+how this differs from what C++ already
+ 
+
+00:07:16.240 --> 00:07:18.629 align:start position:0%
+how this differs from what C++ already
+provides<00:07:16.639><c> you</c><00:07:16.800><c> with.</c><00:07:17.520><c> The</c><00:07:17.759><c> biggest</c><00:07:18.160><c> question</c>
+
+00:07:18.629 --> 00:07:18.639 align:start position:0%
+provides you with. The biggest question
+ 
+
+00:07:18.639 --> 00:07:21.749 align:start position:0%
+provides you with. The biggest question
+I<00:07:18.960><c> get</c><00:07:19.280><c> surrounding</c><00:07:19.840><c> this</c><00:07:20.400><c> is</c><00:07:20.720><c> why</c><00:07:21.039><c> do</c><00:07:21.199><c> I</c><00:07:21.440><c> not</c>
+
+00:07:21.749 --> 00:07:21.759 align:start position:0%
+I get surrounding this is why do I not
+ 
+
+00:07:21.759 --> 00:07:24.550 align:start position:0%
+I get surrounding this is why do I not
+just<00:07:22.080><c> use</c><00:07:22.400><c> a</c><00:07:22.720><c> shared</c><00:07:23.039><c> pointer?</c><00:07:23.840><c> Because</c><00:07:24.080><c> this</c>
+
+00:07:24.550 --> 00:07:24.560 align:start position:0%
+just use a shared pointer? Because this
+ 
+
+00:07:24.560 --> 00:07:27.029 align:start position:0%
+just use a shared pointer? Because this
+could<00:07:24.800><c> just</c><00:07:25.120><c> be</c><00:07:25.759><c> a</c><00:07:26.000><c> shared</c><00:07:26.319><c> pointer</c><00:07:26.720><c> and</c><00:07:26.880><c> then</c>
+
+00:07:27.029 --> 00:07:27.039 align:start position:0%
+could just be a shared pointer and then
+ 
+
+00:07:27.039 --> 00:07:29.350 align:start position:0%
+could just be a shared pointer and then
+you<00:07:27.199><c> would</c><00:07:27.360><c> have</c><00:07:27.680><c> std</c><00:07:28.240><c> make</c><00:07:28.639><c> shared</c><00:07:29.120><c> and</c>
+
+00:07:29.350 --> 00:07:29.360 align:start position:0%
+you would have std make shared and
+ 
+
+00:07:29.360 --> 00:07:32.070 align:start position:0%
+you would have std make shared and
+that's<00:07:29.599><c> it.</c><00:07:30.160><c> Isn't</c><00:07:30.560><c> that</c><00:07:30.800><c> the</c><00:07:31.039><c> same</c><00:07:31.280><c> thing?</c>
+
+00:07:32.070 --> 00:07:32.080 align:start position:0%
+that's it. Isn't that the same thing?
+ 
+
+00:07:32.080 --> 00:07:35.110 align:start position:0%
+that's it. Isn't that the same thing?
+Well,<00:07:32.960><c> kind</c><00:07:33.280><c> of.</c><00:07:33.680><c> It</c><00:07:33.919><c> works</c><00:07:34.240><c> the</c><00:07:34.479><c> same</c><00:07:34.720><c> way,</c>
+
+00:07:35.110 --> 00:07:35.120 align:start position:0%
+Well, kind of. It works the same way,
+ 
+
+00:07:35.120 --> 00:07:38.070 align:start position:0%
+Well, kind of. It works the same way,
+but<00:07:35.440><c> it's</c><00:07:35.759><c> different</c><00:07:36.160><c> in</c><00:07:36.479><c> a</c><00:07:36.800><c> few</c><00:07:37.599><c> crucial</c>
+
+00:07:38.070 --> 00:07:38.080 align:start position:0%
+but it's different in a few crucial
+ 
+
+00:07:38.080 --> 00:07:40.070 align:start position:0%
+but it's different in a few crucial
+ways.<00:07:38.560><c> The</c><00:07:38.800><c> biggest</c><00:07:39.120><c> difference</c><00:07:39.440><c> is</c><00:07:39.680><c> that</c>
+
+00:07:40.070 --> 00:07:40.080 align:start position:0%
+ways. The biggest difference is that
+ 
+
+00:07:40.080 --> 00:07:42.870 align:start position:0%
+ways. The biggest difference is that
+shared<00:07:40.400><c> pointer</c><00:07:40.880><c> is</c><00:07:41.199><c> not</c><00:07:41.759><c> intrusive</c>
+
+00:07:42.870 --> 00:07:42.880 align:start position:0%
+shared pointer is not intrusive
+ 
+
+00:07:42.880 --> 00:07:45.029 align:start position:0%
+shared pointer is not intrusive
+reference<00:07:43.360><c> counting.</c><00:07:44.240><c> It</c><00:07:44.560><c> stores</c><00:07:44.800><c> the</c>
+
+00:07:45.029 --> 00:07:45.039 align:start position:0%
+reference counting. It stores the
+ 
+
+00:07:45.039 --> 00:07:46.870 align:start position:0%
+reference counting. It stores the
+reference<00:07:45.440><c> count</c><00:07:45.840><c> not</c><00:07:46.080><c> as</c><00:07:46.400><c> part</c><00:07:46.560><c> of</c><00:07:46.639><c> the</c>
+
+00:07:46.870 --> 00:07:46.880 align:start position:0%
+reference count not as part of the
+ 
+
+00:07:46.880 --> 00:07:49.350 align:start position:0%
+reference count not as part of the
+object<00:07:47.680><c> but</c><00:07:48.000><c> elsewhere.</c><00:07:48.639><c> Make</c><00:07:48.880><c> shared</c>
+
+00:07:49.350 --> 00:07:49.360 align:start position:0%
+object but elsewhere. Make shared
+ 
+
+00:07:49.360 --> 00:07:51.589 align:start position:0%
+object but elsewhere. Make shared
+combines<00:07:49.919><c> the</c><00:07:50.160><c> allocation</c><00:07:50.800><c> of</c><00:07:51.039><c> the</c><00:07:51.280><c> actual</c>
+
+00:07:51.589 --> 00:07:51.599 align:start position:0%
+combines the allocation of the actual
+ 
+
+00:07:51.599 --> 00:07:53.270 align:start position:0%
+combines the allocation of the actual
+object<00:07:52.000><c> and</c><00:07:52.240><c> the</c><00:07:52.400><c> reference</c><00:07:52.720><c> counting</c><00:07:53.039><c> block</c>
+
+00:07:53.270 --> 00:07:53.280 align:start position:0%
+object and the reference counting block
+ 
+
+00:07:53.280 --> 00:07:55.749 align:start position:0%
+object and the reference counting block
+into<00:07:53.520><c> one</c><00:07:53.680><c> allocation,</c><00:07:54.479><c> but</c><00:07:54.800><c> it's</c><00:07:55.039><c> still</c><00:07:55.360><c> not</c>
+
+00:07:55.749 --> 00:07:55.759 align:start position:0%
+into one allocation, but it's still not
+ 
+
+00:07:55.759 --> 00:07:58.869 align:start position:0%
+into one allocation, but it's still not
+intrusive.<00:07:56.479><c> There's</c><00:07:56.800><c> nothing</c><00:07:57.360><c> in</c><00:07:57.599><c> C++</c><00:07:58.639><c> that</c>
+
+00:07:58.869 --> 00:07:58.879 align:start position:0%
+intrusive. There's nothing in C++ that
+ 
+
+00:07:58.879 --> 00:08:01.270 align:start position:0%
+intrusive. There's nothing in C++ that
+exists<00:07:59.199><c> at</c><00:07:59.440><c> the</c><00:07:59.520><c> moment</c><00:08:00.080><c> that</c><00:08:00.400><c> is</c><00:08:00.800><c> actually</c>
+
+00:08:01.270 --> 00:08:01.280 align:start position:0%
+exists at the moment that is actually
+ 
+
+00:08:01.280 --> 00:08:02.550 align:start position:0%
+exists at the moment that is actually
+intrusive<00:08:01.759><c> reference</c><00:08:02.080><c> counting.</c><00:08:02.400><c> The</c>
+
+00:08:02.550 --> 00:08:02.560 align:start position:0%
+intrusive reference counting. The
+ 
+
+00:08:02.560 --> 00:08:03.909 align:start position:0%
+intrusive reference counting. The
+closest<00:08:02.879><c> thing</c><00:08:03.039><c> that's</c><00:08:03.280><c> kind</c><00:08:03.440><c> of</c><00:08:03.520><c> widely</c>
+
+00:08:03.909 --> 00:08:03.919 align:start position:0%
+closest thing that's kind of widely
+ 
+
+00:08:03.919 --> 00:08:06.070 align:start position:0%
+closest thing that's kind of widely
+available<00:08:04.560><c> is</c><00:08:04.800><c> something</c><00:08:05.120><c> called</c><00:08:05.520><c> boost</c>
+
+00:08:06.070 --> 00:08:06.080 align:start position:0%
+available is something called boost
+ 
+
+00:08:06.080 --> 00:08:07.830 align:start position:0%
+available is something called boost
+intrusive<00:08:06.800><c> pointer,</c><00:08:07.199><c> but</c><00:08:07.440><c> we</c><00:08:07.599><c> don't</c><00:08:07.680><c> want</c><00:08:07.759><c> to</c>
+
+00:08:07.830 --> 00:08:07.840 align:start position:0%
+intrusive pointer, but we don't want to
+ 
+
+00:08:07.840 --> 00:08:09.909 align:start position:0%
+intrusive pointer, but we don't want to
+use<00:08:08.080><c> boost.</c><00:08:08.560><c> Now,</c><00:08:08.879><c> there</c><00:08:09.120><c> is</c><00:08:09.440><c> actually</c>
+
+00:08:09.909 --> 00:08:09.919 align:start position:0%
+use boost. Now, there is actually
+ 
+
+00:08:09.919 --> 00:08:12.469 align:start position:0%
+use boost. Now, there is actually
+something<00:08:10.560><c> inside</c><00:08:11.280><c> the</c><00:08:11.520><c> standard</c><00:08:11.919><c> library</c>
+
+00:08:12.469 --> 00:08:12.479 align:start position:0%
+something inside the standard library
+ 
+
+00:08:12.479 --> 00:08:15.430 align:start position:0%
+something inside the standard library
+called<00:08:12.960><c> enable</c><00:08:13.680><c> shared</c><00:08:14.240><c> from</c><00:08:14.639><c> this.</c><00:08:15.120><c> This</c><00:08:15.360><c> is</c>
+
+00:08:15.430 --> 00:08:15.440 align:start position:0%
+called enable shared from this. This is
+ 
+
+00:08:15.440 --> 00:08:17.749 align:start position:0%
+called enable shared from this. This is
+the<00:08:15.680><c> closest</c><00:08:16.240><c> thing</c><00:08:16.560><c> to</c><00:08:16.800><c> intrusive</c><00:08:17.360><c> reference</c>
+
+00:08:17.749 --> 00:08:17.759 align:start position:0%
+the closest thing to intrusive reference
+ 
+
+00:08:17.759 --> 00:08:19.270 align:start position:0%
+the closest thing to intrusive reference
+counting,<00:08:18.080><c> but</c><00:08:18.240><c> the</c><00:08:18.400><c> reference</c><00:08:18.800><c> count</c><00:08:19.039><c> is</c>
+
+00:08:19.270 --> 00:08:19.280 align:start position:0%
+counting, but the reference count is
+ 
+
+00:08:19.280 --> 00:08:21.510 align:start position:0%
+counting, but the reference count is
+still<00:08:19.680><c> not</c><00:08:20.000><c> actually</c><00:08:20.400><c> in</c><00:08:20.639><c> here.</c><00:08:21.120><c> You</c><00:08:21.280><c> can</c><00:08:21.440><c> see</c>
+
+00:08:21.510 --> 00:08:21.520 align:start position:0%
+still not actually in here. You can see
+ 
+
+00:08:21.520 --> 00:08:23.830 align:start position:0%
+still not actually in here. You can see
+it's<00:08:21.840><c> just</c><00:08:22.160><c> holding</c><00:08:22.479><c> a</c><00:08:22.720><c> weak</c><00:08:23.039><c> pointer.</c><00:08:23.680><c> It's</c>
+
+00:08:23.830 --> 00:08:23.840 align:start position:0%
+it's just holding a weak pointer. It's
+ 
+
+00:08:23.840 --> 00:08:26.950 align:start position:0%
+it's just holding a weak pointer. It's
+just<00:08:24.000><c> that</c><00:08:24.240><c> it</c><00:08:24.560><c> allows</c><00:08:24.960><c> you</c><00:08:25.199><c> to</c><00:08:25.840><c> make</c><00:08:26.400><c> a</c><00:08:26.639><c> shared</c>
+
+00:08:26.950 --> 00:08:26.960 align:start position:0%
+just that it allows you to make a shared
+ 
+
+00:08:26.960 --> 00:08:29.830 align:start position:0%
+just that it allows you to make a shared
+pointer<00:08:27.599><c> out</c><00:08:27.759><c> of</c><00:08:28.319><c> yourself.</c><00:08:29.120><c> So</c><00:08:29.280><c> I</c><00:08:29.520><c> have</c><00:08:29.680><c> an</c>
+
+00:08:29.830 --> 00:08:29.840 align:start position:0%
+pointer out of yourself. So I have an
+ 
+
+00:08:29.840 --> 00:08:31.350 align:start position:0%
+pointer out of yourself. So I have an
+example<00:08:30.160><c> here</c><00:08:30.319><c> that</c><00:08:30.560><c> we'll</c><00:08:30.800><c> look</c><00:08:30.879><c> at</c><00:08:31.039><c> in</c><00:08:31.199><c> a</c>
+
+00:08:31.350 --> 00:08:31.360 align:start position:0%
+example here that we'll look at in a
+ 
+
+00:08:31.360 --> 00:08:32.870 align:start position:0%
+example here that we'll look at in a
+minute.<00:08:31.680><c> But</c><00:08:31.840><c> basically</c><00:08:32.240><c> what</c><00:08:32.479><c> I'm</c><00:08:32.640><c> talking</c>
+
+00:08:32.870 --> 00:08:32.880 align:start position:0%
+minute. But basically what I'm talking
+ 
+
+00:08:32.880 --> 00:08:34.469 align:start position:0%
+minute. But basically what I'm talking
+about<00:08:33.039><c> is</c><00:08:33.279><c> this</c><00:08:33.519><c> over</c><00:08:33.680><c> here</c><00:08:33.919><c> where</c><00:08:34.159><c> we</c><00:08:34.320><c> can</c>
+
+00:08:34.469 --> 00:08:34.479 align:start position:0%
+about is this over here where we can
+ 
+
+00:08:34.479 --> 00:08:36.709 align:start position:0%
+about is this over here where we can
+make<00:08:34.640><c> a</c><00:08:34.800><c> shared</c><00:08:35.120><c> pointer</c><00:08:35.839><c> of</c><00:08:36.080><c> our</c><00:08:36.320><c> particular</c>
+
+00:08:36.709 --> 00:08:36.719 align:start position:0%
+make a shared pointer of our particular
+ 
+
+00:08:36.719 --> 00:08:39.750 align:start position:0%
+make a shared pointer of our particular
+resource<00:08:37.680><c> from</c><00:08:38.320><c> this</c><00:08:38.959><c> because</c><00:08:39.279><c> otherwise</c>
+
+00:08:39.750 --> 00:08:39.760 align:start position:0%
+resource from this because otherwise
+ 
+
+00:08:39.760 --> 00:08:41.430 align:start position:0%
+resource from this because otherwise
+that's<00:08:40.080><c> not</c><00:08:40.240><c> really</c><00:08:40.479><c> possible.</c><00:08:41.039><c> So</c><00:08:41.200><c> if</c><00:08:41.360><c> you</c>
+
+00:08:41.430 --> 00:08:41.440 align:start position:0%
+that's not really possible. So if you
+ 
+
+00:08:41.440 --> 00:08:43.589 align:start position:0%
+that's not really possible. So if you
+had<00:08:41.599><c> your</c><00:08:41.839><c> shared</c><00:08:42.080><c> pointer</c><00:08:42.479><c> over</c><00:08:42.719><c> here</c><00:08:43.360><c> but</c>
+
+00:08:43.589 --> 00:08:43.599 align:start position:0%
+had your shared pointer over here but
+ 
+
+00:08:43.599 --> 00:08:46.710 align:start position:0%
+had your shared pointer over here but
+then<00:08:43.919><c> I</c><00:08:44.159><c> wanted</c><00:08:44.399><c> to</c><00:08:44.640><c> actually</c><00:08:45.279><c> be</c><00:08:45.600><c> inside</c><00:08:46.320><c> the</c>
+
+00:08:46.710 --> 00:08:46.720 align:start position:0%
+then I wanted to actually be inside the
+ 
+
+00:08:46.720 --> 00:08:49.910 align:start position:0%
+then I wanted to actually be inside the
+resource<00:08:47.200><c> class</c><00:08:47.680><c> and</c><00:08:48.000><c> then</c><00:08:48.880><c> make</c><00:08:49.279><c> a</c><00:08:49.519><c> shared</c>
+
+00:08:49.910 --> 00:08:49.920 align:start position:0%
+resource class and then make a shared
+ 
+
+00:08:49.920 --> 00:08:52.870 align:start position:0%
+resource class and then make a shared
+pointer<00:08:50.320><c> out</c><00:08:50.560><c> of</c><00:08:50.880><c> myself</c><00:08:51.680><c> to</c><00:08:51.920><c> then</c><00:08:52.320><c> submit</c>
+
+00:08:52.870 --> 00:08:52.880 align:start position:0%
+pointer out of myself to then submit
+ 
+
+00:08:52.880 --> 00:08:54.870 align:start position:0%
+pointer out of myself to then submit
+somewhere.<00:08:53.600><c> For</c><00:08:53.760><c> example,</c><00:08:54.240><c> I'll</c><00:08:54.480><c> show</c><00:08:54.560><c> you</c><00:08:54.720><c> an</c>
+
+00:08:54.870 --> 00:08:54.880 align:start position:0%
+somewhere. For example, I'll show you an
+ 
+
+00:08:54.880 --> 00:08:56.150 align:start position:0%
+somewhere. For example, I'll show you an
+example<00:08:55.040><c> from</c><00:08:55.279><c> Hazel</c><00:08:55.600><c> in</c><00:08:55.680><c> a</c><00:08:55.760><c> minute</c><00:08:55.920><c> which</c>
+
+00:08:56.150 --> 00:08:56.160 align:start position:0%
+example from Hazel in a minute which
+ 
+
+00:08:56.160 --> 00:08:57.910 align:start position:0%
+example from Hazel in a minute which
+will<00:08:56.240><c> make</c><00:08:56.399><c> more</c><00:08:56.560><c> sense.</c><00:08:57.120><c> If</c><00:08:57.360><c> I</c><00:08:57.519><c> had</c><00:08:57.680><c> something</c>
+
+00:08:57.910 --> 00:08:57.920 align:start position:0%
+will make more sense. If I had something
+ 
+
+00:08:57.920 --> 00:08:59.910 align:start position:0%
+will make more sense. If I had something
+like<00:08:58.080><c> this</c><00:08:58.320><c> where</c><00:08:58.560><c> I</c><00:08:58.720><c> wanted</c><00:08:58.959><c> to</c><00:08:59.440><c> submit</c>
+
+00:08:59.910 --> 00:08:59.920 align:start position:0%
+like this where I wanted to submit
+ 
+
+00:08:59.920 --> 00:09:02.150 align:start position:0%
+like this where I wanted to submit
+myself,<00:09:00.640><c> you</c><00:09:00.800><c> know,</c><00:09:00.959><c> to</c><00:09:01.120><c> the</c><00:09:01.360><c> renderer</c><00:09:01.920><c> and</c>
+
+00:09:02.150 --> 00:09:02.160 align:start position:0%
+myself, you know, to the renderer and
+ 
+
+00:09:02.160 --> 00:09:03.990 align:start position:0%
+myself, you know, to the renderer and
+then<00:09:02.320><c> obviously</c><00:09:02.640><c> the</c><00:09:02.800><c> renderer</c><00:09:03.279><c> will</c><00:09:03.519><c> have</c><00:09:03.760><c> to</c>
+
+00:09:03.990 --> 00:09:04.000 align:start position:0%
+then obviously the renderer will have to
+ 
+
+00:09:04.000 --> 00:09:05.829 align:start position:0%
+then obviously the renderer will have to
+use<00:09:04.240><c> me.</c><00:09:04.480><c> So</c><00:09:04.640><c> I</c><00:09:04.800><c> want</c><00:09:04.959><c> it</c><00:09:05.200><c> to</c><00:09:05.279><c> be</c><00:09:05.440><c> reference</c>
+
+00:09:05.829 --> 00:09:05.839 align:start position:0%
+use me. So I want it to be reference
+ 
+
+00:09:05.839 --> 00:09:07.350 align:start position:0%
+use me. So I want it to be reference
+counted<00:09:06.160><c> because</c><00:09:06.320><c> I</c><00:09:06.560><c> don't</c><00:09:06.640><c> know</c><00:09:06.800><c> when</c><00:09:07.200><c> the</c>
+
+00:09:07.350 --> 00:09:07.360 align:start position:0%
+counted because I don't know when the
+ 
+
+00:09:07.360 --> 00:09:09.350 align:start position:0%
+counted because I don't know when the
+renderer<00:09:07.760><c> will</c><00:09:07.920><c> finish</c><00:09:08.160><c> with</c><00:09:08.399><c> me.</c><00:09:08.720><c> I</c><00:09:08.959><c> can</c><00:09:09.200><c> do</c>
+
+00:09:09.350 --> 00:09:09.360 align:start position:0%
+renderer will finish with me. I can do
+ 
+
+00:09:09.360 --> 00:09:12.550 align:start position:0%
+renderer will finish with me. I can do
+this<00:09:09.839><c> by</c><00:09:10.080><c> doing</c><00:09:10.399><c> shared</c><00:09:10.800><c> from</c><00:09:11.120><c> this</c><00:09:11.760><c> if</c><00:09:12.240><c> I</c>
+
+00:09:12.550 --> 00:09:12.560 align:start position:0%
+this by doing shared from this if I
+ 
+
+00:09:12.560 --> 00:09:14.389 align:start position:0%
+this by doing shared from this if I
+subclass<00:09:13.120><c> it.</c><00:09:13.360><c> So</c><00:09:13.600><c> this</c><00:09:13.760><c> is</c><00:09:13.839><c> the</c><00:09:14.080><c> closest</c>
+
+00:09:14.389 --> 00:09:14.399 align:start position:0%
+subclass it. So this is the closest
+ 
+
+00:09:14.399 --> 00:09:16.150 align:start position:0%
+subclass it. So this is the closest
+thing<00:09:14.560><c> to</c><00:09:14.800><c> intrusive</c><00:09:15.360><c> reference</c><00:09:15.680><c> counting</c>
+
+00:09:16.150 --> 00:09:16.160 align:start position:0%
+thing to intrusive reference counting
+ 
+
+00:09:16.160 --> 00:09:18.150 align:start position:0%
+thing to intrusive reference counting
+like<00:09:16.399><c> behavior</c><00:09:16.720><c> that</c><00:09:16.880><c> we</c><00:09:17.040><c> have</c><00:09:17.200><c> but</c><00:09:17.519><c> still</c><00:09:17.920><c> the</c>
+
+00:09:18.150 --> 00:09:18.160 align:start position:0%
+like behavior that we have but still the
+ 
+
+00:09:18.160 --> 00:09:20.150 align:start position:0%
+like behavior that we have but still the
+reference<00:09:18.480><c> count</c><00:09:18.800><c> is</c><00:09:18.959><c> not</c><00:09:19.120><c> really</c><00:09:19.440><c> inside</c><00:09:19.760><c> us.</c>
+
+00:09:20.150 --> 00:09:20.160 align:start position:0%
+reference count is not really inside us.
+ 
+
+00:09:20.160 --> 00:09:21.509 align:start position:0%
+reference count is not really inside us.
+So<00:09:20.240><c> it's</c><00:09:20.399><c> a</c><00:09:20.560><c> bit</c><00:09:20.640><c> different</c><00:09:20.880><c> and</c><00:09:21.200><c> basically</c>
+
+00:09:21.509 --> 00:09:21.519 align:start position:0%
+So it's a bit different and basically
+ 
+
+00:09:21.519 --> 00:09:23.430 align:start position:0%
+So it's a bit different and basically
+worse.<00:09:21.920><c> Here's</c><00:09:22.240><c> a</c><00:09:22.399><c> more</c><00:09:22.560><c> concrete</c><00:09:23.040><c> example</c>
+
+00:09:23.430 --> 00:09:23.440 align:start position:0%
+worse. Here's a more concrete example
+ 
+
+00:09:23.440 --> 00:09:25.750 align:start position:0%
+worse. Here's a more concrete example
+from<00:09:23.760><c> Hazel.</c><00:09:24.320><c> So</c><00:09:24.480><c> if</c><00:09:24.720><c> we</c><00:09:24.959><c> are</c><00:09:25.200><c> in</c><00:09:25.440><c> render</c>
+
+00:09:25.750 --> 00:09:25.760 align:start position:0%
+from Hazel. So if we are in render
+ 
+
+00:09:25.760 --> 00:09:27.990 align:start position:0%
+from Hazel. So if we are in render
+command<00:09:26.080><c> buffer</c><00:09:26.560><c> which</c><00:09:26.800><c> is</c><00:09:27.040><c> a</c><00:09:27.200><c> ref</c><00:09:27.600><c> countered</c>
+
+00:09:27.990 --> 00:09:28.000 align:start position:0%
+command buffer which is a ref countered
+ 
+
+00:09:28.000 --> 00:09:30.710 align:start position:0%
+command buffer which is a ref countered
+class<00:09:28.640><c> and</c><00:09:28.880><c> we</c><00:09:29.040><c> want</c><00:09:29.200><c> to</c><00:09:29.440><c> submit</c><00:09:29.839><c> ourselves</c><00:09:30.480><c> to</c>
+
+00:09:30.710 --> 00:09:30.720 align:start position:0%
+class and we want to submit ourselves to
+ 
+
+00:09:30.720 --> 00:09:32.470 align:start position:0%
+class and we want to submit ourselves to
+the<00:09:30.880><c> renderer</c><00:09:31.360><c> because</c><00:09:31.600><c> this</c><00:09:31.839><c> needs</c><00:09:32.080><c> to</c><00:09:32.320><c> run</c>
+
+00:09:32.470 --> 00:09:32.480 align:start position:0%
+the renderer because this needs to run
+ 
+
+00:09:32.480 --> 00:09:35.110 align:start position:0%
+the renderer because this needs to run
+on<00:09:32.640><c> the</c><00:09:32.800><c> render</c><00:09:33.200><c> thread</c><00:09:33.839><c> then</c><00:09:34.080><c> I</c><00:09:34.399><c> can</c><00:09:34.640><c> make</c><00:09:34.880><c> a</c>
+
+00:09:35.110 --> 00:09:35.120 align:start position:0%
+on the render thread then I can make a
+ 
+
+00:09:35.120 --> 00:09:37.670 align:start position:0%
+on the render thread then I can make a
+reference<00:09:35.600><c> counted</c><00:09:36.000><c> object</c><00:09:36.399><c> out</c><00:09:36.560><c> of</c><00:09:36.800><c> myself</c>
+
+00:09:37.670 --> 00:09:37.680 align:start position:0%
+reference counted object out of myself
+ 
+
+00:09:37.680 --> 00:09:39.990 align:start position:0%
+reference counted object out of myself
+and<00:09:37.920><c> since</c><00:09:38.160><c> the</c><00:09:38.399><c> reference</c><00:09:38.800><c> count</c><00:09:39.120><c> is</c><00:09:39.440><c> part</c><00:09:39.680><c> of</c>
+
+00:09:39.990 --> 00:09:40.000 align:start position:0%
+and since the reference count is part of
+ 
+
+00:09:40.000 --> 00:09:42.310 align:start position:0%
+and since the reference count is part of
+this<00:09:40.320><c> object</c><00:09:41.040><c> it's</c><00:09:41.279><c> not</c><00:09:41.440><c> like</c><00:09:41.760><c> oh</c><00:09:42.000><c> I</c><00:09:42.240><c> don't</c>
+
+00:09:42.310 --> 00:09:42.320 align:start position:0%
+this object it's not like oh I don't
+ 
+
+00:09:42.320 --> 00:09:44.150 align:start position:0%
+this object it's not like oh I don't
+know<00:09:42.480><c> what</c><00:09:42.640><c> my</c><00:09:42.800><c> reference</c><00:09:43.200><c> count</c><00:09:43.440><c> is</c><00:09:43.920><c> because</c>
+
+00:09:44.150 --> 00:09:44.160 align:start position:0%
+know what my reference count is because
+ 
+
+00:09:44.160 --> 00:09:46.630 align:start position:0%
+know what my reference count is because
+it's<00:09:44.399><c> external.</c><00:09:45.040><c> No,</c><00:09:45.360><c> it's</c><00:09:45.680><c> here.</c><00:09:46.000><c> I</c><00:09:46.320><c> am</c><00:09:46.480><c> the</c>
+
+00:09:46.630 --> 00:09:46.640 align:start position:0%
+it's external. No, it's here. I am the
+ 
+
+00:09:46.640 --> 00:09:48.949 align:start position:0%
+it's external. No, it's here. I am the
+reference<00:09:47.040><c> count.</c><00:09:47.600><c> So</c><00:09:47.839><c> therefore</c><00:09:48.240><c> of</c><00:09:48.480><c> course</c>
+
+00:09:48.949 --> 00:09:48.959 align:start position:0%
+reference count. So therefore of course
+ 
+
+00:09:48.959 --> 00:09:50.949 align:start position:0%
+reference count. So therefore of course
+you<00:09:49.120><c> can</c><00:09:49.279><c> make</c><00:09:49.519><c> this</c><00:09:49.760><c> ref</c><00:09:50.080><c> object</c><00:09:50.399><c> out</c><00:09:50.560><c> of</c><00:09:50.720><c> me.</c>
+
+00:09:50.949 --> 00:09:50.959 align:start position:0%
+you can make this ref object out of me.
+ 
+
+00:09:50.959 --> 00:09:52.550 align:start position:0%
+you can make this ref object out of me.
+I'll<00:09:51.120><c> just</c><00:09:51.279><c> increment</c><00:09:51.600><c> the</c><00:09:51.839><c> reference</c><00:09:52.160><c> count</c>
+
+00:09:52.550 --> 00:09:52.560 align:start position:0%
+I'll just increment the reference count
+ 
+
+00:09:52.560 --> 00:09:54.949 align:start position:0%
+I'll just increment the reference count
+and<00:09:52.800><c> then</c><00:09:53.040><c> pass</c><00:09:53.279><c> it</c><00:09:53.440><c> off.</c><00:09:53.760><c> hand</c><00:09:54.000><c> it</c><00:09:54.240><c> off</c><00:09:54.399><c> onto</c><00:09:54.720><c> a</c>
+
+00:09:54.949 --> 00:09:54.959 align:start position:0%
+and then pass it off. hand it off onto a
+ 
+
+00:09:54.959 --> 00:09:56.630 align:start position:0%
+and then pass it off. hand it off onto a
+different<00:09:55.200><c> thread.</c><00:09:55.920><c> And</c><00:09:56.080><c> of</c><00:09:56.240><c> course,</c><00:09:56.399><c> we're</c>
+
+00:09:56.630 --> 00:09:56.640 align:start position:0%
+different thread. And of course, we're
+ 
+
+00:09:56.640 --> 00:09:58.310 align:start position:0%
+different thread. And of course, we're
+in<00:09:56.720><c> a</c><00:09:56.880><c> different</c><00:09:57.040><c> thread</c><00:09:57.360><c> now.</c><00:09:57.839><c> So,</c><00:09:58.000><c> we</c><00:09:58.240><c> don't</c>
+
+00:09:58.310 --> 00:09:58.320 align:start position:0%
+in a different thread now. So, we don't
+ 
+
+00:09:58.320 --> 00:09:59.670 align:start position:0%
+in a different thread now. So, we don't
+know.<00:09:58.560><c> Maybe</c><00:09:58.720><c> the</c><00:09:58.880><c> main</c><00:09:59.040><c> thread</c><00:09:59.279><c> will</c><00:09:59.440><c> finish</c>
+
+00:09:59.670 --> 00:09:59.680 align:start position:0%
+know. Maybe the main thread will finish
+ 
+
+00:09:59.680 --> 00:10:01.190 align:start position:0%
+know. Maybe the main thread will finish
+with<00:09:59.839><c> this</c><00:10:00.000><c> first,</c><00:10:00.320><c> but</c><00:10:00.560><c> then</c><00:10:00.640><c> the</c><00:10:00.800><c> thread</c><00:10:01.040><c> is</c>
+
+00:10:01.190 --> 00:10:01.200 align:start position:0%
+with this first, but then the thread is
+ 
+
+00:10:01.200 --> 00:10:02.550 align:start position:0%
+with this first, but then the thread is
+still<00:10:01.360><c> holding</c><00:10:01.519><c> on</c><00:10:01.680><c> to</c><00:10:01.760><c> it.</c><00:10:02.000><c> So,</c><00:10:02.160><c> in</c><00:10:02.399><c> that</c>
+
+00:10:02.550 --> 00:10:02.560 align:start position:0%
+still holding on to it. So, in that
+ 
+
+00:10:02.560 --> 00:10:04.470 align:start position:0%
+still holding on to it. So, in that
+scenario,<00:10:03.040><c> we</c><00:10:03.279><c> literally</c><00:10:03.680><c> don't</c><00:10:03.920><c> know</c><00:10:04.160><c> who's</c>
+
+00:10:04.470 --> 00:10:04.480 align:start position:0%
+scenario, we literally don't know who's
+ 
+
+00:10:04.480 --> 00:10:05.829 align:start position:0%
+scenario, we literally don't know who's
+going<00:10:04.560><c> to</c><00:10:04.720><c> finish</c><00:10:04.880><c> with</c><00:10:05.120><c> this</c><00:10:05.360><c> because</c><00:10:05.600><c> it's</c>
+
+00:10:05.829 --> 00:10:05.839 align:start position:0%
+going to finish with this because it's
+ 
+
+00:10:05.839 --> 00:10:07.990 align:start position:0%
+going to finish with this because it's
+all<00:10:06.000><c> like</c><00:10:06.240><c> multi-threaded</c><00:10:06.959><c> race</c><00:10:07.200><c> conditions,</c>
+
+00:10:07.990 --> 00:10:08.000 align:start position:0%
+all like multi-threaded race conditions,
+ 
+
+00:10:08.000 --> 00:10:09.829 align:start position:0%
+all like multi-threaded race conditions,
+whatever<00:10:08.320><c> else.</c><00:10:08.800><c> Let's</c><00:10:09.040><c> look</c><00:10:09.200><c> at</c><00:10:09.360><c> an</c><00:10:09.600><c> example</c>
+
+00:10:09.829 --> 00:10:09.839 align:start position:0%
+whatever else. Let's look at an example
+ 
+
+00:10:09.839 --> 00:10:11.910 align:start position:0%
+whatever else. Let's look at an example
+I<00:10:10.080><c> prepared</c><00:10:10.560><c> that</c><00:10:10.800><c> is</c><00:10:11.040><c> multi-threaded.</c><00:10:11.760><c> So,</c>
+
+00:10:11.910 --> 00:10:11.920 align:start position:0%
+I prepared that is multi-threaded. So,
+ 
+
+00:10:11.920 --> 00:10:14.069 align:start position:0%
+I prepared that is multi-threaded. So,
+we<00:10:12.160><c> have</c><00:10:12.320><c> this</c><00:10:12.640><c> multi-threaded</c><00:10:13.440><c> example.</c><00:10:13.920><c> Let</c>
+
+00:10:14.069 --> 00:10:14.079 align:start position:0%
+we have this multi-threaded example. Let
+ 
+
+00:10:14.079 --> 00:10:16.389 align:start position:0%
+we have this multi-threaded example. Let
+me<00:10:14.320><c> shut</c><00:10:14.560><c> off</c><00:10:14.800><c> the</c><00:10:15.120><c> other</c><00:10:15.279><c> one</c><00:10:15.920><c> and</c><00:10:16.079><c> then</c><00:10:16.160><c> we'll</c>
+
+00:10:16.389 --> 00:10:16.399 align:start position:0%
+me shut off the other one and then we'll
+ 
+
+00:10:16.399 --> 00:10:18.630 align:start position:0%
+me shut off the other one and then we'll
+take<00:10:16.560><c> a</c><00:10:16.720><c> look</c><00:10:16.880><c> at</c><00:10:17.120><c> this</c><00:10:17.279><c> one.</c><00:10:17.600><c> So,</c><00:10:17.920><c> same</c><00:10:18.160><c> story.</c>
+
+00:10:18.630 --> 00:10:18.640 align:start position:0%
+take a look at this one. So, same story.
+ 
+
+00:10:18.640 --> 00:10:20.870 align:start position:0%
+take a look at this one. So, same story.
+I<00:10:18.800><c> have</c><00:10:19.200><c> ref</c><00:10:19.680><c> resource,</c><00:10:20.160><c> but</c><00:10:20.399><c> then</c><00:10:20.560><c> what</c><00:10:20.720><c> I'm</c>
+
+00:10:20.870 --> 00:10:20.880 align:start position:0%
+I have ref resource, but then what I'm
+ 
+
+00:10:20.880 --> 00:10:23.110 align:start position:0%
+I have ref resource, but then what I'm
+doing<00:10:21.040><c> is</c><00:10:21.279><c> creating</c><00:10:21.680><c> four</c><00:10:22.240><c> workers.</c><00:10:22.880><c> These</c>
+
+00:10:23.110 --> 00:10:23.120 align:start position:0%
+doing is creating four workers. These
+ 
+
+00:10:23.120 --> 00:10:25.030 align:start position:0%
+doing is creating four workers. These
+are<00:10:23.279><c> four</c><00:10:23.519><c> worker</c><00:10:23.920><c> threads.</c><00:10:24.640><c> I'm</c><00:10:24.880><c> going</c><00:10:24.959><c> to</c>
+
+00:10:25.030 --> 00:10:25.040 align:start position:0%
+are four worker threads. I'm going to
+ 
+
+00:10:25.040 --> 00:10:27.350 align:start position:0%
+are four worker threads. I'm going to
+create<00:10:25.440><c> one</c><00:10:25.760><c> resource</c><00:10:26.320><c> and</c><00:10:26.560><c> I'm</c><00:10:26.800><c> going</c><00:10:26.959><c> to</c>
+
+00:10:27.350 --> 00:10:27.360 align:start position:0%
+create one resource and I'm going to
+ 
+
+00:10:27.360 --> 00:10:29.829 align:start position:0%
+create one resource and I'm going to
+give<00:10:27.600><c> it</c><00:10:27.839><c> to</c><00:10:28.160><c> the</c><00:10:28.480><c> worker</c><00:10:28.800><c> threads.</c><00:10:29.360><c> So</c><00:10:29.600><c> each</c>
+
+00:10:29.829 --> 00:10:29.839 align:start position:0%
+give it to the worker threads. So each
+ 
+
+00:10:29.839 --> 00:10:32.710 align:start position:0%
+give it to the worker threads. So each
+thread<00:10:30.160><c> is</c><00:10:30.399><c> getting</c><00:10:30.720><c> its</c><00:10:30.959><c> own</c><00:10:31.279><c> copy</c><00:10:32.000><c> of</c><00:10:32.399><c> this</c>
+
+00:10:32.710 --> 00:10:32.720 align:start position:0%
+thread is getting its own copy of this
+ 
+
+00:10:32.720 --> 00:10:34.790 align:start position:0%
+thread is getting its own copy of this
+ref,<00:10:33.120><c> but</c><00:10:33.360><c> it's</c><00:10:33.680><c> still</c><00:10:33.920><c> the</c><00:10:34.160><c> same</c><00:10:34.320><c> resource.</c>
+
+00:10:34.790 --> 00:10:34.800 align:start position:0%
+ref, but it's still the same resource.
+ 
+
+00:10:34.800 --> 00:10:36.550 align:start position:0%
+ref, but it's still the same resource.
+There's<00:10:34.959><c> only</c><00:10:35.200><c> one</c><00:10:35.440><c> resource.</c><00:10:35.920><c> I've</c><00:10:36.240><c> created</c>
+
+00:10:36.550 --> 00:10:36.560 align:start position:0%
+There's only one resource. I've created
+ 
+
+00:10:36.560 --> 00:10:38.870 align:start position:0%
+There's only one resource. I've created
+it<00:10:36.720><c> once.</c><00:10:37.279><c> I'm</c><00:10:37.519><c> just</c><00:10:37.760><c> giving</c><00:10:38.079><c> it</c><00:10:38.320><c> to</c><00:10:38.560><c> four</c>
+
+00:10:38.870 --> 00:10:38.880 align:start position:0%
+it once. I'm just giving it to four
+ 
+
+00:10:38.880 --> 00:10:40.550 align:start position:0%
+it once. I'm just giving it to four
+different<00:10:39.120><c> workers</c><00:10:39.760><c> that</c><00:10:40.000><c> need</c><00:10:40.160><c> to</c><00:10:40.320><c> do</c><00:10:40.399><c> things</c>
+
+00:10:40.550 --> 00:10:40.560 align:start position:0%
+different workers that need to do things
+ 
+
+00:10:40.560 --> 00:10:42.069 align:start position:0%
+different workers that need to do things
+with<00:10:40.800><c> it.</c><00:10:41.040><c> What</c><00:10:41.200><c> the</c><00:10:41.360><c> workers</c><00:10:41.680><c> are</c><00:10:41.839><c> actually</c>
+
+00:10:42.069 --> 00:10:42.079 align:start position:0%
+with it. What the workers are actually
+ 
+
+00:10:42.079 --> 00:10:43.829 align:start position:0%
+with it. What the workers are actually
+doing<00:10:42.240><c> with</c><00:10:42.399><c> it</c><00:10:42.560><c> is</c><00:10:42.800><c> simulating</c><00:10:43.360><c> some</c><00:10:43.600><c> work</c>
+
+00:10:43.829 --> 00:10:43.839 align:start position:0%
+doing with it is simulating some work
+ 
+
+00:10:43.839 --> 00:10:45.750 align:start position:0%
+doing with it is simulating some work
+that's<00:10:44.079><c> happening.</c><00:10:44.560><c> It's</c><00:10:44.800><c> calling</c><00:10:45.120><c> use</c><00:10:45.519><c> on</c>
+
+00:10:45.750 --> 00:10:45.760 align:start position:0%
+that's happening. It's calling use on
+ 
+
+00:10:45.760 --> 00:10:47.110 align:start position:0%
+that's happening. It's calling use on
+the<00:10:45.920><c> actual</c><00:10:46.240><c> resource,</c><00:10:46.640><c> which</c><00:10:46.800><c> is</c><00:10:46.959><c> just</c>
+
+00:10:47.110 --> 00:10:47.120 align:start position:0%
+the actual resource, which is just
+ 
+
+00:10:47.120 --> 00:10:48.949 align:start position:0%
+the actual resource, which is just
+simply<00:10:47.360><c> printing</c><00:10:47.760><c> which</c><00:10:48.079><c> worker</c><00:10:48.720><c> is</c>
+
+00:10:48.949 --> 00:10:48.959 align:start position:0%
+simply printing which worker is
+ 
+
+00:10:48.959 --> 00:10:50.710 align:start position:0%
+simply printing which worker is
+currently<00:10:49.360><c> using</c><00:10:49.600><c> it.</c><00:10:49.839><c> we</c><00:10:50.079><c> have</c><00:10:50.160><c> this</c><00:10:50.480><c> per</c>
+
+00:10:50.710 --> 00:10:50.720 align:start position:0%
+currently using it. we have this per
+ 
+
+00:10:50.720 --> 00:10:52.949 align:start position:0%
+currently using it. we have this per
+thread<00:10:51.200><c> random</c><00:10:51.600><c> number</c><00:10:51.920><c> generator</c><00:10:52.480><c> that</c><00:10:52.720><c> will</c>
+
+00:10:52.949 --> 00:10:52.959 align:start position:0%
+thread random number generator that will
+ 
+
+00:10:52.959 --> 00:10:56.150 align:start position:0%
+thread random number generator that will
+simulate<00:10:53.600><c> some</c><00:10:53.920><c> sort</c><00:10:54.079><c> of</c><00:10:54.399><c> work</c><00:10:54.800><c> for</c><00:10:55.360><c> up</c><00:10:55.519><c> to</c><00:10:55.760><c> 100</c>
+
+00:10:56.150 --> 00:10:56.160 align:start position:0%
+simulate some sort of work for up to 100
+ 
+
+00:10:56.160 --> 00:10:58.069 align:start position:0%
+simulate some sort of work for up to 100
+milliseconds.<00:10:56.959><c> So</c><00:10:57.120><c> it'll</c><00:10:57.360><c> just</c><00:10:57.519><c> sleep</c><00:10:57.839><c> and</c>
+
+00:10:58.069 --> 00:10:58.079 align:start position:0%
+milliseconds. So it'll just sleep and
+ 
+
+00:10:58.079 --> 00:10:59.829 align:start position:0%
+milliseconds. So it'll just sleep and
+then<00:10:58.320><c> it</c><00:10:58.560><c> will</c><00:10:58.800><c> finish</c><00:10:59.200><c> back</c><00:10:59.440><c> on</c><00:10:59.519><c> the</c><00:10:59.680><c> main</c>
+
+00:10:59.829 --> 00:10:59.839 align:start position:0%
+then it will finish back on the main
+ 
+
+00:10:59.839 --> 00:11:01.269 align:start position:0%
+then it will finish back on the main
+thread.<00:11:00.160><c> We</c><00:11:00.240><c> will</c><00:11:00.399><c> of</c><00:11:00.560><c> course</c><00:11:00.720><c> wait</c><00:11:00.959><c> for</c><00:11:01.120><c> all</c>
+
+00:11:01.269 --> 00:11:01.279 align:start position:0%
+thread. We will of course wait for all
+ 
+
+00:11:01.279 --> 00:11:02.710 align:start position:0%
+thread. We will of course wait for all
+of<00:11:01.360><c> these</c><00:11:01.519><c> workers</c><00:11:01.839><c> to</c><00:11:02.079><c> actually</c><00:11:02.320><c> complete</c>
+
+00:11:02.710 --> 00:11:02.720 align:start position:0%
+of these workers to actually complete
+ 
+
+00:11:02.720 --> 00:11:04.389 align:start position:0%
+of these workers to actually complete
+before<00:11:02.959><c> we</c><00:11:03.120><c> try</c><00:11:03.200><c> and</c><00:11:03.360><c> end</c><00:11:03.519><c> our</c><00:11:03.760><c> program.</c><00:11:04.240><c> And</c>
+
+00:11:04.389 --> 00:11:04.399 align:start position:0%
+before we try and end our program. And
+ 
+
+00:11:04.399 --> 00:11:06.630 align:start position:0%
+before we try and end our program. And
+then<00:11:04.560><c> this</c><00:11:04.800><c> is</c><00:11:04.880><c> in</c><00:11:05.040><c> a</c><00:11:05.279><c> scope</c><00:11:05.920><c> because</c><00:11:06.240><c> as</c><00:11:06.480><c> soon</c>
+
+00:11:06.630 --> 00:11:06.640 align:start position:0%
+then this is in a scope because as soon
+ 
+
+00:11:06.640 --> 00:11:09.509 align:start position:0%
+then this is in a scope because as soon
+as<00:11:06.720><c> we</c><00:11:07.120><c> unleash</c><00:11:07.760><c> the</c><00:11:08.079><c> workers,</c><00:11:09.040><c> we're</c><00:11:09.279><c> kind</c><00:11:09.440><c> of</c>
+
+00:11:09.509 --> 00:11:09.519 align:start position:0%
+as we unleash the workers, we're kind of
+ 
+
+00:11:09.519 --> 00:11:11.030 align:start position:0%
+as we unleash the workers, we're kind of
+done<00:11:09.680><c> with</c><00:11:09.839><c> this</c><00:11:10.000><c> resource.</c><00:11:10.560><c> We</c><00:11:10.720><c> don't</c><00:11:10.880><c> really</c>
+
+00:11:11.030 --> 00:11:11.040 align:start position:0%
+done with this resource. We don't really
+ 
+
+00:11:11.040 --> 00:11:12.470 align:start position:0%
+done with this resource. We don't really
+need<00:11:11.120><c> it</c><00:11:11.279><c> on</c><00:11:11.440><c> the</c><00:11:11.519><c> main</c><00:11:11.680><c> thread</c><00:11:11.920><c> anymore.</c>
+
+00:11:12.470 --> 00:11:12.480 align:start position:0%
+need it on the main thread anymore.
+ 
+
+00:11:12.480 --> 00:11:14.470 align:start position:0%
+need it on the main thread anymore.
+We're<00:11:12.800><c> happy</c><00:11:13.040><c> to</c><00:11:13.360><c> not</c><00:11:13.680><c> use</c><00:11:13.839><c> it</c><00:11:14.000><c> on</c><00:11:14.160><c> the</c><00:11:14.320><c> main</c>
+
+00:11:14.470 --> 00:11:14.480 align:start position:0%
+We're happy to not use it on the main
+ 
+
+00:11:14.480 --> 00:11:16.389 align:start position:0%
+We're happy to not use it on the main
+thread,<00:11:14.959><c> but</c><00:11:15.360><c> the</c><00:11:15.600><c> workers</c><00:11:15.920><c> are</c><00:11:16.160><c> still</c><00:11:16.320><c> going</c>
+
+00:11:16.389 --> 00:11:16.399 align:start position:0%
+thread, but the workers are still going
+ 
+
+00:11:16.399 --> 00:11:18.230 align:start position:0%
+thread, but the workers are still going
+to<00:11:16.480><c> need</c><00:11:16.640><c> it.</c><00:11:16.800><c> And</c><00:11:17.040><c> specifically,</c><00:11:17.839><c> we</c><00:11:18.079><c> don't</c>
+
+00:11:18.230 --> 00:11:18.240 align:start position:0%
+to need it. And specifically, we don't
+ 
+
+00:11:18.240 --> 00:11:20.069 align:start position:0%
+to need it. And specifically, we don't
+really<00:11:18.399><c> know</c><00:11:18.720><c> which</c><00:11:18.959><c> worker</c><00:11:19.279><c> will</c><00:11:19.600><c> finish</c>
+
+00:11:20.069 --> 00:11:20.079 align:start position:0%
+really know which worker will finish
+ 
+
+00:11:20.079 --> 00:11:22.310 align:start position:0%
+really know which worker will finish
+last<00:11:20.480><c> with</c><00:11:20.640><c> the</c><00:11:20.880><c> resource,</c><00:11:21.279><c> do</c><00:11:21.440><c> we?</c><00:11:21.760><c> Because,</c>
+
+00:11:22.310 --> 00:11:22.320 align:start position:0%
+last with the resource, do we? Because,
+ 
+
+00:11:22.320 --> 00:11:24.550 align:start position:0%
+last with the resource, do we? Because,
+well,<00:11:22.560><c> in</c><00:11:22.720><c> this</c><00:11:22.959><c> case,</c><00:11:23.360><c> we're</c><00:11:23.680><c> simulating</c><00:11:24.320><c> a</c>
+
+00:11:24.550 --> 00:11:24.560 align:start position:0%
+well, in this case, we're simulating a
+ 
+
+00:11:24.560 --> 00:11:26.949 align:start position:0%
+well, in this case, we're simulating a
+random<00:11:25.040><c> amount</c><00:11:25.279><c> of</c><00:11:25.440><c> work.</c><00:11:25.920><c> So,</c><00:11:26.240><c> which</c><00:11:26.480><c> worker</c>
+
+00:11:26.949 --> 00:11:26.959 align:start position:0%
+random amount of work. So, which worker
+ 
+
+00:11:26.959 --> 00:11:28.949 align:start position:0%
+random amount of work. So, which worker
+will<00:11:27.279><c> finish</c><00:11:27.600><c> last?</c><00:11:28.160><c> Let's</c><00:11:28.480><c> have</c><00:11:28.560><c> a</c><00:11:28.720><c> look</c><00:11:28.800><c> at</c>
+
+00:11:28.949 --> 00:11:28.959 align:start position:0%
+will finish last? Let's have a look at
+ 
+
+00:11:28.959 --> 00:11:30.870 align:start position:0%
+will finish last? Let's have a look at
+how<00:11:29.120><c> this</c><00:11:29.360><c> program</c><00:11:29.680><c> runs.</c><00:11:30.079><c> So,</c><00:11:30.320><c> we</c><00:11:30.560><c> construct</c>
+
+00:11:30.870 --> 00:11:30.880 align:start position:0%
+how this program runs. So, we construct
+ 
+
+00:11:30.880 --> 00:11:34.230 align:start position:0%
+how this program runs. So, we construct
+the<00:11:31.040><c> resource.</c><00:11:31.760><c> Worker</c><00:11:32.160><c> 1</c><00:11:32.560><c> 2</c><00:11:32.959><c> 3</c><00:11:33.279><c> and</c><00:11:33.600><c> four</c><00:11:33.920><c> and</c>
+
+00:11:34.230 --> 00:11:34.240 align:start position:0%
+the resource. Worker 1 2 3 and four and
+ 
+
+00:11:34.240 --> 00:11:36.870 align:start position:0%
+the resource. Worker 1 2 3 and four and
+zero<00:11:34.720><c> actually</c><00:11:35.040><c> had</c><00:11:35.279><c> me</c><00:11:35.440><c> going</c><00:11:35.680><c> there.</c><00:11:36.240><c> 1</c><00:11:36.480><c> 2</c><00:11:36.720><c> 3</c>
+
+00:11:36.870 --> 00:11:36.880 align:start position:0%
+zero actually had me going there. 1 2 3
+ 
+
+00:11:36.880 --> 00:11:38.790 align:start position:0%
+zero actually had me going there. 1 2 3
+and<00:11:37.120><c> zero</c><00:11:37.440><c> have</c><00:11:37.680><c> all</c><00:11:37.920><c> begun.</c><00:11:38.320><c> They're</c><00:11:38.560><c> all</c>
+
+00:11:38.790 --> 00:11:38.800 align:start position:0%
+and zero have all begun. They're all
+ 
+
+00:11:38.800 --> 00:11:40.230 align:start position:0%
+and zero have all begun. They're all
+using<00:11:39.040><c> the</c><00:11:39.279><c> resource.</c><00:11:39.680><c> So,</c><00:11:39.839><c> they've</c><00:11:40.079><c> called</c>
+
+00:11:40.230 --> 00:11:40.240 align:start position:0%
+using the resource. So, they've called
+ 
+
+00:11:40.240 --> 00:11:41.509 align:start position:0%
+using the resource. So, they've called
+that<00:11:40.480><c> use</c><00:11:40.720><c> function.</c><00:11:41.040><c> And</c><00:11:41.200><c> then</c><00:11:41.360><c> they're</c>
+
+00:11:41.509 --> 00:11:41.519 align:start position:0%
+that use function. And then they're
+ 
+
+00:11:41.519 --> 00:11:43.269 align:start position:0%
+that use function. And then they're
+sleeping<00:11:41.839><c> for</c><00:11:42.079><c> a</c><00:11:42.240><c> random</c><00:11:42.640><c> amount</c><00:11:42.880><c> of</c><00:11:43.040><c> time.</c>
+
+00:11:43.269 --> 00:11:43.279 align:start position:0%
+sleeping for a random amount of time.
+ 
+
+00:11:43.279 --> 00:11:45.350 align:start position:0%
+sleeping for a random amount of time.
+They're<00:11:43.600><c> processing,</c><00:11:44.399><c> let's</c><00:11:44.640><c> just</c><00:11:44.800><c> say,</c><00:11:45.040><c> for</c>
+
+00:11:45.350 --> 00:11:45.360 align:start position:0%
+They're processing, let's just say, for
+ 
+
+00:11:45.360 --> 00:11:47.990 align:start position:0%
+They're processing, let's just say, for
+a<00:11:45.519><c> random</c><00:11:46.160><c> amount</c><00:11:46.480><c> of</c><00:11:46.720><c> time.</c><00:11:47.200><c> Worker</c><00:11:47.600><c> two</c>
+
+00:11:47.990 --> 00:11:48.000 align:start position:0%
+a random amount of time. Worker two
+ 
+
+00:11:48.000 --> 00:11:49.350 align:start position:0%
+a random amount of time. Worker two
+finishes<00:11:48.399><c> first.</c><00:11:48.720><c> Of</c><00:11:48.880><c> course,</c><00:11:48.959><c> it</c><00:11:49.200><c> would</c>
+
+00:11:49.350 --> 00:11:49.360 align:start position:0%
+finishes first. Of course, it would
+ 
+
+00:11:49.360 --> 00:11:50.949 align:start position:0%
+finishes first. Of course, it would
+because<00:11:49.519><c> it</c><00:11:49.760><c> only</c><00:11:49.839><c> took</c><00:11:50.079><c> 5</c><00:11:50.320><c> milliseconds.</c>
+
+00:11:50.949 --> 00:11:50.959 align:start position:0%
+because it only took 5 milliseconds.
+ 
+
+00:11:50.959 --> 00:11:54.470 align:start position:0%
+because it only took 5 milliseconds.
+Then<00:11:51.279><c> 3,</c><00:11:51.680><c> 1,</c><00:11:52.000><c> and</c><00:11:52.320><c> zero.</c><00:11:53.040><c> Then</c><00:11:53.680><c> the</c><00:11:53.920><c> resource</c>
+
+00:11:54.470 --> 00:11:54.480 align:start position:0%
+Then 3, 1, and zero. Then the resource
+ 
+
+00:11:54.480 --> 00:11:57.110 align:start position:0%
+Then 3, 1, and zero. Then the resource
+gets<00:11:54.880><c> destroyed.</c><00:11:55.760><c> So</c><00:11:56.000><c> notice</c><00:11:56.240><c> how</c><00:11:56.560><c> zero,</c>
+
+00:11:57.110 --> 00:11:57.120 align:start position:0%
+gets destroyed. So notice how zero,
+ 
+
+00:11:57.120 --> 00:11:59.910 align:start position:0%
+gets destroyed. So notice how zero,
+worker<00:11:57.519><c> zero</c><00:11:57.920><c> finished</c><00:11:58.480><c> last</c><00:11:59.040><c> in</c><00:11:59.200><c> this</c><00:11:59.440><c> case.</c>
+
+00:11:59.910 --> 00:11:59.920 align:start position:0%
+worker zero finished last in this case.
+ 
+
+00:11:59.920 --> 00:12:02.310 align:start position:0%
+worker zero finished last in this case.
+Let's<00:12:00.160><c> run</c><00:12:00.320><c> it</c><00:12:00.480><c> again.</c><00:12:01.040><c> This</c><00:12:01.279><c> time,</c><00:12:01.839><c> worker</c>
+
+00:12:02.310 --> 00:12:02.320 align:start position:0%
+Let's run it again. This time, worker
+ 
+
+00:12:02.320 --> 00:12:04.310 align:start position:0%
+Let's run it again. This time, worker
+three<00:12:02.880><c> finished</c><00:12:03.279><c> last</c><00:12:03.760><c> and</c><00:12:04.000><c> then</c><00:12:04.160><c> the</c>
+
+00:12:04.310 --> 00:12:04.320 align:start position:0%
+three finished last and then the
+ 
+
+00:12:04.320 --> 00:12:06.470 align:start position:0%
+three finished last and then the
+resource<00:12:04.800><c> was</c><00:12:05.040><c> destroyed.</c><00:12:05.920><c> So</c><00:12:06.079><c> you're</c><00:12:06.320><c> kind</c>
+
+00:12:06.470 --> 00:12:06.480 align:start position:0%
+resource was destroyed. So you're kind
+ 
+
+00:12:06.480 --> 00:12:08.470 align:start position:0%
+resource was destroyed. So you're kind
+of<00:12:06.560><c> seeing</c><00:12:07.040><c> the</c><00:12:07.360><c> picture</c><00:12:07.680><c> here</c><00:12:08.079><c> with</c><00:12:08.320><c> the</c>
+
+00:12:08.470 --> 00:12:08.480 align:start position:0%
+of seeing the picture here with the
+ 
+
+00:12:08.480 --> 00:12:10.790 align:start position:0%
+of seeing the picture here with the
+lifetime<00:12:09.279><c> pretty</c><00:12:09.600><c> clearly,</c><00:12:10.000><c> I</c><00:12:10.160><c> hope.</c><00:12:10.560><c> We</c>
+
+00:12:10.790 --> 00:12:10.800 align:start position:0%
+lifetime pretty clearly, I hope. We
+ 
+
+00:12:10.800 --> 00:12:12.790 align:start position:0%
+lifetime pretty clearly, I hope. We
+don't<00:12:10.959><c> know</c><00:12:11.120><c> the</c><00:12:11.360><c> lifetime.</c><00:12:12.000><c> We</c><00:12:12.320><c> don't</c><00:12:12.480><c> really</c>
+
+00:12:12.790 --> 00:12:12.800 align:start position:0%
+don't know the lifetime. We don't really
+ 
+
+00:12:12.800 --> 00:12:15.829 align:start position:0%
+don't know the lifetime. We don't really
+know<00:12:13.360><c> when</c><00:12:13.680><c> exactly</c><00:12:14.320><c> and</c><00:12:14.639><c> who</c><00:12:14.880><c> exactly</c><00:12:15.600><c> should</c>
+
+00:12:15.829 --> 00:12:15.839 align:start position:0%
+know when exactly and who exactly should
+ 
+
+00:12:15.839 --> 00:12:18.150 align:start position:0%
+know when exactly and who exactly should
+be<00:12:16.000><c> responsible</c><00:12:16.800><c> for</c><00:12:17.120><c> this</c><00:12:17.360><c> resource</c><00:12:17.839><c> being</c>
+
+00:12:18.150 --> 00:12:18.160 align:start position:0%
+be responsible for this resource being
+ 
+
+00:12:18.160 --> 00:12:20.310 align:start position:0%
+be responsible for this resource being
+destroyed.<00:12:18.880><c> All</c><00:12:19.040><c> we</c><00:12:19.279><c> know</c><00:12:19.519><c> is</c><00:12:19.760><c> that</c><00:12:20.000><c> when</c>
+
+00:12:20.310 --> 00:12:20.320 align:start position:0%
+destroyed. All we know is that when
+ 
+
+00:12:20.320 --> 00:12:22.470 align:start position:0%
+destroyed. All we know is that when
+everyone<00:12:20.720><c> is</c><00:12:20.959><c> done</c><00:12:21.120><c> with</c><00:12:21.360><c> it,</c><00:12:21.839><c> we</c><00:12:22.000><c> want</c><00:12:22.160><c> it</c><00:12:22.320><c> to</c>
+
+00:12:22.470 --> 00:12:22.480 align:start position:0%
+everyone is done with it, we want it to
+ 
+
+00:12:22.480 --> 00:12:23.990 align:start position:0%
+everyone is done with it, we want it to
+be<00:12:22.560><c> destroyed.</c><00:12:23.120><c> When</c><00:12:23.360><c> it's</c><00:12:23.519><c> no</c><00:12:23.680><c> longer</c>
+
+00:12:23.990 --> 00:12:24.000 align:start position:0%
+be destroyed. When it's no longer
+ 
+
+00:12:24.000 --> 00:12:25.829 align:start position:0%
+be destroyed. When it's no longer
+needed,<00:12:24.480><c> we</c><00:12:24.720><c> want</c><00:12:24.800><c> it</c><00:12:24.959><c> to</c><00:12:25.120><c> be</c><00:12:25.279><c> destroyed.</c>
+
+00:12:25.829 --> 00:12:25.839 align:start position:0%
+needed, we want it to be destroyed.
+ 
+
+00:12:25.839 --> 00:12:28.310 align:start position:0%
+needed, we want it to be destroyed.
+That's<00:12:26.560><c> that's</c><00:12:26.959><c> the</c><00:12:27.200><c> definition</c><00:12:27.680><c> of</c><00:12:27.920><c> memory</c>
+
+00:12:28.310 --> 00:12:28.320 align:start position:0%
+That's that's the definition of memory
+ 
+
+00:12:28.320 --> 00:12:30.069 align:start position:0%
+That's that's the definition of memory
+management.<00:12:28.880><c> When</c><00:12:29.120><c> it's</c><00:12:29.360><c> not</c><00:12:29.519><c> needed,</c>
+
+00:12:30.069 --> 00:12:30.079 align:start position:0%
+management. When it's not needed,
+ 
+
+00:12:30.079 --> 00:12:32.230 align:start position:0%
+management. When it's not needed,
+destroy<00:12:30.480><c> it.</c><00:12:30.800><c> And</c><00:12:31.040><c> that</c><00:12:31.200><c> is</c><00:12:31.360><c> what</c><00:12:31.760><c> reference</c>
+
+00:12:32.230 --> 00:12:32.240 align:start position:0%
+destroy it. And that is what reference
+ 
+
+00:12:32.240 --> 00:12:34.310 align:start position:0%
+destroy it. And that is what reference
+counting<00:12:32.959><c> does.</c><00:12:33.519><c> That's</c><00:12:33.680><c> what</c><00:12:33.920><c> shared</c>
+
+00:12:34.310 --> 00:12:34.320 align:start position:0%
+counting does. That's what shared
+ 
+
+00:12:34.320 --> 00:12:36.629 align:start position:0%
+counting does. That's what shared
+pointers<00:12:34.800><c> do</c><00:12:35.200><c> because</c><00:12:35.519><c> shared</c><00:12:35.839><c> pointers</c><00:12:36.320><c> are</c>
+
+00:12:36.629 --> 00:12:36.639 align:start position:0%
+pointers do because shared pointers are
+ 
+
+00:12:36.639 --> 00:12:38.870 align:start position:0%
+pointers do because shared pointers are
+an<00:12:36.880><c> implementation</c><00:12:37.519><c> of</c><00:12:37.839><c> reference</c><00:12:38.240><c> counting.</c>
+
+00:12:38.870 --> 00:12:38.880 align:start position:0%
+an implementation of reference counting.
+ 
+
+00:12:38.880 --> 00:12:40.629 align:start position:0%
+an implementation of reference counting.
+They're<00:12:39.120><c> just</c><00:12:39.279><c> not</c><00:12:39.519><c> intrusive</c><00:12:40.240><c> reference</c>
+
+00:12:40.629 --> 00:12:40.639 align:start position:0%
+They're just not intrusive reference
+ 
+
+00:12:40.639 --> 00:12:42.230 align:start position:0%
+They're just not intrusive reference
+counting.<00:12:41.279><c> And</c><00:12:41.440><c> again,</c><00:12:41.760><c> if</c><00:12:41.920><c> you</c><00:12:42.079><c> want</c>
+
+00:12:42.230 --> 00:12:42.240 align:start position:0%
+counting. And again, if you want
+ 
+
+00:12:42.240 --> 00:12:43.990 align:start position:0%
+counting. And again, if you want
+intrusive<00:12:42.720><c> reference</c><00:12:43.120><c> counting,</c><00:12:43.600><c> you</c><00:12:43.839><c> have</c>
+
+00:12:43.990 --> 00:12:44.000 align:start position:0%
+intrusive reference counting, you have
+ 
+
+00:12:44.000 --> 00:12:47.509 align:start position:0%
+intrusive reference counting, you have
+to<00:12:44.480><c> use</c><00:12:44.720><c> your</c><00:12:44.959><c> own</c><00:12:45.440><c> or</c><00:12:46.160><c> use</c><00:12:46.480><c> boost.</c><00:12:46.959><c> But</c><00:12:47.120><c> wait,</c>
+
+00:12:47.509 --> 00:12:47.519 align:start position:0%
+to use your own or use boost. But wait,
+ 
+
+00:12:47.519 --> 00:12:49.910 align:start position:0%
+to use your own or use boost. But wait,
+let's<00:12:47.839><c> not</c><00:12:48.560><c> come</c><00:12:48.720><c> on.</c><00:12:49.040><c> Come</c><00:12:49.200><c> on.</c><00:12:49.519><c> Let's</c><00:12:49.760><c> not</c>
+
+00:12:49.910 --> 00:12:49.920 align:start position:0%
+let's not come on. Come on. Let's not
+ 
+
+00:12:49.920 --> 00:12:51.990 align:start position:0%
+let's not come on. Come on. Let's not
+talk<00:12:50.079><c> about</c><00:12:50.160><c> that.</c><00:12:50.560><c> And</c><00:12:50.720><c> that</c><00:12:50.880><c> is</c><00:12:51.040><c> why</c><00:12:51.440><c> Hazel</c>
+
+00:12:51.990 --> 00:12:52.000 align:start position:0%
+talk about that. And that is why Hazel
+ 
+
+00:12:52.000 --> 00:12:54.389 align:start position:0%
+talk about that. And that is why Hazel
+has<00:12:52.240><c> this</c><00:12:52.480><c> ref</c><00:12:52.800><c> class.</c><00:12:53.279><c> Now,</c><00:12:53.600><c> if</c><00:12:53.760><c> we</c><00:12:53.920><c> look</c><00:12:54.079><c> at</c><00:12:54.240><c> a</c>
+
+00:12:54.389 --> 00:12:54.399 align:start position:0%
+has this ref class. Now, if we look at a
+ 
+
+00:12:54.399 --> 00:12:56.069 align:start position:0%
+has this ref class. Now, if we look at a
+shared<00:12:54.720><c> pointer</c><00:12:55.120><c> example</c><00:12:55.519><c> of</c><00:12:55.680><c> the</c><00:12:55.920><c> same</c>
+
+00:12:56.069 --> 00:12:56.079 align:start position:0%
+shared pointer example of the same
+ 
+
+00:12:56.079 --> 00:12:58.470 align:start position:0%
+shared pointer example of the same
+thing,<00:12:56.480><c> it</c><00:12:56.720><c> would</c><00:12:56.959><c> look</c><00:12:57.279><c> exactly</c><00:12:58.079><c> as</c><00:12:58.320><c> you</c>
+
+00:12:58.470 --> 00:12:58.480 align:start position:0%
+thing, it would look exactly as you
+ 
+
+00:12:58.480 --> 00:12:59.990 align:start position:0%
+thing, it would look exactly as you
+would<00:12:58.639><c> imagine.</c><00:12:59.120><c> We</c><00:12:59.279><c> would</c><00:12:59.440><c> just</c><00:12:59.600><c> be</c><00:12:59.680><c> creating</c>
+
+00:12:59.990 --> 00:13:00.000 align:start position:0%
+would imagine. We would just be creating
+ 
+
+00:13:00.000 --> 00:13:01.990 align:start position:0%
+would imagine. We would just be creating
+shared<00:13:00.320><c> pointers</c><00:13:00.880><c> instead</c><00:13:01.200><c> of</c><00:13:01.360><c> refs.</c><00:13:01.839><c> And</c>
+
+00:13:01.990 --> 00:13:02.000 align:start position:0%
+shared pointers instead of refs. And
+ 
+
+00:13:02.000 --> 00:13:05.110 align:start position:0%
+shared pointers instead of refs. And
+it's<00:13:02.320><c> largely</c><00:13:02.720><c> the</c><00:13:03.040><c> same.</c><00:13:03.600><c> But</c><00:13:04.000><c> we</c><00:13:04.320><c> can't</c><00:13:04.560><c> do</c>
+
+00:13:05.110 --> 00:13:05.120 align:start position:0%
+it's largely the same. But we can't do
+ 
+
+00:13:05.120 --> 00:13:07.990 align:start position:0%
+it's largely the same. But we can't do
+things<00:13:05.360><c> like</c><00:13:05.600><c> this</c><00:13:06.160><c> without</c><00:13:06.800><c> enabling</c><00:13:07.600><c> shared</c>
+
+00:13:07.990 --> 00:13:08.000 align:start position:0%
+things like this without enabling shared
+ 
+
+00:13:08.000 --> 00:13:10.310 align:start position:0%
+things like this without enabling shared
+from<00:13:08.320><c> this.</c><00:13:08.720><c> But</c><00:13:08.880><c> then</c><00:13:09.120><c> even</c><00:13:09.360><c> so,</c><00:13:09.760><c> it's</c><00:13:10.079><c> still</c>
+
+00:13:10.310 --> 00:13:10.320 align:start position:0%
+from this. But then even so, it's still
+ 
+
+00:13:10.320 --> 00:13:12.790 align:start position:0%
+from this. But then even so, it's still
+not<00:13:10.720><c> intrusive</c><00:13:11.600><c> reference</c><00:13:12.000><c> counting.</c><00:13:12.480><c> I</c><00:13:12.639><c> hope</c>
+
+00:13:12.790 --> 00:13:12.800 align:start position:0%
+not intrusive reference counting. I hope
+ 
+
+00:13:12.800 --> 00:13:14.150 align:start position:0%
+not intrusive reference counting. I hope
+you're<00:13:13.040><c> getting</c><00:13:13.200><c> the</c><00:13:13.360><c> idea.</c><00:13:13.680><c> If</c><00:13:13.920><c> you</c><00:13:14.000><c> guys</c>
+
+00:13:14.150 --> 00:13:14.160 align:start position:0%
+you're getting the idea. If you guys
+ 
+
+00:13:14.160 --> 00:13:15.350 align:start position:0%
+you're getting the idea. If you guys
+enjoyed<00:13:14.399><c> this</c><00:13:14.560><c> video,</c><00:13:14.800><c> please</c><00:13:15.040><c> don't</c><00:13:15.200><c> forget</c>
+
+00:13:15.350 --> 00:13:15.360 align:start position:0%
+enjoyed this video, please don't forget
+ 
+
+00:13:15.360 --> 00:13:16.629 align:start position:0%
+enjoyed this video, please don't forget
+to<00:13:15.440><c> hit</c><00:13:15.600><c> the</c><00:13:15.680><c> like</c><00:13:15.839><c> button</c><00:13:16.079><c> below.</c><00:13:16.399><c> Let</c><00:13:16.480><c> me</c>
+
+00:13:16.629 --> 00:13:16.639 align:start position:0%
+to hit the like button below. Let me
+ 
+
+00:13:16.639 --> 00:13:17.990 align:start position:0%
+to hit the like button below. Let me
+know<00:13:16.720><c> what</c><00:13:16.880><c> you</c><00:13:16.959><c> want</c><00:13:17.040><c> to</c><00:13:17.200><c> see</c><00:13:17.279><c> next</c><00:13:17.600><c> as</c><00:13:17.760><c> far</c><00:13:17.839><c> as</c>
+
+00:13:17.990 --> 00:13:18.000 align:start position:0%
+know what you want to see next as far as
+ 
+
+00:13:18.000 --> 00:13:20.629 align:start position:0%
+know what you want to see next as far as
+C++<00:13:18.720><c> goes.</c><00:13:19.279><c> This</c><00:13:19.519><c> series</c><00:13:19.760><c> is</c><00:13:20.000><c> still</c><00:13:20.160><c> alive</c><00:13:20.480><c> and</c>
+
+00:13:20.629 --> 00:13:20.639 align:start position:0%
+C++ goes. This series is still alive and
+ 
+
+00:13:20.639 --> 00:13:22.069 align:start position:0%
+C++ goes. This series is still alive and
+I'm<00:13:20.800><c> still</c><00:13:20.959><c> going</c><00:13:21.120><c> to</c><00:13:21.279><c> try</c><00:13:21.360><c> and</c><00:13:21.600><c> make</c><00:13:21.760><c> videos</c>
+
+00:13:22.069 --> 00:13:22.079 align:start position:0%
+I'm still going to try and make videos
+ 
+
+00:13:22.079 --> 00:13:23.509 align:start position:0%
+I'm still going to try and make videos
+when<00:13:22.320><c> I</c><00:13:22.480><c> have</c><00:13:22.639><c> time.</c><00:13:22.959><c> If</c><00:13:23.120><c> you're</c><00:13:23.279><c> interested</c>
+
+00:13:23.509 --> 00:13:23.519 align:start position:0%
+when I have time. If you're interested
+ 
+
+00:13:23.519 --> 00:13:24.710 align:start position:0%
+when I have time. If you're interested
+in<00:13:23.760><c> reference</c><00:13:24.079><c> counting</c><00:13:24.320><c> and</c><00:13:24.480><c> you</c><00:13:24.560><c> want</c><00:13:24.639><c> to</c>
+
+00:13:24.710 --> 00:13:24.720 align:start position:0%
+in reference counting and you want to
+ 
+
+00:13:24.720 --> 00:13:26.470 align:start position:0%
+in reference counting and you want to
+learn<00:13:24.880><c> more</c><00:13:25.040><c> about</c><00:13:25.200><c> it,</c><00:13:25.440><c> I</c><00:13:25.600><c> highly</c><00:13:25.920><c> recommend</c>
+
+00:13:26.470 --> 00:13:26.480 align:start position:0%
+learn more about it, I highly recommend
+ 
+
+00:13:26.480 --> 00:13:28.310 align:start position:0%
+learn more about it, I highly recommend
+you<00:13:26.720><c> try</c><00:13:26.959><c> and</c><00:13:27.200><c> implement</c><00:13:27.519><c> it</c><00:13:27.680><c> yourselves.</c>
+
+00:13:28.310 --> 00:13:28.320 align:start position:0%
+you try and implement it yourselves.
+ 
+
+00:13:28.320 --> 00:13:29.670 align:start position:0%
+you try and implement it yourselves.
+This<00:13:28.480><c> video</c><00:13:28.720><c> should</c><00:13:28.880><c> have</c><00:13:29.040><c> given</c><00:13:29.200><c> you</c><00:13:29.360><c> enough</c>
+
+00:13:29.670 --> 00:13:29.680 align:start position:0%
+This video should have given you enough
+ 
+
+00:13:29.680 --> 00:13:31.430 align:start position:0%
+This video should have given you enough
+information<00:13:30.160><c> to</c><00:13:30.399><c> try</c><00:13:30.639><c> and</c><00:13:30.880><c> implement</c><00:13:31.279><c> it</c>
+
+00:13:31.430 --> 00:13:31.440 align:start position:0%
+information to try and implement it
+ 
+
+00:13:31.440 --> 00:13:33.030 align:start position:0%
+information to try and implement it
+yourselves.<00:13:31.920><c> I</c><00:13:32.079><c> mean,</c><00:13:32.160><c> the</c><00:13:32.399><c> concept</c><00:13:32.720><c> is</c>
+
+00:13:33.030 --> 00:13:33.040 align:start position:0%
+yourselves. I mean, the concept is
+ 
+
+00:13:33.040 --> 00:13:35.030 align:start position:0%
+yourselves. I mean, the concept is
+really<00:13:33.279><c> simple.</c><00:13:33.680><c> When</c><00:13:33.839><c> you</c><00:13:34.160><c> create</c><00:13:34.399><c> a</c><00:13:34.560><c> copy</c><00:13:34.880><c> of</c>
+
+00:13:35.030 --> 00:13:35.040 align:start position:0%
+really simple. When you create a copy of
+ 
+
+00:13:35.040 --> 00:13:36.550 align:start position:0%
+really simple. When you create a copy of
+a<00:13:35.200><c> ref,</c><00:13:35.519><c> you</c><00:13:35.680><c> increment</c><00:13:36.000><c> the</c><00:13:36.160><c> reference</c>
+
+00:13:36.550 --> 00:13:36.560 align:start position:0%
+a ref, you increment the reference
+ 
+
+00:13:36.560 --> 00:13:38.550 align:start position:0%
+a ref, you increment the reference
+count.<00:13:36.880><c> When</c><00:13:37.040><c> a</c><00:13:37.200><c> ref</c><00:13:37.519><c> dies,</c><00:13:38.000><c> you</c><00:13:38.160><c> decrement</c>
+
+00:13:38.550 --> 00:13:38.560 align:start position:0%
+count. When a ref dies, you decrement
+ 
+
+00:13:38.560 --> 00:13:40.150 align:start position:0%
+count. When a ref dies, you decrement
+the<00:13:38.720><c> reference</c><00:13:39.120><c> count.</c><00:13:39.360><c> If</c><00:13:39.440><c> it</c><00:13:39.600><c> hits</c><00:13:39.760><c> zero,</c>
+
+00:13:40.150 --> 00:13:40.160 align:start position:0%
+the reference count. If it hits zero,
+ 
+
+00:13:40.160 --> 00:13:42.310 align:start position:0%
+the reference count. If it hits zero,
+delete<00:13:40.399><c> the</c><00:13:40.560><c> underlying</c><00:13:40.959><c> object.</c><00:13:41.760><c> That's</c><00:13:42.000><c> it.</c>
+
+00:13:42.310 --> 00:13:42.320 align:start position:0%
+delete the underlying object. That's it.
+ 
+
+00:13:42.320 --> 00:13:45.030 align:start position:0%
+delete the underlying object. That's it.
+Lots<00:13:42.639><c> of</c><00:13:43.040><c> nuances</c><00:13:43.760><c> will</c><00:13:44.079><c> creep</c><00:13:44.399><c> up,</c><00:13:44.800><c> but</c>
+
+00:13:45.030 --> 00:13:45.040 align:start position:0%
+Lots of nuances will creep up, but
+ 
+
+00:13:45.040 --> 00:13:47.190 align:start position:0%
+Lots of nuances will creep up, but
+that's<00:13:45.360><c> the</c><00:13:45.600><c> basic</c><00:13:45.920><c> idea.</c><00:13:46.480><c> So,</c><00:13:46.720><c> give</c><00:13:46.880><c> it</c><00:13:47.040><c> a</c>
+
+00:13:47.190 --> 00:13:47.200 align:start position:0%
+that's the basic idea. So, give it a
+ 
+
+00:13:47.200 --> 00:13:48.870 align:start position:0%
+that's the basic idea. So, give it a
+shot.<00:13:47.440><c> From</c><00:13:47.680><c> here,</c><00:13:47.920><c> there</c><00:13:48.079><c> are</c><00:13:48.240><c> other</c><00:13:48.639><c> things</c>
+
+00:13:48.870 --> 00:13:48.880 align:start position:0%
+shot. From here, there are other things
+ 
+
+00:13:48.880 --> 00:13:51.269 align:start position:0%
+shot. From here, there are other things
+that<00:13:49.200><c> exist</c><00:13:49.680><c> within</c><00:13:50.079><c> Hazel,</c><00:13:50.639><c> such</c><00:13:50.800><c> as</c><00:13:50.959><c> weak</c>
+
+00:13:51.269 --> 00:13:51.279 align:start position:0%
+that exist within Hazel, such as weak
+ 
+
+00:13:51.279 --> 00:13:53.110 align:start position:0%
+that exist within Hazel, such as weak
+pointers,<00:13:51.760><c> weak</c><00:13:52.000><c> references,</c><00:13:52.639><c> because</c><00:13:52.880><c> you</c>
+
+00:13:53.110 --> 00:13:53.120 align:start position:0%
+pointers, weak references, because you
+ 
+
+00:13:53.120 --> 00:13:55.590 align:start position:0%
+pointers, weak references, because you
+may<00:13:53.279><c> want</c><00:13:53.440><c> to</c><00:13:53.600><c> use</c><00:13:53.760><c> this</c><00:13:54.160><c> like</c><00:13:54.399><c> a</c><00:13:54.880><c> weak</c><00:13:55.200><c> pointer</c>
+
+00:13:55.590 --> 00:13:55.600 align:start position:0%
+may want to use this like a weak pointer
+ 
+
+00:13:55.600 --> 00:13:57.030 align:start position:0%
+may want to use this like a weak pointer
+from<00:13:55.760><c> a</c><00:13:55.920><c> shared</c><00:13:56.240><c> pointer.</c><00:13:56.639><c> If</c><00:13:56.800><c> you</c><00:13:56.880><c> want</c><00:13:56.959><c> to</c>
+
+00:13:57.030 --> 00:13:57.040 align:start position:0%
+from a shared pointer. If you want to
+ 
+
+00:13:57.040 --> 00:13:58.470 align:start position:0%
+from a shared pointer. If you want to
+see<00:13:57.120><c> a</c><00:13:57.279><c> video</c><00:13:57.440><c> about</c><00:13:57.600><c> how</c><00:13:57.839><c> that</c><00:13:58.000><c> works,</c><00:13:58.240><c> let</c><00:13:58.399><c> me</c>
+
+00:13:58.470 --> 00:13:58.480 align:start position:0%
+see a video about how that works, let me
+ 
+
+00:13:58.480 --> 00:13:59.750 align:start position:0%
+see a video about how that works, let me
+know<00:13:58.560><c> in</c><00:13:58.639><c> the</c><00:13:58.720><c> comment</c><00:13:58.959><c> section</c><00:13:59.199><c> below.</c><00:13:59.680><c> Thank</c>
+
+00:13:59.750 --> 00:13:59.760 align:start position:0%
+know in the comment section below. Thank
+ 
+
+00:13:59.760 --> 00:14:01.189 align:start position:0%
+know in the comment section below. Thank
+you<00:13:59.920><c> guys</c><00:14:00.079><c> for</c><00:14:00.320><c> watching.</c><00:14:00.560><c> I</c><00:14:00.800><c> will</c><00:14:00.959><c> see</c><00:14:01.040><c> you</c>
+
+00:14:01.189 --> 00:14:01.199 align:start position:0%
+you guys for watching. I will see you
+ 
+
+00:14:01.199 --> 00:14:04.480 align:start position:0%
+you guys for watching. I will see you
+next<00:14:01.360><c> time.</c><00:14:01.680><c> Goodbye.</c>
+
